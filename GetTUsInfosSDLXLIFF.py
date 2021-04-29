@@ -9,10 +9,10 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     f= open(sdlxliffpath, 'r',encoding='utf-8') 
     sdlxliffstr=f.read()
     f.close()
-    transunitre=re.compile('<trans-unit [^<>]*?>.*?</trans-unit>',re.M)
-    source_segs4match=re.compile('<seg-source>(.*?)</seg-source>',re.M)
-    target4match=re.compile('<target>(.*?)</target>',re.M)
-    mrk4match=re.compile('<mrk mtype="seg" mid="([^<>]*?)">(.*?)</mrk>',re.M)
+    transunitre=re.compile('<trans-unit [^<>]*?>.*?</trans-unit>',re.S)
+    source_segs4match=re.compile('<seg-source>(.*?)</seg-source>',re.S)
+    target4match=re.compile('<target>(.*?)</target>',re.S)
+    mrk4match=re.compile('<mrk mtype="seg" mid="([^<>]*?)">(.*?)</mrk>',re.S)
 
     #tagmkre=re.compile('<[^<>]*?>')
     transunits=transunitre.findall(sdlxliffstr)
@@ -28,8 +28,8 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
             if len(smrks)>0:
                 tuinfo.append(smrks[0][1])
                 idid=smrks[0][0]
-                mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.M)
-                segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.M)
+                mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
+                segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.S)
                 confmatch=re.compile('conf="([^<>]*?)"')
                 originmatch=re.compile('origin="([^<>]*?)"')
                 originsystemmatch=re.compile('origin-system="([^<>]*?)"')
