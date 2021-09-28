@@ -1,4 +1,4 @@
-
+#test
 #GetTUsInfosSDLXLIFF get TUs info Source, Target, Status, matchrate, Locked, origin to list[[],[]...] 
 #By Bill, Fanzhixin
 
