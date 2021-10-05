@@ -150,6 +150,9 @@
   <data name="ConnectionControllerModeDownloadRangeValue" xml:space="preserve">
     <value>Scarica</value>
   </data>
+  <data name="PresentationAndUINotKnownRangeValue" xml:space="preserve">
+    <value>àéÓ   ÙÙÙÙÙ   </value>
+  </data>
   <data name="PresentationAndUIProgramRangeValue" xml:space="preserve">
     <value>Programma</value>
   </data>
@@ -5254,5 +5257,11 @@ sorgente:</value>
   </data>
   <data name="LifecycleCaption" xml:space="preserve">
     <value>Ciclo di vita prodotto</value>
+  </data>
+  <data name="LifecycleCaption222" xml:space="preserve">
+    <value>àéÓProduct Lifecycle222ÙÙÙÙÙ</value>
+  </data>
+  <data name="LifecycleCaption333" xml:space="preserve">
+    <value>àéÓProduct Lifecycle333ÙÙÙÙÙ</value>
   </data>
 </root>

@@ -150,6 +150,9 @@
   <data name="ConnectionControllerModeDownloadRangeValue" xml:space="preserve">
     <value>Ecrire</value>
   </data>
+  <data name="PresentationAndUINotKnownRangeValue" xml:space="preserve">
+    <value>êæùç   ëëëëë   </value>
+  </data>
   <data name="PresentationAndUIProgramRangeValue" xml:space="preserve">
     <value>Programme</value>
   </data>
@@ -3956,6 +3959,9 @@ Voulez-vous continuer ?</value>
   <data name="HSCInputFilterDC0Point5ms" xml:space="preserve">
     <value>DC 0,5ms</value>
   </data>
+  <data name="HSCInputFilterDC125us" xml:space="preserve">
+    <value>êæùçDC 125µsëëëëë</value>
+  </data>
   <data name="HSCInputFilterDC12Point5us" xml:space="preserve">
     <value>DC 12,5µs</value>
   </data>
@@ -5277,5 +5283,11 @@ La fonctionnalité de priorité d'analyse n'est pas prise en charge, sa configur
   </data>
   <data name="LifecycleCaption" xml:space="preserve">
     <value>Cycle de vie du produit</value>
+  </data>
+  <data name="LifecycleCaption222" xml:space="preserve">
+    <value>êæùçProduct Lifecycle222ëëëëë</value>
+  </data>
+  <data name="LifecycleCaption333" xml:space="preserve">
+    <value>êæùçProduct Lifecycle333ëëëëë</value>
   </data>
 </root>

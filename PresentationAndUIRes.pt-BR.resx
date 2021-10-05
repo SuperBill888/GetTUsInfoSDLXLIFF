@@ -147,6 +147,9 @@
   <data name="PresentationAndUIControllerModeCaption" xml:space="preserve">
     <value>Modo do Controlador</value>
   </data>
+  <data name="PresentationAndUINotKnownRangeValue" xml:space="preserve">
+    <value>ãçêú   ÀÀÀÀÀ   </value>
+  </data>
   <data name="PresentationAndUIProgramRangeValue" xml:space="preserve">
     <value>Programa</value>
   </data>
@@ -4001,6 +4004,9 @@ Deseja continuar?</value>
   <data name="HSCInputFilterDC2Point5us" xml:space="preserve">
     <value>CD 2,5µs</value>
   </data>
+  <data name="HSCInputFilterDC2us" xml:space="preserve">
+    <value>ãçêúDC 2µsÀÀÀÀÀ</value>
+  </data>
   <data name="HSCInputFilterDC35us" xml:space="preserve">
     <value>CD 35µs</value>
   </data>
@@ -5343,5 +5349,11 @@ O recurso de prioridade de varredura não é compatível, sua configuração foi
   </data>
   <data name="LifecycleCaption" xml:space="preserve">
     <value>Ciclo de vida do produto</value>
+  </data>
+  <data name="LifecycleCaption222" xml:space="preserve">
+    <value>ãçêúProduct Lifecycle222ÀÀÀÀÀ</value>
+  </data>
+  <data name="LifecycleCaption333" xml:space="preserve">
+    <value>ãçêúProduct Lifecycle333ÀÀÀÀÀ</value>
   </data>
 </root>

@@ -3256,6 +3256,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ControllerDiagnosticProjectCaption" xml:space="preserve">
     <value>项目</value>
   </data>
+  <data name="MemoryModuleIncludeLogicalValues" xml:space="preserve">
+    <value>中_Include Project &amp; Logical values upon Backup/Restore文文文文文</value>
+  </data>
   <data name="ProgressUIService_Status_Cancelled" xml:space="preserve">
     <value>已取消</value>
   </data>
@@ -5372,5 +5375,8 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="LifecycleCaption222" xml:space="preserve">
     <value>产品生命循环222</value>
+  </data>
+  <data name="LifecycleCaption333" xml:space="preserve">
+    <value>中Product Lifecycle333文文文文文</value>
   </data>
 </root>
