@@ -5370,4 +5370,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="LifecycleCaption" xml:space="preserve">
     <value>产品生命周期</value>
   </data>
+  <data name="LifecycleCaption222" xml:space="preserve">
+    <value>产品生命循环222</value>
+  </data>
 </root>
