@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GeneralCaption" xml:space="preserve">
+    <value>Generale</value>
+  </data>
+  <data name="IF4Description" xml:space="preserve">
+    <value>Modulo analogico con ingresso corrente e tensione a 12 bit e 4 canali</value>
+  </data>
+  <data name="IFxAlarmLimitCaption" xml:space="preserve">
+    <value>Limiti Allarme</value>
+  </data>
+  <data name="IFxCH0PageName" xml:space="preserve">
+    <value>Canale 0</value>
+  </data>
+  <data name="IFxCH1PageName" xml:space="preserve">
+    <value>Canale 1</value>
+  </data>
+  <data name="IFxCH2PageName" xml:space="preserve">
+    <value>Canale 2</value>
+  </data>
+  <data name="IFxCH3PageName" xml:space="preserve">
+    <value>Canale 3</value>
+  </data>
+  <data name="IFxEnableChannel" xml:space="preserve">
+    <value>Ca_nale abilitazione</value>
+  </data>
+  <data name="IFxExceedValueRangeMessage" xml:space="preserve">
+    <value>{0} il valore non può superare il valore {1}: {2}.</value>
+  </data>
+  <data name="IFxHAlarm" xml:space="preserve">
+    <value>Allarme a_lto</value>
+  </data>
+  <data name="IFxHHAEnableMessage" xml:space="preserve">
+    <value>Quando è abilitato Allarme alto alto, non è possibile disabilitare Allarme alto.</value>
+  </data>
+  <data name="IFxHHAlarm" xml:space="preserve">
+    <value>Allarme alto al_to</value>
+  </data>
+  <data name="IFxInputFilter" xml:space="preserve">
+    <value>F_iltro di ingresso:</value>
+  </data>
+  <data name="IFxInputFilter_2PointMovingAverage" xml:space="preserve">
+    <value>Media mobile 2 punti</value>
+  </data>
+  <data name="IFxInputFilter_4PointMovingAverage" xml:space="preserve">
+    <value>Media mobile 4 punti</value>
+  </data>
+  <data name="IFxInputFilter_50_60HzRejection" xml:space="preserve">
+    <value>Reiezione 50/60 Hz</value>
+  </data>
+  <data name="IFxInputFilter_8PointMovingAverage" xml:space="preserve">
+    <value>Media mobile 8 punti</value>
+  </data>
+  <data name="IFxInputFilter_NoFilter" xml:space="preserve">
+    <value>Nessun filtro</value>
+  </data>
+  <data name="IFxInputFormat" xml:space="preserve">
+    <value>Form_ato dati:</value>
+  </data>
+  <data name="IFxInputFormat_EngUnits" xml:space="preserve">
+    <value>Unità Ingegneristiche</value>
+  </data>
+  <data name="IFxInputFormat_Percent" xml:space="preserve">
+    <value>Intervallo percentuale</value>
+  </data>
+  <data name="IFxInputFormat_RawData" xml:space="preserve">
+    <value>Dati non elab./proporz</value>
+  </data>
+  <data name="IFxInputRangeChangeMessage" xml:space="preserve">
+    <value>La modifica dell'intervallo di ingresso causa il ripristino dei valori predefiniti dei limiti allarme.
+
+Fare clic su Sì per continuare.</value>
+  </data>
+  <data name="IFxInputRange_0_10V" xml:space="preserve">
+    <value>Da 0V a 10 V</value>
+  </data>
+  <data name="IFxInputRange_0_20mA" xml:space="preserve">
+    <value>Da 0mA a 20 mA</value>
+  </data>
+  <data name="IFxInputRange_10V" xml:space="preserve">
+    <value>Da -10 V a 10 V</value>
+  </data>
+  <data name="IFxInputRange_4_20mA" xml:space="preserve">
+    <value>Da 4 mA a 20 mA</value>
+  </data>
+  <data name="IFxLAlarm" xml:space="preserve">
+    <value>Alla_rme basso</value>
+  </data>
+  <data name="IFxLLAEnableMessage" xml:space="preserve">
+    <value>Quando è abilitato Allarme basso basso, non è possibile disabilitare Allarme basso.</value>
+  </data>
+  <data name="IFxLLAlarm" xml:space="preserve">
+    <value>Allarme bass_o basso</value>
+  </data>
+  <data name="IFxMaximumAlarm" xml:space="preserve">
+    <value>Allarme massimo</value>
+  </data>
+  <data name="IFxMinimumAlarm" xml:space="preserve">
+    <value>Allarme minimo</value>
+  </data>
+  <data name="IFxMinMaxInputRange" xml:space="preserve">
+    <value>Intervallo di Ingresso _Minimo-Massimo:</value>
+  </data>
+  <data name="IFxRestoreDefCaption" xml:space="preserve">
+    <value>Ripristina impostazioni predefinite</value>
+  </data>
+  <data name="IFxUnderValueRangeMessage" xml:space="preserve">
+    <value>Il valore di {0} non può essere inferiore al valore di {1}: {2}.</value>
+  </data>
+  <data name="IFxCH4PageName" xml:space="preserve">
+    <value>Canale 4</value>
+  </data>
+  <data name="IFxCH5PageName" xml:space="preserve">
+    <value>Canale 5</value>
+  </data>
+  <data name="IFxCH6PageName" xml:space="preserve">
+    <value>Canale 6</value>
+  </data>
+  <data name="IFxCH7PageName" xml:space="preserve">
+    <value>Canale 7</value>
+  </data>
+  <data name="IFxHAlarmOutMaxRangeMessage" xml:space="preserve">
+    <value>Allarme alto non può essere maggiore di {0}.</value>
+  </data>
+  <data name="IFxHAlarmOutMinRangeMessage" xml:space="preserve">
+    <value>Allarme alto non può essere minore di {0}.</value>
+  </data>
+  <data name="IFxHAlarmOverHHAlarm" xml:space="preserve">
+    <value>Allarme alto non può essere maggiore di Allarme alto alto.</value>
+  </data>
+  <data name="IFxHAlarmUnderLAlarm" xml:space="preserve">
+    <value>Allarme alto non può essere minore di Allarme basso.</value>
+  </data>
+  <data name="IFxHHAarmUnderHAlarm" xml:space="preserve">
+    <value>Allarme alto alto non può essere minore di Allarme alto.</value>
+  </data>
+  <data name="IFxHHAlarmOutMaxRangeMessage" xml:space="preserve">
+    <value>Allarme alto alto non può essere maggiore di {0}.</value>
+  </data>
+  <data name="IFxHHAlarmOutMinRangeMessage" xml:space="preserve">
+    <value>Allarme alto alto non può essere minore di {0}.</value>
+  </data>
+  <data name="IFxLAlarmOutMaxRangeMessage" xml:space="preserve">
+    <value>Allarme basso non può essere maggiore di {0}.</value>
+  </data>
+  <data name="IFxLAlarmOutMinRangeMessage" xml:space="preserve">
+    <value>Allarme basso non può essere minore di {0}.</value>
+  </data>
+  <data name="IFxLAlarmOverHAlarm" xml:space="preserve">
+    <value>Allarme basso non può essere maggiore di Allarme alto.</value>
+  </data>
+  <data name="IFxLAlarmUnderLLAlarm" xml:space="preserve">
+    <value>Allarme basso non può essere minore di Allarme basso basso.</value>
+  </data>
+  <data name="IFxLLAlarmOutMaxRangeMessage" xml:space="preserve">
+    <value>Allarme basso basso non può essere maggiore di {0}.</value>
+  </data>
+  <data name="IFxLLAlarmOutMinRangeMessage" xml:space="preserve">
+    <value>Allarme basso basso non può essere minore di {0}.</value>
+  </data>
+  <data name="IFxLLAlarmOverLAlarm" xml:space="preserve">
+    <value>Allarme basso basso non può essere maggiore di Allarme basso.</value>
+  </data>
+  <data name="IFxVerifyValueRangeMessage" xml:space="preserve">
+    <value>Il valore di {0} non può essere minore del valore di {1} {2} o maggiore del valore di {3} {4}.</value>
+  </data>
+  <data name="IF4BuildErrorDescription" xml:space="preserve">
+    <value>2085-IF4 Canale {0} : {1}</value>
+  </data>
+  <data name="IF8BuildErrorDescription" xml:space="preserve">
+    <value>2085-IF8 Canale {0} : {1}</value>
+  </data>
+  <data name="InitIF4MgrFailedMessage" xml:space="preserve">
+    <value>Impossibile inizializzare il Modulo di espansione IF4.</value>
+  </data>
+  <data name="InitIF8MgrFailedMessage" xml:space="preserve">
+    <value>Impossibile inizializzare il Modulo di espansione IF8.</value>
+  </data>
+  <data name="IFxChannel" xml:space="preserve">
+    <value>Canale</value>
+  </data>
+</root>
