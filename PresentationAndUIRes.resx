@@ -7615,4 +7615,7 @@ Code:</value>
   <data name="LifecycleCaption" xml:space="preserve">
     <value>Product Lifecycle</value>
   </data>
+  <data name="LifecycleCaption222" xml:space="preserve">
+    <value>Product Lifecycle222</value>
+  </data>
 </root>
