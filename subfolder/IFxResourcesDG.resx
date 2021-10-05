@@ -315,7 +315,4 @@ Click Yes To Continue.</value>
   <data name="IFxChannel" xml:space="preserve">
     <value>Channel</value>
   </data>
-  <data name="111IFxChannel" xml:space="preserve">
-    <value>111Channel</value>
-  </data>
 </root>
