@@ -1,0 +1,5373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASCIIDriverAppendCharsCaption" xml:space="preserve">
+    <value>附加字符(_N):</value>
+  </data>
+  <data name="ASCIIDriverDeletionModeCaption" xml:space="preserve">
+    <value>删除模式(_M):</value>
+  </data>
+  <data name="ASCIIDriverEchoModeCaption" xml:space="preserve">
+    <value>回显模式(_O)</value>
+  </data>
+  <data name="ASCIIDriverEDeletionModeIgnoreRangeValue" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="ASCIIDriverEDeletionModePrinterRangeValue" xml:space="preserve">
+    <value>打印机</value>
+  </data>
+  <data name="ASCIIDriverTermCharsCaption" xml:space="preserve">
+    <value>终止字符(_I):</value>
+  </data>
+  <data name="ASCIIDriverXonXoffCaption" xml:space="preserve">
+    <value>XON/XOFF(_X)</value>
+  </data>
+  <data name="ConfigPersenterControllerProjectRevCaption" xml:space="preserve">
+    <value>控制器项目版本:</value>
+  </data>
+  <data name="ConnectionConfigTargetCaption" xml:space="preserve">
+    <value>解决方案配置目标</value>
+  </data>
+  <data name="ConnectionConfigTargetOnlineRangeValue" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="ConnectionConfigTargetSimulatorRangeValue" xml:space="preserve">
+    <value>模拟</value>
+  </data>
+  <data name="PresentationAndUIControllerModeCaption" xml:space="preserve">
+    <value>控制器模式</value>
+  </data>
+  <data name="ConnectionControllerModeDownloadRangeValue" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="PresentationAndUINotKnownRangeValue" xml:space="preserve">
+    <value>DC 100µs   </value>
+  </data>
+  <data name="PresentationAndUIProgramRangeValue" xml:space="preserve">
+    <value>编程</value>
+  </data>
+  <data name="ConnectionControllerModeProgramRemoteRangeValue" xml:space="preserve">
+    <value>编程(远程)</value>
+  </data>
+  <data name="PresentationAndUIRunRangeValue" xml:space="preserve">
+    <value>运行</value>
+  </data>
+  <data name="ConnectionControllerModeRunRemoteRangeValue" xml:space="preserve">
+    <value>运行(远程)</value>
+  </data>
+  <data name="ConnectionMajorFaultStatusCaption" xml:space="preserve">
+    <value>严重故障</value>
+  </data>
+  <data name="PresentaionAndUIFaultedRangeValue" xml:space="preserve">
+    <value>已出错</value>
+  </data>
+  <data name="ConnectionMajorFaultStatusOKRangeValue" xml:space="preserve">
+    <value>未出错</value>
+  </data>
+  <data name="ConnectionSoftSwitchCaption" xml:space="preserve">
+    <value>远程
+模式</value>
+  </data>
+  <data name="ConnectionUserActionBuildingRangeValue" xml:space="preserve">
+    <value>正在生成</value>
+  </data>
+  <data name="ConnectionUserActionCaption" xml:space="preserve">
+    <value>用户操作</value>
+  </data>
+  <data name="ConnectionUserActionDownloadingRangeValue" xml:space="preserve">
+    <value>正在下载</value>
+  </data>
+  <data name="ConnectionUserActionOnlineChangeRangeValue" xml:space="preserve">
+    <value>正在运行模式下载</value>
+  </data>
+  <data name="ConnectionUserActionUploadingRangeValue" xml:space="preserve">
+    <value>正在上传</value>
+  </data>
+  <data name="ControllerBootRevisionCaption" xml:space="preserve">
+    <value>启动版本</value>
+  </data>
+  <data name="PresentationAndUIIsOnlineCaption" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="DeviceInfoTreeCommPortsCaption" xml:space="preserve">
+    <value>通信端口</value>
+  </data>
+  <data name="DeviceInfoTreeDateTimeCaption" xml:space="preserve">
+    <value>日期和时间</value>
+  </data>
+  <data name="DeviceInfoTreeEmbeddedIOCaption" xml:space="preserve">
+    <value>嵌入式 I/O</value>
+  </data>
+  <data name="DeviceInfoTreeGeneralCaption" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="DeviceInfoTreeInterruptsCaption" xml:space="preserve">
+    <value>中断</value>
+  </data>
+  <data name="DeviceInfoTreeMemoryCaption" xml:space="preserve">
+    <value>内存</value>
+  </data>
+  <data name="MBMappingModbusMappingCaption" xml:space="preserve">
+    <value>Modbus 映射</value>
+  </data>
+  <data name="DeviceInfoTreePluginsCaption" xml:space="preserve">
+    <value>插件模块</value>
+  </data>
+  <data name="DeviceInfoTreeStartupFaultsCaption" xml:space="preserve">
+    <value>启动/故障</value>
+  </data>
+  <data name="DeviceInfoTreeUSBPortCaption" xml:space="preserve">
+    <value>USB 端口</value>
+  </data>
+  <data name="DF1DriverAckTimeoutCaption" xml:space="preserve">
+    <value>ACK 超时 (x20ms)(_I):</value>
+  </data>
+  <data name="DF1DriverDuplPacketDetCaption" xml:space="preserve">
+    <value>重复数据包检测(_K)</value>
+  </data>
+  <data name="DF1DriverEmbeddedRespAfterOneRangeValue" xml:space="preserve">
+    <value>接收到一个后</value>
+  </data>
+  <data name="DF1DriverEmbeddedRespCaption" xml:space="preserve">
+    <value>嵌入式响应(_M):</value>
+  </data>
+  <data name="DF1DriverEmbeddedRespUnconditionallyRangeValue" xml:space="preserve">
+    <value>无条件启用</value>
+  </data>
+  <data name="DF1DriverEnqRetriesCaption" xml:space="preserve">
+    <value>ENQ 重试(_Q):</value>
+  </data>
+  <data name="DF1DriverEotSuppressCaption" xml:space="preserve">
+    <value>EOT 禁止显示</value>
+  </data>
+  <data name="DF1DriverEPollingModeAllowSlaveInitiateRangeValue" xml:space="preserve">
+    <value>基于消息，禁止从站启动</value>
+  </data>
+  <data name="DF1DriverEPollingModeMultipleMessageXferPerScanRangeValue" xml:space="preserve">
+    <value>每次扫描进行多次消息传输</value>
+  </data>
+  <data name="DF1DriverEPollingModeSingleMessageXferPerScanRangeValue" xml:space="preserve">
+    <value>每次扫描进行单次消息传输</value>
+  </data>
+  <data name="DF1DriverErrorDetCaption" xml:space="preserve">
+    <value>错误检测(_O):</value>
+  </data>
+  <data name="DF1DriverNakRetriesCaption" xml:space="preserve">
+    <value>NAK 重试(_N):</value>
+  </data>
+  <data name="DF1DriverPollGroupSizeCaption" xml:space="preserve">
+    <value>轮询组大小</value>
+  </data>
+  <data name="DF1DriverPollingModeCaption" xml:space="preserve">
+    <value>轮询模式</value>
+  </data>
+  <data name="DF1DriverReplyMsgWaitCaption" xml:space="preserve">
+    <value>回复消息等待</value>
+  </data>
+  <data name="DF1DriverSlavePollTimeoutCaption" xml:space="preserve">
+    <value>从站轮询超时</value>
+  </data>
+  <data name="DF1DriverStationAddressCaption" xml:space="preserve">
+    <value>站地址(_A):</value>
+  </data>
+  <data name="DF1DriverXmitRetriesCaption" xml:space="preserve">
+    <value>传输重试(_S):</value>
+  </data>
+  <data name="EmbeddedIOEiiEdgeCaption" xml:space="preserve">
+    <value>EII 沿</value>
+  </data>
+  <data name="EmbeddedIOFallingRangeValue" xml:space="preserve">
+    <value>下降</value>
+  </data>
+  <data name="EmbeddedIORisingRangeValue" xml:space="preserve">
+    <value>上升</value>
+  </data>
+  <data name="EmbeddedIOFilterGroupCaption" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="EmbeddedIOInputFilterCaption" xml:space="preserve">
+    <value>输入筛选器</value>
+  </data>
+  <data name="EmbeddedIOInputFilterDefaultRangeValue" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="EmbeddedIOLatchCaption" xml:space="preserve">
+    <value>锁存</value>
+  </data>
+  <data name="EmbeddedIOLatchIsEnabledCaption" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="ErrorPresenterMajorErrorCodeCaption" xml:space="preserve">
+    <value>严重错误代码</value>
+  </data>
+  <data name="PresentationAndUIFaultOverrideCaption" xml:space="preserve">
+    <value>故障覆盖</value>
+  </data>
+  <data name="PresentationAndUILoadAlwaysCaption" xml:space="preserve">
+    <value>始终加载</value>
+  </data>
+  <data name="PresentationAndUILoadOnMemoryErrorCaption" xml:space="preserve">
+    <value>在内存出错时加载</value>
+  </data>
+  <data name="FaultLogBootFWVersionCaption" xml:space="preserve">
+    <value>启动固件版本</value>
+  </data>
+  <data name="FaultLogBootWatchDogResetReasonCaption" xml:space="preserve">
+    <value>启动“看门狗复位”的原因</value>
+  </data>
+  <data name="FaultLogCatalogNumberCaption" xml:space="preserve">
+    <value>处理器类型编号</value>
+  </data>
+  <data name="FaultLogCurrFaultLogItemCaption" xml:space="preserve">
+    <value>故障日志项</value>
+  </data>
+  <data name="FaultLogFaultAddressCaption" xml:space="preserve">
+    <value>故障地址</value>
+  </data>
+  <data name="FaultLogFaultCodeCaption" xml:space="preserve">
+    <value>故障代码</value>
+  </data>
+  <data name="FaultLogFaultSourceCaption" xml:space="preserve">
+    <value>硬件故障源</value>
+  </data>
+  <data name="FaultLogFreeFormAreaCaption" xml:space="preserve">
+    <value>自由格式区域</value>
+  </data>
+  <data name="FaultLogHardFaultNewErrFlagCaption" xml:space="preserve">
+    <value>新错误标志</value>
+  </data>
+  <data name="FaultLogIndexCaption" xml:space="preserve">
+    <value>硬件故障索引</value>
+  </data>
+  <data name="FaultLogNumbOfHardFaultCaption" xml:space="preserve">
+    <value>硬件故障数目</value>
+  </data>
+  <data name="FaultLogOSFWVersionCaption" xml:space="preserve">
+    <value>操作系统固件版本</value>
+  </data>
+  <data name="FaultLogStartIndexForHardFaultCaption" xml:space="preserve">
+    <value>硬件故障起始索引</value>
+  </data>
+  <data name="FaultLogSystemStackPointerCaption" xml:space="preserve">
+    <value>系统堆栈指针</value>
+  </data>
+  <data name="FaultLogTestIDCaption" xml:space="preserve">
+    <value>测试 ID</value>
+  </data>
+  <data name="FaultMajorErrorCodeCaption" xml:space="preserve">
+    <value>严重故障代码</value>
+  </data>
+  <data name="FaultMajorErrorCodeDesCaption" xml:space="preserve">
+    <value>严重故障代码说明</value>
+  </data>
+  <data name="FaultMajorErrorHaltedCaption" xml:space="preserve">
+    <value>严重故障已暂停</value>
+  </data>
+  <data name="FaultMajorErrorHaltedOperatingRangeValue" xml:space="preserve">
+    <value>正在操作</value>
+  </data>
+  <data name="PresentationAndUIModeBehaviorCaption" xml:space="preserve">
+    <value>模式行为</value>
+  </data>
+  <data name="ControllerImageCaption" xml:space="preserve">
+    <value>控制器</value>
+  </data>
+  <data name="ControllerIsMicro810Caption" xml:space="preserve">
+    <value>是 Micro810 控制器</value>
+  </data>
+  <data name="ControllerProductFamilyCaption" xml:space="preserve">
+    <value>产品系列</value>
+  </data>
+  <data name="ControllerUserDefinedNameCaption" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ControllerUserManualPathCaption" xml:space="preserve">
+    <value>用户手册路径</value>
+  </data>
+  <data name="LCDAddCaption" xml:space="preserve">
+    <value>附加 LCD 模块</value>
+  </data>
+  <data name="LCDDeleteCaption" xml:space="preserve">
+    <value>分离 LCD 模块</value>
+  </data>
+  <data name="LCDImageCaption" xml:space="preserve">
+    <value>LCD 映像</value>
+  </data>
+  <data name="LCDIsLCDPresentCaption" xml:space="preserve">
+    <value>LCD 是否存在</value>
+  </data>
+  <data name="MemoryModuleBackUpFaultLogCaption" xml:space="preserve">
+    <value>备份故障日志</value>
+  </data>
+  <data name="MemoryModuleBackupWholeCaption" xml:space="preserve">
+    <value>备份(_B)</value>
+  </data>
+  <data name="PresentationAndUIEnabledRangeValue" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="MemoryModuleInstalledRangeValue" xml:space="preserve">
+    <value>已安装</value>
+  </data>
+  <data name="MemoryModuleIsCompatibleCaption" xml:space="preserve">
+    <value>与硬件和固件兼容</value>
+  </data>
+  <data name="MemoryModuleIsNotCompatibleCaption" xml:space="preserve">
+    <value>与硬件和固件不兼容</value>
+  </data>
+  <data name="MemoryModuleIsPasswordMatchCaption" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="MemoryModulePasswordMatchRangeValue" xml:space="preserve">
+    <value>匹配</value>
+  </data>
+  <data name="MemoryModulePasswordMismatchRangeValue" xml:space="preserve">
+    <value>不匹配</value>
+  </data>
+  <data name="MemoryModuleIsPresentCaption" xml:space="preserve">
+    <value>内存模块是否存在</value>
+  </data>
+  <data name="MemoryModuleMemBackupFaultLogConfirmationMessage" xml:space="preserve">
+    <value>是否要将故障日志备份到内存模块？</value>
+  </data>
+  <data name="MemoryModuleMemBackupWholeConfirmationMessage" xml:space="preserve">
+    <value>是否将控制器项目备份到 LCD 模块?</value>
+  </data>
+  <data name="MemoryModuleMemPresentStringCaption" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="MemoryModuleMemRestoreFaultLogConfirmationMessage" xml:space="preserve">
+    <value>是否要将故障日志从内存模块还原到控制器？</value>
+  </data>
+  <data name="MemoryModuleMemRestorePartialConfirmationMessage" xml:space="preserve">
+    <value>是否要将这一部分从内存模块还原到控制器？</value>
+  </data>
+  <data name="MemoryModuleMemRestoreWholeConfirmationMessage" xml:space="preserve">
+    <value>是否从 LCD 模块将项目还原到控制器，然后从控制器断开连接?</value>
+  </data>
+  <data name="MemoryModuleNotInstalledRangeValue" xml:space="preserve">
+    <value>未安装</value>
+  </data>
+  <data name="MemoryModuleRestoreFaultLogCaption" xml:space="preserve">
+    <value>还原故障日志</value>
+  </data>
+  <data name="MemoryModuleRestoreWholeCaption" xml:space="preserve">
+    <value>还原(_R)</value>
+  </data>
+  <data name="MemoryModuleUserProgramCompatibilityCaption" xml:space="preserve">
+    <value>兼容性</value>
+  </data>
+  <data name="MemoryModuleUserProgramTargetNameCaption" xml:space="preserve">
+    <value>项目版本</value>
+  </data>
+  <data name="MemoryUsageAvailableByKBCaption" xml:space="preserve">
+    <value>可用(KB)</value>
+  </data>
+  <data name="MemoryUsageAvailableByStepsCaption" xml:space="preserve">
+    <value>可用(步骤)</value>
+  </data>
+  <data name="MemoryUsageTotalByKBCaption" xml:space="preserve">
+    <value>总计(KB)</value>
+  </data>
+  <data name="MemoryUsageTotalByStepsCaption" xml:space="preserve">
+    <value>总计(步骤)</value>
+  </data>
+  <data name="MemoryUsageUsedByKBCaption" xml:space="preserve">
+    <value>已用(KB)</value>
+  </data>
+  <data name="MemoryUsageUsedByStepsCaption" xml:space="preserve">
+    <value>已用(步骤)</value>
+  </data>
+  <data name="ModbusDriverBroadcastPauseCaption" xml:space="preserve">
+    <value>广播暂停(_O):</value>
+  </data>
+  <data name="ModbusDriverEModbusRoleHybridModeRangeValue" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="ModbusDriverEModbusRoleModbusMasterRangeValue" xml:space="preserve">
+    <value>主站</value>
+  </data>
+  <data name="ModbusDriverEModbusRoleModbusSlaveRangeValue" xml:space="preserve">
+    <value>从站</value>
+  </data>
+  <data name="ModbusDriverInterCharTimeoutCaption" xml:space="preserve">
+    <value>帧间(_N):</value>
+  </data>
+  <data name="ModbusDriverMediaCaption" xml:space="preserve">
+    <value>介质(_M):</value>
+  </data>
+  <data name="ModbusDriverMediaRS2323WireRangeValue" xml:space="preserve">
+    <value>RS232|没有握手信号</value>
+  </data>
+  <data name="ModbusDriverModbusRoleCaption" xml:space="preserve">
+    <value>Modbus 角色(_L):</value>
+  </data>
+  <data name="ModbusDriverResponseTimerCaption" xml:space="preserve">
+    <value>响应计时器(_I):</value>
+  </data>
+  <data name="ModbusDriverRtsPostDelayCaption" xml:space="preserve">
+    <value>RTS 后延迟(_Y):</value>
+  </data>
+  <data name="ModbusDriverRtsPreDelayCaption" xml:space="preserve">
+    <value>RTS 预延迟(_E):</value>
+  </data>
+  <data name="ModbusDriverUnitAddressCaption" xml:space="preserve">
+    <value>单位地址(_A):</value>
+  </data>
+  <data name="RTCRTCBatteryCaption" xml:space="preserve">
+    <value>RTC 电池正常</value>
+  </data>
+  <data name="RTCDateTimeCaption" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="RTCIsAutoUpdatingCaption" xml:space="preserve">
+    <value>正在编辑日期/时间</value>
+  </data>
+  <data name="RTCIsSummerTimeCaption" xml:space="preserve">
+    <value>启用夏令时时间</value>
+  </data>
+  <data name="SerialPortBaudRateCaption" xml:space="preserve">
+    <value>波特率(_U):</value>
+  </data>
+  <data name="SerialPortControlLineCaption" xml:space="preserve">
+    <value>介质(_M):</value>
+  </data>
+  <data name="SerialPortDataBitsCaption" xml:space="preserve">
+    <value>数据位(_D):</value>
+  </data>
+  <data name="SerialPortDriverCaption" xml:space="preserve">
+    <value>驱动程序(_R):</value>
+  </data>
+  <data name="SerialPortEComDriverDF1RangeValue" xml:space="preserve">
+    <value>CIP 串行</value>
+  </data>
+  <data name="SerialPortEComDriverShutdownRangeValue" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="SerialPortEControlLineFullDuplexRangeValue" xml:space="preserve">
+    <value>RS232|全双工(RTS 始终开启)</value>
+  </data>
+  <data name="SerialPortEControlLineHalfDuplexContinuousCarrierRangeValue" xml:space="preserve">
+    <value>RS232|半双工，有连续载波</value>
+  </data>
+  <data name="SerialPortEControlLineHalfDuplexRangeValue" xml:space="preserve">
+    <value>RS232|半双工不带连续载波(RTS/CTS)</value>
+  </data>
+  <data name="SerialPortEControlLineNoHandshakeRangeValue" xml:space="preserve">
+    <value>RS232|没有握手信号</value>
+  </data>
+  <data name="SerialPortEParityEvenRangeValue" xml:space="preserve">
+    <value>偶数</value>
+  </data>
+  <data name="SerialPortEParityNoneRangeValue" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="SerialPortEParityOddRangeValue" xml:space="preserve">
+    <value>奇数</value>
+  </data>
+  <data name="SerialPortParityCaption" xml:space="preserve">
+    <value>奇偶校验(_P):</value>
+  </data>
+  <data name="SerialPortRtsOffDelayCaption" xml:space="preserve">
+    <value>RTS 关闭延时</value>
+  </data>
+  <data name="SerialPortRtsSendDelayCaption" xml:space="preserve">
+    <value>RTS 发送延时</value>
+  </data>
+  <data name="SerialPortStopBitsCaption" xml:space="preserve">
+    <value>停止位(_S):</value>
+  </data>
+  <data name="TrimPotsLowerLimitCaption" xml:space="preserve">
+    <value>下限</value>
+  </data>
+  <data name="TrimPotsTrimPotIDCaption" xml:space="preserve">
+    <value>微调电位计 ID</value>
+  </data>
+  <data name="TrimPotsTrimPotValueCaption" xml:space="preserve">
+    <value>微调电位计数值</value>
+  </data>
+  <data name="TrimPotsUpperLimitCaption" xml:space="preserve">
+    <value>上限</value>
+  </data>
+  <data name="UPConfigNumSlotsCaption" xml:space="preserve">
+    <value>插槽数目</value>
+  </data>
+  <data name="UPConfigPluginPhysicalIDCaption" xml:space="preserve">
+    <value>物理 ID</value>
+  </data>
+  <data name="UPM2080IFxInputFreqCaption" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="UPM2080IFxInputStateCaption" xml:space="preserve">
+    <value>输入状态</value>
+  </data>
+  <data name="PresentationAndUIDisabledRangeValue" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="UPM2080IFxInputTypeCaption" xml:space="preserve">
+    <value>输入类型</value>
+  </data>
+  <data name="PlugInModuleInputTypeCurrentRangeValue" xml:space="preserve">
+    <value>当前</value>
+  </data>
+  <data name="PlugInModuleVoltageRangeValue" xml:space="preserve">
+    <value>电压</value>
+  </data>
+  <data name="UPM2080OF2OutputStateCaption" xml:space="preserve">
+    <value>输出状态</value>
+  </data>
+  <data name="UPM2080OF2OutputTypeCaption" xml:space="preserve">
+    <value>输出类型</value>
+  </data>
+  <data name="UPM2080RTD2RTDTypeCaption" xml:space="preserve">
+    <value>RTD 类型</value>
+  </data>
+  <data name="PlugInModuleUpdateRateCaption" xml:space="preserve">
+    <value>数据更新速率</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeCaption" xml:space="preserve">
+    <value>热电偶类型</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeBRangeValue" xml:space="preserve">
+    <value>类型 B</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeERangeValue" xml:space="preserve">
+    <value>类型 E</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeJRangeValue" xml:space="preserve">
+    <value>类型 J</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeKRangeValue" xml:space="preserve">
+    <value>类型 K</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeNRangeValue" xml:space="preserve">
+    <value>类型 N</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeRRangeValue" xml:space="preserve">
+    <value>类型 R</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeSRangeValue" xml:space="preserve">
+    <value>类型 S</value>
+  </data>
+  <data name="UPM2080TC2ThermocoupleTypeTypeTRangeValue" xml:space="preserve">
+    <value>类型 T</value>
+  </data>
+  <data name="UPModuleRevisionCaption" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="USBBusSpeedCaption" xml:space="preserve">
+    <value>总线速度</value>
+  </data>
+  <data name="USBBusSpeedFullSpeedRangeValue" xml:space="preserve">
+    <value>全速</value>
+  </data>
+  <data name="USBBusSpeedHighSpeedRangeValue" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="USBBusSpeedLowSpeedRangeValue" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="USBModeCaption" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="USBModeHostModeRangeValue" xml:space="preserve">
+    <value>主机模式</value>
+  </data>
+  <data name="USBModeSlaveModeRangeValue" xml:space="preserve">
+    <value>从站模式</value>
+  </data>
+  <data name="USBStateCaption" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="USBStateConfiguredRangeValue" xml:space="preserve">
+    <value>已配置</value>
+  </data>
+  <data name="USBStateFaultRangeValue" xml:space="preserve">
+    <value>故障</value>
+  </data>
+  <data name="USBStateInitializedRangeValue" xml:space="preserve">
+    <value>已初始化</value>
+  </data>
+  <data name="USBStateInitializingRangeValue" xml:space="preserve">
+    <value>正在初始化</value>
+  </data>
+  <data name="USBStateReadyRangeValue" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="USBSuspendNotSuspendedRangeValue" xml:space="preserve">
+    <value>未挂起</value>
+  </data>
+  <data name="USBSuspendStateCaption" xml:space="preserve">
+    <value>挂起状态</value>
+  </data>
+  <data name="USBSuspendSuspendedRangeValue" xml:space="preserve">
+    <value>已挂起</value>
+  </data>
+  <data name="PresentationAndUIUnknownValue" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="PresentationAndUIHelpCaption" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="ControllerUserManualsCaption" xml:space="preserve">
+    <value>手册</value>
+  </data>
+  <data name="FaultClearMajorErrorCaption" xml:space="preserve">
+    <value>清除严重故障</value>
+  </data>
+  <data name="FaultLogGetFaultLogMessage" xml:space="preserve">
+    <value>获取控制器故障日志</value>
+  </data>
+  <data name="FaultLogHardFaultLogMessage" xml:space="preserve">
+    <value>硬件故障日志信息 {0}</value>
+  </data>
+  <data name="FaultLogNonHardFaultLogMessage" xml:space="preserve">
+    <value>非硬件故障日志信息</value>
+  </data>
+  <data name="FaultSetMajorErrorHaltedCaption" xml:space="preserve">
+    <value>因出现严重错误已暂停</value>
+  </data>
+  <data name="RTCRTCDownloadCaption" xml:space="preserve">
+    <value>下载 RTC 参数</value>
+  </data>
+  <data name="RTCRTCShowCurrentCaption" xml:space="preserve">
+    <value>显示当前 RTC 参数</value>
+  </data>
+  <data name="RTCRTCSyncWithPCClockCaption" xml:space="preserve">
+    <value>将 RTC 与 PC 时钟同步</value>
+  </data>
+  <data name="PresentationAndUISerialPortCaption" xml:space="preserve">
+    <value>串行端口</value>
+  </data>
+  <data name="PresentationAndUIEmptyCaption" xml:space="preserve">
+    <value>&lt; 空 &gt;</value>
+  </data>
+  <data name="ConnectionDownloadCaption" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="ConnectionIsOnlineConnectedRangeValue" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="ConnectionIsOnlineDisconnectedRangeValue" xml:space="preserve">
+    <value>已断开连接</value>
+  </data>
+  <data name="ConnectionUploadCaption" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="ConnectionVariablesCaption" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="RTCRTCBatteryLowCaption" xml:space="preserve">
+    <value>RTC 电池电量不足！</value>
+  </data>
+  <data name="USBPortCaption" xml:space="preserve">
+    <value>USB 端口</value>
+  </data>
+  <data name="ChannelCtrlGroupCaption" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="InterruptColumnConfigureValue" xml:space="preserve">
+    <value>配置...</value>
+  </data>
+  <data name="InterruptDeleteInterruptMessage" xml:space="preserve">
+    <value>是否删除此用户中断？</value>
+  </data>
+  <data name="PresentationAndUIDeleteCaption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="InterruptNoInterruptMessage" xml:space="preserve">
+    <value>无法添加用户中断。{0}{1}</value>
+  </data>
+  <data name="UPModuleWithChannelsGroupCaption" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="StartupFaultFaultsGpBxCaption" xml:space="preserve">
+    <value>故障</value>
+  </data>
+  <data name="StartupFaultLoadFromMMGpBxCaption" xml:space="preserve">
+    <value>从内存模块加载</value>
+  </data>
+  <data name="StartupFaultStartupGpBxCaption" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="Micro800ConfigToolbarBtnConnectCaption" xml:space="preserve">
+    <value>连接(C)</value>
+  </data>
+  <data name="Micro800ConfigToolbarBtnDisconnectCaption" xml:space="preserve">
+    <value>断开连接(D)</value>
+  </data>
+  <data name="Micro800ConfigPropertiesCtrladvSettingsOpenCaption" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="Micro800ConfigToolbarDownloadBtnToolTip" xml:space="preserve">
+    <value>下载到控制器</value>
+  </data>
+  <data name="Micro800ConfigToolbarProgramBtnToolTip" xml:space="preserve">
+    <value>编程</value>
+  </data>
+  <data name="Micro800ConfigToolbarUploadBtnToolTip" xml:space="preserve">
+    <value>从控制器上传</value>
+  </data>
+  <data name="Micro800ConfigToolbarUserManualsToolTip" xml:space="preserve">
+    <value>用户手册</value>
+  </data>
+  <data name="Micro800ConfigToolbarVariablesBtnToolTip" xml:space="preserve">
+    <value>全局变量</value>
+  </data>
+  <data name="ControllerCtrlRevisionCaption" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="FeatureControlCatalogNumberCaption" xml:space="preserve">
+    <value>类型编号:</value>
+  </data>
+  <data name="MBMappingAddressCaption" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="MBMappingAddressUsedCaption" xml:space="preserve">
+    <value>已用地址</value>
+  </data>
+  <data name="MBMappingDataTypeCaption" xml:space="preserve">
+    <value>数据类型</value>
+  </data>
+  <data name="MBMappingDataTypeNotSupportMessage" xml:space="preserve">
+    <value>数据类型 {0} 在当前 Modbus 映射中不受支持！</value>
+  </data>
+  <data name="MBMappingInvalidCastMessage" xml:space="preserve">
+    <value>强制转换({0})无效。</value>
+  </data>
+  <data name="MBMappingMaxCountMessage" xml:space="preserve">
+    <value>Modbus 映射的最大计数为 {0}。</value>
+  </data>
+  <data name="MBMappingSaveCaption" xml:space="preserve">
+    <value>保存(S)</value>
+  </data>
+  <data name="MBMappingServerSettingCaption" xml:space="preserve">
+    <value>Modbus 服务器设置</value>
+  </data>
+  <data name="MBMappingSingleColumnRequiredMessage" xml:space="preserve">
+    <value>请选择一列，然后重试。</value>
+  </data>
+  <data name="MBMappingVariableCaption" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="MBMappingVariableNameCaption" xml:space="preserve">
+    <value>变量名</value>
+  </data>
+  <data name="MBMappingWrongFormatMessage" xml:space="preserve">
+    <value>格式错误异常。({0})</value>
+  </data>
+  <data name="PresentationAndUIProtocolControlCaption" xml:space="preserve">
+    <value>协议控制</value>
+  </data>
+  <data name="ControllerCtrlMemoryModuleCaption" xml:space="preserve">
+    <value>内存模块</value>
+  </data>
+  <data name="ControllerCtrlOperationFailedMessage" xml:space="preserve">
+    <value>所选操作失败。</value>
+  </data>
+  <data name="ControllerCtrlOperationNotSupportedMessage" xml:space="preserve">
+    <value>不支持此操作！</value>
+  </data>
+  <data name="ControllerCtrlOperationSuccessMessage" xml:space="preserve">
+    <value>所选操作已成功完成。</value>
+  </data>
+  <data name="DateTimeDateCaption" xml:space="preserve">
+    <value>日期:</value>
+  </data>
+  <data name="DateTimeFreeRunClockCaption" xml:space="preserve">
+    <value>自由运行时钟</value>
+  </data>
+  <data name="DateTimeInvalidFormatMessage" xml:space="preserve">
+    <value>格式无效。</value>
+  </data>
+  <data name="DateTimeRtcEnableCaption" xml:space="preserve">
+    <value>实时时钟启用</value>
+  </data>
+  <data name="DateTimeRtcPresentCaption" xml:space="preserve">
+    <value>实时时钟存在</value>
+  </data>
+  <data name="DateTimeTimeCaption" xml:space="preserve">
+    <value>时间:</value>
+  </data>
+  <data name="DateTimeWeekCaption" xml:space="preserve">
+    <value>星期:</value>
+  </data>
+  <data name="EmbeddedIOAnalogCaption" xml:space="preserve">
+    <value>模拟</value>
+  </data>
+  <data name="EmbeddedIODigitalCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="EmbeddedIOFilterCaption" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="EmbeddedIOGainCaption" xml:space="preserve">
+    <value>增益</value>
+  </data>
+  <data name="EmbeddedIOInputCaption" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="EmbeddedIOInputLatchEdgeCaption" xml:space="preserve">
+    <value>输入锁存和 EII 沿</value>
+  </data>
+  <data name="EmbeddedIOOffsetCaption" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="EmbeddedIOTypeCaption" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="InterruptAddCaption" xml:space="preserve">
+    <value>添加(_A)</value>
+  </data>
+  <data name="InterruptApplyCaption" xml:space="preserve">
+    <value>应用(_A)</value>
+  </data>
+  <data name="InterruptAutoStartCaption" xml:space="preserve">
+    <value>自动开始(_S)</value>
+  </data>
+  <data name="InterruptCancelCaption" xml:space="preserve">
+    <value>取消(_C)</value>
+  </data>
+  <data name="InterruptConfigureCaption" xml:space="preserve">
+    <value>配置 (O)</value>
+  </data>
+  <data name="InterruptDuplicateInterruptMessage" xml:space="preserve">
+    <value>同一中断不得引用两次。请选择另一个中断。</value>
+  </data>
+  <data name="InterruptDuplicateProgramMessage" xml:space="preserve">
+    <value>同一程序不得由一个以上中断引用。请选择另一个程序。</value>
+  </data>
+  <data name="InterruptEIIFullNameCaption" xml:space="preserve">
+    <value>事件输入中断(EII)</value>
+  </data>
+  <data name="InterruptExecuteInterruptCaption" xml:space="preserve">
+    <value>正在执行用户中断</value>
+  </data>
+  <data name="InterruptFalseCaption" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="InterruptFunctionEnabledCaption" xml:space="preserve">
+    <value>已启用函数</value>
+  </data>
+  <data name="InterruptHSCFullNameCaption" xml:space="preserve">
+    <value>高速计数器(HSC)用户中断</value>
+  </data>
+  <data name="InterruptInputSelectCaption" xml:space="preserve">
+    <value>嵌入式输入(_E):</value>
+  </data>
+  <data name="InterruptInputSelectUsedMessage" xml:space="preserve">
+    <value>嵌入式输入 '{0}' 已与另一个中断相关联。</value>
+  </data>
+  <data name="InterruptInterruptTypeCaption" xml:space="preserve">
+    <value>类型(_T):</value>
+  </data>
+  <data name="InterruptInvalidSetPointRangeMessage" xml:space="preserve">
+    <value>设定点值必须介于0至65535 ms之间。</value>
+  </data>
+  <data name="InterruptLostInterruptCaption" xml:space="preserve">
+    <value>丢失用户中断</value>
+  </data>
+  <data name="InterruptMaskIHCaption" xml:space="preserve">
+    <value>上限设定值(_G)</value>
+  </data>
+  <data name="InterruptMaskILCaption" xml:space="preserve">
+    <value>下限设定值(_L)</value>
+  </data>
+  <data name="InterruptMaskINCaption" xml:space="preserve">
+    <value>下溢设定值(_U)</value>
+  </data>
+  <data name="InterruptMaskIVCaption" xml:space="preserve">
+    <value>上溢设定值(_V)</value>
+  </data>
+  <data name="InterruptOKCaption" xml:space="preserve">
+    <value>确定(_O)</value>
+  </data>
+  <data name="InterruptParameterCaption" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="InterruptPendingInterruptCaption" xml:space="preserve">
+    <value>挂起的用户中断</value>
+  </data>
+  <data name="InterruptProgramCaption" xml:space="preserve">
+    <value>编程</value>
+  </data>
+  <data name="PresentationAndUIPropertiesCaption" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="InterruptSetPointCaption" xml:space="preserve">
+    <value>设置点(_E):</value>
+  </data>
+  <data name="InterruptSTIFullNameCaption" xml:space="preserve">
+    <value>可选定时中断(STI)</value>
+  </data>
+  <data name="InterruptTrueCaption" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="InterruptUFRFullNameCaption" xml:space="preserve">
+    <value>用户故障 Routine</value>
+  </data>
+  <data name="InterruptUPMUIFullNameCaption" xml:space="preserve">
+    <value>通用插件模块(UPM) </value>
+  </data>
+  <data name="RtcMemCtrlActionCaption" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="RtcMemCtrlRtcCaption" xml:space="preserve">
+    <value>实时时钟</value>
+  </data>
+  <data name="PresentationAndUIStatusCaption" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SaveFileDialogOpenSaveCaption" xml:space="preserve">
+    <value>保存后打开(&amp;O)</value>
+  </data>
+  <data name="SaveFileDialogSaveFileCaption" xml:space="preserve">
+    <value>将文件另存为</value>
+  </data>
+  <data name="RTCLiveToolTipMessage" xml:space="preserve">
+    <value>当前显示的 RTC 参数来自在线控制器。</value>
+  </data>
+  <data name="DeviceInfoTreeModbusMappingCaption" xml:space="preserve">
+    <value>Modbus 映射</value>
+  </data>
+  <data name="DateTimeMondayCaption" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="ASCIIDriverCharsFormatMessage" xml:space="preserve">
+    <value>{0} 的第一个值不能是 0xFF，除非其后跟有另一个 0xFF 以表示没有 {0}。</value>
+  </data>
+  <data name="RTCEnabledCheckCaption" xml:space="preserve">
+    <value>实时时钟已启用</value>
+  </data>
+  <data name="MemoryCtrlAvailableCaption" xml:space="preserve">
+    <value>可用:</value>
+  </data>
+  <data name="MemoryCtrlStepCaption" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="MemoryCtrlTotalCaption" xml:space="preserve">
+    <value>总计:</value>
+  </data>
+  <data name="MemoryCtrlUsedCaption" xml:space="preserve">
+    <value>已用:</value>
+  </data>
+  <data name="DeviceInfoTreeRTCCaption" xml:space="preserve">
+    <value>实时时钟</value>
+  </data>
+  <data name="RtcMemCtrlDateCaption" xml:space="preserve">
+    <value>日期:</value>
+  </data>
+  <data name="RtcMemCtrlTimeCaption" xml:space="preserve">
+    <value>时间:</value>
+  </data>
+  <data name="EmbeddedIOInputFiltersCaption" xml:space="preserve">
+    <value>输入筛选器</value>
+  </data>
+  <data name="InterruptConfigureDescriptionCaption" xml:space="preserve">
+    <value>{0}描述:</value>
+  </data>
+  <data name="InterruptConfigureAddCaption" xml:space="preserve">
+    <value>添加 {0}</value>
+  </data>
+  <data name="ConnectionPresenterChangeControllerModeMessage" xml:space="preserve">
+    <value>是否要将控制器模式从{0}更改为{1}？</value>
+  </data>
+  <data name="DeviceInfoTreeExpansionIOCaption" xml:space="preserve">
+    <value>扩展模块</value>
+  </data>
+  <data name="DeviceInfoTreeSerialPortCaption" xml:space="preserve">
+    <value>串行端口</value>
+  </data>
+  <data name="DeviceInfoTreeControllerCaption" xml:space="preserve">
+    <value>控制器</value>
+  </data>
+  <data name="Micro800ConfigToolbarSecureBtnToolTip" xml:space="preserve">
+    <value>设置、更改或清除 Micro800 控制器密码保护和通信访问</value>
+  </data>
+  <data name="ConnectionConfigSecureCaption" xml:space="preserve">
+    <value>安全</value>
+  </data>
+  <data name="DeviceInfoTreeEthernetCaption" xml:space="preserve">
+    <value>以太网</value>
+  </data>
+  <data name="DeviceInfoTreeEthernetPortCaption" xml:space="preserve">
+    <value>端口设置</value>
+  </data>
+  <data name="DeviceInfoTreeEthernetDiagnosticsCaption" xml:space="preserve">
+    <value>端口诊断</value>
+  </data>
+  <data name="DeviceInfoTreeInternetProtocolCaption" xml:space="preserve">
+    <value>因特网协议</value>
+  </data>
+  <data name="EthernetLinkDupFullRangeValue" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="EthernetLinkDupHalfRangeValue" xml:space="preserve">
+    <value>一半</value>
+  </data>
+  <data name="EthernetLinkStateDisableRangeValue" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="EthernetLinkStateEnableRangeValue" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="EthernetOfflineAutoNegoCaption" xml:space="preserve">
+    <value>自动协商速度和双工模式(_O)</value>
+  </data>
+  <data name="EthernetOfflineSetDupCaption" xml:space="preserve">
+    <value>双工模式(_M):</value>
+  </data>
+  <data name="EthernetOfflineSetSpeedCaption" xml:space="preserve">
+    <value>速度(_P):</value>
+  </data>
+  <data name="EthernetOfflineSetStateCaption" xml:space="preserve">
+    <value>端口状态:</value>
+  </data>
+  <data name="EthernetOnlineAlignDiscardsCaption" xml:space="preserve">
+    <value>对齐错误:</value>
+  </data>
+  <data name="EthernetOnlineCarrierErrCaption" xml:space="preserve">
+    <value>载波感知错误:</value>
+  </data>
+  <data name="EthernetOnlineCurrDupCaption" xml:space="preserve">
+    <value>双工模式:</value>
+  </data>
+  <data name="EthernetOnlineCurrSpeedCaption" xml:space="preserve">
+    <value>速度:</value>
+  </data>
+  <data name="EthernetOnlineCurrStateCaption" xml:space="preserve">
+    <value>端口状态:</value>
+  </data>
+  <data name="EthernetOnlineDefTransCaption" xml:space="preserve">
+    <value>延迟传输:</value>
+  </data>
+  <data name="EthernetOnlineExceColliCaption" xml:space="preserve">
+    <value>过多冲突:</value>
+  </data>
+  <data name="EthernetOnlineFCSErrorsCaption" xml:space="preserve">
+    <value>FCS 错误:</value>
+  </data>
+  <data name="EthernetOnlineFrameCaption" xml:space="preserve">
+    <value>帧过长:</value>
+  </data>
+  <data name="EthernetOnlineInfTypeCaption" xml:space="preserve">
+    <value>接口类型</value>
+  </data>
+  <data name="EthernetOnlineInfTypeInternalRangeValue" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="EthernetOnlineInfTypeOpticalFiberRangeValue" xml:space="preserve">
+    <value>光纤</value>
+  </data>
+  <data name="EthernetOnlineInfTypeTwiPairRangeValue" xml:space="preserve">
+    <value>双绞线</value>
+  </data>
+  <data name="EthernetOnlineInfTypeUnknownRangeValue" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="EthernetOnlineInOctCaption" xml:space="preserve">
+    <value>入站</value>
+  </data>
+  <data name="EthernetOnlineUnknownCaption" xml:space="preserve">
+    <value>未知协议数据包:</value>
+  </data>
+  <data name="EthernetOnlineLateColliCaption" xml:space="preserve">
+    <value>上次冲突:</value>
+  </data>
+  <data name="EthernetOnlineMACRecErrCaption" xml:space="preserve">
+    <value>收到的 MAC 错误:</value>
+  </data>
+  <data name="EthernetOnlineMACTranErrCaption" xml:space="preserve">
+    <value>MAC 传输错误:</value>
+  </data>
+  <data name="EthernetOnlineMultiColliCaption" xml:space="preserve">
+    <value>多个冲突:</value>
+  </data>
+  <data name="EthernetOnlineDiscardsCaption" xml:space="preserve">
+    <value>丢弃的数据包:</value>
+  </data>
+  <data name="EthernetOnlineErrorsCaption" xml:space="preserve">
+    <value>带有错误的数据包:</value>
+  </data>
+  <data name="EthernetOnlineNUcastCaption" xml:space="preserve">
+    <value>非单播数据包:</value>
+  </data>
+  <data name="EthernetOnlineOutOctCaption" xml:space="preserve">
+    <value>出站</value>
+  </data>
+  <data name="EthernetOnlineUcastCaption" xml:space="preserve">
+    <value>单播数据包:</value>
+  </data>
+  <data name="EthernetOnlineSingleColliCaption" xml:space="preserve">
+    <value>单个冲突:</value>
+  </data>
+  <data name="EthernetOnlineSQECaption" xml:space="preserve">
+    <value>SQE 测试错误:</value>
+  </data>
+  <data name="EthernetOnlineUnknownValue" xml:space="preserve">
+    <value>？</value>
+  </data>
+  <data name="EthernetPortApplySettingCaption" xml:space="preserve">
+    <value>将设置保存到控制器(_S) </value>
+  </data>
+  <data name="EthernetPortDiagnosticsResetCaption" xml:space="preserve">
+    <value>复位计数器</value>
+  </data>
+  <data name="EthernetPortDownloadFailMessage" xml:space="preserve">
+    <value>以太网端口设置失败。</value>
+  </data>
+  <data name="TCPIPPresenterApplyActionFailed" xml:space="preserve">
+    <value>因特网协议设置失败。</value>
+  </data>
+  <data name="TCPIPApplySettingsCaption" xml:space="preserve">
+    <value>将设置保存到控制器</value>
+  </data>
+  <data name="TCPIPPresenterDHCP" xml:space="preserve">
+    <value>使用 DHCP 自动获取 IP 设置(_A)</value>
+  </data>
+  <data name="TCPIPPresenterGateway" xml:space="preserve">
+    <value>网关地址(_Y):</value>
+  </data>
+  <data name="TCPIPPresenterIPAddress" xml:space="preserve">
+    <value>IP地址(_R):</value>
+  </data>
+  <data name="TCPIPPresenterSelectACD" xml:space="preserve">
+    <value>检测重复 IP 地址(_U)</value>
+  </data>
+  <data name="TCPIPPresenterStore" xml:space="preserve">
+    <value>配置 IP 地址和设置(_N)</value>
+  </data>
+  <data name="TCPIPPresenterSubnetMask" xml:space="preserve">
+    <value>子网掩码(_K):</value>
+  </data>
+  <data name="EthernetDiagnosticsInfCountersTitleCaption" xml:space="preserve">
+    <value>接口计数器</value>
+  </data>
+  <data name="EthernetDiagnosticsMediaCountersTitleCaption" xml:space="preserve">
+    <value>介质计数器</value>
+  </data>
+  <data name="TCPIPConfigCtrlIPSettingsCaption" xml:space="preserve">
+    <value>因特网协议(IP)设置</value>
+  </data>
+  <data name="EthernetPortSyncSettingCaption" xml:space="preserve">
+    <value>从控制器更新</value>
+  </data>
+  <data name="EthernetSettingNoSyncMessage" xml:space="preserve">
+    <value>项目中的设置与控制器不同</value>
+  </data>
+  <data name="IPSettingsNoSyncTitleCaption" xml:space="preserve">
+    <value>因特网协议设置</value>
+  </data>
+  <data name="EthernetDisconnectionMessage" xml:space="preserve">
+    <value>保存设置将导致与控制器断开连接。
+{0}</value>
+  </data>
+  <data name="EthernetSaveToControllerBtnCaption" xml:space="preserve">
+    <value>保存到控制器</value>
+  </data>
+  <data name="PresentationAndUILoadEthernetCaption" xml:space="preserve">
+    <value>覆盖以太网设置(_E)</value>
+  </data>
+  <data name="DeviceInfoTreeMotionCaption" xml:space="preserve">
+    <value>运动</value>
+  </data>
+  <data name="DeviceInfoTreeNewAxisCaption" xml:space="preserve">
+    <value>&lt; 新轴 &gt;</value>
+  </data>
+  <data name="MotionEngineExecTimeCaption" xml:space="preserve">
+    <value>运动引擎执行时间(_E):</value>
+  </data>
+  <data name="MotionMaximumAxisSupportedCaption" xml:space="preserve">
+    <value>嵌入式 高速脉冲串控制伺服 轴
+的最大数量:</value>
+  </data>
+  <data name="MotionAxisConfigNodeDynamics" xml:space="preserve">
+    <value>动态</value>
+  </data>
+  <data name="MotionAxisConfigNodeGeneral" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="MotionAxisConfigNodeHoming" xml:space="preserve">
+    <value>原位</value>
+  </data>
+  <data name="MotionAxisConfigNodeLimits" xml:space="preserve">
+    <value>限制</value>
+  </data>
+  <data name="MotionAxisConfigNodeMotor" xml:space="preserve">
+    <value>电机和载荷</value>
+  </data>
+  <data name="MotionAxisConfigNameFormatError" xml:space="preserve">
+    <value>无法创建或重命名轴。
+{0}</value>
+  </data>
+  <data name="MotionAxisConfigNameLengthError" xml:space="preserve">
+    <value>允许使用的最大字符数为 40 个。</value>
+  </data>
+  <data name="MotionAxisConfigNameIsEmpty" xml:space="preserve">
+    <value>轴名称不能为空。</value>
+  </data>
+  <data name="MotionAxisConfigNameAlreadyExists" xml:space="preserve">
+    <value>变量、参数或保留字正在使用该名称。</value>
+  </data>
+  <data name="PresentationAndUIRenameCaption" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="ActiveLevel_HighActive" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="ActiveLevel_LowActive" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="MotionAxisGeneralDriveEnableActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_C):</value>
+  </data>
+  <data name="MotionAxisGeneralAxisNameCaption" xml:space="preserve">
+    <value>轴名称(_X):</value>
+  </data>
+  <data name="MotionAxisGeneralDirectionOutputCaption" xml:space="preserve">
+    <value>输出方向:</value>
+  </data>
+  <data name="MotionAxisGeneralDriveEnableOutputCaption" xml:space="preserve">
+    <value>驱动器启用输出(_E)</value>
+  </data>
+  <data name="MotionAxisGeneralDriveReadyInputCaption" xml:space="preserve">
+    <value>驱动器就绪输入(_R)</value>
+  </data>
+  <data name="MotionAxisGeneralInPositionInputCaption" xml:space="preserve">
+    <value>原位输入(_I)</value>
+  </data>
+  <data name="MotionAxisGeneralDriveReadyInputInputCaption" xml:space="preserve">
+    <value>输入(_N):</value>
+  </data>
+  <data name="MotionAxisGeneralDriveEnableOutputOutputCaption" xml:space="preserve">
+    <value>输出(_O):</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelCaption" xml:space="preserve">
+    <value>高速脉冲串控制伺服 通道(_H):</value>
+  </data>
+  <data name="MotionAxisGeneralPulseOutputCaption" xml:space="preserve">
+    <value>脉冲输出:</value>
+  </data>
+  <data name="MotionAxisGeneralTouchProbeInputCaption" xml:space="preserve">
+    <value>接触式探测输入(_B)</value>
+  </data>
+  <data name="MotionAxisGeneralDriveReadyActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_V):</value>
+  </data>
+  <data name="MotionAxisGeneralInPositionInputActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_T):</value>
+  </data>
+  <data name="MotionAxisGeneralInPositionInputInputCaption" xml:space="preserve">
+    <value>输入(_P):</value>
+  </data>
+  <data name="MotionAxisGeneralTouchProbeInputActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_L):</value>
+  </data>
+  <data name="MotionAxisGeneralTouchProbeInputInputCaption" xml:space="preserve">
+    <value>输入:</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelUnAssigned" xml:space="preserve">
+    <value>&lt;未分配&gt;</value>
+  </data>
+  <data name="MotionAxisConfigNameInvalidChars" xml:space="preserve">
+    <value>名称必须以字母或(A-Z 或 a-z)加下划线的字符开始，后跟字母(A-Z 或 a-z)、数字和单个加下划线的字符。</value>
+  </data>
+  <data name="MotionAxisDeletionCaption" xml:space="preserve">
+    <value>是否删除轴 '{0}'？</value>
+  </data>
+  <data name="PresentationAndUIAddCaption" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="EmergencyStopType_Decelaration" xml:space="preserve">
+    <value>减速停止</value>
+  </data>
+  <data name="EmergencyStopType_Immediate" xml:space="preserve">
+    <value>立即停止</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelWarningMessage" xml:space="preserve">
+    <value>更改 高速脉冲串控制伺服 通道将更改 '{0}' 的 I/O 布线。
+
+是否要更新这些值？
+  </value>
+  </data>
+  <data name="MotionAxisHomingHomeSwitchInputCaption" xml:space="preserve">
+    <value>原位开关输入(_S)</value>
+  </data>
+  <data name="MotionAxisLimitsLowerHardLimitCaption" xml:space="preserve">
+    <value>硬限位下限(_L)</value>
+  </data>
+  <data name="MotionAxisLimitsSwitchInputCaption" xml:space="preserve">
+    <value>切换输入:</value>
+  </data>
+  <data name="MotionAxisLimitsUpperHardLimitCaption" xml:space="preserve">
+    <value>硬限位上限(_U)</value>
+  </data>
+  <data name="MotionAxisMotorLoadDirectionCaption" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="MotionAxisMotorLoadDirectionChangeDelayTimeCaption" xml:space="preserve">
+    <value>更改延迟时间(_D):</value>
+  </data>
+  <data name="MotionAxisMotorLoadDirectionModeCaption" xml:space="preserve">
+    <value>模式(_M):</value>
+  </data>
+  <data name="MotionAxisMotorLoadDirectionPolarityCaption" xml:space="preserve">
+    <value>极性(_O):</value>
+  </data>
+  <data name="MotionAxisMotorLoadMotorRevCaption" xml:space="preserve">
+    <value>电机转数</value>
+  </data>
+  <data name="MotionAxisMotorLoadPulsesPerRevCaption" xml:space="preserve">
+    <value>每转数脉冲(_U):</value>
+  </data>
+  <data name="MotionAxisMotorLoadTravelPerRevCaption" xml:space="preserve">
+    <value>每转的行程(_T):</value>
+  </data>
+  <data name="MotionAxisMotorLoadUserDefinedCaption" xml:space="preserve">
+    <value>用户定义的单位</value>
+  </data>
+  <data name="MotionAxisMotorLoadUserDefinedPositionCaption" xml:space="preserve">
+    <value>位置(_P):</value>
+  </data>
+  <data name="MotionAxisMotorLoadUserDefinedTimeCaption" xml:space="preserve">
+    <value>时间:</value>
+  </data>
+  <data name="DirectionMode_Both" xml:space="preserve">
+    <value>双向</value>
+  </data>
+  <data name="DirectionMode_CCW" xml:space="preserve">
+    <value>负方向</value>
+  </data>
+  <data name="DirectionMode_CW" xml:space="preserve">
+    <value>正方向</value>
+  </data>
+  <data name="DirectionPolarity_Inverted" xml:space="preserve">
+    <value>反向</value>
+  </data>
+  <data name="DirectionPolarity_NonInverted" xml:space="preserve">
+    <value>正向</value>
+  </data>
+  <data name="MotionAxisDynamicsMaxAccelerationCaption" xml:space="preserve">
+    <value>最大加速(_A):</value>
+  </data>
+  <data name="MotionAxisDynamicsMaxDecelerationCaption" xml:space="preserve">
+    <value>最大减速(_D):</value>
+  </data>
+  <data name="MotionAxisDynamicsMaxJerkCaption" xml:space="preserve">
+    <value>最大加速度(_J):</value>
+  </data>
+  <data name="MotionAxisDynamicsMaxVelocityCaption" xml:space="preserve">
+    <value>最大速度(_V):</value>
+  </data>
+  <data name="MotionAxisDynamicsStartStopVelocityCaption" xml:space="preserve">
+    <value>开始/停止速度(_S):</value>
+  </data>
+  <data name="MotionAxisEStopDecelerationCaption" xml:space="preserve">
+    <value>停止减速(_C):</value>
+  </data>
+  <data name="MotionAxisEStopJerkCaption" xml:space="preserve">
+    <value>停止加速度(_K):</value>
+  </data>
+  <data name="MotionAxisEStopVelocityCaption" xml:space="preserve">
+    <value>停止速度(_E):</value>
+  </data>
+  <data name="MotionAxisLimitsLowerSoftLimitCaption" xml:space="preserve">
+    <value>软限位下限(_W):</value>
+  </data>
+  <data name="MotionAxisLimitsUpperSoftLimitCaption" xml:space="preserve">
+    <value>软限位上限(_P):</value>
+  </data>
+  <data name="ValidatorInvalidRangeMessage" xml:space="preserve">
+    <value>{0} 的范围必须在 {1} 到 {2} {3} 之间</value>
+  </data>
+  <data name="MotionAxisMotorLoadInvalidPosUnitMessage" xml:space="preserve">
+    <value>用户定义的位置单位不能包含非 ASCII 字符。</value>
+  </data>
+  <data name="MotionAxisLimitsHardLimitsCaption" xml:space="preserve">
+    <value>硬限位</value>
+  </data>
+  <data name="MotionAxisLimitsHardStopCaption" xml:space="preserve">
+    <value>当达到硬限位(_H)时，请应用:</value>
+  </data>
+  <data name="MotionAxisLimitsLowerHardLimitActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_C):</value>
+  </data>
+  <data name="MotionAxisLimitsSoftLimitsCaption" xml:space="preserve">
+    <value>软限位</value>
+  </data>
+  <data name="MotionAxisLimitsUpperHardLimitActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_A):</value>
+  </data>
+  <data name="MotionAxisMotorLoadModifyRevolutionWarning" xml:space="preserve">
+    <value>修改电机转数参数可能导致轴失控。</value>
+  </data>
+  <data name="HomeDirectionMode_CCW" xml:space="preserve">
+    <value>负 </value>
+  </data>
+  <data name="HomeDirectionMode_CW" xml:space="preserve">
+    <value>正</value>
+  </data>
+  <data name="MotionAxisHomingAccelerationCaption" xml:space="preserve">
+    <value>原位加速(_A):</value>
+  </data>
+  <data name="MotionAxisHomingCreepVelocityCaption" xml:space="preserve">
+    <value>滑动速度(_C):</value>
+  </data>
+  <data name="MotionAxisHomingDecelerationCaption" xml:space="preserve">
+    <value>原位减速(_D):</value>
+  </data>
+  <data name="MotionAxisHomingDirectionCaption" xml:space="preserve">
+    <value>原位方向(_H):</value>
+  </data>
+  <data name="MotionAxisHomingHomeMarkerInputActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_L):</value>
+  </data>
+  <data name="MotionAxisHomingHomeMarkerInputCaption" xml:space="preserve">
+    <value>原位标记输入(_M)</value>
+  </data>
+  <data name="MotionAxisHomingHomeMarkerInputInputCaption" xml:space="preserve">
+    <value>输入(_I):</value>
+  </data>
+  <data name="MotionAxisHomingHomeOffsetCaption" xml:space="preserve">
+    <value>原位偏移(_O):</value>
+  </data>
+  <data name="MotionAxisHomingHomeSwitchInputActiveLevelCaption" xml:space="preserve">
+    <value>活动级别(_T):</value>
+  </data>
+  <data name="MotionAxisHomingHomeSwitchInputInputCaption" xml:space="preserve">
+    <value>输入:</value>
+  </data>
+  <data name="MotionAxisHomingJerkCaption" xml:space="preserve">
+    <value>原位加速度(_J):</value>
+  </data>
+  <data name="MotionAxisHomingVelocityCaption" xml:space="preserve">
+    <value>原位速度(_V):</value>
+  </data>
+  <data name="MotionAxisEmergencyStopProfile" xml:space="preserve">
+    <value>紧急停止配置</value>
+  </data>
+  <data name="MotionAxisForcedPtoHwStop" xml:space="preserve">
+    <value>强制 高速脉冲串控制伺服 硬件停止</value>
+  </data>
+  <data name="MotionAxisLimitsSoftLimitInfoLbl" xml:space="preserve">
+    <value>当达到软限位时，将应用紧急停止配置。</value>
+  </data>
+  <data name="MotionAxisEStopTypeCaption" xml:space="preserve">
+    <value>停止类型(_T):</value>
+  </data>
+  <data name="MotionAxisHomingCreepLegend" xml:space="preserve">
+    <value>滑动</value>
+  </data>
+  <data name="MotionAxisHomingHomeMarkerLegend" xml:space="preserve">
+    <value>原位标记</value>
+  </data>
+  <data name="MotionAxisHomingHomeSwitchLegend" xml:space="preserve">
+    <value>原位开关</value>
+  </data>
+  <data name="MotionAxisHomingStartHomeLegend" xml:space="preserve">
+    <value>启动原位</value>
+  </data>
+  <data name="MotionAxisHomingStopHomeLegend" xml:space="preserve">
+    <value>停止原位</value>
+  </data>
+  <data name="IPConfigInvalidTitleCaption" xml:space="preserve">
+    <value>因特网协议设置</value>
+  </data>
+  <data name="DF1DriverDF1ModeHDMaster" xml:space="preserve">
+    <value>HD 主站</value>
+  </data>
+  <data name="DF1DriverDF1ModeHDSlave" xml:space="preserve">
+    <value>HD 从站</value>
+  </data>
+  <data name="DF1DriverDF1ModePointToPoint" xml:space="preserve">
+    <value>DF1 全双工</value>
+  </data>
+  <data name="DF1DriverDF1ModeShutDown" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DF1DriverDF1ModeTitleCaption" xml:space="preserve">
+    <value>DF1 模式:</value>
+  </data>
+  <data name="TCPIPConfigChangeIPCaption" xml:space="preserve">
+    <value>检测到 IP 地址冲突。
+更改 IP 地址以更正错误。</value>
+  </data>
+  <data name="DeviceInfoDigitalIOExceedMessage" xml:space="preserve">
+    <value>当前配置的数字 I/O 为 {0}，超过数字 I/O 的最大数 {1}。必要时，请删除插件或扩展模块。</value>
+  </data>
+  <data name="ExpansionIOCatalogIDCaption" xml:space="preserve">
+    <value>扩展 IO 类别 ID</value>
+  </data>
+  <data name="ExpansionIOConfigNotContiguousMessage" xml:space="preserve">
+    <value>配置的扩展 I/O 不连续。</value>
+  </data>
+  <data name="ExpansionIOConfirmReplaceModuleMessage" xml:space="preserve">
+    <value>是否要替换现有扩展模块？</value>
+  </data>
+  <data name="ExpansionIOConfirmSlideMessage" xml:space="preserve">
+    <value>是否要删除空的模块占位符？</value>
+  </data>
+  <data name="ExpansionIONotSupportInSlotMessage" xml:space="preserve">
+    <value>{0} 在插槽 {1} 中不受支持。</value>
+  </data>
+  <data name="ExpansionIONumberofExpansionIOCaption" xml:space="preserve">
+    <value>扩展 IO 数量</value>
+  </data>
+  <data name="ExpansionIONumExceedMessage" xml:space="preserve">
+    <value>配置的模块数超过 {0}。</value>
+  </data>
+  <data name="PortDisabledTooltipCaption" xml:space="preserve">
+    <value>端口已禁用</value>
+  </data>
+  <data name="Micro800ConfigToolbarAxisMonitorBtnToolTip" xml:space="preserve">
+    <value>电机运动轴</value>
+  </data>
+  <data name="ConnectionConfigAxisMonitorCaption" xml:space="preserve">
+    <value>轴监视器(A)</value>
+  </data>
+  <data name="MotionAxisMonitorAxisHomedCaption" xml:space="preserve">
+    <value>轴已原位:</value>
+  </data>
+  <data name="MotionAxisMonitorAxisStateCaption" xml:space="preserve">
+    <value>轴状态:</value>
+  </data>
+  <data name="MotionAxisMonitorCommandPosCaption" xml:space="preserve">
+    <value>命令位置:</value>
+  </data>
+  <data name="MotionAxisMonitorCommandVelCaption" xml:space="preserve">
+    <value>命令速度:</value>
+  </data>
+  <data name="MotionAxisMonitorErrorDescCaption" xml:space="preserve">
+    <value>错误描述:</value>
+  </data>
+  <data name="MotionAxisMonitorMovementCaption" xml:space="preserve">
+    <value>移动:</value>
+  </data>
+  <data name="MotionAxisMonitorPositionVelocityCaption" xml:space="preserve">
+    <value>位置和速度</value>
+  </data>
+  <data name="MotionAxisMonitorTargetPositionCaption" xml:space="preserve">
+    <value>目标位置:</value>
+  </data>
+  <data name="MotionAxisMonitorTargetVelCaption" xml:space="preserve">
+    <value>目标速度:</value>
+  </data>
+  <data name="MotionAxisStatus_AcceleratingFlag" xml:space="preserve">
+    <value>加速</value>
+  </data>
+  <data name="MotionAxisStatus_ConstantVelocityFlag" xml:space="preserve">
+    <value>恒定速度</value>
+  </data>
+  <data name="MotionAxisStatus_DeceleratingFlag" xml:space="preserve">
+    <value>减速</value>
+  </data>
+  <data name="MotionAxisStatus_NotMovingFlag" xml:space="preserve">
+    <value>空闲</value>
+  </data>
+  <data name="MotionAxisStatus_State_ContMotion" xml:space="preserve">
+    <value>连续运动</value>
+  </data>
+  <data name="MotionAxisStatus_State_Disabled" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="MotionAxisStatus_State_DiscMotion" xml:space="preserve">
+    <value>离散运动</value>
+  </data>
+  <data name="MotionAxisStatus_State_ErrorStop" xml:space="preserve">
+    <value>错误停止</value>
+  </data>
+  <data name="MotionAxisStatus_State_Homing" xml:space="preserve">
+    <value>原位</value>
+  </data>
+  <data name="MotionAxisStatus_State_Standstill" xml:space="preserve">
+    <value>静止</value>
+  </data>
+  <data name="MotionAxisStatus_State_Stopping" xml:space="preserve">
+    <value>正在停机</value>
+  </data>
+  <data name="MotionAxisStatus_State_SyncMotion" xml:space="preserve">
+    <value>已同步运动</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_MECHAN" xml:space="preserve">
+    <value>由于检测到驱动器或机械问题，导致轴无法运转。
+
+检查驱动器和控制器之间的连接 (指示驱动器就绪和就位信号)，并确保驱动器运行正常。
+
+请使用 MC_Reset 功能块复位轴的状态。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_RESOURCE" xml:space="preserve">
+    <value>由于功能块所需的相关资源处于其他功能块的控制之下或者不可用，导致轴无法运转。
+
+确保功能块所需的轴或其相关资源可供使用。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+如果相同功能块的多个实例同时尝试控制轴，则检查并更正应用程序。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_ENGINE" xml:space="preserve">
+    <value>由于检测到运动引擎执行错误，导致轴无法运转。
+
+断电重启整个计算机，并将用户应用程序重新下载到控制器。
+
+如果故障仍然存在，请与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
+
+http://support.rockwellautomation.com/MySupport.asp.</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_HARD_LIMIT" xml:space="preserve">
+    <value>由于检测到硬限位错误，导致轴无法运转。
+
+
+请使用 MC_Reset 功能块复位轴的状态，然后朝相反方向将轴从硬限位开关中移开。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_LOG_LIMIT" xml:space="preserve">
+    <value>由于检测到 高速脉冲串控制伺服 累加器逻辑限制错误，或者由于执行功能块造成 高速脉冲串控制伺服 累加器逻辑限制错误，从而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+检查功能块的速度或目标位置设置。使用 MC_SetPosition 功能块调整轴坐标系统。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_PARAM" xml:space="preserve">
+    <value>由于功能块中设置的无效参数 (除速度、加速、减速或加速度之外) 而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+更正功能块中参数的设置，例如模式或位置。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_PROFILE" xml:space="preserve">
+    <value>由于功能块中定义的运动配置无效，从而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+更正功能块中的配置。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_RANGE" xml:space="preserve">
+    <value>由于功能块中设置的无效轴动态参数 (速度、加速、减速或加速度) 而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+在功能块中，更正与轴动态配置页面中的设置冲突的动态参数的设置。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_WRONG_STATE" xml:space="preserve">
+    <value>由于检测到不正确的轴状态，从而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的运动状态。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_SOFT_LIMIT" xml:space="preserve">
+    <value>由于检测到软限位错误，或者由于执行功能块造成软限位错误，从而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+检查功能块的速度或目标位置设置，或者调整软限位设置。</value>
+  </data>
+  <data name="MotionError_UnknownError" xml:space="preserve">
+    <value>未知错误</value>
+  </data>
+  <data name="NoCaption" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="YesCaption" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="PostBuild_Message_Footer" xml:space="preserve">
+    <value>------ 生成结束 ------</value>
+  </data>
+  <data name="PostBuild_Message_Header1" xml:space="preserve">
+    <value>-------------------- 生成后项目:控制器 --------------------</value>
+  </data>
+  <data name="PostBuild_Message_Header2" xml:space="preserve">
+    <value>-------------------- 生成后资源:{0} 配置: {1} --------------</value>
+  </data>
+  <data name="ProjectPostBuild_Message_Summary" xml:space="preserve">
+    <value>{0}: {1} 个错误，{2} 个警告</value>
+  </data>
+  <data name="MotionAxisInputConflictWarningMessage" xml:space="preserve">
+    <value>已经将 {0} 分配给多个输入: {1}</value>
+  </data>
+  <data name="MotionAxisUnassignedWarningMessage" xml:space="preserve">
+    <value>{0} 未分配。</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelWarningCurrentValue" xml:space="preserve">
+    <value>当前值</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelWarningNewValue" xml:space="preserve">
+    <value>新值</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelWarningProperty" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelHideWiringInfo" xml:space="preserve">
+    <value>隐藏布线信息</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelShowWiringInfo" xml:space="preserve">
+    <value>显示布线信息</value>
+  </data>
+  <data name="CopyCaption" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="CutCaption" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="PasteCaption" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="EthernetDisconnectFooterMessage" xml:space="preserve">
+    <value>
+是否要继续？</value>
+  </data>
+  <data name="MotionAxisLimitsLowerSoftLimitWarning" xml:space="preserve">
+    <value>软限位下限必须小于软限位上限。范围在 {0} 到 {1} {2} 之间</value>
+  </data>
+  <data name="MotionAxisLimitsUpperSoftLimitWarning" xml:space="preserve">
+    <value>软限位上限必须大于软限位下限。范围在 {0} 到 {1} {2} 之间</value>
+  </data>
+  <data name="MotionAxisLimitsWarningExclusive" xml:space="preserve">
+    <value>不含</value>
+  </data>
+  <data name="SecureMenu_ChangePasswordCaption" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="SecureMenu_ChangePasswordTipText" xml:space="preserve">
+    <value>更改用于保护控制器的密码。</value>
+  </data>
+  <data name="SecureMenu_ClearPasswordCaption" xml:space="preserve">
+    <value>清除密码</value>
+  </data>
+  <data name="SecureMenu_ClearPasswordTipText" xml:space="preserve">
+    <value>删除控制器上的密码保护。</value>
+  </data>
+  <data name="SecureMenu_SetPasswordCaption" xml:space="preserve">
+    <value>设置密码</value>
+  </data>
+  <data name="SecureMenu_SetPasswordTipText" xml:space="preserve">
+    <value>输入密码，用该密码为控制器提供密码保护。</value>
+  </data>
+  <data name="MotionDedicatedIOConflictErrorMessage" xml:space="preserve">
+    <value>已经将 {0} 分配给专用运动信号 {1}，因此不能分配给 {2}</value>
+  </data>
+  <data name="MotionNonReusableIOConflictErrorMessage" xml:space="preserve">
+    <value>{0} 不能分配给多个输入: {1}</value>
+  </data>
+  <data name="MotionAxisOutputConflictWarningMessage" xml:space="preserve">
+    <value>已经将 {0} 分配给多个输出: {1}</value>
+  </data>
+  <data name="StartupFaultStartupOptionsCaption" xml:space="preserve">
+    <value>启动选项</value>
+  </data>
+  <data name="DeviceInfoTreeExpansionAvailableCaption" xml:space="preserve">
+    <value>&lt; 可用 &gt;</value>
+  </data>
+  <data name="MotionAxisAbsoluteVelocity" xml:space="preserve">
+    <value>绝对速度</value>
+  </data>
+  <data name="MotionAxisDisplacement" xml:space="preserve">
+    <value>位移</value>
+  </data>
+  <data name="MotionAxisTime" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="MotionAxisVelocity" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_AXISNUM" xml:space="preserve">
+    <value>运动内部故障，错误 ID = 0x04。
+
+与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
+
+http://support.rockwellautomation.com/MySupport.asp</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_NOPOWER" xml:space="preserve">
+    <value>轴未接通电源。
+
+使用 MC_Power 功能块为轴接通电源。
+
+请使用 MC_Reset 功能块复位轴的状态。</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_VELOCITY" xml:space="preserve">
+    <value>由于功能块中请求的运动配置与当前轴速度冲突，从而导致轴无法运转。
+
+可能的原因:
+1. 功能块要求轴在移动时反向进行。
+2. 当前速度对于请求的运动配置过低或过高。
+
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+当轴速度与请求的运动配置兼容时，更正功能块中的运动配置或重新执行功能块。</value>
+  </data>
+  <data name="MotionError_MC_FB_PARAM_MODIFIED" xml:space="preserve">
+    <value>运动内部警告，警告 ID = 0x80。
+
+与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
+
+http://support.rockwellautomation.com/MySupport.asp.</value>
+  </data>
+  <data name="MBMappingFailedToLoadMappingItemMessage" xml:space="preserve">
+    <value>{0}\r\n无法加载 modbus 映射项:变量名:{1}，地址:{2}</value>
+  </data>
+  <data name="ModbusSLUnitAddressInvalidMessage" xml:space="preserve">
+    <value>单元地址的范围必须在{0}至{1}之间</value>
+  </data>
+  <data name="LCDPushButtonKeyReadEnable" xml:space="preserve">
+    <value>启用以读取按钮键</value>
+  </data>
+  <data name="StartupFaultLCDPButtonCheckBoxLabel" xml:space="preserve">
+    <value>启用以读取按钮键</value>
+  </data>
+  <data name="TCPIPConfigGatewayInvalid" xml:space="preserve">
+    <value>{0}.网关地址。
+    </value>
+  </data>
+  <data name="TCPIPConfigIPInvalid" xml:space="preserve">
+    <value>{0}.IP地址
+    </value>
+  </data>
+  <data name="TCPIPConfigSubnetInvalid" xml:space="preserve">
+    <value>{0}.子网掩码
+    </value>
+  </data>
+  <data name="TCPIPConigVerifyHeader" xml:space="preserve">
+    <value>以下 IP 配置无效:
+    </value>
+  </data>
+  <data name="TCPIPGatewayInvalidTooltipMessage" xml:space="preserve">
+    <value>网关地址无效</value>
+  </data>
+  <data name="TCPIPIPInvalidTooltipMessage" xml:space="preserve">
+    <value>IP 地址无效</value>
+  </data>
+  <data name="TCPIPsubnetInvalidTooltipMessage" xml:space="preserve">
+    <value>子网掩码无效</value>
+  </data>
+  <data name="MotionError_MC_FB_ERR_NOT_HOMED" xml:space="preserve">
+    <value>由于轴未原位，从而导致轴无法运转。  
+
+请使用 MC_Reset 功能块复位轴的状态。
+
+使用 MC_Home 功能块针对轴执行原位。</value>
+  </data>
+  <data name="MotionAxisCaption" xml:space="preserve">
+    <value>轴</value>
+  </data>
+  <data name="MotionAxisNormalOperationProfile" xml:space="preserve">
+    <value>正常操作配置</value>
+  </data>
+  <data name="DF1ACKTimeOutRangeMessage" xml:space="preserve">
+    <value>ACK 超时必须在 {0} 到 {1} 之间</value>
+  </data>
+  <data name="DF1ENQRetriesOutRangeMessage" xml:space="preserve">
+    <value>ENQ 重试必须在 {0} 到 {1} 之间</value>
+  </data>
+  <data name="DF1NAKRetiresOutRangeMessage" xml:space="preserve">
+    <value>NAK重试必须在 {0} 到 {1} 之间</value>
+  </data>
+  <data name="DF1RTSOffDelayOutRangeMessage" xml:space="preserve">
+    <value>RTS 关闭延时必须在 {0} 到 {1} 之间。</value>
+  </data>
+  <data name="DF1RTSSendDelayOutRangeMessage" xml:space="preserve">
+    <value>RTS 发送延迟必须在 {0} 到 {1} 之间。</value>
+  </data>
+  <data name="DF1StationAddressOutRangeMessage" xml:space="preserve">
+    <value>工作站地址必须在 {0} 到 {1} 之间。</value>
+  </data>
+  <data name="DF1TransmitRetiresOutRangeMessage" xml:space="preserve">
+    <value>传输重试必须在 {0} 到 {1} 之间</value>
+  </data>
+  <data name="MBBroadcastPauseOutRangeMessage" xml:space="preserve">
+    <value>广播计时器必须在 {0} 到 {1} 之间。</value>
+  </data>
+  <data name="MBInterCharTimeoutOutRangeMessage" xml:space="preserve">
+    <value>字符间超时必须在 {0} 到 {1} 之间。</value>
+  </data>
+  <data name="MBResponseTimerOutRangeMessage" xml:space="preserve">
+    <value>响应计时器必须在 {0} 到 {1} 之间。</value>
+  </data>
+  <data name="MBRTSPostDelayOutRangeMessage" xml:space="preserve">
+    <value>RTS 后迟延必须在 {0} 到 {1} {2} 之间。</value>
+  </data>
+  <data name="MBRTSPreDelayOutRangeMessage" xml:space="preserve">
+    <value>RTS 预延迟必须在 {0} 到 {1} {2} 之间。</value>
+  </data>
+  <data name="ControllerUserDefinedNameEmptyWarning" xml:space="preserve">
+    <value>控制器名称不能为空</value>
+  </data>
+  <data name="MemoryCtrlInfoMsgCaptionP1" xml:space="preserve">
+    <value>内存使用量仅更新于 </value>
+  </data>
+  <data name="ASCIIDriverCharsInputInvalidtMessage" xml:space="preserve">
+    <value>输入一个十六进制数值，以 0x 开头，后跟
+一个或两个十六进制数字，如 0xa 或 0x0a。</value>
+  </data>
+  <data name="AdvancedDialogButtonClose" xml:space="preserve">
+    <value>关闭(C)</value>
+  </data>
+  <data name="AdvancedDialogButtonRetry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="PreBuild_Message_Header2" xml:space="preserve">
+    <value>-------------------- 预构建资源:{0} 配置: {1} --------------</value>
+  </data>
+  <data name="PreDownload_Message_Header1" xml:space="preserve">
+    <value>-------------------- 预下载项目:控制器 --------------------</value>
+  </data>
+  <data name="MemoryModuleCompatibiltyUnknown" xml:space="preserve">
+    <value>与硬件和固件兼容，未知</value>
+  </data>
+  <data name="EthernetCancleBtnCaption" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ControllerCtrlConnectionLostMessage" xml:space="preserve">
+    <value>连接丢失。</value>
+  </data>
+  <data name="SerialPortDataBitsNoAccessKeyCaption" xml:space="preserve">
+    <value>数据位:</value>
+  </data>
+  <data name="SerialPortCommonSettingsCaption" xml:space="preserve">
+    <value>通用设置</value>
+  </data>
+  <data name="SerialPortControlLineNoAccessKeyCaption" xml:space="preserve">
+    <value>介质:</value>
+  </data>
+  <data name="ModuleCategoryAnalogCaption" xml:space="preserve">
+    <value>模拟</value>
+  </data>
+  <data name="ModuleCategoryCommunicationCaption" xml:space="preserve">
+    <value>通信(M)</value>
+  </data>
+  <data name="ModuleCategoryDigitalCaption" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="ModuleCategorySpecialtyCaption" xml:space="preserve">
+    <value>特殊</value>
+  </data>
+  <data name="UPM2080Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="UPMUnsupportedModuleMessage" xml:space="preserve">
+    <value>无法配置未知模块。</value>
+  </data>
+  <data name="FaultControllerLogFailToSaveWithNoPermission" xml:space="preserve">
+    <value>您没有保存在该位置的权限。</value>
+  </data>
+  <data name="ControllerChangeWarningCaption" xml:space="preserve">
+    <value>更改控制器类型将修改和删除不适用于新的目标控制器的控制器配置，并使其失效。</value>
+  </data>
+  <data name="ControllerChangeProjectBackupCaption" xml:space="preserve">
+    <value>当前项目将在项目转换开始后自动保存并备份</value>
+  </data>
+  <data name="ControllerChangeConfirmationTitle" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="ControllerChangeControllerNameLabel" xml:space="preserve">
+    <value>控制器名称(_N):</value>
+  </data>
+  <data name="ControllerChangeCurrentControllerLabel" xml:space="preserve">
+    <value>控制器类型(_T):</value>
+  </data>
+  <data name="ControllerChangeHideDetailLabel" xml:space="preserve">
+    <value>隐藏详细信息比较(_D)</value>
+  </data>
+  <data name="ControllerChangeProjectNameEmptyValidationError" xml:space="preserve">
+    <value>目标项目名称不得为空</value>
+  </data>
+  <data name="ControllerChangeProjectNameLabel" xml:space="preserve">
+    <value>项目名称(_P):</value>
+  </data>
+  <data name="ControllerChangeProjectNameSpecialCharactersValidationError" xml:space="preserve">
+    <value>目标项目名称不得包含以下任何字符 \/:*?"&lt;&gt;|</value>
+  </data>
+  <data name="ControllerChangeProjectPresentValidationError" xml:space="preserve">
+    <value>目标位置已经存在具有相同项目名称的文件或文件夹。</value>
+  </data>
+  <data name="ControllerChangeProjectVersionLabel" xml:space="preserve">
+    <value>控制器项目版本:</value>
+  </data>
+  <data name="ControllerChangeSameProjectNameValidationError" xml:space="preserve">
+    <value>目标项目名称不得与当前项目名称相同</value>
+  </data>
+  <data name="ControllerChangeShowDetailLabel" xml:space="preserve">
+    <value>显示详细信息比较(_D)</value>
+  </data>
+  <data name="ControllerChangeTargetControllerEmptyValidationError" xml:space="preserve">
+    <value>目标控制器名称不得为空</value>
+  </data>
+  <data name="ControllerChangeTargetControllerSpacesValidationError" xml:space="preserve">
+    <value>目标控制器名称不得包含空格</value>
+  </data>
+  <data name="ControllerChangeCancelButtonText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ControllerChangeHelpButtonText" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="ControllerChangeOKButtonText" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ControllerChangeFeatureExpansionIO" xml:space="preserve">
+    <value>扩展 I/O</value>
+  </data>
+  <data name="ControllerChangeFeatureFamily" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="ControllerChangeFeatureHSC" xml:space="preserve">
+    <value>高速计数器</value>
+  </data>
+  <data name="ControllerChangeFeatureInput" xml:space="preserve">
+    <value>嵌入式输入</value>
+  </data>
+  <data name="ControllerChangeFeatureMaximumDigitalIO" xml:space="preserve">
+    <value>最大数字 I/O</value>
+  </data>
+  <data name="ControllerChangeFeatureMemory" xml:space="preserve">
+    <value>内存</value>
+  </data>
+  <data name="ControllerChangeFeatureMotion" xml:space="preserve">
+    <value>高速脉冲串控制伺服 运动</value>
+  </data>
+  <data name="ControllerChangeFeatureOutput" xml:space="preserve">
+    <value>嵌入式输出</value>
+  </data>
+  <data name="ControllerChangeFeaturePlugInModule" xml:space="preserve">
+    <value>插件模块</value>
+  </data>
+  <data name="ControllerChangeCommunicationFeatureLessCommWarning" xml:space="preserve">
+    <value>可用通信端口已更改。请根据需要更新程序。</value>
+  </data>
+  <data name="ControllerChangeCommunicationFeatureWarning" xml:space="preserve">
+    <value>通信不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeEmbeddedIOFeatureLessIOWarning" xml:space="preserve">
+    <value>目标控制器支持的嵌入式 I/O 数量较少。</value>
+  </data>
+  <data name="ControllerChangeEthernetCaption" xml:space="preserve">
+    <value>以太网</value>
+  </data>
+  <data name="ControllerChangeExpansionIOFeatureLessModuleWarning" xml:space="preserve">
+    <value>目标控制器支持的扩展模块量较少。请根据需要更新程序。</value>
+  </data>
+  <data name="ControllerChangeExpansionIOFeatureWarning" xml:space="preserve">
+    <value>扩展模块功能不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeFeatureCommunication" xml:space="preserve">
+    <value>通信(M)</value>
+  </data>
+  <data name="ControllerChangeHSCFeatureLessNumberWarning" xml:space="preserve">
+    <value>目标控制器支持的高速计数器 (HSC) 量较少。请根据需要更新程序。</value>
+  </data>
+  <data name="ControllerChangeHSCFeatureWarning" xml:space="preserve">
+    <value>高速计数器不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeInputFeatureLessInputWarning" xml:space="preserve">
+    <value>目标控制器支持的嵌入式输入量较少。请更新 I/O 布线。</value>
+  </data>
+  <data name="ControllerChangeInputFeatureWarning" xml:space="preserve">
+    <value>输入不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeMemoryFeatureWarning" xml:space="preserve">
+    <value>目标控制器尺寸较小。您可能希望删除目标项目中的变量或程序。</value>
+  </data>
+  <data name="ControllerChangeMotionFeatureLessAxisWarning" xml:space="preserve">
+    <value>目标控制器支持的运动 高速脉冲串控制伺服 轴数量较少。请根据需要更新程序。</value>
+  </data>
+  <data name="ControllerChangeMotionFeatureWarning" xml:space="preserve">
+    <value>运动 高速脉冲串控制伺服 不受支持，并且其配置将被放弃。</value>
+  </data>
+  <data name="ControllerChangeOutputFeatureLessOutputWarning" xml:space="preserve">
+    <value>目标控制器支持的嵌入式输出量较少。请更新 I/O 布线。</value>
+  </data>
+  <data name="ControllerChangeOutputFeatureWarning" xml:space="preserve">
+    <value>输出不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangePlugInModuleFeatureLessModulesWarning" xml:space="preserve">
+    <value>目标控制器支持的插件模块量较少。请根据需要更新程序。</value>
+  </data>
+  <data name="ControllerChangePlugInModuleFeatureWarning" xml:space="preserve">
+    <value>插件模块不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangePowerSupplyFeatureWarning" xml:space="preserve">
+    <value>需要更改电源。</value>
+  </data>
+  <data name="ControllerChangeProjectConversionWarningMessage" xml:space="preserve">
+    <value>是否确定要将当前控制器升级到 </value>
+  </data>
+  <data name="ControllerChangeCurrentLabel" xml:space="preserve">
+    <value>当前</value>
+  </data>
+  <data name="ControllerChangeTargetLabel" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="ControllerChangeProjectConversionLabel" xml:space="preserve">
+    <value>控制器更改</value>
+  </data>
+  <data name="ControllerChangeLogCloseProjectStatus" xml:space="preserve">
+    <value>正在结束项目: </value>
+  </data>
+  <data name="ControllerChangeLogControllerTypeMessage" xml:space="preserve">
+    <value>正在更改控制器类型: {0} 至 {1}</value>
+  </data>
+  <data name="ControllerChangeLogEndOfConversionMessage" xml:space="preserve">
+    <value>---------- 项目转换结束 ----------</value>
+  </data>
+  <data name="ControllerChangeLogErrorText" xml:space="preserve">
+    <value>错误: </value>
+  </data>
+  <data name="ControllerChangeLogFileMessage" xml:space="preserve">
+    <value>日志文件已写入</value>
+  </data>
+  <data name="ControllerChangeLogFileName" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="ControllerChangeLogImportingControllerText" xml:space="preserve">
+    <value>---------- 正在导入控制器 ----------</value>
+  </data>
+  <data name="ControllerChangeLogImportResult" xml:space="preserve">
+    <value>导入控制器已完成 -- {0} 个错误，{1} 个警告</value>
+  </data>
+  <data name="ControllerChangeLogNewProjectName" xml:space="preserve">
+    <value>---------- 控制器更改已启动: {0} ----------</value>
+  </data>
+  <data name="ControllerChangeLogNewProjectStatus" xml:space="preserve">
+    <value>使用控制器创建新项目: </value>
+  </data>
+  <data name="ControllerChangeLogProjectFileSaveMessage" xml:space="preserve">
+    <value>源项目已保存在 </value>
+  </data>
+  <data name="ControllerChangeLogResultMessage" xml:space="preserve">
+    <value>========== 控制器更改: {0} 次成功，{1} 次失败 ==========</value>
+  </data>
+  <data name="ControllerChangeLogSaveConfigurationStatus" xml:space="preserve">
+    <value>保存源项目配置</value>
+  </data>
+  <data name="ControllerChangeLogSuccessStatus" xml:space="preserve">
+    <value>控制器更改成功。</value>
+  </data>
+  <data name="ControllerChangeLogWarningText" xml:space="preserve">
+    <value>警告: </value>
+  </data>
+  <data name="ControllerChangeLogImportingDriveResultText" xml:space="preserve">
+    <value>导入驱动器已完成 -- 0 个错误，0 个警告</value>
+  </data>
+  <data name="ControllerChangeLogImportingDriveText" xml:space="preserve">
+    <value>---------- 正在导入驱动器 ----------</value>
+  </data>
+  <data name="ControllerChangeLogImportingHMIResultText" xml:space="preserve">
+    <value>导入图形终端已完成 -- 0 个错误，0 个警告</value>
+  </data>
+  <data name="ControllerChangeLogImportingHMIText" xml:space="preserve">
+    <value>---------- 正在导入图形终端 ----------</value>
+  </data>
+  <data name="ControllerChangeImportConfigMessage" xml:space="preserve">
+    <value>正在导入控制器配置...</value>
+  </data>
+  <data name="ControllerChangeLogImportingDriveFailedText" xml:space="preserve">
+    <value>---------- 导入驱动器失败 ----------</value>
+  </data>
+  <data name="ControllerChangeLogImportingPVCFailedText" xml:space="preserve">
+    <value>---------- 导入图形终端失败 ----------</value>
+  </data>
+  <data name="ControllerChangeChangePTOWarningMessag" xml:space="preserve">
+    <value>高速脉冲串控制伺服 通道 EM_{0} 无效。将 {1} 分配给 EM_{2}。布线已更改。</value>
+  </data>
+  <data name="ControllerChangeDeleteAxisWarningMessage" xml:space="preserve">
+    <value>目标控制器支持的运动 高速脉冲串控制伺服 轴数量较少。正在删除 {0}。</value>
+  </data>
+  <data name="ControllerChangeDeleteEmbeddedIOWarningMessage" xml:space="preserve">
+    <value>目标控制器支持的嵌入式 I/O 数量较少。正在删除嵌入式输入 {0}-{1} 的配置。</value>
+  </data>
+  <data name="ControllerChangeInvalidInputFilterWarningMessage" xml:space="preserve">
+    <value>嵌入式 I/O - 输入筛选器: {0}-{1} 的值超出范围。正在将输入筛选器更改为其默认值。</value>
+  </data>
+  <data name="ControllerChangeInfoInterruptTypeNotSupported" xml:space="preserve">
+    <value>不支持 {0} 中断类型，且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeWarningInterruptTypeSmaller" xml:space="preserve">
+    <value>不支持 {0} 中断类型，且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeErrorModbusFileWrite" xml:space="preserve">
+    <value>无法复制 Modbus 配置文件。请确保您对文件夹 {0} 具有写入访问权限</value>
+  </data>
+  <data name="ControllerChangeExpansionIOFeatureDeleteModuleWarning" xml:space="preserve">
+    <value>目标控制器支持的扩展模块量较少。插槽 {1} 中的 {0} 已删除。</value>
+  </data>
+  <data name="ControllerChangeExpansionIOFeatureModuleNotSupportWarning" xml:space="preserve">
+    <value>不支持插槽 {1} 上的扩展模块 {0}，其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangePlugInModuleFeatureDeleteModuleWarning" xml:space="preserve">
+    <value>目标控制器支持的插件模块量较少。请删除插槽 {1} 上的 {0}。</value>
+  </data>
+  <data name="ControllerChangeExceptionErrorMessage" xml:space="preserve">
+    <value>项目转换失败。如果问题仍然存在，请将日志文件发送给技术支持代表。</value>
+  </data>
+  <data name="ControllerChangeControllerVersionText" xml:space="preserve">
+    <value>(版本 {0})</value>
+  </data>
+  <data name="ControllerChangeTitle" xml:space="preserve">
+    <value>控制器更改</value>
+  </data>
+  <data name="DefaultNewFolderReadModeMessage" xml:space="preserve">
+    <value>CCW 处于读取模式。</value>
+  </data>
+  <data name="DefaultNewFolderWriteAccessMessage" xml:space="preserve">
+    <value>确保该文件夹存在且具有写入访问权限</value>
+  </data>
+  <data name="ControllerChangeControllerNameSpecialCharactersValidationError1" xml:space="preserve">
+    <value>目标控制器名称不得包含以下任何字符 \/:*?"&lt;&gt;|</value>
+  </data>
+  <data name="ControllerChangeTargetControllerSameNameError" xml:space="preserve">
+    <value>控制器名称不得与驱动器或图形终端名称相同。</value>
+  </data>
+  <data name="DefaultNewFolderChangePathMessage" xml:space="preserve">
+    <value>无法在网络路径上新建项目: {0} 
+将 CCW 默认文件夹首选项设置为本地驱动器。</value>
+  </data>
+  <data name="DefaultNewFolderOnNetworkMessage" xml:space="preserve">
+    <value>项目默认文件夹设置在网络驱动器上。</value>
+  </data>
+  <data name="ControllerChangeLogImportingControllerFailedText" xml:space="preserve">
+    <value>---------- 导入控制器失败 ----------</value>
+  </data>
+  <data name="ControllerChangeLogImportingControllerResultText" xml:space="preserve">
+    <value>导入控制器已完成 -- 0 个错误，0 个警告</value>
+  </data>
+  <data name="ControllerChangeLogImportingProjectMessage" xml:space="preserve">
+    <value>---------- 正在导入项目 ----------</value>
+  </data>
+  <data name="ControllerChangeLogCreateNewSolution" xml:space="preserve">
+    <value>---------- 创建新的解决方案: {0} ----------</value>
+  </data>
+  <data name="ControllerChangeLogCreateNewSolutionFailed" xml:space="preserve">
+    <value>---------- 创建新的解决方案失败 ----------</value>
+  </data>
+  <data name="ControllerChangeLogCreateNewSolutionSuccess" xml:space="preserve">
+    <value>创建新的解决方案已完成 -- 0 个错误，0 个警告</value>
+  </data>
+  <data name="ControllerChangeLogImportingProjectFailedText" xml:space="preserve">
+    <value>---------- 导入项目失败 ----------</value>
+  </data>
+  <data name="ControllerChangeLogImportingProjectSuccessText" xml:space="preserve">
+    <value>导入项目已完成 -- 0 个错误，0 个警告</value>
+  </data>
+  <data name="ControllerChangeLogImportingProjectText" xml:space="preserve">
+    <value>---------- 正在导入项目 : {0} ----------</value>
+  </data>
+  <data name="EmbeddedIOInputCalibrationGainError" xml:space="preserve">
+    <value>增益必须在 {0} 至 {1} 之间</value>
+  </data>
+  <data name="EmbeddedIOInputCalibrationOffsetError" xml:space="preserve">
+    <value>偏移量必须在 {0} 至 {1} 之间</value>
+  </data>
+  <data name="InputDebounceFilter__default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="EmbeddedIO810AnalogInputLabelText" xml:space="preserve">
+    <value>模拟输入</value>
+  </data>
+  <data name="EmbeddedIO810DigitalInputLabelText" xml:space="preserve">
+    <value>数字输入</value>
+  </data>
+  <data name="EmbeddedIOCaption" xml:space="preserve">
+    <value>嵌入式 I/O</value>
+  </data>
+  <data name="InterruptDeleteCaption" xml:space="preserve">
+    <value>删除(_D)</value>
+  </data>
+  <data name="EmbeddedIOEnableLatchHeader" xml:space="preserve">
+    <value>启用锁存</value>
+  </data>
+  <data name="InterruptConfigureButtonCaption" xml:space="preserve">
+    <value>配置(_C)</value>
+  </data>
+  <data name="ComponentControllerCaption" xml:space="preserve">
+    <value>Micro800 控制器</value>
+  </data>
+  <data name="ControllerChangeMultipleInstancesErrorMessage" xml:space="preserve">
+    <value>当多个 CCW 实例同时运行时，无法执行控制器更改。</value>
+  </data>
+  <data name="PlugInConfirmReplaceModuleMessage" xml:space="preserve">
+    <value>是否要替换现有插件模块？</value>
+  </data>
+  <data name="PlugInNotSupportInSlotMessage" xml:space="preserve">
+    <value>{0} 在插槽 {1} 中不受支持。</value>
+  </data>
+  <data name="ControllerChangeUPMFeatureModuleNotSupportWarning" xml:space="preserve">
+    <value>不支持插槽 {0} 上的插件模块，其配置将被丢弃。</value>
+  </data>
+  <data name="UPConfigPluginRevisionCaption" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="UPConfigPluginVenderIDCaption" xml:space="preserve">
+    <value>供应商 ID</value>
+  </data>
+  <data name="ModuleInstanceCountExceed" xml:space="preserve">
+    <value>仅可以配置 {0} {1}。</value>
+  </data>
+  <data name="ModuleSlotNotValid" xml:space="preserve">
+    <value>{0}在插槽{1}上无效。</value>
+  </data>
+  <data name="EmbeddedIOInputFilterError" xml:space="preserve">
+    <value>“输入去抖筛选器”值必须在 {0} 至 {1} 之间</value>
+  </data>
+  <data name="EmbeddedIOGainLabelText" xml:space="preserve">
+    <value>增益和偏移</value>
+  </data>
+  <data name="DeviceInfoTreeRemoteLCDCaption" xml:space="preserve">
+    <value>远程 LCD</value>
+  </data>
+  <data name="EmbeddedIOInputLabelText" xml:space="preserve">
+    <value>输入筛选器</value>
+  </data>
+  <data name="EmbeddedIOOutputCaption" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="RemoteLCD_Type_Type_2080_REMLCDC" xml:space="preserve">
+    <value>2080 远程 LCD</value>
+  </data>
+  <data name="RemoteLCD_Type_Type_NotConfigured" xml:space="preserve">
+    <value>未配置</value>
+  </data>
+  <data name="RemoteLCD_BacklightColor_BLUE" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="RemoteLCD_BacklightColor_GREEN" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="RemoteLCD_BacklightColor_RED" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="RemoteLCD_BacklightColor_WHITE" xml:space="preserve">
+    <value>白色</value>
+  </data>
+  <data name="RemoteLCD_DisplayMode_NORMAL" xml:space="preserve">
+    <value>正常显示</value>
+  </data>
+  <data name="RemoteLCD_DisplayMode_USER" xml:space="preserve">
+    <value>用户显示</value>
+  </data>
+  <data name="RemoteLCD_BacklightMode_ALWAYS_OFF" xml:space="preserve">
+    <value>始终关闭</value>
+  </data>
+  <data name="RemoteLCD_BacklightMode_ALWAYS_ON" xml:space="preserve">
+    <value>始终打开</value>
+  </data>
+  <data name="RemoteLCD_BacklightMode_ON_FOR_TIME" xml:space="preserve">
+    <value>暂时打开</value>
+  </data>
+  <data name="RemoteLCD_ConnectionStatus_CONNECTED" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="RemoteLCD_ConnectionStatus_NOT_PRESENT" xml:space="preserve">
+    <value>不存在</value>
+  </data>
+  <data name="RemoteLCD_ConnectionStatus_PRESENT_NOT_CONNECTED" xml:space="preserve">
+    <value>未连接</value>
+  </data>
+  <data name="RemoteLCD_CBM_FONT_Default" xml:space="preserve">
+    <value>默认值(大 - 8x6 像素)</value>
+  </data>
+  <data name="RemoteLCD_CBM_FONT_Large" xml:space="preserve">
+    <value>大(8x16 像素)</value>
+  </data>
+  <data name="RemoteLCD_CBM_FONT_Small" xml:space="preserve">
+    <value>小(8x8 像素)</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__default_AC" xml:space="preserve">
+    <value>默认值(AC 8ms)</value>
+  </data>
+  <data name="RemoteLCD_CBM_FONT_ExtraLarge" xml:space="preserve">
+    <value>超大(16x16 像素)</value>
+  </data>
+  <data name="DeviceInfoTreeSDCardCaption" xml:space="preserve">
+    <value>内存卡</value>
+  </data>
+  <data name="ControllerIsMicro820Caption" xml:space="preserve">
+    <value>为 Micro820 控制器</value>
+  </data>
+  <data name="PresentationAndUIActionCaption" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="SDCardCaption" xml:space="preserve">
+    <value>内存卡</value>
+  </data>
+  <data name="SDCardMemBackupFaultLogConfirmationMessage" xml:space="preserve">
+    <value>是否要将故障日志备份到 {0}？</value>
+  </data>
+  <data name="SDCardMemBackupWholeConfirmationMessage" xml:space="preserve">
+    <value>是否将控制器项目备份到 {0}?</value>
+  </data>
+  <data name="SDCardMemRestoreFaultLogConfirmationMessage" xml:space="preserve">
+    <value>是否要将故障日志从 {0} 备份到控制器？</value>
+  </data>
+  <data name="SDCardMemRestorePartialConfirmationMessage" xml:space="preserve">
+    <value>是否要从 {0} 还原部分内容到控制器？</value>
+  </data>
+  <data name="SDCardMemRestoreWholeConfirmationMessage" xml:space="preserve">
+    <value>是否将项目从 {0} 还原到控制器?</value>
+  </data>
+  <data name="SDCardMemRestoreWholeDisconnectionMessage" xml:space="preserve">
+    <value>是否将项目从 {0} 还原到控制器，然后从控制器断开连接?</value>
+  </data>
+  <data name="SDCardAvailable" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="SDCardAvailableFalseCaption" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="SDCardAvailableTrueCaption" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="RemoteLCD_BootMessageSizeError" xml:space="preserve">
+    <value>启动消息大小不得超过 {0}</value>
+  </data>
+  <data name="BackLightTimeValidationError" xml:space="preserve">
+    <value>背光时间必须在 {0} 至 {1} 秒之间</value>
+  </data>
+  <data name="RemoteLCD_ContrastValidationError" xml:space="preserve">
+    <value>远程 LCD 对比度必须在 {0} 至 {1} 之间</value>
+  </data>
+  <data name="RemoteLCD_BootMessageTimeError" xml:space="preserve">
+    <value>启动消息显示时间必须在 {0} 至 {1} 秒之间。</value>
+  </data>
+  <data name="RemoteLCD_BootMessage_MaxLength" xml:space="preserve">
+    <value>{0} 个字符</value>
+  </data>
+  <data name="RemoteLCD_Boot_Message_Caption" xml:space="preserve">
+    <value>消息(_A):</value>
+  </data>
+  <data name="RemoteLCD_Boot_Message_Display_Font" xml:space="preserve">
+    <value>显示时间(_D):</value>
+  </data>
+  <data name="RemoteLCD_Boot_Message_Font" xml:space="preserve">
+    <value>字体大小(_F):</value>
+  </data>
+  <data name="RemoteLCD_Connected_Message" xml:space="preserve">
+    <value>远程 LCD 已连接</value>
+  </data>
+  <data name="RemoteLCD_LoadSerial_Message" xml:space="preserve">
+    <value>配置(_C)</value>
+  </data>
+  <data name="RemoteLCD_PushButton_Message" xml:space="preserve">
+    <value>启用按钮键读取(_E)</value>
+  </data>
+  <data name="RemoteLCD_BootMessage_Caption" xml:space="preserve">
+    <value>启动消息</value>
+  </data>
+  <data name="RemoteLCD_HardWareSettings_Message" xml:space="preserve">
+    <value>硬件设置</value>
+  </data>
+  <data name="RemoteLCD_Load_Connected_Message" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="RemoteLCD_MaxSize_Message" xml:space="preserve">
+    <value>最大大小:</value>
+  </data>
+  <data name="RemoteLCD_NotConnected_Message" xml:space="preserve">
+    <value>已断开连接</value>
+  </data>
+  <data name="RemoteLCD_Status_Message" xml:space="preserve">
+    <value>状态: {0}</value>
+  </data>
+  <data name="SerialPort_RemoteLCD_Message" xml:space="preserve">
+    <value>配置为覆盖串行端口参数。</value>
+  </data>
+  <data name="MemoryCardInformationMessage" xml:space="preserve">
+    <value>内存卡中的项目详细信息仅在连接到控制器时可用。</value>
+  </data>
+  <data name="DeviceInfoTreeDatalogCaption" xml:space="preserve">
+    <value>数据日志</value>
+  </data>
+  <data name="DeviceInfoTreeRecipeCaption" xml:space="preserve">
+    <value>配方</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__default_DC" xml:space="preserve">
+    <value>默认值(DC 8ms)</value>
+  </data>
+  <data name="MemoryCardNotPresentInformationMessage" xml:space="preserve">
+    <value>内存卡不存在。</value>
+  </data>
+  <data name="MemoryCardProjectInMemoryCaption" xml:space="preserve">
+    <value>{0} 中的项目</value>
+  </data>
+  <data name="MemoryCardStartupSettingsCaption" xml:space="preserve">
+    <value>启动设置</value>
+  </data>
+  <data name="MemoryCardPasswordMatch" xml:space="preserve">
+    <value>匹配</value>
+  </data>
+  <data name="MemoryCardPasswordMismatch" xml:space="preserve">
+    <value>不匹配</value>
+  </data>
+  <data name="DataLogAddButton" xml:space="preserve">
+    <value>添加数据集(_A)</value>
+  </data>
+  <data name="DataLogAddVariableButton" xml:space="preserve">
+    <value>添加变量(_V)</value>
+  </data>
+  <data name="DataLogDataCopyCommand" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="DataLogDataCutCommand" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="DataLogDataPasteCommand" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="DataLogDataSetList" xml:space="preserve">
+    <value>数据集列表</value>
+  </data>
+  <data name="DataLogDeleteButton" xml:space="preserve">
+    <value>删除(_D)</value>
+  </data>
+  <data name="DataLogDeleteVariableButton" xml:space="preserve">
+    <value>删除变量(_E)</value>
+  </data>
+  <data name="DataLogVariableListNameColumn" xml:space="preserve">
+    <value>变量名</value>
+  </data>
+  <data name="DataLogVariableListNoColumn" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="DataLogVariableListTypeColumn" xml:space="preserve">
+    <value>变量类型</value>
+  </data>
+  <data name="DataSetDetailsCancelButton" xml:space="preserve">
+    <value>取消(_C)</value>
+  </data>
+  <data name="DataSetDetailsDescriptionCaption" xml:space="preserve">
+    <value>描述(_D):</value>
+  </data>
+  <data name="DataSetDetailsLabelCaption" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="DataSetDetailsOKButton" xml:space="preserve">
+    <value>确定(_O)</value>
+  </data>
+  <data name="DataSetDetailsSeparatorCaption" xml:space="preserve">
+    <value>分隔符(_S):</value>
+  </data>
+  <data name="ManageCaption" xml:space="preserve">
+    <value>管理(_M)...</value>
+  </data>
+  <data name="DataSetDetailsTitle" xml:space="preserve">
+    <value>数据集详细信息</value>
+  </data>
+  <data name="RemoteLCD_Font_Columns_Rows" xml:space="preserve">
+    <value>{0} 个字符({1} 列 x {2} 行)</value>
+  </data>
+  <data name="RemoteLCD_LoadSerial_Message_RemoteLCD" xml:space="preserve">
+    <value>适用于远程 LCD</value>
+  </data>
+  <data name="MemoryCard_BackupInProgress" xml:space="preserve">
+    <value>备份正在进行中</value>
+  </data>
+  <data name="MemoryCard_OperationSuccessful" xml:space="preserve">
+    <value>{0} 成功</value>
+  </data>
+  <data name="MemoryCard_RestoreInProgress" xml:space="preserve">
+    <value>还原正在进行中</value>
+  </data>
+  <data name="RemoteLCD_EditButton_Caption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="RemoteLCD_PreviewButton_Caption" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="ManageDatalog_OverwriteFile" xml:space="preserve">
+    <value>覆盖文件</value>
+  </data>
+  <data name="ManageDatalog_PreserveBothFile" xml:space="preserve">
+    <value>保留两个文件</value>
+  </data>
+  <data name="ManageDatalog_SkipFile" xml:space="preserve">
+    <value>跳过文件</value>
+  </data>
+  <data name="ManageDatalog_FilesCaption" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="ManageDatalog_DeleteButtonCaption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ManageDatalog_DeleteFilesCaption" xml:space="preserve">
+    <value>删除文件</value>
+  </data>
+  <data name="ManageDatalog_DeleteWarningMessage" xml:space="preserve">
+    <value>删除操作会永久删除找到的文件。</value>
+  </data>
+  <data name="ManageDatalog_DestinationCaption" xml:space="preserve">
+    <value>目的地</value>
+  </data>
+  <data name="ManageDatalog_FilesExistsCaption" xml:space="preserve">
+    <value>如果文件在目的地存在(_I):</value>
+  </data>
+  <data name="ManageDatalog_ProgressCaption" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="ManageDatalog_SearchResultCaption" xml:space="preserve">
+    <value>搜索结果</value>
+  </data>
+  <data name="ManageDatalog_SelectedDatesCaption" xml:space="preserve">
+    <value>选择日期</value>
+  </data>
+  <data name="ManageDatalog_UploadButtonCaption" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="ManageDatalog_UploadFilesCaption" xml:space="preserve">
+    <value>上传文件</value>
+  </data>
+  <data name="ManageDatalog_UploadingMessage" xml:space="preserve">
+    <value>正在上传 {0}/{1} 个文件</value>
+  </data>
+  <data name="ManageDatalog_WholeMonthCheckBoxCaption" xml:space="preserve">
+    <value>整月(_W)</value>
+  </data>
+  <data name="ManageDatalog_Successful" xml:space="preserve">
+    <value>{0} 成功!</value>
+  </data>
+  <data name="ManageDatalog_Unsuccessful" xml:space="preserve">
+    <value>{0} 不成功</value>
+  </data>
+  <data name="ManageDatalogDestinationToolip" xml:space="preserve">
+    <value>注意: 路径可从“工具”&gt;“选项”下的 CCW 应用程序设置中进行修改。</value>
+  </data>
+  <data name="ManageDatalog_DeletingMessage" xml:space="preserve">
+    <value>正在删除第 {0}/{1} 个文件</value>
+  </data>
+  <data name="RecipeList" xml:space="preserve">
+    <value>配方列表</value>
+  </data>
+  <data name="ManageDatalogTitle" xml:space="preserve">
+    <value>从控制器上传数据日志</value>
+  </data>
+  <data name="RecipeDetailsTitle" xml:space="preserve">
+    <value>配方详细信息</value>
+  </data>
+  <data name="ManageRecipeTitle" xml:space="preserve">
+    <value>从控制器上传配方</value>
+  </data>
+  <data name="ManageDatalog_StartDeletingCaption" xml:space="preserve">
+    <value>开始删除</value>
+  </data>
+  <data name="ManageDatalog_StartUploadingCaption" xml:space="preserve">
+    <value>开始上传</value>
+  </data>
+  <data name="ManageDatalog_StopDeletingCaption" xml:space="preserve">
+    <value>停止删除</value>
+  </data>
+  <data name="ManageDatalog_StopUploadingCaption" xml:space="preserve">
+    <value>停止上传</value>
+  </data>
+  <data name="ManageDatalogDeleteTitle" xml:space="preserve">
+    <value>从控制器删除数据日志</value>
+  </data>
+  <data name="ManageRecipeDeleteTitle" xml:space="preserve">
+    <value>从控制器删除配方</value>
+  </data>
+  <data name="ManageDatalog_DownloadButtonCaption" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="ManageDelete" xml:space="preserve">
+    <value>删除...</value>
+  </data>
+  <data name="ManageDownloadTitle" xml:space="preserve">
+    <value>将配方下载到控制器</value>
+  </data>
+  <data name="ManageDownload" xml:space="preserve">
+    <value>下载...(D)</value>
+  </data>
+  <data name="ManageDownloadSourceLabel" xml:space="preserve">
+    <value>配方根文件夹</value>
+  </data>
+  <data name="ManageRecipeSelectRecipe" xml:space="preserve">
+    <value>选择配方</value>
+  </data>
+  <data name="ManageUpload" xml:space="preserve">
+    <value>上传...(U)</value>
+  </data>
+  <data name="ManageDatalog_UploadDetailsCaption" xml:space="preserve">
+    <value>上传详细信息</value>
+  </data>
+  <data name="ControllerChangeErrorDatalogFileWrite" xml:space="preserve">
+    <value>无法复制数据日志配置文件。请确保您对文件夹 {0} 具有写入访问权限</value>
+  </data>
+  <data name="ControllerChangeErrorRecipeFileWrite" xml:space="preserve">
+    <value>无法复制配方配置文件。请确保您对文件夹 {0} 具有写入访问权限</value>
+  </data>
+  <data name="RemoteLCDPreviewResultMessage" xml:space="preserve">
+    <value>预览结果以英文查看效果最佳。</value>
+  </data>
+  <data name="ControllerChangeFeatureRemoteLCD" xml:space="preserve">
+    <value>远程 LCD</value>
+  </data>
+  <data name="ControllerChangePlugInModuleNotSupportDeleteModuleWarning" xml:space="preserve">
+    <value>目标控制器不支持插件模块“{0}”。请删除插槽 {1} 上的 {0}。</value>
+  </data>
+  <data name="ControllerChangeRemoteLCDFeatureWarning" xml:space="preserve">
+    <value>远程 LCD 不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeDatalogFeatureWarning" xml:space="preserve">
+    <value>数据日志不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeEmbeddedRTCFeatureWarning" xml:space="preserve">
+    <value>嵌入式实时时钟不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeFeatureDatalog" xml:space="preserve">
+    <value>数据日志</value>
+  </data>
+  <data name="ControllerChangeFeatureEmbeddedRTC" xml:space="preserve">
+    <value>嵌入式实时时钟</value>
+  </data>
+  <data name="ControllerChangeFeatureMemoryCard" xml:space="preserve">
+    <value>内存卡</value>
+  </data>
+  <data name="ControllerChangeFeatureRecipe" xml:space="preserve">
+    <value>配方</value>
+  </data>
+  <data name="ControllerChangeMemoryCardFeatureWarning" xml:space="preserve">
+    <value>内存卡不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="ControllerChangeMicro820SerialPortASCIIWarningMessage" xml:space="preserve">
+    <value>目标控制器不支持串行 ASCII 协议的“控制行”选项中的“RS232|全双工”和“RS 232|半双工”。默认为“RS232|没有握手信号”。</value>
+  </data>
+  <data name="ControllerChangeMicro820SerialPortModbusWarningMessage" xml:space="preserve">
+    <value>目标控制器不支持串行 Modbus RTU 协议的“介质”选项中的 "RS232|RTS/CTS"。默认为 "RS485"。</value>
+  </data>
+  <data name="ControllerChangeRecipeFeatureWarning" xml:space="preserve">
+    <value>配方不受支持，并且其配置将被丢弃。</value>
+  </data>
+  <data name="UPMCheckMaximumMessage" xml:space="preserve">
+    <value>控制器中仅支持 {0}个 {1} 模块。</value>
+  </data>
+  <data name="PreferencesHierarchyPreserve" xml:space="preserve">
+    <value>保留源文件夹结构</value>
+  </data>
+  <data name="PreferencesHierarchySingle" xml:space="preserve">
+    <value>单文件夹结构</value>
+  </data>
+  <data name="ManageDatalog_OperationCancelled" xml:space="preserve">
+    <value>{0} 已取消。</value>
+  </data>
+  <data name="ManageLog_PartialUpload" xml:space="preserve">
+    <value>{0}/{1} 个文件已成功上传。</value>
+  </data>
+  <data name="ManageLog_PartialDelete" xml:space="preserve">
+    <value>{0}/{1} 个文件已成功删除。</value>
+  </data>
+  <data name="ManageLog_PartialDownload" xml:space="preserve">
+    <value>{0}/{1} 个文件已成功下载。</value>
+  </data>
+  <data name="ManageDatalog_DownloadingMessage" xml:space="preserve">
+    <value>正在下载 {0}/{1} 个文件</value>
+  </data>
+  <data name="ManageDatalog_CountingText" xml:space="preserve">
+    <value>和计数</value>
+  </data>
+  <data name="DownButtonTooltip" xml:space="preserve">
+    <value>递减变量顺序</value>
+  </data>
+  <data name="UpButtonTooltip" xml:space="preserve">
+    <value>递增变量顺序</value>
+  </data>
+  <data name="DataSetDeleteWarningMessage" xml:space="preserve">
+    <value>是否删除数据集“{0}”?</value>
+  </data>
+  <data name="RecipeAddButton" xml:space="preserve">
+    <value>添加配方(_A)</value>
+  </data>
+  <data name="DeleteCaption" xml:space="preserve">
+    <value>删除(_D)</value>
+  </data>
+  <data name="DownloadCaption" xml:space="preserve">
+    <value>下载(_D)</value>
+  </data>
+  <data name="RefreshCaption" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="UploadCaption" xml:space="preserve">
+    <value>上传(_U)</value>
+  </data>
+  <data name="RecipeDeleteWarningMessage" xml:space="preserve">
+    <value>是否删除配方“{0}”?</value>
+  </data>
+  <data name="RemoteLCD_ExceedMaxNumberOfLCDVariablesMessage" xml:space="preserve">
+    <value>LCD 变量总数 ({0}) 超过最大限制 {1}。请减少变量数量并重新生成项目。</value>
+  </data>
+  <data name="RemoteLCD_LCDVariablesDisplayCaption" xml:space="preserve">
+    <value>LCD变量(_V)</value>
+  </data>
+  <data name="UnknownBuildError" xml:space="preserve">
+    <value>生成项目时引发异常。如果问题仍然存在，请将日志文件发送给技术支持代表。</value>
+  </data>
+  <data name="RemoteLCD_RemoveComplexLCDVariablesMessage" xml:space="preserve">
+    <value>变量“{0}”为复杂类型，并从 LCD 变量列表中删除。</value>
+  </data>
+  <data name="BuildError_AllPortsDisabled" xml:space="preserve">
+    <value>当前配置不允许连接控制器。请启用 USB 或以太网端口，或从串行端口选择 CIP 串行驱动程序。</value>
+  </data>
+  <data name="DetailsCaption" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="UploadResultInfoFooter" xml:space="preserve">
+    <value>切换到编程模式以上传文件。</value>
+  </data>
+  <data name="UploadResultInfoHeader" xml:space="preserve">
+    <value>以下文件锁定在运行模式</value>
+  </data>
+  <data name="DatalogRunModeWarningMessage" xml:space="preserve">
+    <value>在运行模式中，搜索和上传可能需要更长时间。</value>
+  </data>
+  <data name="ControllerOfflineErrorMessage" xml:space="preserve">
+    <value>从控制器断开。</value>
+  </data>
+  <data name="ControllerChangePlugInModuleGeneralDesWarningMessage" xml:space="preserve">
+    <value>插槽 {0} 上的插件模块已删除，因为: {1}</value>
+  </data>
+  <data name="DownloadfailedMessage" xml:space="preserve">
+    <value>下载失败</value>
+  </data>
+  <data name="DeviceInfoTreeLCDModuleCaption" xml:space="preserve">
+    <value>LCD 模块</value>
+  </data>
+  <data name="LCDModuleStatusLabel" xml:space="preserve">
+    <value>模块状态</value>
+  </data>
+  <data name="LCDModuleCaption" xml:space="preserve">
+    <value>LCD 模块</value>
+  </data>
+  <data name="LCDModuleHardwareSettingLabel" xml:space="preserve">
+    <value>硬件设置</value>
+  </data>
+  <data name="ConnectionConfigDiagnoseCaption" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="Micro800ConfigToolbarDiagnoseBtnToolTip" xml:space="preserve">
+    <value>诊断系统状态和监视轴</value>
+  </data>
+  <data name="Micro800ToolBarMenuEmbeddedSerialItemCaption" xml:space="preserve">
+    <value>嵌入式串行</value>
+  </data>
+  <data name="Micro800ToolBarMenuPluginSerialItemCaption" xml:space="preserve">
+    <value>插件模块</value>
+  </data>
+  <data name="Micro800ToolBarMenuSerialIsoSubItemCaption" xml:space="preserve">
+    <value>端口 {1} 处的插槽 {0} | 2080-SERIALISOL</value>
+  </data>
+  <data name="ConnectionConfigNetworkDiagnoseCaption" xml:space="preserve">
+    <value>通信诊断</value>
+  </data>
+  <data name="SerialPortDiagnoseCaption" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="DiagnosticsBadCRCCaption" xml:space="preserve">
+    <value>CRC 出错:</value>
+  </data>
+  <data name="DiagnosticsBroadcastCaption" xml:space="preserve">
+    <value>广播:</value>
+  </data>
+  <data name="DiagnosticsCharacRevCaption" xml:space="preserve">
+    <value>接收到的字符:</value>
+  </data>
+  <data name="DiagnosticsCharacSentCaption" xml:space="preserve">
+    <value>发送的字符:</value>
+  </data>
+  <data name="DiagnosticsFrameRevCaption" xml:space="preserve">
+    <value>接收到的帧:</value>
+  </data>
+  <data name="DiagnosticsFrameSentCaption" xml:space="preserve">
+    <value>发送的帧:</value>
+  </data>
+  <data name="DiagnosticsGoodExceptionsCaption" xml:space="preserve">
+    <value>良好的异常:</value>
+  </data>
+  <data name="DiagnosticsGoodTransCaption" xml:space="preserve">
+    <value>良好的处理:</value>
+  </data>
+  <data name="DiagnosticsMismatchErrorsCaption" xml:space="preserve">
+    <value>不匹配错误:</value>
+  </data>
+  <data name="DiagnosticsNoResponseCaption" xml:space="preserve">
+    <value>无响应:</value>
+  </data>
+  <data name="DiagnosticsOtherErrorsCaption" xml:space="preserve">
+    <value>其他错误:</value>
+  </data>
+  <data name="SerialDiagnoseDriverLblCaption" xml:space="preserve">
+    <value>驱动程序:</value>
+  </data>
+  <data name="SerialDiagnoseLinkCountersCaption" xml:space="preserve">
+    <value>链接计数器</value>
+  </data>
+  <data name="CommDiagnoseConflictInfoLblCaption" xml:space="preserve">
+    <value> {0} 在项目与控制器中不同步。
+ 上传或下载使设置同步。</value>
+  </data>
+  <data name="SerialDiagnosePortTypeCaption" xml:space="preserve">
+    <value>通道:</value>
+  </data>
+  <data name="SerialDiagnoseResetCounterCaption" xml:space="preserve">
+    <value>复位计数器(_R)</value>
+  </data>
+  <data name="DiagnosticsBadCharacterRevCaption" xml:space="preserve">
+    <value>接收到的错误字符:</value>
+  </data>
+  <data name="DiagnosticsBadPacketsACKCaption" xml:space="preserve">
+    <value>确认的错误数据包:</value>
+  </data>
+  <data name="DiagnosticsDCDRecoveriesCountCaption" xml:space="preserve">
+    <value>DCD 恢复计数:</value>
+  </data>
+  <data name="DiagnosticsDuplicateRevCaption" xml:space="preserve">
+    <value>接收到的副本:</value>
+  </data>
+  <data name="DiagnosticsEnqRevCaption" xml:space="preserve">
+    <value>接收到的 ENQ:</value>
+  </data>
+  <data name="DiagnosticsEnqSentCaption" xml:space="preserve">
+    <value>发送的 ENQ:</value>
+  </data>
+  <data name="DiagnosticsLostModemCountCaption" xml:space="preserve">
+    <value>丢失的调制解调器计数:</value>
+  </data>
+  <data name="DiagnosticsNaksRevCaption" xml:space="preserve">
+    <value>接收到的 NAK:</value>
+  </data>
+  <data name="DiagnosticsNoMemorySentCaption" xml:space="preserve">
+    <value>没有发送内存:</value>
+  </data>
+  <data name="DiagnosticsPacketRevCaption" xml:space="preserve">
+    <value>接收到的数据包:</value>
+  </data>
+  <data name="DiagnosticsPacketsSentCaption" xml:space="preserve">
+    <value>发送的数据包:</value>
+  </data>
+  <data name="DiagnosticsUndeliveredPacketsCaption" xml:space="preserve">
+    <value>未成功传输数据包:</value>
+  </data>
+  <data name="SerialDiagnoseCountersCaption" xml:space="preserve">
+    <value>诊断计数器</value>
+  </data>
+  <data name="DiagnoseButtonTextCaption" xml:space="preserve">
+    <value>比较项目、控制器和 {0} 之间的配置。</value>
+  </data>
+  <data name="Micro800ToolBarMenuEthernetItemCaption" xml:space="preserve">
+    <value>以太网</value>
+  </data>
+  <data name="Micro800ToolBarMenuUSBItemCaption" xml:space="preserve">
+    <value>USB 端口</value>
+  </data>
+  <data name="DiagnoseCommTypeCaption" xml:space="preserve">
+    <value>通信:</value>
+  </data>
+  <data name="Micro800ToolBarMenuSerialPortItemCaption" xml:space="preserve">
+    <value>串行端口</value>
+  </data>
+  <data name="Micro800ToolBarMenuDiagnoseItemCaption" xml:space="preserve">
+    <value>通信(M)</value>
+  </data>
+  <data name="TCPIPConfigCtrlPortSettingsCaption" xml:space="preserve">
+    <value>端口设置</value>
+  </data>
+  <data name="SerialPortDiagnoseButtonTooltip" xml:space="preserve">
+    <value>诊断通信状态。</value>
+  </data>
+  <data name="EthernetType_full" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="EthernetType_half" xml:space="preserve">
+    <value>一半</value>
+  </data>
+  <data name="ConnectionConfigFaultCaption" xml:space="preserve">
+    <value>故障诊断</value>
+  </data>
+  <data name="ConnectionConfigStartupCaption" xml:space="preserve">
+    <value>启动诊断</value>
+  </data>
+  <data name="GeneralPageFirmwareRevisionLabel" xml:space="preserve">
+    <value>固件版本</value>
+  </data>
+  <data name="InvalidValueCaption" xml:space="preserve">
+    <value>无效值。</value>
+  </data>
+  <data name="PresentationAndUINameCaption" xml:space="preserve">
+    <value>名称(_N):</value>
+  </data>
+  <data name="DeviceInfoTreeStartupCaption" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="StartClearFaultLabel" xml:space="preserve">
+    <value>清除故障(_C)</value>
+  </data>
+  <data name="StartDoNotClearClearFaultLabel" xml:space="preserve">
+    <value>请勿清除故障(_N)</value>
+  </data>
+  <data name="StartupClearFault" xml:space="preserve">
+    <value>清除故障</value>
+  </data>
+  <data name="StartupDoNotClearFault" xml:space="preserve">
+    <value>请勿清除故障</value>
+  </data>
+  <data name="StartupFaultOverrideLabel" xml:space="preserve">
+    <value>故障覆盖</value>
+  </data>
+  <data name="StartupLastPowerDownMode" xml:space="preserve">
+    <value>保持之前的断电模式</value>
+  </data>
+  <data name="StartupMemoryModuleCaption" xml:space="preserve">
+    <value>若要配置内存设置，请转到</value>
+  </data>
+  <data name="StartupMemoryModuleNotPresentCaption" xml:space="preserve">
+    <value>项目中不存在内存模块。</value>
+  </data>
+  <data name="StartupModeBehaviorLabel" xml:space="preserve">
+    <value>模式行为</value>
+  </data>
+  <data name="StartupPowerDownModeLabel" xml:space="preserve">
+    <value>保持之前的断电模式(_P)</value>
+  </data>
+  <data name="StartupRemoteRunMode" xml:space="preserve">
+    <value>远程运行模式</value>
+  </data>
+  <data name="StartupRemoteRunModeLabel" xml:space="preserve">
+    <value>远程运行模式(_R)</value>
+  </data>
+  <data name="PresentationAndUILoadOnMemoryModuleCaption" xml:space="preserve">
+    <value>在通电时加载(_L):</value>
+  </data>
+  <data name="RTCButtonContent" xml:space="preserve">
+    <value>设置日期/时间(_S)…</value>
+  </data>
+  <data name="RTCDateTimeHeaderLabel" xml:space="preserve">
+    <value>日期和时间仅在连接至控制器时可用。</value>
+  </data>
+  <data name="NotAvailableContent" xml:space="preserve">
+    <value>不可用</value>
+  </data>
+  <data name="RTCSetDateTimeWindowTitle" xml:space="preserve">
+    <value>设置日期/时间</value>
+  </data>
+  <data name="BatteryLevelLow" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="BatteryLevelNormal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="CompatibleCaption" xml:space="preserve">
+    <value>兼容</value>
+  </data>
+  <data name="ControllerDiagnosticSummaryCaption" xml:space="preserve">
+    <value>摘要</value>
+  </data>
+  <data name="DifferentCpation" xml:space="preserve">
+    <value>不匹配</value>
+  </data>
+  <data name="IncompatibleCaption" xml:space="preserve">
+    <value>不兼容于</value>
+  </data>
+  <data name="MemoryModuleCompatibilityComparisonLabel" xml:space="preserve">
+    <value>-{0} 中的项目 </value>
+  </data>
+  <data name="MemoryModuleCompatibilityComparisonLabel1" xml:space="preserve">
+    <value> 控制器硬件和固件。</value>
+  </data>
+  <data name="MemoryModulePasswordComparisonLabel" xml:space="preserve">
+    <value>-{0} 和控制器中的密码 </value>
+  </data>
+  <data name="Micro800ToolBarMenuStartUpItemCaption" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="SimilarCaption" xml:space="preserve">
+    <value>匹配</value>
+  </data>
+  <data name="MajorFaultClearFaultButtonCaption" xml:space="preserve">
+    <value>清除故障(_C)</value>
+  </data>
+  <data name="MajorFaultCodeLabelCaption" xml:space="preserve">
+    <value>故障代码</value>
+  </data>
+  <data name="MajorFaultDescLabelCaption" xml:space="preserve">
+    <value>故障描述</value>
+  </data>
+  <data name="MajorFaultGetLogButtonCaption" xml:space="preserve">
+    <value>获取故障日志(_L)</value>
+  </data>
+  <data name="MajorFaultStatusLabelCaption" xml:space="preserve">
+    <value>故障状态</value>
+  </data>
+  <data name="Micro800ToolBarMenuControllerItemCaption" xml:space="preserve">
+    <value>控制器</value>
+  </data>
+  <data name="Micro800ToolBarMenuFaultsItemCaption" xml:space="preserve">
+    <value>故障</value>
+  </data>
+  <data name="PresentationAndUILoadNothingCaption" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="NotApplicableContent" xml:space="preserve">
+    <value>不适用</value>
+  </data>
+  <data name="ConnectionConfigControllerCaption" xml:space="preserve">
+    <value>控制器诊断</value>
+  </data>
+  <data name="MemoryModuleAndCardCaption" xml:space="preserve">
+    <value>内存模块/卡 </value>
+  </data>
+  <data name="NoMemoryModuleAvailableContent" xml:space="preserve">
+    <value>{0} 在控制器中不可用。</value>
+  </data>
+  <data name="ControllerUserDefinedNameSpacesWarning" xml:space="preserve">
+    <value>控制器名称不得包含空格</value>
+  </data>
+  <data name="ControllerUserDefinedNameSpecialCharWarning" xml:space="preserve">
+    <value>控制器名称不得包含以下任何字符 \/:*?"&lt;&gt;|</value>
+  </data>
+  <data name="MemBakInfomationLabel" xml:space="preserve">
+    <value>内存模块中的实时时钟和项目详细信息仅在连接至控制器时才可用。</value>
+  </data>
+  <data name="RTCHoursValidationError" xml:space="preserve">
+    <value>小时数必须在 {0} 至 {1} 之间</value>
+  </data>
+  <data name="RTCMinutesValidationError" xml:space="preserve">
+    <value>分钟数必须在 {0} 至 {1} 之间</value>
+  </data>
+  <data name="RTCSecondsValidationError" xml:space="preserve">
+    <value>秒数必须在 {0} 至 {1} 之间</value>
+  </data>
+  <data name="SetDateTimeInformationLabel" xml:space="preserve">
+    <value>24 小时格式 (hh:mm:ss)</value>
+  </data>
+  <data name="SetDateTimeCheckBoxCaption" xml:space="preserve">
+    <value>使用当前计算机的日期和时间(_U)</value>
+  </data>
+  <data name="ControllerDiagnosticEthernetInformationLabel" xml:space="preserve">
+    <value>内存模块的以太网设置遵循控制器的覆盖以太网设置</value>
+  </data>
+  <data name="ControllerDiagnosticProjectCaption" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="ProgressUIService_Status_Cancelled" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="ProgressUIService_Status_Finished" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="ProgressUIService_Status_Started" xml:space="preserve">
+    <value>已启动</value>
+  </data>
+  <data name="PreDownload_Message_BuildError" xml:space="preserve">
+    <value>由于生成错误无法继续下载操作。</value>
+  </data>
+  <data name="PreDownload_Message_Aborted" xml:space="preserve">
+    <value>下载已中止。</value>
+  </data>
+  <data name="PreDownload_Message_ProjectUpToDate" xml:space="preserve">
+    <value>该项目生成是最新的。</value>
+  </data>
+  <data name="Build_Message_Footer" xml:space="preserve">
+    <value>========== 生成: {0} 次成功，{1} 次失败，{2} 次最新， {3} 次跳过 ==========</value>
+  </data>
+  <data name="Build_Message_Header1" xml:space="preserve">
+    <value>--------------------生成项目: 控制器 --------------------</value>
+  </data>
+  <data name="Build_Message_Header2" xml:space="preserve">
+    <value>-------------------- 生成源: {0}    配置: {1} --------------</value>
+  </data>
+  <data name="Download_Message_Lost" xml:space="preserve">
+    <value>无法继续下载操作。与控制器的连接丢失。</value>
+  </data>
+  <data name="DiagnosticsPlugInConflictSettingCaption" xml:space="preserve">
+    <value>2080-SERIALISOL端口 {0}</value>
+  </data>
+  <data name="PlugInConflictSettingCaption" xml:space="preserve">
+    <value>{0} 在项目与控制器中不同步。
+ 上传或下载使设置同步。</value>
+  </data>
+  <data name="ButtonCancelCaption" xml:space="preserve">
+    <value>取消(_C)</value>
+  </data>
+  <data name="ButtonOKCaption" xml:space="preserve">
+    <value>确定(_O)</value>
+  </data>
+  <data name="DiagnosticCatalogIDWarning" xml:space="preserve">
+    <value>项目与 {0} 中的类别 ID 不匹配。</value>
+  </data>
+  <data name="DiagnosticFaultOverrideWarning" xml:space="preserve">
+    <value>项目与 {0} 中的故障覆盖不匹配。</value>
+  </data>
+  <data name="DiagnosticLoadOnPowerUpWarning" xml:space="preserve">
+    <value>项目与 {0} 中的通电加载不匹配。</value>
+  </data>
+  <data name="DiagnosticModeBehaviorWarning" xml:space="preserve">
+    <value>项目与 {0} 中的模式行为不匹配。 </value>
+  </data>
+  <data name="DiagnosticOverwriteEthernetWarning" xml:space="preserve">
+    <value>项目与 {0} 中的覆盖以太网设置不匹配。</value>
+  </data>
+  <data name="DiagnosticProjectVersionWarning" xml:space="preserve">
+    <value>项目与 {0} 中的项目版本不匹配。</value>
+  </data>
+  <data name="LCDModuleAttachLCDModuleCheckBoxCaption" xml:space="preserve">
+    <value>附加LCD模块(_A)</value>
+  </data>
+  <data name="ErrorOutputMessageFormat" xml:space="preserve">
+    <value>错误: {0}</value>
+  </data>
+  <data name="EthernetDiagnoseButtonTooltip" xml:space="preserve">
+    <value>诊断以太网端口状态。</value>
+  </data>
+  <data name="EthernetLinkStatusCaption" xml:space="preserve">
+    <value>以太网链接状态</value>
+  </data>
+  <data name="EthernetPortMacAddressCaption" xml:space="preserve">
+    <value>端口 MAC 地址:</value>
+  </data>
+  <data name="EthernetInterfaceOctetsCaption" xml:space="preserve">
+    <value>八进制位:</value>
+  </data>
+  <data name="EthernetPortChangedItemsCaption" xml:space="preserve">
+    <value>
+端口设置更改项:
+{0}</value>
+  </data>
+  <data name="TCPIPChangedItemsCaption" xml:space="preserve">
+    <value>
+因特网协议设置更改项:
+{0}</value>
+  </data>
+  <data name="PreOnlineChange_Message_BuildError" xml:space="preserve">
+    <value>由于生成错误无法继续执行运行模式下载操作。</value>
+  </data>
+  <data name="ManageDownloadDataGridHeader" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="ControllerChangeEmbeddedIOGainOffsetWarning" xml:space="preserve">
+    <value>不支持嵌入式I/O的增益和偏移，且其配置将被丢弃。</value>
+  </data>
+  <data name="SettingsLabel" xml:space="preserve">
+    <value>{0} 设置</value>
+  </data>
+  <data name="BackupFromString" xml:space="preserve">
+    <value>备份到 {0}(_B)</value>
+  </data>
+  <data name="RestoreToString" xml:space="preserve">
+    <value>从 {0} 还原(_R)</value>
+  </data>
+  <data name="DownloadLogicalValueMenuItemCaption" xml:space="preserve">
+    <value>项目和逻辑值</value>
+  </data>
+  <data name="DownloadProjectMenuItemCaption" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="DownloadConfirmationDialogTitle" xml:space="preserve">
+    <value>下载确认</value>
+  </data>
+  <data name="DownloadProjectOnly" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="DownloadProjectWithLogicalValue" xml:space="preserve">
+    <value>用项目值下载</value>
+  </data>
+  <data name="LogicalDownloadWarningMessage" xml:space="preserve">
+    <value>● 将用当前项目内容覆盖控制器中的项目。</value>
+  </data>
+  <data name="DownloadHelpButtonText" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="DownloadCancelButtonText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="MemoryCtrlAvailableSpaceCaption" xml:space="preserve">
+    <value>可用空间</value>
+  </data>
+  <data name="MemoryCtrlCurrentUsageCaption" xml:space="preserve">
+    <value>当前分配</value>
+  </data>
+  <data name="MemoryCtrlDataUsedCaption" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="MemoryCtrlMaxCaption" xml:space="preserve">
+    <value>最大内存</value>
+  </data>
+  <data name="MemoryCtrlProgramByteCaption" xml:space="preserve">
+    <value>({0:N0} 字节)</value>
+  </data>
+  <data name="MemoryCtrlProgramUsedCaption" xml:space="preserve">
+    <value>编程</value>
+  </data>
+  <data name="MemoryCtrlTemporaryVariablesCaption" xml:space="preserve">
+    <value>临时变量</value>
+  </data>
+  <data name="MemoryCtrlTemporaryVariablesInfoCaption" xml:space="preserve">
+    <value>在编译过程中使用的临时变量和复杂的表达式的数据内存使用量。</value>
+  </data>
+  <data name="MemoryCtrlBytesCaption" xml:space="preserve">
+    <value>字节</value>
+  </data>
+  <data name="MemoryCtrlTempAllocatedCaption" xml:space="preserve">
+    <value>已分配</value>
+  </data>
+  <data name="MemoryCtrlTempFreeCaption" xml:space="preserve">
+    <value>空闲</value>
+  </data>
+  <data name="MemoryCtrlTempUsedCaption" xml:space="preserve">
+    <value>已用</value>
+  </data>
+  <data name="MemoryCtrlOrCaption" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="MemoryCtrlDataUsageTooltip" xml:space="preserve">
+    <value>最大数据分配是 {0} 字节</value>
+  </data>
+  <data name="MemoryCtrlDataUsageExceedCaption" xml:space="preserve">
+    <value>超过 {0:N0} 字节</value>
+  </data>
+  <data name="MemoryCtrlDataUsageWarningTooltip" xml:space="preserve">
+    <value>数据不能超过 {0} 字节。减少必要的变量数量并重新生成项目。</value>
+  </data>
+  <data name="MemoryCtrlProgramUsageExceedCaption" xml:space="preserve">
+    <value>超过 {0:N0} 字节({1:N0} 步骤)</value>
+  </data>
+  <data name="MemoryCtrlProgramUsageWarningTooltip" xml:space="preserve">
+    <value>程序不能超过 {0} 字节。减少必要的逻辑编程和变量的数量并重新生成项目。</value>
+  </data>
+  <data name="MemoryCtrlTempVarWarningTooltip" xml:space="preserve">
+    <value>临时变量超过已配置的内存。</value>
+  </data>
+  <data name="MemoryCtrlMemExceedWarningTooltip" xml:space="preserve">
+    <value>程序 + 数据不能超过 {0} 字节。减少必要的逻辑编程和变量的数量并重新生成项目。</value>
+  </data>
+  <data name="MemoryModuleNotPresentInformationMessage" xml:space="preserve">
+    <value>内存模块不存在。</value>
+  </data>
+  <data name="GeneralPageDescriptionLabel" xml:space="preserve">
+    <value>描述(_D):</value>
+  </data>
+  <data name="MemoryCtrlInfoMsgCaptionP2" xml:space="preserve">
+    <value>生成之后</value>
+  </data>
+  <data name="NoMemoryCardAvailableContent" xml:space="preserve">
+    <value>控制器中的内存卡不可用。</value>
+  </data>
+  <data name="MemBakEnableRealTimeClockCaption" xml:space="preserve">
+    <value>启用实时时钟</value>
+  </data>
+  <data name="PreOnlineChange_Message_Aborted" xml:space="preserve">
+    <value>运行模式下载已中止</value>
+  </data>
+  <data name="EthernetConfigDiagnoseCaption" xml:space="preserve">
+    <value>诊断(_G)</value>
+  </data>
+  <data name="EthernetDisableButtonCaption" xml:space="preserve">
+    <value>已禁用(_I)</value>
+  </data>
+  <data name="EthernetEnableButtonCaption" xml:space="preserve">
+    <value>已启用(_L)</value>
+  </data>
+  <data name="RestoreOperationMessage" xml:space="preserve">
+    <value>当 {0} 项目与硬件兼容并且密码匹配时还原操作可用。</value>
+  </data>
+  <data name="DataProtectionAddVariable" xml:space="preserve">
+    <value>添加变量(_V)</value>
+  </data>
+  <data name="DataProtectionButtonCaption" xml:space="preserve">
+    <value>数据保护(_P)</value>
+  </data>
+  <data name="DataProtectionCloseButton" xml:space="preserve">
+    <value>关闭(_C)</value>
+  </data>
+  <data name="DataProtectionDeleteVariable" xml:space="preserve">
+    <value>删除变量(_D)</value>
+  </data>
+  <data name="DataProtectionOKButton" xml:space="preserve">
+    <value>确定(_O)</value>
+  </data>
+  <data name="DataProtectionWindowTitle" xml:space="preserve">
+    <value>数据保护</value>
+  </data>
+  <data name="DataProtectionDataTypeChangedError" xml:space="preserve">
+    <value>数据保护: 变量 '{0}' 的数据类型从 '{1}' 更改为 '{2}'</value>
+  </data>
+  <data name="DataProtectionInvalidArrayDimesnionError" xml:space="preserve">
+    <value>数据保护: '{0}' 的数组维度大于 3。</value>
+  </data>
+  <data name="DataProtectionMaxLimitExceedError" xml:space="preserve">
+    <value>数据保护: 数据保护超出支持的最大变量数 (60)。删除多余的变量</value>
+  </data>
+  <data name="DataProtectionSizeChangedError" xml:space="preserve">
+    <value>数据保护: 变量 '{0}' 的大小已更改。</value>
+  </data>
+  <data name="DataProtectionStructureNotSupportedError" xml:space="preserve">
+    <value>数据保护: 配置不支持结构 '{0}'。</value>
+  </data>
+  <data name="DataProtectionSubElementNotSupportedError" xml:space="preserve">
+    <value>数据保护: 配置不支持数组 '{0}' 子元素。</value>
+  </data>
+  <data name="DataProtectionUserDefinedDataTypeError" xml:space="preserve">
+    <value>数据保护: 不支持用户定义的变量 '{0}' 数据类型。</value>
+  </data>
+  <data name="DataprotectionInformationalMessage" xml:space="preserve">
+    <value>数据保护最多支持 60 个变量(简单数据类型，字符串除外)以及 3 个数组维度。</value>
+  </data>
+  <data name="DataProtectionDimensionChangedError" xml:space="preserve">
+    <value>数据保护: 变量 '{0}' 的维度已更改。</value>
+  </data>
+  <data name="DataProtectionWindowTitle1" xml:space="preserve">
+    <value>数据保护</value>
+  </data>
+  <data name="MemoryCtrlTempVarAllocatedErrorTooltip" xml:space="preserve">
+    <value>临时变量已配置的内存不得超过最大分配数据 {0} 字节。</value>
+  </data>
+  <data name="ControllerChangeInterruptTypeDowngradeWarning" xml:space="preserve">
+    <value>目标控制器支持的 {0} 中断量较少，正在删除 {1}</value>
+  </data>
+  <data name="MemoryUsageInvalidTooltip" xml:space="preserve">
+    <value>生成项目更新内存分配。如果问题持续发生，减少必要的逻辑编程或变量(包括临时变量分配)的数量并重新生成项目。</value>
+  </data>
+  <data name="MemoryTempVarInvalidTooltip" xml:space="preserve">
+    <value>无法计算临时变量和复杂的表达式的内存使用量。解决错误列表中显示的生成错误并重新生成项目。</value>
+  </data>
+  <data name="MemoryTempVarNeedBuildTooltip" xml:space="preserve">
+    <value>生成项目计算临时变量和复杂的表达式的数据内存使用量。</value>
+  </data>
+  <data name="MemoryTempVarNotExistTooltip" xml:space="preserve">
+    <value>如果项目中至少有一个编程，则临时变量和复杂的表达式的内存使用量适用。</value>
+  </data>
+  <data name="DiagnosticIncludeLogicalWarning" xml:space="preserve">
+    <value>项目和 {0} 中的项目和逻辑值的备份/还原不匹配。</value>
+  </data>
+  <data name="DiagnosticLogicalValueIncludedLabel" xml:space="preserve">
+    <value>包括</value>
+  </data>
+  <data name="DiagnosticLogicalValueLabel" xml:space="preserve">
+    <value>项目和逻辑值的备份/还原：</value>
+  </data>
+  <data name="DiagnosticLogicalValueNotIncludedLabel" xml:space="preserve">
+    <value>不包括</value>
+  </data>
+  <data name="OperationBackup" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>{0} 操作失败或中断。</value>
+  </data>
+  <data name="OperationRestore" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="PVCBackupInformationMessage" xml:space="preserve">
+    <value>备份截取当前项目快照并将其添加至修订历史记录</value>
+  </data>
+  <data name="PVCBackupWindowTitle" xml:space="preserve">
+    <value>备份项目</value>
+  </data>
+  <data name="PVCRestore" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="PVCRevisionDescription" xml:space="preserve">
+    <value>修订描述</value>
+  </data>
+  <data name="PVCRevisionHistoryWindowTitle" xml:space="preserve">
+    <value>修订历史记录</value>
+  </data>
+  <data name="ArchiveManagerDeleteArchiveMessage" xml:space="preserve">
+    <value>删除存档?</value>
+  </data>
+  <data name="GoToArchiveBackupProjectMessage" xml:space="preserve">
+    <value>已在以下位置创建源项目备份{0}{1}</value>
+  </data>
+  <data name="FileNotPresentException" xml:space="preserve">
+    <value>文件 {0} 不存在</value>
+  </data>
+  <data name="ImportExportDirectoryName" xml:space="preserve">
+    <value>导入_导出</value>
+  </data>
+  <data name="ControllerProjectContentMismatch" xml:space="preserve">
+    <value>当前项目内容与连接的控制器内容不符。</value>
+  </data>
+  <data name="DownloadCurrentProject" xml:space="preserve">
+    <value>下载当前项目至控制器</value>
+  </data>
+  <data name="DownloadUploadConfirmation" xml:space="preserve">
+    <value>下载/上传确认</value>
+  </data>
+  <data name="UploadProjectOverwrite" xml:space="preserve">
+    <value>上传控制器中的项目以覆盖当前项目内容</value>
+  </data>
+  <data name="SwitchToProgramModeMessage" xml:space="preserve">
+    <value>
+● 控制器将切换至编程模式以执行操作。
+</value>
+  </data>
+  <data name="DeviceNetAddressCaption" xml:space="preserve">
+    <value>地址: </value>
+  </data>
+  <data name="DeviceNetAutoscanCaption" xml:space="preserve">
+    <value>自动扫描: </value>
+  </data>
+  <data name="DeviceNetBaudRateCaption" xml:space="preserve">
+    <value>波特率: </value>
+  </data>
+  <data name="DeviceNetModeCaption" xml:space="preserve">
+    <value>模式: </value>
+  </data>
+  <data name="DeviceNetScanListNodesCaption" xml:space="preserve">
+    <value>扫描清单节点</value>
+  </data>
+  <data name="DeviceNetScannerCaption" xml:space="preserve">
+    <value>扫描仪</value>
+  </data>
+  <data name="DeviceNetScanStatusNotConfiguredCaption" xml:space="preserve">
+    <value>未配置</value>
+  </data>
+  <data name="DeviceNetScanStatusNotInRangeCaption" xml:space="preserve">
+    <value>范围外</value>
+  </data>
+  <data name="DeviceNetScanStatusScannerCaption" xml:space="preserve">
+    <value>扫描仪</value>
+  </data>
+  <data name="DeviceNetSlotNumberCaption" xml:space="preserve">
+    <value>插槽编号: </value>
+  </data>
+  <data name="DeviceNetStatusCaption" xml:space="preserve">
+    <value>状态: </value>
+  </data>
+  <data name="Micro800ToolBarMenuDeviceNetItemCaption" xml:space="preserve">
+    <value>设备网</value>
+  </data>
+  <data name="DeviceNetAutoscanDisableValue" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="DeviceNetAutoscanEnableValue" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="DeviceNetModeIdleValue" xml:space="preserve">
+    <value>空闲</value>
+  </data>
+  <data name="DeviceNetModeRunValue" xml:space="preserve">
+    <value>运行</value>
+  </data>
+  <data name="UPModuleSlot" xml:space="preserve">
+    <value>插槽:</value>
+  </data>
+  <data name="DNETRevisionNotCompatible" xml:space="preserve">
+    <value>配置的模块版本 ({0}) 与实际的模块版本 ({1}) 不兼容。</value>
+  </data>
+  <data name="DNETRevisionBackwardCompatible" xml:space="preserve">
+    <value>配置的模块版本 ({0}) 与实际的模块版本 ({1}) 兼容。</value>
+  </data>
+  <data name="UpConfiguration" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="UpGeneral" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="PresentationAndUITypeCaption" xml:space="preserve">
+    <value>类型:</value>
+  </data>
+  <data name="PresentationAndUIAnalogPulgin" xml:space="preserve">
+    <value>模拟插件</value>
+  </data>
+  <data name="PresentationAndUICommunicationPulgin" xml:space="preserve">
+    <value>通信插件</value>
+  </data>
+  <data name="PresentationAndUIDigitalPulgin" xml:space="preserve">
+    <value>数字插件</value>
+  </data>
+  <data name="PresentationAndUISpecialtyPulgin" xml:space="preserve">
+    <value>特殊插件</value>
+  </data>
+  <data name="DNETExplictFuntionBlockUsedErrorMessage" xml:space="preserve">
+    <value>DNET 2 无法支持 RA_DNET_EXPLICIT UDFB，请删除 POU 中名称为 {0} 的 RA_DNET_EXPLICIT。</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_65" xml:space="preserve">
+    <value>自动扫描可用(仅扫描仪状态)</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_70" xml:space="preserve">
+    <value>扫描仪未通过 DUP MAC 检查</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_71" xml:space="preserve">
+    <value>扫描清单中的非法值</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_72" xml:space="preserve">
+    <value>设备停止通信</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_73" xml:space="preserve">
+    <value>设备与扫描清单不符</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_74" xml:space="preserve">
+    <value>扫描仪检测到数据溢出</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_75" xml:space="preserve">
+    <value>未检测到网络流量</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_76" xml:space="preserve">
+    <value>未检测到扫描仪的网络流量</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_77" xml:space="preserve">
+    <value>返回的数据大小与扫描清单不符</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_78" xml:space="preserve">
+    <value>扫描清单中的设备在子网中不可用</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_79" xml:space="preserve">
+    <value>扫描仪无法传输消息</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_80" xml:space="preserve">
+    <value>扫描仪处于闲置模式操作</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_81" xml:space="preserve">
+    <value>扫描仪处于故障模式操作</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_82" xml:space="preserve">
+    <value>I/O 片段失序</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_83" xml:space="preserve">
+    <value>设备拒绝初始化</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_84" xml:space="preserve">
+    <value>设备尚未初始化</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_85" xml:space="preserve">
+    <value>数据大小在与此设备的连接上不正确</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_86" xml:space="preserve">
+    <value>设备(从站)进入闲置</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_87" xml:space="preserve">
+    <value>共享主站未分配从站</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_88" xml:space="preserve">
+    <value>共享主站未分配必须选项</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_89" xml:space="preserve">
+    <value>处理程序下载失败</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_90" xml:space="preserve">
+    <value>用户已禁用扫描仪</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_91" xml:space="preserve">
+    <value>检测到扫描仪总线关闭</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_92" xml:space="preserve">
+    <value>未检测到网络电源</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_93" xml:space="preserve">
+    <value>检测到一个或多个配置程序块的 CRC 故障</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_95" xml:space="preserve">
+    <value>扫描仪应用程序刷新已更新</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_96" xml:space="preserve">
+    <value>端口处于测试模式操作</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_97" xml:space="preserve">
+    <value>用户暂停扫描仪</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_98" xml:space="preserve">
+    <value>Esc、上溢、分隔或其他处理器错误</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_99" xml:space="preserve">
+    <value>扫描仪看门狗已超时</value>
+  </data>
+  <data name="DeviceNetScanNoRespondingMsg" xml:space="preserve">
+    <value>扫描仪未响应。</value>
+  </data>
+  <data name="CatalogIDCaptionWithColon" xml:space="preserve">
+    <value>类别 ID:</value>
+  </data>
+  <data name="RevisionCaptionWithColon" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="VendorNameCaptionWithColon" xml:space="preserve">
+    <value>供应商名称:</value>
+  </data>
+  <data name="DiagnosticsDNETConflictSettingCaption" xml:space="preserve">
+    <value>2080-DNET20 插槽 {0}</value>
+  </data>
+  <data name="RevisionCaptionWithColonAndAccessKey" xml:space="preserve">
+    <value>版本(_R):</value>
+  </data>
+  <data name="DeviceNetScanStatusFaultCaption" xml:space="preserve">
+    <value>故障</value>
+  </data>
+  <data name="DeviceNetScanStatusConnectedCaption" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="PlugInDNETConflictSettingCaption" xml:space="preserve">
+    <value>{0} 在项目与控制器中不同步。
+下载项目或插入模块以同步设置。</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_0" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="DeviceNetScanStatusActiveCaption" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="DeviceNetScanStatusInactiveCaption" xml:space="preserve">
+    <value>非活动</value>
+  </data>
+  <data name="RmcEnterPendingChangeMessage" xml:space="preserve">
+    <value>在 {1} 中找到 {0} 项更改。 
+
+是否继续更改为“在线编辑”模式?</value>
+  </data>
+  <data name="RmcQuitUncommittedChangeMessage" xml:space="preserve">
+    <value>控制器具有未被接受的更改。
+
+在接受这些更改之前，对控制器内容的访问将受限制。
+
+{0}?</value>
+  </data>
+  <data name="RmcEnterUntestedChangeMessage" xml:space="preserve">
+    <value>当前项目具有未经测试的更改。
+
+是否继续测试控制器中的逻辑更改?</value>
+  </data>
+  <data name="RmcQuitUntestedChangesMessage" xml:space="preserve">
+    <value>当前项目具有未经测试的更改。
+
+退出“在线编辑模式”后，控制器将断开连接。
+
+是否退出“在线编辑模式”?</value>
+  </data>
+  <data name="DiagnosticLoadOnPowerUpLabel" xml:space="preserve">
+    <value>在通电时加载:</value>
+  </data>
+  <data name="DiagnosticOverwrieEthernetSettingsLabel" xml:space="preserve">
+    <value>覆盖以太网设置:</value>
+  </data>
+  <data name="DownloadAction" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="DownloadUploadFailed" xml:space="preserve">
+    <value>{0} 失败。请参考“输出窗口”，获取更多详细信息。</value>
+  </data>
+  <data name="DownloadUploadSucceeded" xml:space="preserve">
+    <value>{0} 成功。</value>
+  </data>
+  <data name="UploadAction" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="BatteryStatusLabel" xml:space="preserve">
+    <value>电池:</value>
+  </data>
+  <data name="ControllerChangeRemoteLCDFeatureConfigWarning" xml:space="preserve">
+    <value>默认情况下，会为远程 LCD 配置串行端口设置。</value>
+  </data>
+  <data name="ProjectModifiedDuringDownloadMessage" xml:space="preserve">
+    <value>下载完成。但控制器项目在下载过程中已修改。请重新生成项目，并再次下载项目到控制器。</value>
+  </data>
+  <data name="HSCFBModeAssocationCaption" xml:space="preserve">
+    <value>关联(_A):</value>
+  </data>
+  <data name="HSCFBModeWarningCapiton" xml:space="preserve">
+    <value>修改插件模式将删除反馈轴及其关联</value>
+  </data>
+  <data name="HSCModeInfoCaption" xml:space="preserve">
+    <value>高速计数器只能与用户定义的功能块一起使用。</value>
+  </data>
+  <data name="HSCPluginModeCation" xml:space="preserve">
+    <value>通过以下方式启用插件(_N):</value>
+  </data>
+  <data name="HSCWorkModeFBCaption" xml:space="preserve">
+    <value>反馈轴</value>
+  </data>
+  <data name="HSCWorkModeHSCCaption" xml:space="preserve">
+    <value>高速计数器 UDFB</value>
+  </data>
+  <data name="PluginModeTitleCaption" xml:space="preserve">
+    <value>插件模式</value>
+  </data>
+  <data name="MotionFBAxisGeneraTouchProbeInputCaption" xml:space="preserve">
+    <value>接触式探测输入:</value>
+  </data>
+  <data name="MotionFBAxisGeneralEncoderTypeCaption" xml:space="preserve">
+    <value>编码器类型(_E):</value>
+  </data>
+  <data name="MotionFBAxisGeneralModuleAssociationCaption" xml:space="preserve">
+    <value>模块关联(_M):</value>
+  </data>
+  <data name="MotionFBAxisGeneralMoudleAssociationStringFormat" xml:space="preserve">
+    <value>2080-MOT-HSC插槽: {0}</value>
+  </data>
+  <data name="MotionFBAxisStepsperRevInvalidMessage" xml:space="preserve">
+    <value>每转的脉冲数必须在 {0} 到 {1} 之间</value>
+  </data>
+  <data name="MotionFBAxisTravelperRevInvalidMessage" xml:space="preserve">
+    <value>每转的行程必须在 {0} 到 {1} {2} 之间</value>
+  </data>
+  <data name="PresentationAndUICopySettingFromCaption" xml:space="preserve">
+    <value>从中复制设置...</value>
+  </data>
+  <data name="MotionAxisCopySettingsFromCaption" xml:space="preserve">
+    <value>从中复制设置(_C):</value>
+  </data>
+  <data name="MotionAxisCopySettingsInfoMessage" xml:space="preserve">
+    <value>仅将相关参数转到新轴</value>
+  </data>
+  <data name="MotionAxisCopySettingsTitleCaption" xml:space="preserve">
+    <value>复制轴设置</value>
+  </data>
+  <data name="MotionHSCDeleteAssocaiteFBAxisMessage" xml:space="preserve">
+    <value>删除插件“插槽中的 2080-MOT-HSC:{0}”会移除反馈轴“{1}”。</value>
+  </data>
+  <data name="MotionHSCDeleteAssociatePluginMessage" xml:space="preserve">
+    <value>删除轴“{0}”会移除插件“插槽中的 2080-MOT-HSC:{1}”</value>
+  </data>
+  <data name="MotionFBAxisUnPairedCaption" xml:space="preserve">
+    <value>编码器</value>
+  </data>
+  <data name="MotionFBAxisPairedWithCaption" xml:space="preserve">
+    <value>正在配对(_P):</value>
+  </data>
+  <data name="MotionFBAxisPairedAxisInfoCapiton" xml:space="preserve">
+    <value>反馈轴与配对轴共用相同的配置:</value>
+  </data>
+  <data name="MotionEngExecutionInvalidCaption" xml:space="preserve">
+    <value>运动引擎执行时间必须在 {0} 到 {1} {2} 之间。</value>
+  </data>
+  <data name="MotionFBAxisLimitsPairingInfoCaption" xml:space="preserve">
+    <value>反馈轴的软限位通过配对 高速脉冲串控制伺服 轴验证:</value>
+  </data>
+  <data name="MotionFBAxisGeneralCountingModeQuadratureX1RangeValue" xml:space="preserve">
+    <value>正交 X1</value>
+  </data>
+  <data name="MotionFBAxisGeneralCountingModeQuadratureX2RangeValue" xml:space="preserve">
+    <value>正交 X2</value>
+  </data>
+  <data name="MotionFBAxisGeneralCountingModeQuadratureX4RangeValue" xml:space="preserve">
+    <value>正交 X4</value>
+  </data>
+  <data name="MotionFBAxisGeneralPhaseACaption" xml:space="preserve">
+    <value>输入 A:</value>
+  </data>
+  <data name="MotionFBAxisGeneralPhaseBCaption" xml:space="preserve">
+    <value>输入 B:</value>
+  </data>
+  <data name="MotionFBAxisGeneralZPulseCaption" xml:space="preserve">
+    <value>输入 Z:</value>
+  </data>
+  <data name="MotionFBAxisOutputTitleCaption" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="MotionFBAxisPhsicalOutputCaption" xml:space="preserve">
+    <value>输出:</value>
+  </data>
+  <data name="MotionAxisPTOChannelUnassignedWarningMessage" xml:space="preserve">
+    <value>“{0}”与 高速脉冲串控制伺服 轴配对，更改 高速脉冲串控制伺服 通道为“未分配”将导致配对丢失。是否要继续？</value>
+  </data>
+  <data name="MotionFBAxisCaption" xml:space="preserve">
+    <value>反馈轴</value>
+  </data>
+  <data name="MotionFBAxisGeneralMotionTypeCaption" xml:space="preserve">
+    <value>运动类型(_M)</value>
+  </data>
+  <data name="MotionAxisGeneralFeedbackPairingCaption" xml:space="preserve">
+    <value>反馈配对(_F):</value>
+  </data>
+  <data name="MotionAxisMonitorActualPosCaption" xml:space="preserve">
+    <value>实际位置:       </value>
+  </data>
+  <data name="MotionAxisMonitorActualVelocityCaption" xml:space="preserve">
+    <value>实际速度:</value>
+  </data>
+  <data name="MotionFBAxisMotorLoadUserDefinedCaption" xml:space="preserve">
+    <value>用户定义的单位</value>
+  </data>
+  <data name="HSCExplictFuntionBlocksUsedWarningMessage" xml:space="preserve">
+    <value>找到 {0} UDFB 和/或 {1} UDFB，但至少一个 2080-MOT-HSC 插件是反馈轴模式。</value>
+  </data>
+  <data name="ControllerChangeTargetNotSupportMotionCaption" xml:space="preserve">
+    <value>目标控制器 {0} 不支持 高速脉冲串控制伺服 运动轴，{1} 的已配对 高速脉冲串控制伺服 运动轴已被放弃。 </value>
+  </data>
+  <data name="ControllerChangeAxisNumberSmallCaption" xml:space="preserve">
+    <value>目标控制器支持的 高速脉冲串控制伺服 运动轴数量较少。请更新反馈轴 {0} 的已配对 高速脉冲串控制伺服 运动轴设置。</value>
+  </data>
+  <data name="ControllerChangeFBMotionFeatureWarning" xml:space="preserve">
+    <value>运动反馈不受支持，并且其配置将被放弃。</value>
+  </data>
+  <data name="ControllerChangeFBMotionFeatureLessAxisWarning" xml:space="preserve">
+    <value>目标控制器支持的运动反馈轴数量较少。请根据需要更新程序。</value>
+  </data>
+  <data name="ControllerChangeFeatureFeedBackMotion" xml:space="preserve">
+    <value>反馈运动</value>
+  </data>
+  <data name="ControllerChangeDeleteFBAxisWarningMessage" xml:space="preserve">
+    <value>目标控制器支持的运动反馈轴数量较少。正在删除{0}。</value>
+  </data>
+  <data name="SecureMenu_CommunicationAccessCaption" xml:space="preserve">
+    <value>通信访问(A)</value>
+  </data>
+  <data name="BuildError_EthernetCIPPortsDisabled" xml:space="preserve">
+    <value>当前配置不允许连接控制器。请启用以太网端口状态，或从串行端口选择 CIP 串行驱动程序。</value>
+  </data>
+  <data name="BuildError_USBCIPPortsDisabled" xml:space="preserve">
+    <value>当前配置不允许连接控制器。请启用 USB 端口状态，或从串行端口选择 CIP 串行驱动程序。</value>
+  </data>
+  <data name="HSCInputFilterACaption" xml:space="preserve">
+    <value>输入 A(_I):</value>
+  </data>
+  <data name="HSCInputFilterBCaption" xml:space="preserve">
+    <value>输入 B(_N):</value>
+  </data>
+  <data name="HSCInputFilterCaption" xml:space="preserve">
+    <value>输入筛选器</value>
+  </data>
+  <data name="HSCInputFilterZCaption" xml:space="preserve">
+    <value>输入 Z(_P):</value>
+  </data>
+  <data name="HSCInputFilterDC125us" xml:space="preserve">
+    <value>DC 125us</value>
+  </data>
+  <data name="HSCInputFilterDC2Point5us" xml:space="preserve">
+    <value>DC 2.5us</value>
+  </data>
+  <data name="HSCInputFilterDC2us" xml:space="preserve">
+    <value>DC 2us</value>
+  </data>
+  <data name="HSCInputFilterDC35us" xml:space="preserve">
+    <value>DC 35us</value>
+  </data>
+  <data name="HSCInputFilterDC50us" xml:space="preserve">
+    <value>DC 50us</value>
+  </data>
+  <data name="HSCInputFilterDC6Point25us" xml:space="preserve">
+    <value>DC 6.25us</value>
+  </data>
+  <data name="HSCNoFilter" xml:space="preserve">
+    <value>无过滤器 - 默认</value>
+  </data>
+  <data name="DeviceNetReconnection" xml:space="preserve">
+    <value>连接(C)</value>
+  </data>
+  <data name="DeviceNetReconnectionMsg" xml:space="preserve">
+    <value>重新连接 2080-DNET20 可能有所帮助。</value>
+  </data>
+  <data name="ControllerChangeDataProtectionFeatureWarning" xml:space="preserve">
+    <value>数据保护不受支持，并且其配置将被放弃。</value>
+  </data>
+  <data name="LoadAlwaysWarningMessage" xml:space="preserve">
+    <value>建议在常规页中使用默认名称 'Micro820'。</value>
+  </data>
+  <data name="BacklightTimeLabelText" xml:space="preserve">
+    <value>时间值(_T):</value>
+  </data>
+  <data name="DeviceNameAlreadyExistValidationError" xml:space="preserve">
+    <value>设备名称不得和现有设备相同。</value>
+  </data>
+  <data name="BacklightModeAlwaysOffText" xml:space="preserve">
+    <value>始终关闭</value>
+  </data>
+  <data name="BacklightModeAlwaysOnText" xml:space="preserve">
+    <value>始终打开</value>
+  </data>
+  <data name="BacklightModeLabelText" xml:space="preserve">
+    <value>背光模式(_B):</value>
+  </data>
+  <data name="BacklightModeIntervalText" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="BackupRestoreHeaderLabelText" xml:space="preserve">
+    <value>备份/恢复</value>
+  </data>
+  <data name="ContrastLabelText" xml:space="preserve">
+    <value>对比(_O):</value>
+  </data>
+  <data name="RmcActionNameEnterRmc" xml:space="preserve">
+    <value>进入在线编辑模式</value>
+  </data>
+  <data name="RmcActionNameQuitRmc" xml:space="preserve">
+    <value>退出“在线编辑模式”</value>
+  </data>
+  <data name="RmcActionNameQuitTest" xml:space="preserve">
+    <value>进入编辑模式</value>
+  </data>
+  <data name="RmcActionNameRevertChanges" xml:space="preserve">
+    <value>取消逻辑更改</value>
+  </data>
+  <data name="RmcActionNameTestLogicChanges" xml:space="preserve">
+    <value>测试逻辑更改</value>
+  </data>
+  <data name="RmcUncommittedChangesMessage" xml:space="preserve">
+    <value>控制器具有未被接受的更改</value>
+  </data>
+  <data name="RmcUncommittedChangesTransMessage" xml:space="preserve">
+    <value>在接受这些更改之前，对控制器内容的访问将受限制。</value>
+  </data>
+  <data name="RmcUntestedChangesMessage" xml:space="preserve">
+    <value>当前项目具有未经测试的更改</value>
+  </data>
+  <data name="RmcQuitRmcCancelChangesMessage" xml:space="preserve">
+    <value>放弃未接受更改并退出</value>
+  </data>
+  <data name="RmcQuitRmcCommitChangesMessage" xml:space="preserve">
+    <value>接受更改并退出</value>
+  </data>
+  <data name="RmcQuitRmcWithoutCommitMessage" xml:space="preserve">
+    <value>退出且不接受更改</value>
+  </data>
+  <data name="RmcTestDownloadFailedMessage" xml:space="preserve">
+    <value>无法将更改下载到控制器。
+
+单击“重试”重新下载，或单击“取消”进入“在线编辑模式”。</value>
+  </data>
+  <data name="RmcAcceptBackupProjectMessage" xml:space="preserve">
+    <value>在接受更改后，无法生成新的备份项目文件。</value>
+  </data>
+  <data name="RmcAcceptFailedMessage" xml:space="preserve">
+    <value>无法接受对控制器的以下更改: 符号表、嵌入式项目文件以及闪存上的资源代码。
+
+单击“重试”重新接受，或单击“取消”测试逻辑更改。</value>
+  </data>
+  <data name="RmcDebugFailedMessage" xml:space="preserve">
+    <value>无法在“测试逻辑”结束时连接到控制器。</value>
+  </data>
+  <data name="RmcMissingBackUpMessage" xml:space="preserve">
+    <value>无法还原更改，因为无法找到或提取备份项目。</value>
+  </data>
+  <data name="RmcRevertBackupProjectMessage" xml:space="preserve">
+    <value>无法还原更改，因为无法成功生成备份项目。</value>
+  </data>
+  <data name="RmcRevertBuildFiledMessage" xml:space="preserve">
+    <value>无法生成被还原的项目。</value>
+  </data>
+  <data name="RmcRevertDownloadFailedMessage" xml:space="preserve">
+    <value>无法将被还原的项目下载到控制器。
+
+单击“重试”重新下载，或单击“取消”测试逻辑更改。</value>
+  </data>
+  <data name="RmcRevertFailedMessage" xml:space="preserve">
+    <value>无法还原当前本地项目中的更改。</value>
+  </data>
+  <data name="RmcUnknownExceptionMessage" xml:space="preserve">
+    <value>无法执行当前操作，因为存在未知故障。</value>
+  </data>
+  <data name="RmcUncommittedDownloadWarningMsg" xml:space="preserve">
+    <value>● 下载操作使用当前项目内容覆盖控制器中的项目和未接受更改.</value>
+  </data>
+  <data name="ConnectToDeviceActionTitle" xml:space="preserve">
+    <value>连接(C)</value>
+  </data>
+  <data name="CloseProjectActionTitle" xml:space="preserve">
+    <value>关闭(C)</value>
+  </data>
+  <data name="CloseProjectActionMessage" xml:space="preserve">
+    <value>关闭当前项目</value>
+  </data>
+  <data name="DisconnectActionTitle" xml:space="preserve">
+    <value>断开连接(D)</value>
+  </data>
+  <data name="DisconnectActionMessage" xml:space="preserve">
+    <value>从控制器断开连接</value>
+  </data>
+  <data name="MemoryCtrlRMCDataUsage" xml:space="preserve">
+    <value>变量的数据内存使用情况。</value>
+  </data>
+  <data name="MemoryCtrlRMCExceedMemoryWarningTooltip" xml:space="preserve">
+    <value>在线编辑模式大小超出分配的内存。</value>
+  </data>
+  <data name="MemoryCtrlRMCMaxPossibleVariableSize" xml:space="preserve">
+    <value>新变量的最大大小限制:</value>
+  </data>
+  <data name="MemoryCtrlRMCReservedMemory" xml:space="preserve">
+    <value>运行模式更改的数据内存保留(_R):</value>
+  </data>
+  <data name="MemoryCtrlRunModeChange" xml:space="preserve">
+    <value>在线编辑模式(R)</value>
+  </data>
+  <data name="MemoryRMCNeedBuildTooltip" xml:space="preserve">
+    <value>生成项目以计算变量的数据内存使用情况。</value>
+  </data>
+  <data name="OpcSvrStopFailureMessage" xml:space="preserve">
+    <value>------ OPC 服务器 {0} 仍在运行。------
+</value>
+  </data>
+  <data name="OperationFailByUncommittedChangeMsg" xml:space="preserve">
+    <value>由于控制器具有未接受的更改，{0} 操作失败。</value>
+  </data>
+  <data name="MemoryCtrlTempVarMemoryReservationCaption" xml:space="preserve">
+    <value>临时变量的数据内存保留(_T):</value>
+  </data>
+  <data name="DeviceheaderDeviceImageLabel" xml:space="preserve">
+    <value>设备图像</value>
+  </data>
+  <data name="DeviceheaderRemoteModeLabel" xml:space="preserve">
+    <value>远程</value>
+  </data>
+  <data name="PasswordProtectionToolTip" xml:space="preserve">
+    <value>控制器受密码保护</value>
+  </data>
+  <data name="DeviceConnectionPathToolTip" xml:space="preserve">
+    <value>设置连接路径</value>
+  </data>
+  <data name="DeviceViewConnectionPathLabel" xml:space="preserve">
+    <value>连接路径</value>
+  </data>
+  <data name="BrowseButtonText" xml:space="preserve">
+    <value>浏览(_B)</value>
+  </data>
+  <data name="SetupConnectionWindowListViewDescLabel" xml:space="preserve">
+    <value>双击选择路径</value>
+  </data>
+  <data name="SetupConnectionWindowRecentPathLabel" xml:space="preserve">
+    <value>上一次的连接路径:</value>
+  </data>
+  <data name="SetupConnectionWindowSelectedPathLabel" xml:space="preserve">
+    <value>所选路径:</value>
+  </data>
+  <data name="SetupConnectionWindowTitle" xml:space="preserve">
+    <value>设置连接路径(P)</value>
+  </data>
+  <data name="ConnectionPathClearButtonText" xml:space="preserve">
+    <value>清除(_L)</value>
+  </data>
+  <data name="ConnectionPathClearButtonToolTip" xml:space="preserve">
+    <value>清除连接路径</value>
+  </data>
+  <data name="DeviceViewFaultStateToolTipText" xml:space="preserve">
+    <value>控制器处于故障状态</value>
+  </data>
+  <data name="DeviceViewRmcStateToolTipText" xml:space="preserve">
+    <value>控制器处于在线编辑模式</value>
+  </data>
+  <data name="DeviceViewRunModeChangeStatusText" xml:space="preserve">
+    <value>在线编辑模式</value>
+  </data>
+  <data name="DiscoveredModuleMessage" xml:space="preserve">
+    <value>模块发现已更新 {0} {1} </value>
+  </data>
+  <data name="UploadConfirmationMessage" xml:space="preserve">
+    <value>上传操作会使用控制器中的项目覆盖当前项目内容</value>
+  </data>
+  <data name="UploadWithLogicalValueOption" xml:space="preserve">
+    <value>使用逻辑值上传</value>
+  </data>
+  <data name="UploadCanceledMessage" xml:space="preserve">
+    <value>上传已取消</value>
+  </data>
+  <data name="ChangedDataProtection" xml:space="preserve">
+    <value>数据保护</value>
+  </data>
+  <data name="ChangedFeedbackMotion" xml:space="preserve">
+    <value>反馈运动</value>
+  </data>
+  <data name="ChangedHSC" xml:space="preserve">
+    <value>2080-MOT-HSC 配置</value>
+  </data>
+  <data name="ChangedIOConfig" xml:space="preserve">
+    <value>I/O 配置</value>
+  </data>
+  <data name="ChangedPluginExpansion" xml:space="preserve">
+    <value>插件模块配置</value>
+  </data>
+  <data name="ChangedLogicOrMemoryConfiguration" xml:space="preserve">
+    <value>程序、变量、内存设置或中断</value>
+  </data>
+  <data name="ChangedTrimpot" xml:space="preserve">
+    <value>2080-TRIMPOT6 配置</value>
+  </data>
+  <data name="ConfigurationDifferentCaption" xml:space="preserve">
+    <value>下列配置不同: {0}</value>
+  </data>
+  <data name="ChangedControllerNameDescription" xml:space="preserve">
+    <value>控制器名称或描述</value>
+  </data>
+  <data name="ChangedPowerupBehavior820" xml:space="preserve">
+    <value>启动或内存卡配置</value>
+  </data>
+  <data name="ChangedPowerupBehavior850" xml:space="preserve">
+    <value>启动或 2080-MEMBAK-RTC 配置</value>
+  </data>
+  <data name="ChangedCipMotion" xml:space="preserve">
+    <value>运动轴</value>
+  </data>
+  <data name="ChangedExpansionIO" xml:space="preserve">
+    <value>扩展模块配置</value>
+  </data>
+  <data name="ChangedDatalog" xml:space="preserve">
+    <value>数据日志</value>
+  </data>
+  <data name="ChangedRecipe" xml:space="preserve">
+    <value>配方</value>
+  </data>
+  <data name="ChangedModbusMapping" xml:space="preserve">
+    <value>Modbus 映射</value>
+  </data>
+  <data name="SocketCounterAvaliableInstanceCaption" xml:space="preserve">
+    <value>可用实例:</value>
+  </data>
+  <data name="SocketCounterInstanceUsedCaption" xml:space="preserve">
+    <value>已用实例:</value>
+  </data>
+  <data name="SocketCounterLableCaption" xml:space="preserve">
+    <value>连接计数器</value>
+  </data>
+  <data name="SocketCounterPacketsRevCaption" xml:space="preserve">
+    <value>接收到的数据包:</value>
+  </data>
+  <data name="SocketCounterPacketsSentCaption" xml:space="preserve">
+    <value>发送的数据包:</value>
+  </data>
+  <data name="SocketCounterSessionOpenedCaption" xml:space="preserve">
+    <value>已打开的会话:</value>
+  </data>
+  <data name="EthernetDiagnoseProtocolCaption" xml:space="preserve">
+    <value>协议:</value>
+  </data>
+  <data name="EthernetProtocolGeneralValue" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="EthernetProtocolSocketValue" xml:space="preserve">
+    <value>用户编程的连接</value>
+  </data>
+  <data name="SocketCounterBytesReceivedCaption" xml:space="preserve">
+    <value>接收到的字节数:</value>
+  </data>
+  <data name="SocketCounterBytesSentCaption" xml:space="preserve">
+    <value>发送的字节数:</value>
+  </data>
+  <data name="SocketCounterChecksumErrorsCaption" xml:space="preserve">
+    <value>校验和错误:</value>
+  </data>
+  <data name="SocketCounterTCPClientConnectionCaption" xml:space="preserve">
+    <value>TCP 客户端连接:</value>
+  </data>
+  <data name="SocketCounterTCPPacketReceivedCaption" xml:space="preserve">
+    <value>接收到的 TCP 数据包数:</value>
+  </data>
+  <data name="SocketCounterTCPPacketSentCaption" xml:space="preserve">
+    <value>发送的 TCP 数据包数:</value>
+  </data>
+  <data name="SocketCounterTCPServerConnectionCaption" xml:space="preserve">
+    <value>TCP 服务器连接:</value>
+  </data>
+  <data name="SocketCounterUDPConnectionCaption" xml:space="preserve">
+    <value>UDP 连接:</value>
+  </data>
+  <data name="SocketCounterUDPPacketReceivedCaption" xml:space="preserve">
+    <value>接收到的 UDP 数据包数:</value>
+  </data>
+  <data name="SocketCounterUDPPacketSentCaption" xml:space="preserve">
+    <value>发送的 UDP 数据包数:</value>
+  </data>
+  <data name="SocketCounterCreatedCaption" xml:space="preserve">
+    <value>已创建</value>
+  </data>
+  <data name="SocketCounterInstancesCaption" xml:space="preserve">
+    <value>实例</value>
+  </data>
+  <data name="SocketCounterPacketsCaption" xml:space="preserve">
+    <value>数据包</value>
+  </data>
+  <data name="SocketCounterReadCaption" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="SocketCounterTCPClientOpenedCaption" xml:space="preserve">
+    <value>客户端</value>
+  </data>
+  <data name="SocketCounterTCPDroppedCaption" xml:space="preserve">
+    <value>TCP 失败</value>
+  </data>
+  <data name="SocketCounterTCPServerAcceptedCaption" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="SocketCounterTCPSuccessCaption" xml:space="preserve">
+    <value>TCP 成功</value>
+  </data>
+  <data name="SocketCounterTotalAvailableCaption" xml:space="preserve">
+    <value>可用总数</value>
+  </data>
+  <data name="SocketCounterUDPDatagramCaption" xml:space="preserve">
+    <value>UDP 数据报</value>
+  </data>
+  <data name="SocketCounterUDPDroppedCaption" xml:space="preserve">
+    <value>UDP 失败</value>
+  </data>
+  <data name="SocketCounterUDPSuccessCaption" xml:space="preserve">
+    <value>UDP 成功</value>
+  </data>
+  <data name="SocketCounterWriteCaption" xml:space="preserve">
+    <value>写入</value>
+  </data>
+  <data name="SocketCounterTCPConnectionCaption" xml:space="preserve">
+    <value>TCP 连接</value>
+  </data>
+  <data name="SocketCounterTCPNotConfiguredCaption" xml:space="preserve">
+    <value>未配置</value>
+  </data>
+  <data name="DiagnosticsUnitAddressCaption" xml:space="preserve">
+    <value>单位地址:</value>
+  </data>
+  <data name="HideDeviceGraphicToolTipText" xml:space="preserve">
+    <value>单击可隐藏设备图形</value>
+  </data>
+  <data name="ShowDeviceGraphicToolTipText" xml:space="preserve">
+    <value>单击可显示设备图形</value>
+  </data>
+  <data name="CatalogMgrUnknownModule" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="InterruptProgramSelectUsedMessage" xml:space="preserve">
+    <value>程序 '{0}' 已与另一个中断相关联。</value>
+  </data>
+  <data name="AddInterruptWindowTitleText" xml:space="preserve">
+    <value>添加中断</value>
+  </data>
+  <data name="ConfigureInterruptToolTip" xml:space="preserve">
+    <value>配置中断</value>
+  </data>
+  <data name="ConfigureInterruptWindowTitleText" xml:space="preserve">
+    <value>配置中断</value>
+  </data>
+  <data name="DeleteInterruptToolTip" xml:space="preserve">
+    <value>删除中断</value>
+  </data>
+  <data name="InterruptDetailsHeaderText" xml:space="preserve">
+    <value>中断详细信息</value>
+  </data>
+  <data name="InterruptIdLabelText" xml:space="preserve">
+    <value>ID(_I):</value>
+  </data>
+  <data name="NoParamateresHintText" xml:space="preserve">
+    <value>没有要设置的参数</value>
+  </data>
+  <data name="ProgramLabelText" xml:space="preserve">
+    <value>程序(_P):</value>
+  </data>
+  <data name="InterFrameDelayOutRangeMessage" xml:space="preserve">
+    <value>帧间延时必须在范围 {0} 到 {1} {2} 之内。</value>
+  </data>
+  <data name="InterFrameDelayCaption" xml:space="preserve">
+    <value>帧间延时(_T):</value>
+  </data>
+  <data name="SerialDiagnoseCommonSettingsCaption" xml:space="preserve">
+    <value>通用设置</value>
+  </data>
+  <data name="ControllerChangeUnsupportedDevicesWarning" xml:space="preserve">
+    <value>项目中不受支持的设备将被丢弃。</value>
+  </data>
+  <data name="InterFrameDelayTimeoutText" xml:space="preserve">
+    <value>(延时/超时)</value>
+  </data>
+  <data name="ControllerChangeDeviceNotSupportedMessage" xml:space="preserve">
+    <value>不受支持的设备已被丢弃。  </value>
+  </data>
+  <data name="AutoStartLabel" xml:space="preserve">
+    <value>自动开始</value>
+  </data>
+  <data name="ConfigureInterruptHelpButtonText" xml:space="preserve">
+    <value>帮助(_H)</value>
+  </data>
+  <data name="EdgeTriggerTypeLabel" xml:space="preserve">
+    <value>沿触发类型(_D):</value>
+  </data>
+  <data name="HighPresetMaskLabel" xml:space="preserve">
+    <value>上限设定值</value>
+  </data>
+  <data name="LowPresetMaskLabel" xml:space="preserve">
+    <value>下限设定值</value>
+  </data>
+  <data name="OverflowMaskLabel" xml:space="preserve">
+    <value>下溢设定值</value>
+  </data>
+  <data name="UnderflowMaskLabel" xml:space="preserve">
+    <value>上溢设定值</value>
+  </data>
+  <data name="SetPointLabel" xml:space="preserve">
+    <value>设置点 {0}{1}</value>
+  </data>
+  <data name="NoInterruptsConfiguredHintText" xml:space="preserve">
+    <value>未配置中断</value>
+  </data>
+  <data name="AllInterruptGroupsAreUsed" xml:space="preserve">
+    <value>所有中断组均已使用。</value>
+  </data>
+  <data name="AllProgramsAreUsed" xml:space="preserve">
+    <value>所有程序均已使用。</value>
+  </data>
+  <data name="NoProgramsFound" xml:space="preserve">
+    <value>未找到程序。</value>
+  </data>
+  <data name="NomappingsconfiguredText" xml:space="preserve">
+    <value>未配置映射</value>
+  </data>
+  <data name="UPModuleStepsToFixCaption" xml:space="preserve">
+    <value>修复步骤:</value>
+  </data>
+  <data name="UPModuleStepsToFixP1" xml:space="preserve">
+    <value>1. 通过此项升级控制器项目版本: </value>
+  </data>
+  <data name="UPModuleStepsToFixP2" xml:space="preserve">
+    <value>控制器更改。</value>
+  </data>
+  <data name="UPModuleStepsToFixP3" xml:space="preserve">
+    <value>2. 使用最新固件升级控制器 (如有必要)。
+3. 将项目下载到控制器。</value>
+  </data>
+  <data name="CatalogIDCaption" xml:space="preserve">
+    <value>类别 ID</value>
+  </data>
+  <data name="SlotCaption" xml:space="preserve">
+    <value>插槽</value>
+  </data>
+  <data name="FaultWhenModuleNotPresentCaption" xml:space="preserve">
+    <value>模块不存在时发生故障</value>
+  </data>
+  <data name="ModuleMissingBehaviorDoNotFault" xml:space="preserve">
+    <value>控制器不发生故障 (可选模块)</value>
+  </data>
+  <data name="ModuleMissingBehaviorFault" xml:space="preserve">
+    <value>控制器发生故障 (必需模块)</value>
+  </data>
+  <data name="ModuleMissingBehaviorNotApplicable" xml:space="preserve">
+    <value>&lt; 不适用 &gt;</value>
+  </data>
+  <data name="ExpansionIOOptionalModuleConfigError" xml:space="preserve">
+    <value>位于插槽 {1} 中的 {0} 无法设置为可选模块。可选模块不应位于任何必需模块之前。</value>
+  </data>
+  <data name="ExpansionIORequiredModuleConfigError" xml:space="preserve">
+    <value>位于插槽 {1} 中的 {0} 无法设置为必需模块。必需模块不应位于任何可选模块之后。</value>
+  </data>
+  <data name="ExpansionInvalidOptionalModuleTooltip" xml:space="preserve">
+    <value>可选模块需要放置在必需模块之后</value>
+  </data>
+  <data name="ExpansionInvalidRequiredModuleTooltip" xml:space="preserve">
+    <value>必需模块需要放置在可选模块之前</value>
+  </data>
+  <data name="WhenModuleNotPresentCaption" xml:space="preserve">
+    <value>模块不存在时</value>
+  </data>
+  <data name="RunModeClockChangeCaption" xml:space="preserve">
+    <value>允许在运行模式下更改实时时钟</value>
+  </data>
+  <data name="DataProtectionVariableNameLengthErrorMessage" xml:space="preserve">
+    <value>数据保护: 不支持超过 {1} 个字符的变量名 '{0}'。</value>
+  </data>
+  <data name="ControllerFirmwareBootCodeCaption" xml:space="preserve">
+    <value>固件启动代码</value>
+  </data>
+  <data name="ControllerIdentityCaption" xml:space="preserve">
+    <value>控制器标识</value>
+  </data>
+  <data name="ControllerSerialNumberCaption" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="DeviceNotReadyForFirmwareUpdateNotProgramMode" xml:space="preserve">
+    <value>控制器不处于编程模式。请切换到编程模式进行固件更新。</value>
+  </data>
+  <data name="DeviceNotReadyForFirmwareUpdateRequestConnectionFailed" xml:space="preserve">
+    <value>连接到设备的请求失败</value>
+  </data>
+  <data name="DeviceNotReadyForFirmwareUpdateConnectionFailed" xml:space="preserve">
+    <value>无法使用当前路径连接到设备。请验证连接是否激活。</value>
+  </data>
+  <data name="TCPIPInactivityTimeoutCaption" xml:space="preserve">
+    <value>闲置状态超时</value>
+  </data>
+  <data name="TCPIPInactivityTimeoutInvalidRangeMessage" xml:space="preserve">
+    <value>闲置状态超时必须介于 {0} 到 {1} 秒的范围之间。</value>
+  </data>
+  <data name="TCPIPConfigCtrlEthernetIPCaption" xml:space="preserve">
+    <value>以太网/IP</value>
+  </data>
+  <data name="ControllerFirmwareBootCodeToolTip" xml:space="preserve">
+    <value>即使更新固件后启动代码也不可更改。</value>
+  </data>
+  <data name="HSCWorkModeInstructionCaption" xml:space="preserve">
+    <value>高速计数器指令</value>
+  </data>
+  <data name="TCPIPConfigCtrlEthernetSettingsCaption" xml:space="preserve">
+    <value>以太网设置</value>
+  </data>
+  <data name="DeleteMappingToolTipText" xml:space="preserve">
+    <value>删除映射</value>
+  </data>
+  <data name="DuplicateButtonText" xml:space="preserve">
+    <value>重复(_U)</value>
+  </data>
+  <data name="LinearCaption" xml:space="preserve">
+    <value>线性</value>
+  </data>
+  <data name="RingCaption" xml:space="preserve">
+    <value>环形</value>
+  </data>
+  <data name="HSCInstructionStorageCaption" xml:space="preserve">
+    <value>功能(_N):</value>
+  </data>
+  <data name="ZInputConfigurationCaptionHoldValue" xml:space="preserve">
+    <value>保留</value>
+  </data>
+  <data name="ZInputConfigurationCaptionResetValue" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="ZInputConfigurationCaptionTouchProbeValue" xml:space="preserve">
+    <value>接触式探测</value>
+  </data>
+  <data name="ZInputConfigurationCaptionUnassignedValue" xml:space="preserve">
+    <value>未分配</value>
+  </data>
+  <data name="ZInputConfigurationCaptionAndValue" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="HSCInstructionInvertZCaption" xml:space="preserve">
+    <value>反转(_I):</value>
+  </data>
+  <data name="HSCInstructionNumberOfPulseCaption" xml:space="preserve">
+    <value>每脉冲(_L):</value>
+  </data>
+  <data name="HSCInstructionNumberOfPulse" xml:space="preserve">
+    <value>脉冲</value>
+  </data>
+  <data name="HSCInstructionPulsePerUserUnitCation" xml:space="preserve">
+    <value>每用户单位脉冲(_S):</value>
+  </data>
+  <data name="HSCInstructionTimePeriodCaption" xml:space="preserve">
+    <value>循环周期(_Y):</value>
+  </data>
+  <data name="HSCInstructionZInpuCaption" xml:space="preserve">
+    <value>Z 输入</value>
+  </data>
+  <data name="HSCInstructionCounterOneDisabledCaption" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="HSCInstructionDirectionCaption" xml:space="preserve">
+    <value>方向(_D):</value>
+  </data>
+  <data name="HSCInstructionUserUnitCaption" xml:space="preserve">
+    <value>用户单位(_U):</value>
+  </data>
+  <data name="HSCInstructionRateCaption" xml:space="preserve">
+    <value>速率</value>
+  </data>
+  <data name="HSCInstructionDisabledCaption" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="HSCInstructionEnabledCaption" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="HscInstructionCounterName" xml:space="preserve">
+    <value>计数器:</value>
+  </data>
+  <data name="ControllerPasswordCannotBeCleared" xml:space="preserve">
+    <value>无法继续下载操作。无法清除控制器密码。</value>
+  </data>
+  <data name="ControllerPasswordCannotBeRestored" xml:space="preserve">
+    <value>无法还原控制器密码。请重新设置密码以保护控制器。</value>
+  </data>
+  <data name="ControllerPasswordRestored" xml:space="preserve">
+    <value>已成功还原控制器密码。</value>
+  </data>
+  <data name="PasswordResetRequiredForDownloadWarning" xml:space="preserve">
+    <value>必须清除控制器密码才能继续下载。
+在下载完成后控制器会被自动设置相同的密码。</value>
+  </data>
+  <data name="DeviceNotReadyForFirmwareUpdateUnknownState" xml:space="preserve">
+    <value>控制器状态不正确，无法更新固件。</value>
+  </data>
+  <data name="UnableToFindRsLinxBrowser" xml:space="preserve">
+    <value>找不到 RsLinx Browser</value>
+  </data>
+  <data name="HSCInstructionCounterModeCaption" xml:space="preserve">
+    <value>操作模式(_M):</value>
+  </data>
+  <data name="HSCInstructionCounterTypeCaption" xml:space="preserve">
+    <value>OF/UF 行为(_B):</value>
+  </data>
+  <data name="HSCInstructionConfigurationCaption" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="ChangedRealTimeClock" xml:space="preserve">
+    <value>实时时钟</value>
+  </data>
+  <data name="UpdateFirmwareAndDownloadText" xml:space="preserve">
+    <value>更新固件并下载当前项目</value>
+  </data>
+  <data name="ControllerNoPasswordMessage" xml:space="preserve">
+    <value>(控制器没有密码)</value>
+  </data>
+  <data name="EmbeddedProjectCaption" xml:space="preserve">
+    <value>嵌入式项目</value>
+  </data>
+  <data name="EmbeddedFileInfoCaption" xml:space="preserve">
+    <value>包含创建控制器项目所必需的所有文件。包括项目注释、配置和变量名称。</value>
+  </data>
+  <data name="EmbeddedFileWarningTooltip" xml:space="preserve">
+    <value>嵌入式项目容量超出最大分配容量。</value>
+  </data>
+  <data name="MemoryModuleBackupRestoreFaultMessage" xml:space="preserve">
+    <value>必须在备份和还原之前清除控制器故障</value>
+  </data>
+  <data name="MemoryModuleBackupRestoreProgramModeMessage" xml:space="preserve">
+    <value>要备份和还原内存模块，控制器必须处于编程模式</value>
+  </data>
+  <data name="MemoryModuleBackupRestoreToolTitle" xml:space="preserve">
+    <value>内存模块备份和还原</value>
+  </data>
+  <data name="EmbeddedProjectVarNeedBuildTooltip" xml:space="preserve">
+    <value>生成项目以计算嵌入式项目的内存使用率。</value>
+  </data>
+  <data name="EmbeddedProjectSizeExceedErrorMessage" xml:space="preserve">
+    <value>嵌入式项目容量超出最大分配容量。已使用: {0}，已分配: {1}</value>
+  </data>
+  <data name="UnexpectedErrorInHscModule" xml:space="preserve">
+    <value>插槽 {0} 中的 2080-MOT-HSC 插件中发生意外错误。请将模块移除然后重新添加回来以修复该错误。</value>
+  </data>
+  <data name="AllPortsDisabledErrorMessage" xml:space="preserve">
+    <value>当前配置不允许连接至控制器。请启用以下端口之一
+    1. USB 
+    2. 以太网
+    3. 串行端口的 CIP 串行驱动程序。</value>
+  </data>
+  <data name="DeviceInfoTreeCounterCaption" xml:space="preserve">
+    <value>计数器</value>
+  </data>
+  <data name="HSCCounterMode0" xml:space="preserve">
+    <value>0 - 0 到 HP 向上计数</value>
+  </data>
+  <data name="HSCCounterMode1" xml:space="preserve">
+    <value>1 - 0 到 HP 向上计数</value>
+  </data>
+  <data name="HSCCounterMode3" xml:space="preserve">
+    <value>3 - 使用外部方向计数</value>
+  </data>
+  <data name="HSCCounterMode5" xml:space="preserve">
+    <value>5 - 两个输入</value>
+  </data>
+  <data name="HSCCounterMode7" xml:space="preserve">
+    <value>7 - 正交 X1</value>
+  </data>
+  <data name="HSCCounterMode9" xml:space="preserve">
+    <value>9 - 正交 X4</value>
+  </data>
+  <data name="HSCCounterMode11" xml:space="preserve">
+    <value>11 - 正交 X2</value>
+  </data>
+  <data name="HSCCounter1Mode12" xml:space="preserve">
+    <value>12 - 0 到 LP 向下计数</value>
+  </data>
+  <data name="HSCCounterMode13" xml:space="preserve">
+    <value>13 - 0 到 LP 向下计数</value>
+  </data>
+  <data name="HSCCounterTypeTooltip" xml:space="preserve">
+    <value>可以使用计数器类型控制位配置计数器以在其限制 (环形计数器) 翻转或停止计数并设置标志 (线性计数器)。</value>
+  </data>
+  <data name="HSCPerPulseTooltip" xml:space="preserve">
+    <value>用于对速率 1 频率测量进行平均值计算的脉冲宽度数量。</value>
+  </data>
+  <data name="HSCCyclicTooltip" xml:space="preserve">
+    <value>用于对速率 2 频率测量进行脉冲计数的时间周期。</value>
+  </data>
+  <data name="HSCInstructionDirectionDefault" xml:space="preserve">
+    <value>默认方向</value>
+  </data>
+  <data name="HSCInstructionDirectionInvert" xml:space="preserve">
+    <value>反转方向</value>
+  </data>
+  <data name="HSCInstructionDirectionUp" xml:space="preserve">
+    <value>始终向上计数</value>
+  </data>
+  <data name="HSCInstructionDirectionDown" xml:space="preserve">
+    <value>始终向下计数</value>
+  </data>
+  <data name="CounterOneNodeText" xml:space="preserve">
+    <value>计数器 1</value>
+  </data>
+  <data name="CounterZeroNodeText" xml:space="preserve">
+    <value>计数器 0</value>
+  </data>
+  <data name="Mode1PictureDescription" xml:space="preserve">
+    <value>达到高预设 (HP) 后递增计数器 (A) 与累加器 (ACC) 复位</value>
+  </data>
+  <data name="Mode0PictureDescription" xml:space="preserve">
+    <value>达到高预设 (HP) 后递增计数器 (B) 与累加器 (ACC) 复位</value>
+  </data>
+  <data name="Mode3PictureDescription" xml:space="preserve">
+    <value>计数器 (A) 与外部方向 (B)</value>
+  </data>
+  <data name="Mode5PictureDescription" xml:space="preserve">
+    <value>两个输入计数器: 递增计数器 (A) 和递减计数器 (B)</value>
+  </data>
+  <data name="Mode7PictureDescription" xml:space="preserve">
+    <value>正交计数器 X1 (带相位输入 A 和 B)</value>
+  </data>
+  <data name="Mode9PictureDescription" xml:space="preserve">
+    <value>正交计数器 X4 (带相位输入 A 和 B)</value>
+  </data>
+  <data name="Mode11PictureDescription" xml:space="preserve">
+    <value>正交计数器 X2 (带相位输入 A 和 B)</value>
+  </data>
+  <data name="Mode12PictureDescription" xml:space="preserve">
+    <value>达到低预设 (LP) 后递减计数器 (B) 与累加器 (ACC) 复位</value>
+  </data>
+  <data name="Mode13PictureDescription" xml:space="preserve">
+    <value>达到低预设 (LP) 后递减计数器 (A) 与累加器 (ACC) 复位</value>
+  </data>
+  <data name="StepByteNumberTooltip" xml:space="preserve">
+    <value>对于当前控制器，一个步长等于 {0} 字节。 </value>
+  </data>
+  <data name="MemoryCtrlStepsCaption" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="ControllerChangeWarningRmcReservedDataMemoryReduced" xml:space="preserve">
+    <value>运行模式更改的保留数据内存从 {0} 字节减少至 {1} 字节。</value>
+  </data>
+  <data name="ExpansionModuleCannotAddOnFirstSlotTooltip" xml:space="preserve">
+    <value>无法将模块 {0} 添加到第一个插槽。请将模块 {0} 移动到其他插槽。</value>
+  </data>
+  <data name="ControllerChangeWarningReplaceRtcWithRtc2" xml:space="preserve">
+    <value>在目标控制器中，已将 2080-MEMBAK-RTC 替换为 2080-MEMBAK-RTC2。</value>
+  </data>
+  <data name="ExpansionIOPresenterNeedPowerSupplyToolTip" xml:space="preserve">
+    <value>电源模块左侧不能超过 4 个模块。</value>
+  </data>
+  <data name="DeviceInfoExpansionIOExceedMessage" xml:space="preserve">
+    <value>配置的扩展 I/O 模块数超过 {0}。必要时，请删除扩展模块。</value>
+  </data>
+  <data name="ExpansionConfigDataCannotExceed255WordsMsessage" xml:space="preserve">
+    <value>扩展模块配置不能超过 255 个字。必要时，请删除扩展模块。</value>
+  </data>
+  <data name="ExpansionModuleOnlySupplyOnePowerSupplyMessage" xml:space="preserve">
+    <value>控制器仅支持一个电源扩展模块，请卸下额外的电源模块。</value>
+  </data>
+  <data name="PlugInCaption" xml:space="preserve">
+    <value>插件</value>
+  </data>
+  <data name="ExpansionIOPresenterValidateExpansionInputValueMessage" xml:space="preserve">
+    <value>输入值不能超过 {0} 个字。</value>
+  </data>
+  <data name="ExpansionIOPresenterValidateExpansionOutputValueMessage" xml:space="preserve">
+    <value>输出值不能超过 {0} 个字。</value>
+  </data>
+  <data name="ExpansionIOPresenterValidateExpansionTotalValueMessage" xml:space="preserve">
+    <value>输入值和输出值的总数不能超过 {0} 个字。</value>
+  </data>
+  <data name="MemoryCtrlBlocksCaption" xml:space="preserve">
+    <value>块</value>
+  </data>
+  <data name="MemoryCtrlRetentiveMemoryCaption" xml:space="preserve">
+    <value>保持内存</value>
+  </data>
+  <data name="MemoryCtrlRetentiveMemoryInfoCaption" xml:space="preserve">
+    <value>被配置为在断电期间保存的用户保留变量的字节数。</value>
+  </data>
+  <data name="MemoryCtrlRetentiveMemoryWarningTooltip" xml:space="preserve">
+    <value>使用的数据内存 (字节) 超过分配的内存。</value>
+  </data>
+  <data name="UsedRetentiveMemoryBlocksExceedMaximum" xml:space="preserve">
+    <value>已使用的保持数据内存容量 ({0} 块) 超过最大容量 ({1} 块)。</value>
+  </data>
+  <data name="UsedRetentiveMemoryBytesExceedMaximum" xml:space="preserve">
+    <value>已使用的保持数据内存容量 ({0} 字节) 超过最大容量 ({1} 字节)。</value>
+  </data>
+  <data name="NeedBuildToCalculateRetentiveMemoryByteTooltip" xml:space="preserve">
+    <value>构建项目以更新被配置为在断电期间保存的保留变量的字节数。</value>
+  </data>
+  <data name="BackupProjectSizeExceedErrorMessage" xml:space="preserve">
+    <value>项目容量 ({0} 字节) 超过最大容量 ({1} 字节)。 </value>
+  </data>
+  <data name="MemoryCtrlRetentiveMemoryBlockInfoCaption" xml:space="preserve">
+    <value>保存保留变量时所需的数据块数。每个数据块都包含一组连续的保留变量。</value>
+  </data>
+  <data name="MemoryCtrlRetentiveMemoryBlockWarningTooltip" xml:space="preserve">
+    <value>使用的数据内存 (块) 超过分配的内存。</value>
+  </data>
+  <data name="NeedBuildToCalculateRetentiveMemoryBlockTooltip" xml:space="preserve">
+    <value>构建项目以更新保存保留变量时所需的数据块数。</value>
+  </data>
+  <data name="PhysicalSlotCaption" xml:space="preserve">
+    <value>物理插槽</value>
+  </data>
+  <data name="UserCodeMemorySizeExceedErrorMessage" xml:space="preserve">
+    <value>当前设备的代码所用内存容量超过最大分配容量。已使用: {0}，已分配: {1}</value>
+  </data>
+  <data name="UserDataMemorySizeExceedErrorMessage" xml:space="preserve">
+    <value>当前设备的数据所用内存容量超过最大分配容量。已使用: {0}，已分配: {1}</value>
+  </data>
+  <data name="UserMemorySizeExceedErrorMessage" xml:space="preserve">
+    <value>当前设备所用内存容量超过最大分配容量。已使用: {0}，已分配: {1}</value>
+  </data>
+  <data name="ControllerChangeExpansionIONotSupportDeleteModuleWarning" xml:space="preserve">
+    <value>目标控制器不支持扩展模块“{0}”。插槽 {1} 中的 {0} 已删除。</value>
+  </data>
+  <data name="BatteryLevelDead" xml:space="preserve">
+    <value>电力耗尽</value>
+  </data>
+  <data name="GeneralPageSeriesLabel" xml:space="preserve">
+    <value>序列</value>
+  </data>
+  <data name="ModuleMismatchMessage" xml:space="preserve">
+    <value>{0} 的配置与实际插件模块 {1} 不匹配。</value>
+  </data>
+  <data name="ModBusMappingViewModelFileFilterRule" xml:space="preserve">
+    <value>CCW ModbusMapping 文件 (*.ccwmod)|*.ccwmod</value>
+  </data>
+  <data name="ModBusMappingViewModelImportModbusFailedMessage" xml:space="preserve">
+    <value>Modbus 映射配置导入失败。</value>
+  </data>
+  <data name="ModBusMappingViewModelImportModbusSuccessMessage" xml:space="preserve">
+    <value>Modbus 映射配置导入成功。</value>
+  </data>
+  <data name="ModBusMappingViewModelExportModbusFailedMessage" xml:space="preserve">
+    <value>Modbus 映射配置导出失败。</value>
+  </data>
+  <data name="ModBusMappingViewModelExportModbusSuccessMessage" xml:space="preserve">
+    <value>Modbus 映射配置导出成功。</value>
+  </data>
+  <data name="FirmwareSignNotSupportedMessage" xml:space="preserve">
+    <value>此控制器系列使用较新的数字签名方案。无法将固件降级到此版本。控制器为 {0} 启动代码 {1}。</value>
+  </data>
+  <data name="UpgradeWillNotChangeSignMessage" xml:space="preserve">
+    <value>更新固件将不会升级此控制器系列的数字签名方案。控制器为 {0}。</value>
+  </data>
+  <data name="UpgradeDowngradeFirmwareCaption" xml:space="preserve">
+    <value>升级或降级固件</value>
+  </data>
+  <data name="ModBusMappingViewModelNoUpdateMessage" xml:space="preserve">
+    <value>Modbus 映射配置没有更新内容。</value>
+  </data>
+  <data name="HardFaultCount" xml:space="preserve">
+    <value>{0} 硬件故障</value>
+  </data>
+  <data name="NonHardFaultCount" xml:space="preserve">
+    <value>{0} 非硬件故障</value>
+  </data>
+  <data name="FaultCodeCaption" xml:space="preserve">
+    <value>故障代码</value>
+  </data>
+  <data name="BuildProjectStatusBarBuildFailedMessage" xml:space="preserve">
+    <value>生成失败</value>
+  </data>
+  <data name="BuildProjectStatusBarBuildStartedMessage" xml:space="preserve">
+    <value>已开始生成...</value>
+  </data>
+  <data name="BuildProjectStatusBarBuildSuccessedMessage" xml:space="preserve">
+    <value>生成成功</value>
+  </data>
+  <data name="FaultLocationCaption" xml:space="preserve">
+    <value>故障位置</value>
+  </data>
+  <data name="HardFaultCaption" xml:space="preserve">
+    <value>不可恢复的故障</value>
+  </data>
+  <data name="IndexCaption" xml:space="preserve">
+    <value>索引</value>
+  </data>
+  <data name="ControllerChangeNotSupportScanPriorityOutputWarning" xml:space="preserve">
+    <value>目标控制器不支持扩展 I/O 扫描优先级，其配置已被丢弃。</value>
+  </data>
+  <data name="NonHardFaultCaption" xml:space="preserve">
+    <value>可恢复的故障</value>
+  </data>
+  <data name="ControllerChangeNotSupportScanPriorityWinMessage" xml:space="preserve">
+    <value>目标控制器不支持扫描优先级。</value>
+  </data>
+  <data name="ScanPriorityRate_Fast" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="ScanPriorityRate_Slow" xml:space="preserve">
+    <value>慢速</value>
+  </data>
+  <data name="ExpansionIOScanSettings" xml:space="preserve">
+    <value>扫描设置</value>
+  </data>
+  <data name="ExpansionIOScanConfigNAValue" xml:space="preserve">
+    <value>不适用</value>
+  </data>
+  <data name="ExpansionIOScanInitialCaption" xml:space="preserve">
+    <value>初始</value>
+  </data>
+  <data name="ExpansionIOScanIntervalCaption" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="ExpansionIOScanRateCaption" xml:space="preserve">
+    <value>扫描速率</value>
+  </data>
+  <data name="ExpansionIOScanSettingsPriorityFastCaption" xml:space="preserve">
+    <value>快速优先级:</value>
+  </data>
+  <data name="ExpansionIOScanSettingsPrioritySlowCaption" xml:space="preserve">
+    <value>慢速优先级:</value>
+  </data>
+  <data name="ControllerChangeExpansionIOFeatureLessModuleSkipCounterDiscardWarning" xml:space="preserve">
+    <value>目标控制器支持较少数量的扩展模块。请根据需要更新程序。
+扫描优先级功能不受支持，其配置已被丢弃。</value>
+  </data>
+  <data name="ControllerChangeSkipCounterDiscardWarning" xml:space="preserve">
+    <value>目标控制器不支持扩展 I/O 扫描优先级，其配置已被丢弃。</value>
+  </data>
+  <data name="ExportButtonText" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="InputLabelString" xml:space="preserve">
+    <value>输入 {0}:</value>
+  </data>
+  <data name="OutputLabelString" xml:space="preserve">
+    <value>输出 {0}:</value>
+  </data>
+  <data name="TCPIPEnableModbusTcpServerCaption" xml:space="preserve">
+    <value>启用 Modbus TCP 服务器</value>
+  </data>
+  <data name="ModbusNavigateCaption" xml:space="preserve">
+    <value>以太网配置页面</value>
+  </data>
+  <data name="ModbusWarningCaption" xml:space="preserve">
+    <value>要通过以太网进行通信，请确保 {0} 上的 Modbus TCP“服务器状态”为“已启用”。</value>
+  </data>
+  <data name="RecipeViewModelFileFilterRule" xml:space="preserve">
+    <value>CCW 配方文件 (*.ccwrcp)|*.ccwrcp</value>
+  </data>
+  <data name="RecipeViewModelImportRecipeSuccessMessage" xml:space="preserve">
+    <value>配方配置导入成功。</value>
+  </data>
+  <data name="RecipeViewModelImportRecipeFailedMessage" xml:space="preserve">
+    <value>配方配置导入失败。</value>
+  </data>
+  <data name="RecipeViewModelExportRecipeSuccessMessage" xml:space="preserve">
+    <value>配方配置导出成功。</value>
+  </data>
+  <data name="RecipeViewModelExportRecipeFailedMessage" xml:space="preserve">
+    <value>配方配置导出失败。</value>
+  </data>
+  <data name="DatalogViewModelImportExportDatalogFilter" xml:space="preserve">
+    <value>CCW 数据日志文件 (*.ccwdlg)|*.ccwdlg</value>
+  </data>
+  <data name="DatalogViewModelImportDatalogSuccessMessage" xml:space="preserve">
+    <value>数据日志配置导入成功。</value>
+  </data>
+  <data name="DatalogViewModelImportDatalogFailMessage" xml:space="preserve">
+    <value>数据日志配置导入失败。</value>
+  </data>
+  <data name="DatalogViewModelExportDatalogSuccessMessage" xml:space="preserve">
+    <value>数据日志配置导出成功。</value>
+  </data>
+  <data name="DatalogViewModelExportDatalogFailMessage" xml:space="preserve">
+    <value>数据日志配置导出失败。</value>
+  </data>
+  <data name="EthernetModbusTcpServerDisableButtonCaption" xml:space="preserve">
+    <value>已禁用(_S)</value>
+  </data>
+  <data name="EthernetModbusTcpServerEnableButtonCaption" xml:space="preserve">
+    <value>已启用(_B)</value>
+  </data>
+  <data name="DatalogExportButton" xml:space="preserve">
+    <value>导出(_X)</value>
+  </data>
+  <data name="DatalogImportButton" xml:space="preserve">
+    <value>导入(_I)</value>
+  </data>
+  <data name="RecipeExportButton" xml:space="preserve">
+    <value>导出(_X)</value>
+  </data>
+  <data name="RecipeImportButton" xml:space="preserve">
+    <value>导入(_I)</value>
+  </data>
+  <data name="DescriptionCaption" xml:space="preserve">
+    <value>描述：</value>
+  </data>
+  <data name="PresentationAndUIProductTypeCaption" xml:space="preserve">
+    <value>产品类型:</value>
+  </data>
+  <data name="HardFaultOccureLabel" xml:space="preserve">
+    <value>硬件故障</value>
+  </data>
+  <data name="RestartControllerLabel" xml:space="preserve">
+    <value>自动重启控制器</value>
+  </data>
+  <data name="StopControllerLabel" xml:space="preserve">
+    <value>停止控制器</value>
+  </data>
+  <data name="EthernetIPTcpDisableButtonCaption" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="EthernetIPTcpServerEnableButtonCaption" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="EnableFreeRunningRtcCaption" xml:space="preserve">
+    <value>启用固件实时时钟</value>
+  </data>
+  <data name="ExpansionIOCustomScanIntervalCaption" xml:space="preserve">
+    <value>自定义扫描间隔(_V):</value>
+  </data>
+  <data name="ExpansionIOMutipleScanIntervalCaption" xml:space="preserve">
+    <value>每 {0} 次扫描</value>
+  </data>
+  <data name="ExpansionIONoScanIntervalCaption" xml:space="preserve">
+    <value>每次扫描</value>
+  </data>
+  <data name="ExpansionIOScanCycleChartCaption" xml:space="preserve">
+    <value>扫描周期图(_C)</value>
+  </data>
+  <data name="ExpansionIOScanIntervalColumnHeaderCaption" xml:space="preserve">
+    <value>扫描间隔</value>
+  </data>
+  <data name="ExpansionIOSingleScanIntervalCaption" xml:space="preserve">
+    <value>1 次扫描</value>
+  </data>
+  <data name="ExpansionIOSkipCounterTestWindowCaption" xml:space="preserve">
+    <value>测试(_T)</value>
+  </data>
+  <data name="ExpansionIOSyncScanInitialCaption" xml:space="preserve">
+    <value>初始同步(_S)</value>
+  </data>
+  <data name="ExpansionIOScanCycleChartXAxisUnitCaption" xml:space="preserve">
+    <value>周期</value>
+  </data>
+  <data name="ExpansionIOScanCycleChartYAxisCaptionFormat" xml:space="preserve">
+    <value>物理插槽 {0} - {1}</value>
+  </data>
+  <data name="EthernetIPPortStatusCaption" xml:space="preserve">
+    <value>服务器状态:</value>
+  </data>
+  <data name="ModbusTCPPortStatusCaption" xml:space="preserve">
+    <value>服务器状态:</value>
+  </data>
+  <data name="ChangedModbusTCPENIPFaultLog" xml:space="preserve">
+    <value>Modbus TCP 服务器或硬件故障</value>
+  </data>
+  <data name="ExpansionIOChartScanIntervalTitle" xml:space="preserve">
+    <value>扫描间隔: 每 {0} 次扫描</value>
+  </data>
+  <data name="ExpansionIOInitialSyncOFFValue" xml:space="preserve">
+    <value>初始同步: 关</value>
+  </data>
+  <data name="ExpansionIOInitialSyncONValue" xml:space="preserve">
+    <value>初始同步: 开</value>
+  </data>
+  <data name="ExpansionIOMutipleScanIntervalColumnCaption" xml:space="preserve">
+    <value>{0} 次扫描</value>
+  </data>
+  <data name="ExpansionIOScanCycleChartWindowCaption" xml:space="preserve">
+    <value>扫描周期图</value>
+  </data>
+  <data name="ExportOutPutPathInfo" xml:space="preserve">
+    <value>正在导出至该文件: '{0}'</value>
+  </data>
+  <data name="FileExistInformation" xml:space="preserve">
+    <value>文件 {0} 已存在。</value>
+  </data>
+  <data name="ImportOutPutPathInfo" xml:space="preserve">
+    <value>正在从文件: '{0}' 导入</value>
+  </data>
+  <data name="GeneralPageGenerateEmbeddedProjectCaption" xml:space="preserve">
+    <value>下载源
+代码:</value>
+  </data>
+  <data name="DatalogViewModelExportDatalogReplaceSuccessMessage" xml:space="preserve">
+    <value>数据日志配置已替换，导出成功。</value>
+  </data>
+  <data name="ControllerChangeSerialPortDiscardWarning" xml:space="preserve">
+    <value>不支持串行端口，其配置将被丢弃。</value>
+  </data>
+  <data name="ModBusMappingViewModelExportModbusReplaceSuccessMessage" xml:space="preserve">
+    <value>Modbus 映射配置已替换，导出成功。</value>
+  </data>
+  <data name="ControllerChangeUSBPortDiscardWarning" xml:space="preserve">
+    <value>不支持 USB 端口，其配置将被丢弃。</value>
+  </data>
+  <data name="RecipeViewModelExportRecipeReplaceSuccessMessage" xml:space="preserve">
+    <value>配方配置已替换，导出成功。</value>
+  </data>
+  <data name="FileReplaceRemindInfo" xml:space="preserve">
+    <value>替换现有文件？</value>
+  </data>
+  <data name="OverWriteEthernetWarningMessage" xml:space="preserve">
+    <value>Modbus 服务器状态设置将始终被覆盖，而无论是否选择该选项。</value>
+  </data>
+  <data name="EmbeddedIOControlCaption" xml:space="preserve">
+    <value>控制</value>
+  </data>
+  <data name="EmbeddedIOStatusCaption" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="EmbeddedProjectDisableButtonCaption" xml:space="preserve">
+    <value>否(_N)</value>
+  </data>
+  <data name="EmbeddedProjectEnableButtonCaption" xml:space="preserve">
+    <value>是(_Y)</value>
+  </data>
+  <data name="DownloadProjectNotesWarningMessage" xml:space="preserve">
+    <value>警告:</value>
+  </data>
+  <data name="SourceCodeNotDownloadWarningMessage" xml:space="preserve">
+    <value>
+● 源代码将不会下载到控制器。</value>
+  </data>
+  <data name="DeviceConfigurationDisplayText" xml:space="preserve">
+    <value>设备配置</value>
+  </data>
+  <data name="DeviceOverviewDisplayText" xml:space="preserve">
+    <value>概览</value>
+  </data>
+  <data name="MemoryDataTableName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="PieChartTitle" xml:space="preserve">
+    <value>内存统计信息</value>
+  </data>
+  <data name="InterruptTypegroupCaption" xml:space="preserve">
+    <value>类型组</value>
+  </data>
+  <data name="DatalogGeneratorValidHeader" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="EthernetPageGeneratorTableOfStartup" xml:space="preserve">
+    <value>启动配置</value>
+  </data>
+  <data name="UDTExportFailMsg" xml:space="preserve">
+    <value>无法导出用户定义数据类型。</value>
+  </data>
+  <data name="UDTExportFileLocationMsg" xml:space="preserve">
+    <value>正在将用户定义数据类型导出至文件: {0}。</value>
+  </data>
+  <data name="UDTExportSuccessMsg" xml:space="preserve">
+    <value>文件已成功导出。</value>
+  </data>
+  <data name="UDTExportTitle" xml:space="preserve">
+    <value>导出数据类型</value>
+  </data>
+  <data name="UDTStringFilter" xml:space="preserve">
+    <value>数据类型文件 (*.M8X;*.m8x)|*.M8X;*.m8x</value>
+  </data>
+  <data name="UDTImportTitle" xml:space="preserve">
+    <value>导入数据类型</value>
+  </data>
+  <data name="UDTProgressExportTitle" xml:space="preserve">
+    <value>正在导出...</value>
+  </data>
+  <data name="UDTProgressImportTitle" xml:space="preserve">
+    <value>正在导入...</value>
+  </data>
+  <data name="UDTExportNoDataMsg" xml:space="preserve">
+    <value>在当前上下文中找不到可导出的数据类型。</value>
+  </data>
+  <data name="UDTExportResultMsg" xml:space="preserve">
+    <value>========== 导出: {0} 个成功 ==========</value>
+  </data>
+  <data name="UDTExportSuccessNoDataMsg" xml:space="preserve">
+    <value>M8X 文件已成功导出，但没有数据。</value>
+  </data>
+  <data name="UDTFileExistMessage" xml:space="preserve">
+    <value>{0} 文件已存在。是否要替换现有文件?</value>
+  </data>
+  <data name="UDTImportCreateMsg" xml:space="preserve">
+    <value>已创建‘{0}’。</value>
+  </data>
+  <data name="UDTImportDataStartMsg" xml:space="preserve">
+    <value>正在处理用户定义数据类型{0}: {1}数据类型'{2}'</value>
+  </data>
+  <data name="UDTImportSuccessWithErrorOrWarningMsg" xml:space="preserve">
+    <value>M8X 文件的导入已完成，但出现错误或警告。</value>
+  </data>
+  <data name="UDTImportSuccessNoDatatMsg" xml:space="preserve">
+    <value>M8X 文件已成功导入，但没有数据。</value>
+  </data>
+  <data name="UDTImportEndResultMsg" xml:space="preserve">
+    <value>========== 导入: {0} 个成功，{1} 个警告，{2} 个失败 ==========</value>
+  </data>
+  <data name="UDTImportExceptionMsg" xml:space="preserve">
+    <value>导入‘{0}’时发生错误。</value>
+  </data>
+  <data name="UDTImportExisteGlobalDataMsg" xml:space="preserve">
+    <value>‘{0}’存在于全局变量中。</value>
+  </data>
+  <data name="UDTImportFaildMsg" xml:space="preserve">
+    <value>无法导入‘{0}’。</value>
+  </data>
+  <data name="UDTImportFileLocationMsg" xml:space="preserve">
+    <value>正在从文件: {0} 导入</value>
+  </data>
+  <data name="UDTImportValidateFileNoExistMsg" xml:space="preserve">
+    <value>验证失败，因为 {0} 不存在。</value>
+  </data>
+  <data name="UDTImportValidateHintMsg" xml:space="preserve">
+    <value>{1} 元素中的 {0}:</value>
+  </data>
+  <data name="UDTImportValidateIllegalMsg" xml:space="preserve">
+    <value>{0} 是无效文件。</value>
+  </data>
+  <data name="UDTImportWarningPlaceMsg" xml:space="preserve">
+    <value>警告: 正在替换数据类型 '{0}'。</value>
+  </data>
+  <data name="UDTExportCancelMsg" xml:space="preserve">
+    <value>操作已中止，因为导出操作在完成之前已停止。</value>
+  </data>
+  <data name="UDTImportUnableAssignMsg" xml:space="preserve">
+    <value>警告: 无法将值‘{0}’分配给属性‘{1}’。</value>
+  </data>
+  <data name="UDTImportCancelMsg" xml:space="preserve">
+    <value>操作已中止，因为导入操作在完成之前已停止。</value>
+  </data>
+  <data name="UDTImportFailMsg" xml:space="preserve">
+    <value>无法导入用户定义数据类型。</value>
+  </data>
+  <data name="UDTImportSuccessWithoutErrorMsg" xml:space="preserve">
+    <value>M8X 文件已成功导入。</value>
+  </data>
+  <data name="UDTImportDimensionInvalidMsg" xml:space="preserve">
+    <value>维度输入无效。</value>
+  </data>
+  <data name="UDTImportDataIllegalMsg" xml:space="preserve">
+    <value>无法导入‘{0}’: 数据无效。</value>
+  </data>
+  <data name="EdgeTriggerOnLabelText" xml:space="preserve">
+    <value>沿触发功能已打开 {0}</value>
+  </data>
+  <data name="UDTImportCancelPouPassWordMsg" xml:space="preserve">
+    <value>警告:取消密码提示对话框。</value>
+  </data>
+  <data name="ControllerChangePouPortectedExceptionMessage" xml:space="preserve">
+    <value>取消密码提示对话框。{0} 中的变量的保留值将不会转换为启用。</value>
+  </data>
+  <data name="UDTDataTypeStyleArray" xml:space="preserve">
+    <value>数组</value>
+  </data>
+  <data name="UDTDataTypeStyleDefinedWord" xml:space="preserve">
+    <value>已定义的字</value>
+  </data>
+  <data name="UDTDataTypeStyleStructure" xml:space="preserve">
+    <value>结构</value>
+  </data>
+  <data name="DeleteInterruptLabelCaption" xml:space="preserve">
+    <value>是否删除此用户中断？</value>
+  </data>
+  <data name="DeletePouCheckBoxCaption" xml:space="preserve">
+    <value>删除中断程序</value>
+  </data>
+  <data name="DownloadProjectProjectValueTooltip" xml:space="preserve">
+    <value>选中该框以启用。
+ ● 使用项目值将变量初始化。</value>
+  </data>
+  <data name="DownloadProjectSourceFileTooltip" xml:space="preserve">
+    <value>选中该框以启用。
+ ● RMC 期间，将发生“测试更改”和“丢弃未被接受的更改”。
+ ● 从控制器上传项目 (不包含本地项目)。</value>
+  </data>
+  <data name="DownloadOptionsLabel" xml:space="preserve">
+    <value>选项:</value>
+  </data>
+  <data name="LifecycleCaptionWithColon" xml:space="preserve">
+    <value>产品生命周期:</value>
+  </data>
+  <data name="DownloadWithProjectValue" xml:space="preserve">
+    <value>下载项目值</value>
+  </data>
+  <data name="DownloadWithSourceCode" xml:space="preserve">
+    <value>下载源代码</value>
+  </data>
+  <data name="LifecycleCaption" xml:space="preserve">
+    <value>产品生命周期</value>
+  </data>
+</root>
