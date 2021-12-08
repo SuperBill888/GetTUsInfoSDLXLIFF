@@ -296,7 +296,4 @@ Zum Fortfahren auf „Ja“ klicken.</value>
   <data name="IFxChannel" xml:space="preserve">
     <value>Kanal</value>
   </data>
-  <data name="IFxChannel22222" xml:space="preserve">
-    <value>äöüChannel2222ßßßßßß</value>
-  </data>
 </root>
