@@ -5226,6 +5226,11 @@ herunterladen:</value>
     <value>äöüProduct Lifecycle343434ßßßßßß</value>
   </data>
   <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>äöüProduct Lifecycle5656ßßßßßß</value>
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption7878" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
   </data>
 </root>

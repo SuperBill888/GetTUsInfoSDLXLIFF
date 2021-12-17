@@ -5300,6 +5300,11 @@ La fonctionnalité de priorité d'analyse n'est pas prise en charge, sa configur
     <value>êæùçProduct Lifecycle343434ëëëëë</value>
   </data>
   <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>êæùçProduct Lifecycle5656ëëëëë</value>
+    <value>êæùçThis is test.ëëëëë êæùçwhat's 
+      that?ëëëëë êæùçYes!ëëëëë êæùçhello!ëëëëëêæùç\nëëëëëêæùçeveryone.ëëëëëêæùç\rëëëëë</value>
+  </data>
+  <data name="LifecycleCaption7878" xml:space="preserve">
+    <value>êæùçThis is test.ëëëëë êæùçwhat's 
+      that?ëëëëë êæùçYes!ëëëëë êæùçhello!ëëëëëêæùç\nëëëëëêæùçeveryone.ëëëëëêæùç\rëëëëë</value>
   </data>
 </root>

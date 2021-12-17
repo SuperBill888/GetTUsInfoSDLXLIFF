@@ -5444,6 +5444,11 @@ fuente:</value>
     <value>ÁéÜProduct Lifecycle343434ñññññ</value>
   </data>
   <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>ÁéÜProduct Lifecycle5656ñññññ</value>
+    <value>ÁéÜThis is test.ñññññ ÁéÜwhat's 
+      that?ñññññ ÁéÜYes!ñññññ ÁéÜhello!ñññññÁéÜ\nñññññÁéÜeveryone.ñññññÁéÜ\rñññññ</value>
+  </data>
+  <data name="LifecycleCaption7878" xml:space="preserve">
+    <value>ÁéÜThis is test.ñññññ ÁéÜwhat's 
+      that?ñññññ ÁéÜYes!ñññññ ÁéÜhello!ñññññÁéÜ\nñññññÁéÜeveryone.ñññññÁéÜ\rñññññ</value>
   </data>
 </root>

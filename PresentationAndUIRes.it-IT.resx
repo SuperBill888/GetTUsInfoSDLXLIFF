@@ -5274,6 +5274,11 @@ sorgente:</value>
     <value>àéÓProduct Lifecycle343434ÙÙÙÙÙ</value>
   </data>
   <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>àéÓProduct Lifecycle5656ÙÙÙÙÙ</value>
+    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
+      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+  </data>
+  <data name="LifecycleCaption7878" xml:space="preserve">
+    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
+      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
   </data>
 </root>

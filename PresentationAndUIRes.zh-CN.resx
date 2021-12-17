@@ -5389,6 +5389,11 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>中Product Lifecycle343434文文文文文</value>
   </data>
   <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>中Product Lifecycle5656文文文文文</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
+  </data>
+  <data name="LifecycleCaption7878" xml:space="preserve">
+    <value>这是测试那是
+      什么？是！你好！\n大家。\r</value>
   </data>
 </root>
