@@ -7633,4 +7633,8 @@ Code:</value>
   <data name="LifecycleCaption5656" xml:space="preserve">
     <value>Product Lifecycle5656</value>
   </data>
+  <data name="LifecycleCaption5656" xml:space="preserve">
+    <value>This is test. what's 
+      that? Yes! hello!\neveryone.\r</value>
+  </data>
 </root>
