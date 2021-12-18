@@ -7641,4 +7641,8 @@ Code:</value>
     <value>This is test. what's 
       that? Yes! hello!\neveryone.\r</value>
   </data>
+  <data name="LifecycleCaption99999" xml:space="preserve">
+    <value>This is test. what's 
+      that? Yes! hello!\neveryone.\r</value>
+  </data>
 </root>
