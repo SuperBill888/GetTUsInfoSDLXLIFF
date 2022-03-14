@@ -120,11 +120,17 @@
   <data name="ASCIIDriverAppendCharsCaption" xml:space="preserve">
     <value>附加字符(_N):</value>
   </data>
+  <data name="ASCIIDriverCharsSeparatorValue" xml:space="preserve">
+    <value>中,文文文文文</value>
+  </data>
   <data name="ASCIIDriverDeletionModeCaption" xml:space="preserve">
     <value>删除模式(_M):</value>
   </data>
   <data name="ASCIIDriverEchoModeCaption" xml:space="preserve">
     <value>回显模式(_O)</value>
+  </data>
+  <data name="ASCIIDriverEDeletionModeCrtRangeValue" xml:space="preserve">
+    <value>中CRT文文文文文</value>
   </data>
   <data name="ASCIIDriverEDeletionModeIgnoreRangeValue" xml:space="preserve">
     <value>忽略</value>
@@ -156,6 +162,9 @@
   <data name="ConnectionControllerModeDownloadRangeValue" xml:space="preserve">
     <value>下载</value>
   </data>
+  <data name="PresentationAndUINotAvailableRangeValue" xml:space="preserve">
+    <value>中---文文文文文</value>
+  </data>
   <data name="PresentationAndUINotKnownRangeValue" xml:space="preserve">
     <value>DC 100µs   </value>
   </data>
@@ -181,7 +190,7 @@
     <value>未出错</value>
   </data>
   <data name="ConnectionSoftSwitchCaption" xml:space="preserve">
-    <value>远程
+    <value>远程
 模式</value>
   </data>
   <data name="ConnectionUserActionBuildingRangeValue" xml:space="preserve">
@@ -265,8 +274,14 @@
   <data name="DF1DriverEPollingModeSingleMessageXferPerScanRangeValue" xml:space="preserve">
     <value>每次扫描进行单次消息传输</value>
   </data>
+  <data name="DF1DriverErrorDetBccRangeValue" xml:space="preserve">
+    <value>中BCC文文文文文</value>
+  </data>
   <data name="DF1DriverErrorDetCaption" xml:space="preserve">
     <value>错误检测(_O):</value>
+  </data>
+  <data name="DF1DriverErrorDetCrcRangeValue" xml:space="preserve">
+    <value>中CRC文文文文文</value>
   </data>
   <data name="DF1DriverNakRetriesCaption" xml:space="preserve">
     <value>NAK 重试(_N):</value>
@@ -328,11 +343,17 @@
   <data name="FaultLogBootFWVersionCaption" xml:space="preserve">
     <value>启动固件版本</value>
   </data>
+  <data name="FaultLogBootResetReasonCaption" xml:space="preserve">
+    <value>中HardFaultBootResetReason文文文文文</value>
+  </data>
   <data name="FaultLogBootWatchDogResetReasonCaption" xml:space="preserve">
     <value>启动“看门狗复位”的原因</value>
   </data>
   <data name="FaultLogCatalogNumberCaption" xml:space="preserve">
     <value>处理器类型编号</value>
+  </data>
+  <data name="FaultLogCrcCaption" xml:space="preserve">
+    <value>中CRC文文文文文</value>
   </data>
   <data name="FaultLogCurrFaultLogItemCaption" xml:space="preserve">
     <value>故障日志项</value>
@@ -396,6 +417,9 @@
   </data>
   <data name="ControllerUserDefinedNameCaption" xml:space="preserve">
     <value>名称</value>
+  </data>
+  <data name="PresentationAndUIDescriptionCaption" xml:space="preserve">
+    <value>中Description文文文文文</value>
   </data>
   <data name="ControllerUserManualPathCaption" xml:space="preserve">
     <value>用户手册路径</value>
@@ -520,6 +544,12 @@
   <data name="ModbusDriverResponseTimerCaption" xml:space="preserve">
     <value>响应计时器(_I):</value>
   </data>
+  <data name="ModbusDriverRS232RtsCtsRangeValue" xml:space="preserve">
+    <value>中RS232 |文文文文文中RTS/CTS文文文文文</value>
+  </data>
+  <data name="ModbusDriverRS4853WireRangeValue" xml:space="preserve">
+    <value>中RS485文文文文文</value>
+  </data>
   <data name="ModbusDriverRtsPostDelayCaption" xml:space="preserve">
     <value>RTS 后延迟(_Y):</value>
   </data>
@@ -553,8 +583,14 @@
   <data name="SerialPortDriverCaption" xml:space="preserve">
     <value>驱动程序(_R):</value>
   </data>
+  <data name="SerialPortEComDriverASCIIRangeValue" xml:space="preserve">
+    <value>中ASCII文文文文文</value>
+  </data>
   <data name="SerialPortEComDriverDF1RangeValue" xml:space="preserve">
     <value>CIP 串行</value>
+  </data>
+  <data name="SerialPortEComDriverModbusRtuRangeValue" xml:space="preserve">
+    <value>中Modbus RTU文文文文文</value>
   </data>
   <data name="SerialPortEComDriverShutdownRangeValue" xml:space="preserve">
     <value>关闭</value>
@@ -571,6 +607,12 @@
   <data name="SerialPortEControlLineNoHandshakeRangeValue" xml:space="preserve">
     <value>RS232|没有握手信号</value>
   </data>
+  <data name="SerialPortEDataBits8BitRangeValue" xml:space="preserve">
+    <value>中8文文文文文</value>
+  </data>
+  <data name="SerialPortEDataBitsAsciiRangeValue" xml:space="preserve">
+    <value>中7文文文文文</value>
+  </data>
   <data name="SerialPortEParityEvenRangeValue" xml:space="preserve">
     <value>偶数</value>
   </data>
@@ -579,6 +621,12 @@
   </data>
   <data name="SerialPortEParityOddRangeValue" xml:space="preserve">
     <value>奇数</value>
+  </data>
+  <data name="SerialPortEStopBits1StopBitRangeValue" xml:space="preserve">
+    <value>中1文文文文文</value>
+  </data>
+  <data name="SerialPortEStopBitsAsciiRangeValue" xml:space="preserve">
+    <value>中2文文文文文</value>
   </data>
   <data name="SerialPortParityCaption" xml:space="preserve">
     <value>奇偶校验(_P):</value>
@@ -633,6 +681,39 @@
   </data>
   <data name="UPM2080OF2OutputTypeCaption" xml:space="preserve">
     <value>输出类型</value>
+  </data>
+  <data name="PlugInModuleRTDType1000Pt385RangeValue" xml:space="preserve">
+    <value>中1000 Pt 385文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType1000Pt392RangeValue" xml:space="preserve">
+    <value>中1000 Pt 392文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType100Pt385RangeValue" xml:space="preserve">
+    <value>中100 Pt 385文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType100Pt392RangeValue" xml:space="preserve">
+    <value>中100 Pt 392文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType10Cu427RangeValue" xml:space="preserve">
+    <value>中10 Cu 427文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType120Ni672RangeValue" xml:space="preserve">
+    <value>中120 Ni 672文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType200Pt385RangeValue" xml:space="preserve">
+    <value>中200 Pt 385文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType200Pt392RangeValue" xml:space="preserve">
+    <value>中200 Pt 392文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType500Pt385RangeValue" xml:space="preserve">
+    <value>中500 Pt 385文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType500Pt392RangeValue" xml:space="preserve">
+    <value>中500 Pt 392文文文文文</value>
+  </data>
+  <data name="PlugInModuleRTDType604NiFe518RangeValue" xml:space="preserve">
+    <value>中604 NiFe 518文文文文文</value>
   </data>
   <data name="UPM2080RTD2RTDTypeCaption" xml:space="preserve">
     <value>RTD 类型</value>
@@ -783,6 +864,9 @@
   </data>
   <data name="InterruptColumnConfigureValue" xml:space="preserve">
     <value>配置...</value>
+  </data>
+  <data name="InterruptColumnIDCaption" xml:space="preserve">
+    <value>中ID文文文文文</value>
   </data>
   <data name="InterruptDeleteInterruptMessage" xml:space="preserve">
     <value>是否删除此用户中断？</value>
@@ -993,6 +1077,9 @@
   </data>
   <data name="InterruptMaskIVCaption" xml:space="preserve">
     <value>上溢设定值(_V)</value>
+  </data>
+  <data name="InterruptMsCaption" xml:space="preserve">
+    <value>中ms文文文文文</value>
   </data>
   <data name="InterruptOKCaption" xml:space="preserve">
     <value>确定(_O)</value>
@@ -1274,7 +1361,7 @@
     <value>因特网协议设置</value>
   </data>
   <data name="EthernetDisconnectionMessage" xml:space="preserve">
-    <value>保存设置将导致与控制器断开连接。
+    <value>保存设置将导致与控制器断开连接。
 {0}</value>
   </data>
   <data name="EthernetSaveToControllerBtnCaption" xml:space="preserve">
@@ -1292,8 +1379,11 @@
   <data name="MotionEngineExecTimeCaption" xml:space="preserve">
     <value>运动引擎执行时间(_E):</value>
   </data>
+  <data name="MotionEngineExecTimeUnitCaption" xml:space="preserve">
+    <value>中ms文文文文文</value>
+  </data>
   <data name="MotionMaximumAxisSupportedCaption" xml:space="preserve">
-    <value>嵌入式 高速脉冲串控制伺服 轴
+    <value>嵌入式 高速脉冲串控制伺服 轴
 的最大数量:</value>
   </data>
   <data name="MotionAxisConfigNodeDynamics" xml:space="preserve">
@@ -1312,7 +1402,7 @@
     <value>电机和载荷</value>
   </data>
   <data name="MotionAxisConfigNameFormatError" xml:space="preserve">
-    <value>无法创建或重命名轴。
+    <value>无法创建或重命名轴。
 {0}</value>
   </data>
   <data name="MotionAxisConfigNameLengthError" xml:space="preserve">
@@ -1339,6 +1429,12 @@
   <data name="MotionAxisGeneralAxisNameCaption" xml:space="preserve">
     <value>轴名称(_X):</value>
   </data>
+  <data name="MotionAxisGeneralDeviceInputStringFormat" xml:space="preserve">
+    <value>中IO_EM_DI_{0:D2}文文文文文</value>
+  </data>
+  <data name="MotionAxisGeneralDeviceOutputStringFormat" xml:space="preserve">
+    <value>中IO_EM_DO_{0:D2}文文文文文</value>
+  </data>
   <data name="MotionAxisGeneralDirectionOutputCaption" xml:space="preserve">
     <value>输出方向:</value>
   </data>
@@ -1359,6 +1455,9 @@
   </data>
   <data name="MotionAxisGeneralPTOChannelCaption" xml:space="preserve">
     <value>高速脉冲串控制伺服 通道(_H):</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelStringFormat" xml:space="preserve">
+    <value>中EM_{0}文文文文文</value>
   </data>
   <data name="MotionAxisGeneralPulseOutputCaption" xml:space="preserve">
     <value>脉冲输出:</value>
@@ -1387,6 +1486,9 @@
   <data name="MotionAxisConfigNameInvalidChars" xml:space="preserve">
     <value>名称必须以字母或(A-Z 或 a-z)加下划线的字符开始，后跟字母(A-Z 或 a-z)、数字和单个加下划线的字符。</value>
   </data>
+  <data name="ConnectedComponentsCaption" xml:space="preserve">
+    <value>中Connected Components Workbench文文文文文</value>
+  </data>
   <data name="MotionAxisDeletionCaption" xml:space="preserve">
     <value>是否删除轴 '{0}'？</value>
   </data>
@@ -1400,8 +1502,8 @@
     <value>立即停止</value>
   </data>
   <data name="MotionAxisGeneralPTOChannelWarningMessage" xml:space="preserve">
-    <value>更改 高速脉冲串控制伺服 通道将更改 '{0}' 的 I/O 布线。
-
+    <value>更改 高速脉冲串控制伺服 通道将更改 '{0}' 的 I/O 布线。
+
 是否要更新这些值？
   </value>
   </data>
@@ -1429,8 +1531,14 @@
   <data name="MotionAxisMotorLoadDirectionPolarityCaption" xml:space="preserve">
     <value>极性(_O):</value>
   </data>
+  <data name="MotionAxisMotorLoadMilliSecValue" xml:space="preserve">
+    <value>中ms文文文文文</value>
+  </data>
   <data name="MotionAxisMotorLoadMotorRevCaption" xml:space="preserve">
     <value>电机转数</value>
+  </data>
+  <data name="MotionAxisMotorLoadSecValue" xml:space="preserve">
+    <value>中sec文文文文文</value>
   </data>
   <data name="MotionAxisMotorLoadPulsesPerRevCaption" xml:space="preserve">
     <value>每转数脉冲(_U):</value>
@@ -1461,6 +1569,18 @@
   </data>
   <data name="DirectionPolarity_NonInverted" xml:space="preserve">
     <value>正向</value>
+  </data>
+  <data name="PositionUnitCmCaption" xml:space="preserve">
+    <value>中cm文文文文文</value>
+  </data>
+  <data name="PositionUnitInchesCaption" xml:space="preserve">
+    <value>中inches文文文文文</value>
+  </data>
+  <data name="PositionUnitMmCaption" xml:space="preserve">
+    <value>中mm文文文文文</value>
+  </data>
+  <data name="PositionUnitRevsCaption" xml:space="preserve">
+    <value>中revs文文文文文</value>
   </data>
   <data name="MotionAxisDynamicsMaxAccelerationCaption" xml:space="preserve">
     <value>最大加速(_A):</value>
@@ -1558,6 +1678,9 @@
   <data name="MotionAxisHomingVelocityCaption" xml:space="preserve">
     <value>原位速度(_V):</value>
   </data>
+  <data name="MotionAxisDynamicsRpmCaption" xml:space="preserve">
+    <value>中rpm文文文文文</value>
+  </data>
   <data name="MotionAxisEmergencyStopProfile" xml:space="preserve">
     <value>紧急停止配置</value>
   </data>
@@ -1569,6 +1692,12 @@
   </data>
   <data name="MotionAxisEStopTypeCaption" xml:space="preserve">
     <value>停止类型(_T):</value>
+  </data>
+  <data name="SecondCubeCaption" xml:space="preserve">
+    <value>中sec³文文文文文</value>
+  </data>
+  <data name="SecondSquareCaption" xml:space="preserve">
+    <value>中sec²文文文文文</value>
   </data>
   <data name="MotionAxisHomingCreepLegend" xml:space="preserve">
     <value>滑动</value>
@@ -1604,7 +1733,7 @@
     <value>DF1 模式:</value>
   </data>
   <data name="TCPIPConfigChangeIPCaption" xml:space="preserve">
-    <value>检测到 IP 地址冲突。
+    <value>检测到 IP 地址冲突。
 更改 IP 地址以更正错误。</value>
   </data>
   <data name="DeviceInfoDigitalIOExceedMessage" xml:space="preserve">
@@ -1622,6 +1751,9 @@
   <data name="ExpansionIOConfirmSlideMessage" xml:space="preserve">
     <value>是否要删除空的模块占位符？</value>
   </data>
+  <data name="ExpansionIOMessageCaption" xml:space="preserve">
+    <value>中Connected Components Workbench文文文文文</value>
+  </data>
   <data name="ExpansionIONotSupportInSlotMessage" xml:space="preserve">
     <value>{0} 在插槽 {1} 中不受支持。</value>
   </data>
@@ -1633,6 +1765,15 @@
   </data>
   <data name="PortDisabledTooltipCaption" xml:space="preserve">
     <value>端口已禁用</value>
+  </data>
+  <data name="Controller810UserManualName" xml:space="preserve">
+    <value>中\2080-UM001_-{0}-E.pdf文文文文文</value>
+  </data>
+  <data name="Controller830UserManualName" xml:space="preserve">
+    <value>中\2080-UM002_-{0}-E.pdf文文文文文</value>
+  </data>
+  <data name="Controller850UserManualName" xml:space="preserve">
+    <value>中\2080-UM002_-{0}-E.pdf文文文文文</value>
   </data>
   <data name="Micro800ConfigToolbarAxisMonitorBtnToolTip" xml:space="preserve">
     <value>电机运动轴</value>
@@ -1704,74 +1845,74 @@
     <value>已同步运动</value>
   </data>
   <data name="MotionError_MC_FB_ERR_MECHAN" xml:space="preserve">
-    <value>由于检测到驱动器或机械问题，导致轴无法运转。
-
-检查驱动器和控制器之间的连接 (指示驱动器就绪和就位信号)，并确保驱动器运行正常。
-
+    <value>由于检测到驱动器或机械问题，导致轴无法运转。
+
+检查驱动器和控制器之间的连接 (指示驱动器就绪和就位信号)，并确保驱动器运行正常。
+
 请使用 MC_Reset 功能块复位轴的状态。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RESOURCE" xml:space="preserve">
-    <value>由于功能块所需的相关资源处于其他功能块的控制之下或者不可用，导致轴无法运转。
-
-确保功能块所需的轴或其相关资源可供使用。
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于功能块所需的相关资源处于其他功能块的控制之下或者不可用，导致轴无法运转。
+
+确保功能块所需的轴或其相关资源可供使用。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 如果相同功能块的多个实例同时尝试控制轴，则检查并更正应用程序。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_ENGINE" xml:space="preserve">
-    <value>由于检测到运动引擎执行错误，导致轴无法运转。
-
-断电重启整个计算机，并将用户应用程序重新下载到控制器。
-
-如果故障仍然存在，请与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
-
+    <value>由于检测到运动引擎执行错误，导致轴无法运转。
+
+断电重启整个计算机，并将用户应用程序重新下载到控制器。
+
+如果故障仍然存在，请与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_HARD_LIMIT" xml:space="preserve">
-    <value>由于检测到硬限位错误，导致轴无法运转。
-
-
+    <value>由于检测到硬限位错误，导致轴无法运转。
+
+
 请使用 MC_Reset 功能块复位轴的状态，然后朝相反方向将轴从硬限位开关中移开。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_LOG_LIMIT" xml:space="preserve">
-    <value>由于检测到 高速脉冲串控制伺服 累加器逻辑限制错误，或者由于执行功能块造成 高速脉冲串控制伺服 累加器逻辑限制错误，从而导致轴无法运转。
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于检测到 高速脉冲串控制伺服 累加器逻辑限制错误，或者由于执行功能块造成 高速脉冲串控制伺服 累加器逻辑限制错误，从而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 检查功能块的速度或目标位置设置。使用 MC_SetPosition 功能块调整轴坐标系统。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PARAM" xml:space="preserve">
-    <value>由于功能块中设置的无效参数 (除速度、加速、减速或加速度之外) 而导致轴无法运转。
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于功能块中设置的无效参数 (除速度、加速、减速或加速度之外) 而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 更正功能块中参数的设置，例如模式或位置。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PROFILE" xml:space="preserve">
-    <value>由于功能块中定义的运动配置无效，从而导致轴无法运转。
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于功能块中定义的运动配置无效，从而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 更正功能块中的配置。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RANGE" xml:space="preserve">
-    <value>由于功能块中设置的无效轴动态参数 (速度、加速、减速或加速度) 而导致轴无法运转。
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于功能块中设置的无效轴动态参数 (速度、加速、减速或加速度) 而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 在功能块中，更正与轴动态配置页面中的设置冲突的动态参数的设置。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_WRONG_STATE" xml:space="preserve">
-    <value>由于检测到不正确的轴状态，从而导致轴无法运转。
-
+    <value>由于检测到不正确的轴状态，从而导致轴无法运转。
+
 请使用 MC_Reset 功能块复位轴的运动状态。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_SOFT_LIMIT" xml:space="preserve">
-    <value>由于检测到软限位错误，或者由于执行功能块造成软限位错误，从而导致轴无法运转。
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于检测到软限位错误，或者由于执行功能块造成软限位错误，从而导致轴无法运转。
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 检查功能块的速度或目标位置设置，或者调整软限位设置。</value>
   </data>
   <data name="MotionError_UnknownError" xml:space="preserve">
@@ -1884,36 +2025,36 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>速度</value>
   </data>
   <data name="MotionError_MC_FB_ERR_AXISNUM" xml:space="preserve">
-    <value>运动内部故障，错误 ID = 0x04。
-
-与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
-
+    <value>运动内部故障，错误 ID = 0x04。
+
+与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
+
 http://support.rockwellautomation.com/MySupport.asp</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOPOWER" xml:space="preserve">
-    <value>轴未接通电源。
-
-使用 MC_Power 功能块为轴接通电源。
-
+    <value>轴未接通电源。
+
+使用 MC_Power 功能块为轴接通电源。
+
 请使用 MC_Reset 功能块复位轴的状态。</value>
   </data>
   <data name="MotionError_MC_FB_ERR_VELOCITY" xml:space="preserve">
-    <value>由于功能块中请求的运动配置与当前轴速度冲突，从而导致轴无法运转。
-
-可能的原因:
-1. 功能块要求轴在移动时反向进行。
-2. 当前速度对于请求的运动配置过低或过高。
-
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于功能块中请求的运动配置与当前轴速度冲突，从而导致轴无法运转。
+
+可能的原因:
+1. 功能块要求轴在移动时反向进行。
+2. 当前速度对于请求的运动配置过低或过高。
+
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 当轴速度与请求的运动配置兼容时，更正功能块中的运动配置或重新执行功能块。</value>
   </data>
   <data name="MotionError_MC_FB_PARAM_MODIFIED" xml:space="preserve">
-    <value>运动内部警告，警告 ID = 0x80。
-
-与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
-
+    <value>运动内部警告，警告 ID = 0x80。
+
+与当地的 Rockwell Automation 技术支持代表联系。有关联系信息，请参见:
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MBMappingFailedToLoadMappingItemMessage" xml:space="preserve">
@@ -1924,6 +2065,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="LCDPushButtonKeyReadEnable" xml:space="preserve">
     <value>启用以读取按钮键</value>
+  </data>
+  <data name="StartupFaultLCDGpBxCaption" xml:space="preserve">
+    <value>中LCD文文文文文</value>
   </data>
   <data name="StartupFaultLCDPButtonCheckBoxLabel" xml:space="preserve">
     <value>启用以读取按钮键</value>
@@ -1954,10 +2098,10 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>子网掩码无效</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOT_HOMED" xml:space="preserve">
-    <value>由于轴未原位，从而导致轴无法运转。  
-
-请使用 MC_Reset 功能块复位轴的状态。
-
+    <value>由于轴未原位，从而导致轴无法运转。  
+
+请使用 MC_Reset 功能块复位轴的状态。
+
 使用 MC_Home 功能块针对轴执行原位。</value>
   </data>
   <data name="MotionAxisCaption" xml:space="preserve">
@@ -2009,7 +2153,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>内存使用量仅更新于 </value>
   </data>
   <data name="ASCIIDriverCharsInputInvalidtMessage" xml:space="preserve">
-    <value>输入一个十六进制数值，以 0x 开头，后跟
+    <value>输入一个十六进制数值，以 0x 开头，后跟
 一个或两个十六进制数字，如 0xa 或 0x0a。</value>
   </data>
   <data name="AdvancedDialogButtonClose" xml:space="preserve">
@@ -2027,8 +2171,38 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="MemoryModuleCompatibiltyUnknown" xml:space="preserve">
     <value>与硬件和固件兼容，未知</value>
   </data>
+  <data name="MemoryCtrlKiloBytesCaption" xml:space="preserve">
+    <value>中KB文文文文文</value>
+  </data>
   <data name="EthernetCancleBtnCaption" xml:space="preserve">
     <value>取消</value>
+  </data>
+  <data name="PlugModuleFreqOrRateCaption" xml:space="preserve">
+    <value>中{0} Hz文文文文文</value>
+  </data>
+  <data name="EmbeddedIOInputFilterACCaption" xml:space="preserve">
+    <value>中AC文文文文文</value>
+  </data>
+  <data name="EmbeddedIOInputFilterDCCaption" xml:space="preserve">
+    <value>中DC文文文文文</value>
+  </data>
+  <data name="MicroSecondCaption" xml:space="preserve">
+    <value>中µs文文文文文</value>
+  </data>
+  <data name="MilliSecondCaption" xml:space="preserve">
+    <value>中ms文文文文文</value>
+  </data>
+  <data name="EmbeddedIOInputFilterValueCaption" xml:space="preserve">
+    <value>中{0} {1} {2}文文文文文</value>
+  </data>
+  <data name="Controller810DefaultUserManualName" xml:space="preserve">
+    <value>中\2080-UM001_-EN-E.pdf文文文文文</value>
+  </data>
+  <data name="Controller830DefaultUserManualName" xml:space="preserve">
+    <value>中\2080-UM002_-EN-E.pdf文文文文文</value>
+  </data>
+  <data name="Controller850DefaultUserManualName" xml:space="preserve">
+    <value>中\2080-UM002_-EN-E.pdf文文文文文</value>
   </data>
   <data name="ControllerCtrlConnectionLostMessage" xml:space="preserve">
     <value>连接丢失。</value>
@@ -2059,6 +2233,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="UPMUnsupportedModuleMessage" xml:space="preserve">
     <value>无法配置未知模块。</value>
+  </data>
+  <data name="MotionDefaultAxisName" xml:space="preserve">
+    <value>中Axis{0}文文文文文</value>
   </data>
   <data name="FaultControllerLogFailToSaveWithNoPermission" xml:space="preserve">
     <value>您没有保存在该位置的权限。</value>
@@ -2143,6 +2320,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="ControllerChangeFeaturePlugInModule" xml:space="preserve">
     <value>插件模块</value>
+  </data>
+  <data name="NotApplicable" xml:space="preserve">
+    <value>中N/A文文文文文</value>
   </data>
   <data name="ControllerChangeCommunicationFeatureLessCommWarning" xml:space="preserve">
     <value>可用通信端口已更改。请根据需要更新程序。</value>
@@ -2252,6 +2432,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ControllerChangeLogSaveConfigurationStatus" xml:space="preserve">
     <value>保存源项目配置</value>
   </data>
+  <data name="ControllerChangeLogStatusSymbol" xml:space="preserve">
+    <value>中...文文文文文</value>
+  </data>
   <data name="ControllerChangeLogSuccessStatus" xml:space="preserve">
     <value>控制器更改成功。</value>
   </data>
@@ -2331,7 +2514,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>控制器名称不得与驱动器或图形终端名称相同。</value>
   </data>
   <data name="DefaultNewFolderChangePathMessage" xml:space="preserve">
-    <value>无法在网络路径上新建项目: {0} 
+    <value>无法在网络路径上新建项目: {0} 
 将 CCW 默认文件夹首选项设置为本地驱动器。</value>
   </data>
   <data name="DefaultNewFolderOnNetworkMessage" xml:space="preserve">
@@ -2370,6 +2553,57 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="EmbeddedIOInputCalibrationOffsetError" xml:space="preserve">
     <value>偏移量必须在 {0} 至 {1} 之间</value>
   </data>
+  <data name="InputDebounceFilter_AC_0ms" xml:space="preserve">
+    <value>中AC 0ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_AC_16ms" xml:space="preserve">
+    <value>中AC 16ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_AC_28ms" xml:space="preserve">
+    <value>中AC 28ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_AC_8ms" xml:space="preserve">
+    <value>中AC 8ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_100us" xml:space="preserve">
+    <value>中DC 100µs文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_12_5us" xml:space="preserve">
+    <value>中DC 12.5µs文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_16ms" xml:space="preserve">
+    <value>中DC 16ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_1ms" xml:space="preserve">
+    <value>中DC 1ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_250us" xml:space="preserve">
+    <value>中DC 250µs文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_25us" xml:space="preserve">
+    <value>中DC 25µs文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_2ms" xml:space="preserve">
+    <value>中DC 2ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_32ms" xml:space="preserve">
+    <value>中DC 32ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_4ms" xml:space="preserve">
+    <value>中DC 4ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_500us" xml:space="preserve">
+    <value>中DC 500µs文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_5us" xml:space="preserve">
+    <value>中DC 5µs文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_75us" xml:space="preserve">
+    <value>中DC 75µs文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_8ms" xml:space="preserve">
+    <value>中DC 8ms文文文文文</value>
+  </data>
   <data name="InputDebounceFilter__default" xml:space="preserve">
     <value>默认</value>
   </data>
@@ -2378,6 +2612,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="EmbeddedIO810DigitalInputLabelText" xml:space="preserve">
     <value>数字输入</value>
+  </data>
+  <data name="BuildErrorMessageFormat" xml:space="preserve">
+    <value>中{0} : {1} {2}文文文文文</value>
   </data>
   <data name="EmbeddedIOCaption" xml:space="preserve">
     <value>嵌入式 I/O</value>
@@ -2484,6 +2721,30 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="RemoteLCD_CBM_FONT_Small" xml:space="preserve">
     <value>小(8x8 像素)</value>
   </data>
+  <data name="MICRO820_InputDebounceFilter_AC_0ms" xml:space="preserve">
+    <value>中AC 0ms文文文文文</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter_AC_16ms" xml:space="preserve">
+    <value>中AC 16ms文文文文文</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter_AC_28ms" xml:space="preserve">
+    <value>中AC 28ms文文文文文</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter_AC_8ms" xml:space="preserve">
+    <value>中AC 8ms文文文文文</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__0ms" xml:space="preserve">
+    <value>中DC 0ms文文文文文</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__16ms" xml:space="preserve">
+    <value>中DC 16ms文文文文文</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__32ms" xml:space="preserve">
+    <value>中DC 32ms文文文文文</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__8ms" xml:space="preserve">
+    <value>中DC 8ms文文文文文</value>
+  </data>
   <data name="MICRO820_InputDebounceFilter__default_AC" xml:space="preserve">
     <value>默认值(AC 8ms)</value>
   </data>
@@ -2561,6 +2822,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="RemoteLCD_PushButton_Message" xml:space="preserve">
     <value>启用按钮键读取(_E)</value>
+  </data>
+  <data name="RemoteLCD_Seconds_Text" xml:space="preserve">
+    <value>中sec文文文文文</value>
   </data>
   <data name="RemoteLCD_BootMessage_Caption" xml:space="preserve">
     <value>启动消息</value>
@@ -2805,6 +3069,12 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ControllerChangeErrorRecipeFileWrite" xml:space="preserve">
     <value>无法复制配方配置文件。请确保您对文件夹 {0} 具有写入访问权限</value>
   </data>
+  <data name="SerialPortEControlLineRS485" xml:space="preserve">
+    <value>中RS485文文文文文</value>
+  </data>
+  <data name="RemoteLCDDefaultBootMessage" xml:space="preserve">
+    <value>中2080-REMLCD文文文文文</value>
+  </data>
   <data name="RemoteLCDPreviewResultMessage" xml:space="preserve">
     <value>预览结果以英文查看效果最佳。</value>
   </data>
@@ -2901,6 +3171,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="RecipeDeleteWarningMessage" xml:space="preserve">
     <value>是否删除配方“{0}”?</value>
   </data>
+  <data name="SerialRTSDelayUnitCaption" xml:space="preserve">
+    <value>中(x20ms)文文文文文</value>
+  </data>
   <data name="RemoteLCD_ExceedMaxNumberOfLCDVariablesMessage" xml:space="preserve">
     <value>LCD 变量总数 ({0}) 超过最大限制 {1}。请减少变量数量并重新生成项目。</value>
   </data>
@@ -2936,6 +3209,12 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="DownloadfailedMessage" xml:space="preserve">
     <value>下载失败</value>
+  </data>
+  <data name="Controller820DefaultUserManualName" xml:space="preserve">
+    <value>中\2080-UM005_-EN-E.pdf文文文文文</value>
+  </data>
+  <data name="Controller820UserManualName" xml:space="preserve">
+    <value>中\2080-UM005_-{0}-E.pdf文文文文文</value>
   </data>
   <data name="DeviceInfoTreeLCDModuleCaption" xml:space="preserve">
     <value>LCD 模块</value>
@@ -3010,7 +3289,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>链接计数器</value>
   </data>
   <data name="CommDiagnoseConflictInfoLblCaption" xml:space="preserve">
-    <value> {0} 在项目与控制器中不同步。
+    <value> {0} 在项目与控制器中不同步。
  上传或下载使设置同步。</value>
   </data>
   <data name="SerialDiagnosePortTypeCaption" xml:space="preserve">
@@ -3082,6 +3361,15 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="SerialPortDiagnoseButtonTooltip" xml:space="preserve">
     <value>诊断通信状态。</value>
   </data>
+  <data name="EthernetType_Speed_0" xml:space="preserve">
+    <value>中0文文文文文</value>
+  </data>
+  <data name="EthernetType_Speed_10" xml:space="preserve">
+    <value>中10文文文文文</value>
+  </data>
+  <data name="EthernetType_Speed_100" xml:space="preserve">
+    <value>中100文文文文文</value>
+  </data>
   <data name="EthernetType_full" xml:space="preserve">
     <value>全部</value>
   </data>
@@ -3094,6 +3382,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ConnectionConfigStartupCaption" xml:space="preserve">
     <value>启动诊断</value>
   </data>
+  <data name="AllenBradleyCaption" xml:space="preserve">
+    <value>中Allen-Bradley文文文文文</value>
+  </data>
   <data name="GeneralPageFirmwareRevisionLabel" xml:space="preserve">
     <value>固件版本</value>
   </data>
@@ -3105,6 +3396,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="DeviceInfoTreeStartupCaption" xml:space="preserve">
     <value>启动</value>
+  </data>
+  <data name="MEMBAKPluginCaption" xml:space="preserve">
+    <value>中2080-MEMBAK-RTC文文文文文</value>
   </data>
   <data name="StartClearFaultLabel" xml:space="preserve">
     <value>清除故障(_C)</value>
@@ -3293,7 +3587,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>2080-SERIALISOL端口 {0}</value>
   </data>
   <data name="PlugInConflictSettingCaption" xml:space="preserve">
-    <value>{0} 在项目与控制器中不同步。
+    <value>{0} 在项目与控制器中不同步。
  上传或下载使设置同步。</value>
   </data>
   <data name="ButtonCancelCaption" xml:space="preserve">
@@ -3340,12 +3634,12 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="EthernetPortChangedItemsCaption" xml:space="preserve">
     <value>
-端口设置更改项:
+端口设置更改项:
 {0}</value>
   </data>
   <data name="TCPIPChangedItemsCaption" xml:space="preserve">
     <value>
-因特网协议设置更改项:
+因特网协议设置更改项:
 {0}</value>
   </data>
   <data name="PreOnlineChange_Message_BuildError" xml:space="preserve">
@@ -3353,6 +3647,15 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="ManageDownloadDataGridHeader" xml:space="preserve">
     <value>文件名</value>
+  </data>
+  <data name="InputDebounceFilter_AC_ms" xml:space="preserve">
+    <value>中AC {0}ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_ms" xml:space="preserve">
+    <value>中DC {0}ms文文文文文</value>
+  </data>
+  <data name="InputDebounceFilter_DC_us" xml:space="preserve">
+    <value>中DC {0}µs文文文文文</value>
   </data>
   <data name="ControllerChangeEmbeddedIOGainOffsetWarning" xml:space="preserve">
     <value>不支持嵌入式I/O的增益和偏移，且其配置将被丢弃。</value>
@@ -3537,6 +3840,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="MemoryUsageInvalidTooltip" xml:space="preserve">
     <value>生成项目更新内存分配。如果问题持续发生，减少必要的逻辑编程或变量(包括临时变量分配)的数量并重新生成项目。</value>
   </data>
+  <data name="MemoryCtrlInvalidValue" xml:space="preserve">
+    <value>中N/A文文文文文</value>
+  </data>
   <data name="MemoryTempVarInvalidTooltip" xml:space="preserve">
     <value>无法计算临时变量和复杂的表达式的内存使用量。解决错误列表中显示的生成错误并重新生成项目。</value>
   </data>
@@ -3587,6 +3893,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="GoToArchiveBackupProjectMessage" xml:space="preserve">
     <value>已在以下位置创建源项目备份{0}{1}</value>
+  </data>
+  <data name="CCWArchiveExtension" xml:space="preserve">
+    <value>中ccwarc文文文文文</value>
   </data>
   <data name="FileNotPresentException" xml:space="preserve">
     <value>文件 {0} 不存在</value>
@@ -3646,6 +3955,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="Micro800ToolBarMenuDeviceNetItemCaption" xml:space="preserve">
     <value>设备网</value>
+  </data>
+  <data name="DeviceNetBaudRateKbpsCaption" xml:space="preserve">
+    <value>中{0} Kb文文文文文</value>
   </data>
   <data name="DeviceNetAutoscanDisableValue" xml:space="preserve">
     <value>已禁用</value>
@@ -3794,6 +4106,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="VendorNameCaptionWithColon" xml:space="preserve">
     <value>供应商名称:</value>
   </data>
+  <data name="DiagnosticsDNETCaption" xml:space="preserve">
+    <value>中2080-DNET20文文文文文</value>
+  </data>
   <data name="DiagnosticsDNETConflictSettingCaption" xml:space="preserve">
     <value>2080-DNET20 插槽 {0}</value>
   </data>
@@ -3807,7 +4122,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>已连接</value>
   </data>
   <data name="PlugInDNETConflictSettingCaption" xml:space="preserve">
-    <value>{0} 在项目与控制器中不同步。
+    <value>{0} 在项目与控制器中不同步。
 下载项目或插入模块以同步设置。</value>
   </data>
   <data name="DNETCommunication_ModuleStatus_0" xml:space="preserve">
@@ -3820,27 +4135,27 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>非活动</value>
   </data>
   <data name="RmcEnterPendingChangeMessage" xml:space="preserve">
-    <value>在 {1} 中找到 {0} 项更改。 
-
+    <value>在 {1} 中找到 {0} 项更改。 
+
 是否继续更改为“在线编辑”模式?</value>
   </data>
   <data name="RmcQuitUncommittedChangeMessage" xml:space="preserve">
-    <value>控制器具有未被接受的更改。
-
-在接受这些更改之前，对控制器内容的访问将受限制。
-
+    <value>控制器具有未被接受的更改。
+
+在接受这些更改之前，对控制器内容的访问将受限制。
+
 {0}?</value>
   </data>
   <data name="RmcEnterUntestedChangeMessage" xml:space="preserve">
-    <value>当前项目具有未经测试的更改。
-
+    <value>当前项目具有未经测试的更改。
+
 是否继续测试控制器中的逻辑更改?</value>
   </data>
   <data name="RmcQuitUntestedChangesMessage" xml:space="preserve">
-    <value>当前项目具有未经测试的更改。
-
-退出“在线编辑模式”后，控制器将断开连接。
-
+    <value>当前项目具有未经测试的更改。
+
+退出“在线编辑模式”后，控制器将断开连接。
+
 是否退出“在线编辑模式”?</value>
   </data>
   <data name="DiagnosticLoadOnPowerUpLabel" xml:space="preserve">
@@ -3869,6 +4184,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="ProjectModifiedDuringDownloadMessage" xml:space="preserve">
     <value>下载完成。但控制器项目在下载过程中已修改。请重新生成项目，并再次下载项目到控制器。</value>
+  </data>
+  <data name="MotionDefaultFBAxisNameFormat" xml:space="preserve">
+    <value>中FBAxis{0}文文文文文</value>
   </data>
   <data name="HSCFBModeAssocationCaption" xml:space="preserve">
     <value>关联(_A):</value>
@@ -4029,8 +4347,26 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="HSCInputFilterZCaption" xml:space="preserve">
     <value>输入 Z(_P):</value>
   </data>
+  <data name="HSCInputFilterDC0Point5ms" xml:space="preserve">
+    <value>中DC 0.5ms文文文文文</value>
+  </data>
   <data name="HSCInputFilterDC125us" xml:space="preserve">
     <value>DC 125us</value>
+  </data>
+  <data name="HSCInputFilterDC12Point5us" xml:space="preserve">
+    <value>中DC 12.5µs文文文文文</value>
+  </data>
+  <data name="HSCInputFilterDC16ms" xml:space="preserve">
+    <value>中DC 16ms文文文文文</value>
+  </data>
+  <data name="HSCInputFilterDC1ms" xml:space="preserve">
+    <value>中DC 1ms文文文文文</value>
+  </data>
+  <data name="HSCInputFilterDC250us" xml:space="preserve">
+    <value>中DC 250µs文文文文文</value>
+  </data>
+  <data name="HSCInputFilterDC2ms" xml:space="preserve">
+    <value>中DC 2ms文文文文文</value>
   </data>
   <data name="HSCInputFilterDC2Point5us" xml:space="preserve">
     <value>DC 2.5us</value>
@@ -4041,11 +4377,17 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="HSCInputFilterDC35us" xml:space="preserve">
     <value>DC 35us</value>
   </data>
+  <data name="HSCInputFilterDC4ms" xml:space="preserve">
+    <value>中DC 4ms文文文文文</value>
+  </data>
   <data name="HSCInputFilterDC50us" xml:space="preserve">
     <value>DC 50us</value>
   </data>
   <data name="HSCInputFilterDC6Point25us" xml:space="preserve">
     <value>DC 6.25us</value>
+  </data>
+  <data name="HSCInputFilterDC8ms" xml:space="preserve">
+    <value>中DC 8ms文文文文文</value>
   </data>
   <data name="HSCNoFilter" xml:space="preserve">
     <value>无过滤器 - 默认</value>
@@ -4086,6 +4428,12 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ContrastLabelText" xml:space="preserve">
     <value>对比(_O):</value>
   </data>
+  <data name="ContrastMaxValue" xml:space="preserve">
+    <value>中100%文文文文文</value>
+  </data>
+  <data name="ContrastMinValue" xml:space="preserve">
+    <value>中0%文文文文文</value>
+  </data>
   <data name="RmcActionNameEnterRmc" xml:space="preserve">
     <value>进入在线编辑模式</value>
   </data>
@@ -4120,16 +4468,16 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>退出且不接受更改</value>
   </data>
   <data name="RmcTestDownloadFailedMessage" xml:space="preserve">
-    <value>无法将更改下载到控制器。
-
+    <value>无法将更改下载到控制器。
+
 单击“重试”重新下载，或单击“取消”进入“在线编辑模式”。</value>
   </data>
   <data name="RmcAcceptBackupProjectMessage" xml:space="preserve">
     <value>在接受更改后，无法生成新的备份项目文件。</value>
   </data>
   <data name="RmcAcceptFailedMessage" xml:space="preserve">
-    <value>无法接受对控制器的以下更改: 符号表、嵌入式项目文件以及闪存上的资源代码。
-
+    <value>无法接受对控制器的以下更改: 符号表、嵌入式项目文件以及闪存上的资源代码。
+
 单击“重试”重新接受，或单击“取消”测试逻辑更改。</value>
   </data>
   <data name="RmcDebugFailedMessage" xml:space="preserve">
@@ -4145,8 +4493,8 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>无法生成被还原的项目。</value>
   </data>
   <data name="RmcRevertDownloadFailedMessage" xml:space="preserve">
-    <value>无法将被还原的项目下载到控制器。
-
+    <value>无法将被还原的项目下载到控制器。
+
 单击“重试”重新下载，或单击“取消”测试逻辑更改。</value>
   </data>
   <data name="RmcRevertFailedMessage" xml:space="preserve">
@@ -4201,6 +4549,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="MemoryCtrlTempVarMemoryReservationCaption" xml:space="preserve">
     <value>临时变量的数据内存保留(_T):</value>
   </data>
+  <data name="EthernetPortSpeedUnitCaption" xml:space="preserve">
+    <value>中Mbps文文文文文</value>
+  </data>
   <data name="DeviceheaderDeviceImageLabel" xml:space="preserve">
     <value>设备图像</value>
   </data>
@@ -4245,6 +4596,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="DeviceViewRunModeChangeStatusText" xml:space="preserve">
     <value>在线编辑模式</value>
+  </data>
+  <data name="DeviceViewStatusConcatText" xml:space="preserve">
+    <value>中{0}, {1}文文文文文</value>
   </data>
   <data name="DiscoveredModuleMessage" xml:space="preserve">
     <value>模块发现已更新 {0} {1} </value>
@@ -4441,6 +4795,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="InterruptIdLabelText" xml:space="preserve">
     <value>ID(_I):</value>
   </data>
+  <data name="InterruptSetPointUnit" xml:space="preserve">
+    <value>中ms文文文文文</value>
+  </data>
   <data name="NoParamateresHintText" xml:space="preserve">
     <value>没有要设置的参数</value>
   </data>
@@ -4465,6 +4822,60 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ControllerChangeDeviceNotSupportedMessage" xml:space="preserve">
     <value>不受支持的设备已被丢弃。  </value>
   </data>
+  <data name="FiftyHertz" xml:space="preserve">
+    <value>中50 Hz文文文文文</value>
+  </data>
+  <data name="FiveHundredHertz" xml:space="preserve">
+    <value>中500 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateEightPointThreeThreeHertz" xml:space="preserve">
+    <value>中8.33 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateFiftyHertz" xml:space="preserve">
+    <value>中50 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateFourHundredSeventyHertz" xml:space="preserve">
+    <value>中470 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateFourPointOneSevenHertz" xml:space="preserve">
+    <value>中4.17 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateNineteenPointSixHertz" xml:space="preserve">
+    <value>中19.6 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateOneHundredTwentyThreeHertz" xml:space="preserve">
+    <value>中123 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateSixPointTwoFiveHertz" xml:space="preserve">
+    <value>中6.25 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateSixteenPointSevenHertz" xml:space="preserve">
+    <value>中16.7 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateSixtyTwoHertz" xml:space="preserve">
+    <value>中62 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateTenHertz" xml:space="preserve">
+    <value>中10 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateThirtyNineHertz" xml:space="preserve">
+    <value>中39 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateThirtyThreePointTwoHertz" xml:space="preserve">
+    <value>中33.2 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateTwelvePointFiveHertz" xml:space="preserve">
+    <value>中12.5 Hz文文文文文</value>
+  </data>
+  <data name="PluginDataUpdateRateTwoHundredFortyTwoHertz" xml:space="preserve">
+    <value>中242 Hz文文文文文</value>
+  </data>
+  <data name="SixtyHertz" xml:space="preserve">
+    <value>中60 Hz文文文文文</value>
+  </data>
+  <data name="TwoHundredFiftyHertz" xml:space="preserve">
+    <value>中250 Hz文文文文文</value>
+  </data>
   <data name="AutoStartLabel" xml:space="preserve">
     <value>自动开始</value>
   </data>
@@ -4488,6 +4899,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="SetPointLabel" xml:space="preserve">
     <value>设置点 {0}{1}</value>
+  </data>
+  <data name="InterruptSeparator" xml:space="preserve">
+    <value> 中 |文文文文文 </value>
   </data>
   <data name="NoInterruptsConfiguredHintText" xml:space="preserve">
     <value>未配置中断</value>
@@ -4514,7 +4928,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>控制器更改。</value>
   </data>
   <data name="UPModuleStepsToFixP3" xml:space="preserve">
-    <value>2. 使用最新固件升级控制器 (如有必要)。
+    <value>2. 使用最新固件升级控制器 (如有必要)。
 3. 将项目下载到控制器。</value>
   </data>
   <data name="CatalogIDCaption" xml:space="preserve">
@@ -4573,6 +4987,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="DeviceNotReadyForFirmwareUpdateConnectionFailed" xml:space="preserve">
     <value>无法使用当前路径连接到设备。请验证连接是否激活。</value>
+  </data>
+  <data name="TCPIPInactivityTimeoutUnitSecCaption" xml:space="preserve">
+    <value>中sec文文文文文</value>
   </data>
   <data name="TCPIPInactivityTimeoutCaption" xml:space="preserve">
     <value>闲置状态超时</value>
@@ -4661,6 +5078,12 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="HscInstructionCounterName" xml:space="preserve">
     <value>计数器:</value>
   </data>
+  <data name="HscInstructionTimePeriodUnit" xml:space="preserve">
+    <value>中µs文文文文文</value>
+  </data>
+  <data name="HscInstructionUserUnit" xml:space="preserve">
+    <value>中/sec文文文文文</value>
+  </data>
   <data name="ControllerPasswordCannotBeCleared" xml:space="preserve">
     <value>无法继续下载操作。无法清除控制器密码。</value>
   </data>
@@ -4671,7 +5094,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>已成功还原控制器密码。</value>
   </data>
   <data name="PasswordResetRequiredForDownloadWarning" xml:space="preserve">
-    <value>必须清除控制器密码才能继续下载。
+    <value>必须清除控制器密码才能继续下载。
 在下载完成后控制器会被自动设置相同的密码。</value>
   </data>
   <data name="DeviceNotReadyForFirmwareUpdateUnknownState" xml:space="preserve">
@@ -4726,9 +5149,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>插槽 {0} 中的 2080-MOT-HSC 插件中发生意外错误。请将模块移除然后重新添加回来以修复该错误。</value>
   </data>
   <data name="AllPortsDisabledErrorMessage" xml:space="preserve">
-    <value>当前配置不允许连接至控制器。请启用以下端口之一
-    1. USB 
-    2. 以太网
+    <value>当前配置不允许连接至控制器。请启用以下端口之一
+    1. USB 
+    2. 以太网
     3. 串行端口的 CIP 串行驱动程序。</value>
   </data>
   <data name="DeviceInfoTreeCounterCaption" xml:space="preserve">
@@ -4839,6 +5262,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ExpansionConfigDataCannotExceed255WordsMsessage" xml:space="preserve">
     <value>扩展模块配置不能超过 255 个字。必要时，请删除扩展模块。</value>
   </data>
+  <data name="HotKeyForAssociateAxis" xml:space="preserve">
+    <value>中A文文文文文</value>
+  </data>
   <data name="ExpansionModuleOnlySupplyOnePowerSupplyMessage" xml:space="preserve">
     <value>控制器仅支持一个电源扩展模块，请卸下额外的电源模块。</value>
   </data>
@@ -4919,6 +5345,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="ModBusMappingViewModelImportModbusSuccessMessage" xml:space="preserve">
     <value>Modbus 映射配置导入成功。</value>
+  </data>
+  <data name="ModBusMappingViewModelExportImportMessageBoxCaption" xml:space="preserve">
+    <value>中Connected Components Workbench文文文文文</value>
   </data>
   <data name="ModBusMappingViewModelExportModbusFailedMessage" xml:space="preserve">
     <value>Modbus 映射配置导出失败。</value>
@@ -5002,7 +5431,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>慢速优先级:</value>
   </data>
   <data name="ControllerChangeExpansionIOFeatureLessModuleSkipCounterDiscardWarning" xml:space="preserve">
-    <value>目标控制器支持较少数量的扩展模块。请根据需要更新程序。
+    <value>目标控制器支持较少数量的扩展模块。请根据需要更新程序。
 扫描优先级功能不受支持，其配置已被丢弃。</value>
   </data>
   <data name="ControllerChangeSkipCounterDiscardWarning" xml:space="preserve">
@@ -5020,6 +5449,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="OutputLabelString" xml:space="preserve">
     <value>输出 {0}:</value>
   </data>
+  <data name="TCPIPConfigCtrlModbusTcpCaption" xml:space="preserve">
+    <value>中Modbus TCP文文文文文</value>
+  </data>
   <data name="TCPIPEnableModbusTcpServerCaption" xml:space="preserve">
     <value>启用 Modbus TCP 服务器</value>
   </data>
@@ -5031,6 +5463,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="RecipeViewModelFileFilterRule" xml:space="preserve">
     <value>CCW 配方文件 (*.ccwrcp)|*.ccwrcp</value>
+  </data>
+  <data name="RecipeViewModelImportExportCaption" xml:space="preserve">
+    <value>中Connected Components Workbench文文文文文</value>
   </data>
   <data name="RecipeViewModelImportRecipeSuccessMessage" xml:space="preserve">
     <value>配方配置导入成功。</value>
@@ -5083,6 +5518,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="PresentationAndUIProductTypeCaption" xml:space="preserve">
     <value>产品类型:</value>
   </data>
+  <data name="MEMBAKRTC2PluginCaption" xml:space="preserve">
+    <value>中2080-MEMBAK-RTC2文文文文文</value>
+  </data>
   <data name="HardFaultOccureLabel" xml:space="preserve">
     <value>硬件故障</value>
   </data>
@@ -5131,6 +5569,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ExpansionIOScanCycleChartYAxisCaptionFormat" xml:space="preserve">
     <value>物理插槽 {0} - {1}</value>
   </data>
+  <data name="SdRtcPluginCaption" xml:space="preserve">
+    <value>中2080-SDMEMRTC-SC文文文文文</value>
+  </data>
   <data name="EthernetIPPortStatusCaption" xml:space="preserve">
     <value>服务器状态:</value>
   </data>
@@ -5158,6 +5599,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="ExportOutPutPathInfo" xml:space="preserve">
     <value>正在导出至该文件: '{0}'</value>
   </data>
+  <data name="SpectrumControlCaption" xml:space="preserve">
+    <value>中Spectrum Controls文文文文文</value>
+  </data>
   <data name="FileExistInformation" xml:space="preserve">
     <value>文件 {0} 已存在。</value>
   </data>
@@ -5165,7 +5609,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>正在从文件: '{0}' 导入</value>
   </data>
   <data name="GeneralPageGenerateEmbeddedProjectCaption" xml:space="preserve">
-    <value>下载源
+    <value>下载源
 代码:</value>
   </data>
   <data name="DatalogViewModelExportDatalogReplaceSuccessMessage" xml:space="preserve">
@@ -5350,12 +5794,12 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>删除中断程序</value>
   </data>
   <data name="DownloadProjectProjectValueTooltip" xml:space="preserve">
-    <value>选中该框以启用。
+    <value>选中该框以启用。
  ● 使用项目值将变量初始化。</value>
   </data>
   <data name="DownloadProjectSourceFileTooltip" xml:space="preserve">
-    <value>选中该框以启用。
- ● RMC 期间，将发生“测试更改”和“丢弃未被接受的更改”。
+    <value>选中该框以启用。
+ ● RMC 期间，将发生“测试更改”和“丢弃未被接受的更改”。
  ● 从控制器上传项目 (不包含本地项目)。</value>
   </data>
   <data name="DownloadOptionsLabel" xml:space="preserve">
@@ -5393,31 +5837,39 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
       that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
   </data>
   <data name="LifecycleCaption7878" xml:space="preserve">
-    <value>这是测试那是
-      什么？是！你好！\n大家。\r</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
   </data>
   <data name="LifecycleCaption99999" xml:space="preserve">
-    <value>这是测试那是
-      什么？是！你好！\n大家。\r</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
   </data>
   <data name="LifecycleCaption101010101010" xml:space="preserve">
-    <value>这是测试那是
-      什么？是！你好！\n大家。\r</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
   </data>
   <data name="LifecycleCaption1111111" xml:space="preserve">
-    <value>这是测试那是
-      什么？是！你好！\n大家。\r</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
   </data>
   <data name="LifecycleCaption666655444" xml:space="preserve">
-    <value>这是测试那是
-      什么？是！你好！\n大家。\r</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
   </data>
   <data name="LifecycleCaption7878787878789989" xml:space="preserve">
-    <value>这是测试那是
-      什么？是！你好！\n大家。\r</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
   </data>
   <data name="LifecycleCaption54gf" xml:space="preserve">
-    <value>这是测试那是
-      什么？是！你好！\n大家。\r</value>
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文</value>
+  </data>
+  <data name="LifecycleCaption1123223254gf" xml:space="preserve">
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文中1111文文文文文</value>
+  </data>
+  <data name="LifecycleCaption77788888f" xml:space="preserve">
+    <value>中This is test.文文文文文中what's 
+      that?文文文文文中Yes!文文文文文中hello!文文文文文中\n文文文文文中everyone.文文文文文中\r文文文文文中1111文文文文文</value>
   </data>
 </root>
