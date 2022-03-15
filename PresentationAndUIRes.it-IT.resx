@@ -190,7 +190,7 @@
     <value>Non in errore</value>
   </data>
   <data name="ConnectionSoftSwitchCaption" xml:space="preserve">
-    <value>Modalità
+    <value>Modalità
 remota</value>
   </data>
   <data name="ConnectionUserActionBuildingRangeValue" xml:space="preserve">
@@ -1382,7 +1382,7 @@ remota</value>
     <value>àéÓmsÙÙÙÙÙ</value>
   </data>
   <data name="MotionMaximumAxisSupportedCaption" xml:space="preserve">
-    <value>Numero massimo di
+    <value>Numero massimo di
 assi PTO integrati:</value>
   </data>
   <data name="MotionAxisConfigNodeDynamics" xml:space="preserve">
@@ -1401,7 +1401,7 @@ assi PTO integrati:</value>
     <value>Motore e carico</value>
   </data>
   <data name="MotionAxisConfigNameFormatError" xml:space="preserve">
-    <value>Impossibile creare o rinominare l'asse.
+    <value>Impossibile creare o rinominare l'asse.
 {0}</value>
   </data>
   <data name="MotionAxisConfigNameLengthError" xml:space="preserve">
@@ -1501,8 +1501,8 @@ assi PTO integrati:</value>
     <value>Arresto immediato</value>
   </data>
   <data name="MotionAxisGeneralPTOChannelWarningMessage" xml:space="preserve">
-    <value>Il cambiamento del canale PTO modifica i collegamenti I/O di "{0}".
-
+    <value>Il cambiamento del canale PTO modifica i collegamenti I/O di "{0}".
+
 Aggiornare questi valori?
   </value>
   </data>
@@ -1732,7 +1732,7 @@ Aggiornare questi valori?
     <value>Modalità DF1:</value>
   </data>
   <data name="TCPIPConfigChangeIPCaption" xml:space="preserve">
-    <value>Rilevato conflitto indirizzo IP.
+    <value>Rilevato conflitto indirizzo IP.
 Modificare l'indirizzo IP per risolvere l'errore.</value>
   </data>
   <data name="DeviceInfoDigitalIOExceedMessage" xml:space="preserve">
@@ -1844,74 +1844,74 @@ Modificare l'indirizzo IP per risolvere l'errore.</value>
     <value>Movimento sincronizzato</value>
   </data>
   <data name="MotionError_MC_FB_ERR_MECHAN" xml:space="preserve">
-    <value>L'asse non funziona perché è stato rilevato un problema all'unità o meccanico.
-
-Controllare il collegamento tra unità e controllore (segnali Pronto unità e In posizione), quindi verificare che l'unità funzioni normalmente.  
-
+    <value>L'asse non funziona perché è stato rilevato un problema all'unità o meccanico.
+
+Controllare il collegamento tra unità e controllore (segnali Pronto unità e In posizione), quindi verificare che l'unità funzioni normalmente.  
+
 Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RESOURCE" xml:space="preserve">
-    <value>L'asse non funziona in quanto esso o la risorsa relativa richiesta dal blocco funzione sono sotto controllo di un altro blocco funzione, o non disponibili.
-
-Verificare che l'asse o la relativa risorsa richiesta dal blocco funzione sia disponibile per l'uso.
-
-Reimpostare lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona in quanto esso o la risorsa relativa richiesta dal blocco funzione sono sotto controllo di un altro blocco funzione, o non disponibili.
+
+Verificare che l'asse o la relativa risorsa richiesta dal blocco funzione sia disponibile per l'uso.
+
+Reimpostare lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Reset e correggere l'applicazione in caso di istanze multiple dello stesso blocco funzione che tentano di controllare l'asse contemporaneamente.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_ENGINE" xml:space="preserve">
-    <value>L'asse non funziona in seguito al rilevamento di un errore di esecuzione del motore di movimento.
-
-Ciclare l'alimentazione all'intera macchina e scaricare nuovamente l'applicazione utente nel controllore.
-
-Se il guasto persiste, contattare il rappresentante del supporto tecnico di zona di Rockwell Automation. Per le informazioni sui contatti, visitare: 
-
+    <value>L'asse non funziona in seguito al rilevamento di un errore di esecuzione del motore di movimento.
+
+Ciclare l'alimentazione all'intera macchina e scaricare nuovamente l'applicazione utente nel controllore.
+
+Se il guasto persiste, contattare il rappresentante del supporto tecnico di zona di Rockwell Automation. Per le informazioni sui contatti, visitare: 
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_HARD_LIMIT" xml:space="preserve">
-    <value>L'asse non funziona a causa del rilevamento di un errore Limite hardware.
-
-
+    <value>L'asse non funziona a causa del rilevamento di un errore Limite hardware.
+
+
 Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset, quindi spostare l'asse dall'interruttore Limite hardware in direzione opposta.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_LOG_LIMIT" xml:space="preserve">
-    <value>L'asse non funziona per via di un errore limite logico dell'accumulatore PTO rilevato o per un errore di limite logico dell'accumulatore PTO causato dall'esecuzione del blocco funzione.
-
-Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona per via di un errore limite logico dell'accumulatore PTO rilevato o per un errore di limite logico dell'accumulatore PTO causato dall'esecuzione del blocco funzione.
+
+Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Controllare le impostazioni di velocità o posizione di destinazione per il blocco funzione. Utilizzare il blocco funzione MC_SetPosition per regolare il sistema di coordinate dell'asse.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PARAM" xml:space="preserve">
-    <value>L'asse non funziona a causa di un parametro non valido (diverso da velocità, accelerazione, decelerazione o jerk), impostato in un blocco funzione.
-
-Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona a causa di un parametro non valido (diverso da velocità, accelerazione, decelerazione o jerk), impostato in un blocco funzione.
+
+Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Nel blocco funzione, correggere le impostazioni dei parametri, come modalità o posizione.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PROFILE" xml:space="preserve">
-    <value>L'asse non funziona in quanto un profilo di movimento definito in un blocco funzione non è valido. 
-
-Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona in quanto un profilo di movimento definito in un blocco funzione non è valido. 
+
+Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Correggere il profilo nel blocco funzione.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RANGE" xml:space="preserve">
-    <value>L'asse non funziona a causa di un parametro dinamico dell'asse non valido (velocità, accelerazione, decelerazione o jerk), impostato in un blocco funzione.
-
-Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona a causa di un parametro dinamico dell'asse non valido (velocità, accelerazione, decelerazione o jerk), impostato in un blocco funzione.
+
+Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Nel blocco funzione, correggere le impostazioni dei parametri dinamici in conflitto con le impostazioni nella pagina di configurazione Dinamica asse.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_WRONG_STATE" xml:space="preserve">
-    <value>L'asse non funziona a causa di uno stato dell'asse non corretto rilevato durante l'esecuzione di un blocco funzione. 
-
+    <value>L'asse non funziona a causa di uno stato dell'asse non corretto rilevato durante l'esecuzione di un blocco funzione. 
+
 Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_SOFT_LIMIT" xml:space="preserve">
-    <value>L'asse non funziona per via di un errore di limite software rilevato o per un errore di limite software causato dall'esecuzione del blocco funzione.
-
-Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona per via di un errore di limite software rilevato o per un errore di limite software causato dall'esecuzione del blocco funzione.
+
+Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Controllare le impostazioni di velocità o posizione di destinazione per il blocco funzione, oppure regolare il Limite software.</value>
   </data>
   <data name="MotionError_UnknownError" xml:space="preserve">
@@ -2024,40 +2024,40 @@ Continuare?</value>
     <value>velocità</value>
   </data>
   <data name="MotionError_MC_FB_ERR_AXISNUM" xml:space="preserve">
-    <value>Errore interno movimento, ID errore = 0x04. 
-
-Contattare il rappresentante del supporto tecnico di zona di Rockwell Automation. Per le informazioni sui contatti, visitare: 
-
+    <value>Errore interno movimento, ID errore = 0x04. 
+
+Contattare il rappresentante del supporto tecnico di zona di Rockwell Automation. Per le informazioni sui contatti, visitare: 
+
 http://support.rockwellautomation.com/MySupport.asp</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOPOWER" xml:space="preserve">
-    <value>L'asse non è alimentato.
-
-Alimentare l'asse con il blocco funzione MC_Power.
-
+    <value>L'asse non è alimentato.
+
+Alimentare l'asse con il blocco funzione MC_Power.
+
 Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_VELOCITY" xml:space="preserve">
-    <value>L'asse non funziona in quanto un profilo di movimento richiesto in un blocco funzione è in conflitto con la velocità corrente dell'asse. 
-
-Possibili cause:
-1. Il blocco funzione richiede che l'asse inverta la direzione mentre l'asse è in movimento.
-2. La velocità corrente è troppo bassa o troppo alta per il profilo di movimento richiesto.
-
-
-Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona in quanto un profilo di movimento richiesto in un blocco funzione è in conflitto con la velocità corrente dell'asse. 
+
+Possibili cause:
+1. Il blocco funzione richiede che l'asse inverta la direzione mentre l'asse è in movimento.
+2. La velocità corrente è troppo bassa o troppo alta per il profilo di movimento richiesto.
+
+
+Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Correggere il profilo di movimento nel blocco funzione o rieseguire il blocco funzione quando la velocità dell'asse è compatibile con il profilo di movimento richiesto.</value>
   </data>
   <data name="MotionError_MC_FB_PARAM_MODIFIED" xml:space="preserve">
-    <value>Avvertimento interno movimento, ID avvertimento = 0x80. 
-
-Contattare il rappresentante del supporto tecnico di zona di Rockwell Automation. Per le informazioni sui contatti, visitare: 
-
+    <value>Avvertimento interno movimento, ID avvertimento = 0x80. 
+
+Contattare il rappresentante del supporto tecnico di zona di Rockwell Automation. Per le informazioni sui contatti, visitare: 
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MBMappingFailedToLoadMappingItemMessage" xml:space="preserve">
-    <value>{0}\r\nImpossibile caricare l'elemento di Mappatura Modbus: Nome variabile:{1},indirizzo:{2}</value>
+    <value>{0}\nImpossibile caricare l'elemento di Mappatura Modbus: Nome variabile:{1},indirizzo:{2}</value>
   </data>
   <data name="ModbusSLUnitAddressInvalidMessage" xml:space="preserve">
     <value>Indirizzo unità deve essere compreso nell'intervallo tra {0} e {1}</value>
@@ -2097,10 +2097,10 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>Subnet mask non valida</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOT_HOMED" xml:space="preserve">
-    <value>L'asse non funziona in quanto l'asse non è in sede.  
-
-Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
-
+    <value>L'asse non funziona in quanto l'asse non è in sede.  
+
+Reset lo stato dell'asse utilizzando il blocco funzione MC_Reset.
+
 Riposizionare nuovamente l'asse in sede usando il blocco funzione MC_Home.</value>
   </data>
   <data name="MotionAxisCaption" xml:space="preserve">
@@ -2152,7 +2152,7 @@ Riposizionare nuovamente l'asse in sede usando il blocco funzione MC_Home.</valu
     <value>L'utilizzo della memoria viene aggiornato solo dopo </value>
   </data>
   <data name="ASCIIDriverCharsInputInvalidtMessage" xml:space="preserve">
-    <value>Immettere un numero esadecimale che inizi con 0x, 
+    <value>Immettere un numero esadecimale che inizi con 0x, 
 seguito da una o due cifre esadecimali, come 0xa o 0x0a.</value>
   </data>
   <data name="AdvancedDialogButtonClose" xml:space="preserve">
@@ -2513,7 +2513,7 @@ seguito da una o due cifre esadecimali, come 0xa o 0x0a.</value>
     <value>Il nome del controllore non può essere identico al nome Unità Terminali Grafici.</value>
   </data>
   <data name="DefaultNewFolderChangePathMessage" xml:space="preserve">
-    <value>Impossibile creare nuovo progetto nel percorso di rete: {0} 
+    <value>Impossibile creare nuovo progetto nel percorso di rete: {0} 
 Impostare Preferenza cartella predefinita CCW su un'unità locale.</value>
   </data>
   <data name="DefaultNewFolderOnNetworkMessage" xml:space="preserve">
@@ -3288,7 +3288,7 @@ Impostare Preferenza cartella predefinita CCW su un'unità locale.</value>
     <value>Contatori collegamenti</value>
   </data>
   <data name="CommDiagnoseConflictInfoLblCaption" xml:space="preserve">
-    <value> Impostazioni {0} non sincronizzate tra il progetto e il controllore.
+    <value> Impostazioni {0} non sincronizzate tra il progetto e il controllore.
  Caricare o scaricare il progetto per sincronizzare le impostazioni.</value>
   </data>
   <data name="SerialDiagnosePortTypeCaption" xml:space="preserve">
@@ -3586,7 +3586,7 @@ Impostare Preferenza cartella predefinita CCW su un'unità locale.</value>
     <value>2080-SERIALISOL sulla porta {0}</value>
   </data>
   <data name="PlugInConflictSettingCaption" xml:space="preserve">
-    <value>Impostazioni {0} non sincronizzate tra il progetto e il controllore.
+    <value>Impostazioni {0} non sincronizzate tra il progetto e il controllore.
 Caricare/scaricare il progetto o collegare il modulo per sincronizzare le impostazioni.</value>
   </data>
   <data name="ButtonCancelCaption" xml:space="preserve">
@@ -3633,12 +3633,12 @@ Caricare/scaricare il progetto o collegare il modulo per sincronizzare le impost
   </data>
   <data name="EthernetPortChangedItemsCaption" xml:space="preserve">
     <value>
-Elementi modificati nelle impostazioni della porta:
+Elementi modificati nelle impostazioni della porta:
 {0}</value>
   </data>
   <data name="TCPIPChangedItemsCaption" xml:space="preserve">
     <value>
-Elementi modificati nelle impostazioni Protocollo Internet:
+Elementi modificati nelle impostazioni Protocollo Internet:
 {0}</value>
   </data>
   <data name="PreOnlineChange_Message_BuildError" xml:space="preserve">
@@ -4121,7 +4121,7 @@ Elementi modificati nelle impostazioni Protocollo Internet:
     <value>Connesso</value>
   </data>
   <data name="PlugInDNETConflictSettingCaption" xml:space="preserve">
-    <value>{0} nel progetto e il controllore non sono sincronizzati.
+    <value>{0} nel progetto e il controllore non sono sincronizzati.
 Scaricare il progetto o collegare il modulo per sincronizzare le impostazioni.</value>
   </data>
   <data name="DNETCommunication_ModuleStatus_0" xml:space="preserve">
@@ -4134,27 +4134,27 @@ Scaricare il progetto o collegare il modulo per sincronizzare le impostazioni.</
     <value>Inattivo</value>
   </data>
   <data name="RmcEnterPendingChangeMessage" xml:space="preserve">
-    <value>{0} modifiche rilevate in {1}. 
-
+    <value>{0} modifiche rilevate in {1}. 
+
 Procedere alla modifica in modalità Modifica in modalità Run?</value>
   </data>
   <data name="RmcQuitUncommittedChangeMessage" xml:space="preserve">
-    <value>Il controllore presenta modifiche non accettate.
-
-L'accesso al contenuto del controllore è limitato fino all'accettazione delle modifiche.
-
+    <value>Il controllore presenta modifiche non accettate.
+
+L'accesso al contenuto del controllore è limitato fino all'accettazione delle modifiche.
+
 {0}?</value>
   </data>
   <data name="RmcEnterUntestedChangeMessage" xml:space="preserve">
-    <value>Il progetto corrente contiene modifiche non testate.
-
+    <value>Il progetto corrente contiene modifiche non testate.
+
 Continuare a testare le modifiche logiche nel controllore?</value>
   </data>
   <data name="RmcQuitUntestedChangesMessage" xml:space="preserve">
-    <value>Il progetto corrente contiene modifiche non testate.
-
-Il controllore verrà disconnesso dopo l'uscita dalla Modifica in modalità Run.
-
+    <value>Il progetto corrente contiene modifiche non testate.
+
+Il controllore verrà disconnesso dopo l'uscita dalla Modifica in modalità Run.
+
 Uscire dalla Modifica in modalità Run?</value>
   </data>
   <data name="DiagnosticLoadOnPowerUpLabel" xml:space="preserve">
@@ -4467,16 +4467,16 @@ Uscire dalla Modifica in modalità Run?</value>
     <value>Uscire senza accettare le modifiche</value>
   </data>
   <data name="RmcTestDownloadFailedMessage" xml:space="preserve">
-    <value>Impossibile scaricare le modifiche sul controllore. 
-    
+    <value>Impossibile scaricare le modifiche sul controllore. 
+    
 Selezionare 'Riprova' per scaricare nuovamente o 'Annulla' per accedere alla Modifica in modalità Run.</value>
   </data>
   <data name="RmcAcceptBackupProjectMessage" xml:space="preserve">
     <value>Impossibile generare il file del nuovo progetto di backup dopo aver accettato le modifiche.</value>
   </data>
   <data name="RmcAcceptFailedMessage" xml:space="preserve">
-    <value>Impossibile accettare le seguenti modifiche del controllore: tabella dei simboli, file del progetto integrato e codice delle risorse su flash.
-
+    <value>Impossibile accettare le seguenti modifiche del controllore: tabella dei simboli, file del progetto integrato e codice delle risorse su flash.
+
 Selezionare 'Riprova' per accettare nuovamente o 'Annulla' per testare le modifiche logiche.</value>
   </data>
   <data name="RmcDebugFailedMessage" xml:space="preserve">
@@ -4492,8 +4492,8 @@ Selezionare 'Riprova' per accettare nuovamente o 'Annulla' per testare le modifi
     <value>Impossibile compilare il progetto ripristinato.</value>
   </data>
   <data name="RmcRevertDownloadFailedMessage" xml:space="preserve">
-    <value>Impossibile scaricare il progetto ripristinato sul controllore.
-
+    <value>Impossibile scaricare il progetto ripristinato sul controllore.
+
 Selezionare 'Riprova' per scaricare nuovamente o 'Annulla' per testare le modifiche logiche.</value>
   </data>
   <data name="RmcRevertFailedMessage" xml:space="preserve">
@@ -4927,7 +4927,7 @@ Selezionare 'Riprova' per scaricare nuovamente o 'Annulla' per testare le modifi
     <value>Modifica controllore.</value>
   </data>
   <data name="UPModuleStepsToFixP3" xml:space="preserve">
-    <value>2. Aggiornare il controllore con il firmware più recente, se necessario.
+    <value>2. Aggiornare il controllore con il firmware più recente, se necessario.
 3. Scaricare il progetto sul controllore.</value>
   </data>
   <data name="CatalogIDCaption" xml:space="preserve">
@@ -5093,7 +5093,7 @@ Selezionare 'Riprova' per scaricare nuovamente o 'Annulla' per testare le modifi
     <value>La password del controllore è stata ripristinata.</value>
   </data>
   <data name="PasswordResetRequiredForDownloadWarning" xml:space="preserve">
-    <value>Per procedere con il download è necessario cancellare la password del controllore.
+    <value>Per procedere con il download è necessario cancellare la password del controllore.
 Il controllore sarà protetto di nuovo automaticamente al termine del download.</value>
   </data>
   <data name="DeviceNotReadyForFirmwareUpdateUnknownState" xml:space="preserve">
@@ -5148,9 +5148,9 @@ Il controllore sarà protetto di nuovo automaticamente al termine del download.<
     <value>Errore imprevisto nello slot di ingresso {0} del plug-in 2080-MOT-HSC. Rimuovere il modulo e aggiungerlo di nuovo per risolvere il problema.</value>
   </data>
   <data name="AllPortsDisabledErrorMessage" xml:space="preserve">
-    <value>La configurazione non consente la connessione al controllore. Abilitare una delle porte seguenti 
-    1. USB 
-    2. Ethernet
+    <value>La configurazione non consente la connessione al controllore. Abilitare una delle porte seguenti 
+    1. USB 
+    2. Ethernet
     3. Driver CIP seriale dalla porta seriale.</value>
   </data>
   <data name="DeviceInfoTreeCounterCaption" xml:space="preserve">
@@ -5430,7 +5430,7 @@ Il controllore sarà protetto di nuovo automaticamente al termine del download.<
     <value>Priorità lenta:</value>
   </data>
   <data name="ControllerChangeExpansionIOFeatureLessModuleSkipCounterDiscardWarning" xml:space="preserve">
-    <value>Controllore di destinazione supporta un numero minore di moduli di espansione. Aggiornare programmi secondo necessità. 
+    <value>Controllore di destinazione supporta un numero minore di moduli di espansione. Aggiornare programmi secondo necessità. 
 Funzione di priorità di scansione non supportata, la configurazione viene scartata.</value>
   </data>
   <data name="ControllerChangeSkipCounterDiscardWarning" xml:space="preserve">
@@ -5608,7 +5608,7 @@ Funzione di priorità di scansione non supportata, la configurazione viene scart
     <value>Importazione da file: "{0}"</value>
   </data>
   <data name="GeneralPageGenerateEmbeddedProjectCaption" xml:space="preserve">
-    <value>Scarica codice
+    <value>Scarica codice
 sorgente:</value>
   </data>
   <data name="DatalogViewModelExportDatalogReplaceSuccessMessage" xml:space="preserve">
@@ -5793,12 +5793,12 @@ sorgente:</value>
     <value>Eliminare il programma interrupt</value>
   </data>
   <data name="DownloadProjectProjectValueTooltip" xml:space="preserve">
-    <value>Selezionare questa casella per attivarla.
+    <value>Selezionare questa casella per attivarla.
  ● Inizializzare le variabili con il valore di progetto.</value>
   </data>
   <data name="DownloadProjectSourceFileTooltip" xml:space="preserve">
-    <value>Selezionare questa casella per attivarla.
- ● "Testa modifiche" e "Ignora modifiche non accettate" durante RMC.
+    <value>Selezionare questa casella per attivarla.
+ ● "Testa modifiche" e "Ignora modifiche non accettate" durante RMC.
  ● Caricare il progetto dal controllore senza progetto locale.</value>
   </data>
   <data name="DownloadOptionsLabel" xml:space="preserve">
@@ -5832,43 +5832,43 @@ sorgente:</value>
     <value>àéÓProduct Lifecycle343434ÙÙÙÙÙ</value>
   </data>
   <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption7878" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption99999" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption101010101010" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption1111111" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption666655444" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption7878787878789989" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption54gf" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption1123223254gf" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙàéÓ1111ÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r 1111</value>
   </data>
   <data name="LifecycleCaption77788888f" xml:space="preserve">
-    <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
-      that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙàéÓ1111ÙÙÙÙÙ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r 1111</value>
   </data>
 </root>

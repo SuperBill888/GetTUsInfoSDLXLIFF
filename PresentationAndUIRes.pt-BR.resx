@@ -190,7 +190,7 @@
     <value>Sem Falha</value>
   </data>
   <data name="ConnectionSoftSwitchCaption" xml:space="preserve">
-    <value>Modo
+    <value>Modo
 Remoto</value>
   </data>
   <data name="ConnectionUserActionBuildingRangeValue" xml:space="preserve">
@@ -1361,7 +1361,7 @@ Remoto</value>
     <value>Configurações do Protocolo de Internet</value>
   </data>
   <data name="EthernetDisconnectionMessage" xml:space="preserve">
-    <value>Salvar as configurações resultará em desconexão do controlador.
+    <value>Salvar as configurações resultará em desconexão do controlador.
 {0}</value>
   </data>
   <data name="EthernetSaveToControllerBtnCaption" xml:space="preserve">
@@ -1383,7 +1383,7 @@ Remoto</value>
     <value>ãçêúmsÀÀÀÀÀ</value>
   </data>
   <data name="MotionMaximumAxisSupportedCaption" xml:space="preserve">
-    <value>Número máximo de 
+    <value>Número máximo de 
 eixos PTO integrados:</value>
   </data>
   <data name="MotionAxisConfigNodeDynamics" xml:space="preserve">
@@ -1402,7 +1402,7 @@ eixos PTO integrados:</value>
     <value>Motor e Carga</value>
   </data>
   <data name="MotionAxisConfigNameFormatError" xml:space="preserve">
-    <value>Não é possível criar ou renomear o eixo.
+    <value>Não é possível criar ou renomear o eixo.
 {0}</value>
   </data>
   <data name="MotionAxisConfigNameLengthError" xml:space="preserve">
@@ -1502,8 +1502,8 @@ eixos PTO integrados:</value>
     <value>Parada Imediata</value>
   </data>
   <data name="MotionAxisGeneralPTOChannelWarningMessage" xml:space="preserve">
-    <value>A alteração do canal PTO irá alterar a Fiação de E/S de '{0}'.
-
+    <value>A alteração do canal PTO irá alterar a Fiação de E/S de '{0}'.
+
 Deseja atualizar esses valores?
   </value>
   </data>
@@ -1733,7 +1733,7 @@ Deseja atualizar esses valores?
     <value>Modo DF1:</value>
   </data>
   <data name="TCPIPConfigChangeIPCaption" xml:space="preserve">
-    <value>Detectado conflito de endereço IP.
+    <value>Detectado conflito de endereço IP.
 Altere o endereço IP para corrigir o erro.</value>
   </data>
   <data name="DeviceInfoDigitalIOExceedMessage" xml:space="preserve">
@@ -1845,73 +1845,73 @@ Altere o endereço IP para corrigir o erro.</value>
     <value>Movimento Sincronizado</value>
   </data>
   <data name="MotionError_MC_FB_ERR_MECHAN" xml:space="preserve">
-    <value>The axis is not operational because a drive or mechanical issue was detected.
-
-Check the connection between the drive and the controller (Drive Ready and In-Position signals), and ensure the drive is operating normally. 
-
+    <value>The axis is not operational because a drive or mechanical issue was detected.
+
+Check the connection between the drive and the controller (Drive Ready and In-Position signals), and ensure the drive is operating normally. 
+
 Reset the state of the axis using the MC_Reset Function Block.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RESOURCE" xml:space="preserve">
-    <value>O eixo não está operacional porque ele ou seus recursos relacionados exigidos por um Bloco da Função estão sob o controle de outro Bloco da Função, ou não estão disponíveis.
-
-Certifique-se de que o eixo ou seus recursos relacionados exigidos pelo Bloco da Função estejam disponíveis para uso.
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque ele ou seus recursos relacionados exigidos por um Bloco da Função estão sob o controle de outro Bloco da Função, ou não estão disponíveis.
+
+Certifique-se de que o eixo ou seus recursos relacionados exigidos pelo Bloco da Função estejam disponíveis para uso.
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 Analise e corrija o aplicativo se houver várias instâncias do mesmo bloco da função tentando controlar o eixo ao mesmo tempo.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_ENGINE" xml:space="preserve">
-    <value>O eixo não está operacional porque foi detectado um erro de execução do mecanismo de movimento.
-
-Desligue e ligue toda a máquina e faça download do Aplicativo do Usuário para o controlador novamente.
-
-Se a falha persistir, entre em contato com o representante do suporte técnico local da Rockwell Automation. Para obter as informações de contato, visite:
-
+    <value>O eixo não está operacional porque foi detectado um erro de execução do mecanismo de movimento.
+
+Desligue e ligue toda a máquina e faça download do Aplicativo do Usuário para o controlador novamente.
+
+Se a falha persistir, entre em contato com o representante do suporte técnico local da Rockwell Automation. Para obter as informações de contato, visite:
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_HARD_LIMIT" xml:space="preserve">
-    <value>O eixo não está operacional porque foi detectado um erro de Limite Rígido.
-
+    <value>O eixo não está operacional porque foi detectado um erro de Limite Rígido.
+
 Restaure o estado do eixo usando o Bloco da Função MC_Reset, em seguida afaste o eixo da chave de Limite Rígido na direção oposta.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_LOG_LIMIT" xml:space="preserve">
-    <value>O eixo não está operacional porque foi detectado um erro de limite lógico do Acumulador PTO, ou a execução do Bloco da Função causaria um erro de limite lógico do Acumulador PTO.
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque foi detectado um erro de limite lógico do Acumulador PTO, ou a execução do Bloco da Função causaria um erro de limite lógico do Acumulador PTO.
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 Verifique os ajustes de velocidade ou da posição de destino para o Bloco da Função. Use o Bloco da Função MC_SetPosition para ajustar o sistema de coordenadas do eixo.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PARAM" xml:space="preserve">
-    <value>O eixo não está operacional porque um parâmetro inválido (diferente de velocidade, aceleração, desaceleração ou jerk) está definido em um Bloco da Função.
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque um parâmetro inválido (diferente de velocidade, aceleração, desaceleração ou jerk) está definido em um Bloco da Função.
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 No Bloco da Função, corrija os ajustes dos parâmetros, como o modo ou a posição.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PROFILE" xml:space="preserve">
-    <value>O eixo não está operacional porque o perfil de movimento definido em um Bloco da Função é inválido.
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque o perfil de movimento definido em um Bloco da Função é inválido.
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 Corrija o perfil no Bloco da Função.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RANGE" xml:space="preserve">
-    <value>O eixo não está operacional porque um parâmetro dinâmico de eixo inválido (velocidade, aceleração, desaceleração ou jerk) está definido em um Bloco da Função.
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque um parâmetro dinâmico de eixo inválido (velocidade, aceleração, desaceleração ou jerk) está definido em um Bloco da Função.
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 No Bloco da Função, corrija qualquer configuração referente aos parâmetros dinâmicos que estão em conflito com as definições existentes na página de configuração Dinâmica do Eixo.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_WRONG_STATE" xml:space="preserve">
-    <value>O eixo não está operacional porque um estado de eixo incorreto foi detectado durante a execução de um Bloco da Função.
-
+    <value>O eixo não está operacional porque um estado de eixo incorreto foi detectado durante a execução de um Bloco da Função.
+
 Restaure o estado do eixo usando o Bloco da Função MC_Reset.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_SOFT_LIMIT" xml:space="preserve">
-    <value>O eixo não está operacional porque um erro de Limite Flexível foi detectado, ou a execução do Bloco da Função causaria um erro de Limite Flexível.
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque um erro de Limite Flexível foi detectado, ou a execução do Bloco da Função causaria um erro de Limite Flexível.
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 Verifique os ajustes de velocidade ou posição de destino do Bloco da Função, ou ajuste a definição de Limite Flexível.</value>
   </data>
   <data name="MotionError_UnknownError" xml:space="preserve">
@@ -2024,40 +2024,40 @@ Deseja continuar?</value>
     <value>velocidade</value>
   </data>
   <data name="MotionError_MC_FB_ERR_AXISNUM" xml:space="preserve">
-    <value>Falha interna de movimento, ID do Erro = 0x04.
-
-Entre em contato com seu representante de suporte técnico local da Rockwell Automation. Para obter as informações de contato, visite:
-
+    <value>Falha interna de movimento, ID do Erro = 0x04.
+
+Entre em contato com seu representante de suporte técnico local da Rockwell Automation. Para obter as informações de contato, visite:
+
 http://support.rockwellautomation.com/MySupport.asp</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOPOWER" xml:space="preserve">
-    <value>O eixo não está energizado.
-
-Energize o eixo usando o Bloco da Função MC_Power.
-
+    <value>O eixo não está energizado.
+
+Energize o eixo usando o Bloco da Função MC_Power.
+
 Restaure o estado do eixo usando o Bloco da Função MC_Reset.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_VELOCITY" xml:space="preserve">
-    <value>O eixo não está operacional porque o perfil de movimento solicitado em um Bloco da Função está em conflito com a velocidade atual do eixo.
-
-Possíveis causas:
-1. O Bloco da Função solicita a reversão da direção do eixo enquanto este está em movimento.
-2. A velocidade atual é muito baixa ou muito alta para o perfil de movimento solicitado.
-
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque o perfil de movimento solicitado em um Bloco da Função está em conflito com a velocidade atual do eixo.
+
+Possíveis causas:
+1. O Bloco da Função solicita a reversão da direção do eixo enquanto este está em movimento.
+2. A velocidade atual é muito baixa ou muito alta para o perfil de movimento solicitado.
+
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 Corrija o perfil de movimento no Bloco da Função ou execute novamente o Bloco da Função quando a velocidade do eixo for compatível com o perfil de movimento solicitado.</value>
   </data>
   <data name="MotionError_MC_FB_PARAM_MODIFIED" xml:space="preserve">
-    <value>Aviso interno de movimento, ID do Aviso = 0x80.
-
-Entre em contato com seu representante de suporte técnico local da Rockwell Automation. Para obter as informações de contato, visite:
-
+    <value>Aviso interno de movimento, ID do Aviso = 0x80.
+
+Entre em contato com seu representante de suporte técnico local da Rockwell Automation. Para obter as informações de contato, visite:
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MBMappingFailedToLoadMappingItemMessage" xml:space="preserve">
-    <value>{0}\r\nFalha ao carregar item de mapeamento de Modbus: Nome da Variável:{1},Endereço:{2}</value>
+    <value>{0}\nFalha ao carregar item de mapeamento de Modbus: Nome da Variável:{1},Endereço:{2}</value>
   </data>
   <data name="ModbusSLUnitAddressInvalidMessage" xml:space="preserve">
     <value>O Endereço da Unidade deve estar no intervalo de {0} a {1}</value>
@@ -2097,10 +2097,10 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>A Máscara de Sub-rede é inválida</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOT_HOMED" xml:space="preserve">
-    <value>O eixo não está operacional porque não está na posição inicial.
-
-Restaure o estado do eixo usando o Bloco da Função MC_Reset.
-
+    <value>O eixo não está operacional porque não está na posição inicial.
+
+Restaure o estado do eixo usando o Bloco da Função MC_Reset.
+
 Execute o feedback do eixo ao início usando o Bloco da Função MC_Home.</value>
   </data>
   <data name="MotionAxisCaption" xml:space="preserve">
@@ -2152,7 +2152,7 @@ Execute o feedback do eixo ao início usando o Bloco da Função MC_Home.</value
     <value>O uso da memória é atualizado somente após uma </value>
   </data>
   <data name="ASCIIDriverCharsInputInvalidtMessage" xml:space="preserve">
-    <value>Insira um número hexadecimal, começando com 0x e seguido
+    <value>Insira um número hexadecimal, começando com 0x e seguido
 por um ou dois dígitos hexadecimais, como 0xa ou 0x0a.</value>
   </data>
   <data name="AdvancedDialogButtonClose" xml:space="preserve">
@@ -2513,7 +2513,7 @@ por um ou dois dígitos hexadecimais, como 0xa ou 0x0a.</value>
     <value>ãçêúController name cannot be same as Drives or Graphic Terminals name.ÀÀÀÀÀ</value>
   </data>
   <data name="DefaultNewFolderChangePathMessage" xml:space="preserve">
-    <value>ãçêúNew Project cannot be created on the network path: {0} 
+    <value>ãçêúNew Project cannot be created on the network path: {0} 
 Set CCW Default Folder Preference to a local drive.ÀÀÀÀÀ</value>
   </data>
   <data name="DefaultNewFolderOnNetworkMessage" xml:space="preserve">
@@ -3288,7 +3288,7 @@ Set CCW Default Folder Preference to a local drive.ÀÀÀÀÀ</value>
     <value>Contadores de link</value>
   </data>
   <data name="CommDiagnoseConflictInfoLblCaption" xml:space="preserve">
-    <value> {0} no projeto e o controlador estão fora de sincronia.
+    <value> {0} no projeto e o controlador estão fora de sincronia.
  Faça upload ou download do projeto para sincronizar as configurações.</value>
   </data>
   <data name="SerialDiagnosePortTypeCaption" xml:space="preserve">
@@ -3586,7 +3586,7 @@ Set CCW Default Folder Preference to a local drive.ÀÀÀÀÀ</value>
     <value>2080-SERIALISOL na porta {0}</value>
   </data>
   <data name="PlugInConflictSettingCaption" xml:space="preserve">
-    <value>{0} no projeto e o controlador estão fora de sincronia.
+    <value>{0} no projeto e o controlador estão fora de sincronia.
 Faça o upload/download do projeto ou conecte o módulo para sincronizar as configurações.</value>
   </data>
   <data name="ButtonCancelCaption" xml:space="preserve">
@@ -3633,12 +3633,12 @@ Faça o upload/download do projeto ou conecte o módulo para sincronizar as conf
   </data>
   <data name="EthernetPortChangedItemsCaption" xml:space="preserve">
     <value>
-Itens alterados nas configurações da porta:
+Itens alterados nas configurações da porta:
 {0}</value>
   </data>
   <data name="TCPIPChangedItemsCaption" xml:space="preserve">
     <value>
-Itens alterados nas configurações do protocolo de Internet:
+Itens alterados nas configurações do protocolo de Internet:
 {0}</value>
   </data>
   <data name="PreOnlineChange_Message_BuildError" xml:space="preserve">
@@ -4121,7 +4121,7 @@ Itens alterados nas configurações do protocolo de Internet:
     <value>Conectado</value>
   </data>
   <data name="PlugInDNETConflictSettingCaption" xml:space="preserve">
-    <value>{0} no projeto e o controlador estão fora de sincronia.
+    <value>{0} no projeto e o controlador estão fora de sincronia.
 Faça o download do projeto ou conecte o módulo para sincronizar as configurações.</value>
   </data>
   <data name="DNETCommunication_ModuleStatus_0" xml:space="preserve">
@@ -4134,27 +4134,27 @@ Faça o download do projeto ou conecte o módulo para sincronizar as configuraç
     <value>Inativo</value>
   </data>
   <data name="RmcEnterPendingChangeMessage" xml:space="preserve">
-    <value>{0} alterações encontradas em {1}. 
-
+    <value>{0} alterações encontradas em {1}. 
+
 Ainda deseja alterar para o modo Alterar no modo de execução?</value>
   </data>
   <data name="RmcQuitUncommittedChangeMessage" xml:space="preserve">
-    <value>O controlador possui alterações não aceitas.
-
-O acesso ao conteúdo do controlador é limitado até as alterações serem aceitas.
-
+    <value>O controlador possui alterações não aceitas.
+
+O acesso ao conteúdo do controlador é limitado até as alterações serem aceitas.
+
 {0}?</value>
   </data>
   <data name="RmcEnterUntestedChangeMessage" xml:space="preserve">
-    <value>O projeto atual possui alterações não testadas.
-
+    <value>O projeto atual possui alterações não testadas.
+
 Continuar a testar as alterações de lógica no controlador?</value>
   </data>
   <data name="RmcQuitUntestedChangesMessage" xml:space="preserve">
-    <value>O projeto atual possui alterações não testadas.
-
-O controlador será desconectado depois de sair de Alteração do modo de execução.
-
+    <value>O projeto atual possui alterações não testadas.
+
+O controlador será desconectado depois de sair de Alteração do modo de execução.
+
 Sair de Alteração do modo de execução?</value>
   </data>
   <data name="DiagnosticLoadOnPowerUpLabel" xml:space="preserve">
@@ -4284,7 +4284,7 @@ Sair de Alteração do modo de execução?</value>
     <value>Saída:</value>
   </data>
   <data name="MotionAxisPTOChannelUnassignedWarningMessage" xml:space="preserve">
-    <value>'{0}' está pareado com este eixo PTO, alterar o canal PTO para "Não atribuído" resultará na perda do pareamento.
+    <value>'{0}' está pareado com este eixo PTO, alterar o canal PTO para "Não atribuído" resultará na perda do pareamento.
 Deseja continuar?</value>
   </data>
   <data name="MotionFBAxisCaption" xml:space="preserve">
@@ -4468,16 +4468,16 @@ Deseja continuar?</value>
     <value>Sair sem aceitar alterações</value>
   </data>
   <data name="RmcTestDownloadFailedMessage" xml:space="preserve">
-    <value>Não é possível fazer o download das alterações ao controlador. 
-    
+    <value>Não é possível fazer o download das alterações ao controlador. 
+    
 Escolha "Tentar novamente" para fazer o download novamente ou "Cancelar" para entrar em Alteração do modo de execução.</value>
   </data>
   <data name="RmcAcceptBackupProjectMessage" xml:space="preserve">
     <value>Não é possível gerar o novo arquivo de projeto de backup após aceitar as alterações.</value>
   </data>
   <data name="RmcAcceptFailedMessage" xml:space="preserve">
-    <value>Não é possível aceitar as seguintes alterações ao controlador: a tabela de símbolos, o arquivo de projeto integrado e o código de recurso em flash.
-
+    <value>Não é possível aceitar as seguintes alterações ao controlador: a tabela de símbolos, o arquivo de projeto integrado e o código de recurso em flash.
+
 Escolha "Tentar novamente" para aceitar novamente ou "Cancelar" para testar alterações de lógica.</value>
   </data>
   <data name="RmcDebugFailedMessage" xml:space="preserve">
@@ -4493,8 +4493,8 @@ Escolha "Tentar novamente" para aceitar novamente ou "Cancelar" para testar alte
     <value>Não é possível realizar a compilação do projeto revertido.</value>
   </data>
   <data name="RmcRevertDownloadFailedMessage" xml:space="preserve">
-    <value>Não é possível fazer o download do projeto revertido para o controlador.
-
+    <value>Não é possível fazer o download do projeto revertido para o controlador.
+
 Escolha "Tentar novamente" para fazer o download novamente ou "Cancelar" para testar as alterações de lógica.</value>
   </data>
   <data name="RmcRevertFailedMessage" xml:space="preserve">
@@ -4928,7 +4928,7 @@ Escolha "Tentar novamente" para fazer o download novamente ou "Cancelar" para te
     <value>Alteração do controlador.</value>
   </data>
   <data name="UPModuleStepsToFixP3" xml:space="preserve">
-    <value>2. Atualize o controlador com o firmware mais recente, se necessário.
+    <value>2. Atualize o controlador com o firmware mais recente, se necessário.
 3. Faça o download do projeto para o controlador.</value>
   </data>
   <data name="CatalogIDCaption" xml:space="preserve">
@@ -5094,7 +5094,7 @@ Escolha "Tentar novamente" para fazer o download novamente ou "Cancelar" para te
     <value>A senha do controlador foi restaurada com êxito.</value>
   </data>
   <data name="PasswordResetRequiredForDownloadWarning" xml:space="preserve">
-    <value>A senha do controlador deve ser apagada para que o download possa prosseguir.
+    <value>A senha do controlador deve ser apagada para que o download possa prosseguir.
 O controlador será automaticamente protegido novamente após a conclusão do download.</value>
   </data>
   <data name="DeviceNotReadyForFirmwareUpdateUnknownState" xml:space="preserve">
@@ -5149,9 +5149,9 @@ O controlador será automaticamente protegido novamente após a conclusão do do
     <value>Erro inesperado no plug-in 2080-MOT-HSC no slot {0}. Remova e adicione novamente o módulo para corrigir esse erro.</value>
   </data>
   <data name="AllPortsDisabledErrorMessage" xml:space="preserve">
-    <value>A configuração atual não permite a conexão ao controlador. Habilite uma das portas a seguir. 
-    1. USB 
-    2. Ethernet
+    <value>A configuração atual não permite a conexão ao controlador. Habilite uma das portas a seguir. 
+    1. USB 
+    2. Ethernet
     3. Driver CIP em série da Porta Serial</value>
   </data>
   <data name="DeviceInfoTreeCounterCaption" xml:space="preserve">
@@ -5431,7 +5431,7 @@ O controlador será automaticamente protegido novamente após a conclusão do do
     <value>Prioridade lenta:</value>
   </data>
   <data name="ControllerChangeExpansionIOFeatureLessModuleSkipCounterDiscardWarning" xml:space="preserve">
-    <value>O controlador de destino é compatível com um número reduzido de módulos do Expansion. Atualize os programas, se necessário. 
+    <value>O controlador de destino é compatível com um número reduzido de módulos do Expansion. Atualize os programas, se necessário. 
 O recurso de prioridade de varredura não é compatível, sua configuração foi descartada.</value>
   </data>
   <data name="ControllerChangeSkipCounterDiscardWarning" xml:space="preserve">
@@ -5793,12 +5793,12 @@ O recurso de prioridade de varredura não é compatível, sua configuração foi
     <value>Excluir Programa Interrompido</value>
   </data>
   <data name="DownloadProjectProjectValueTooltip" xml:space="preserve">
-    <value>Marque essa caixa para habilitar.
+    <value>Marque essa caixa para habilitar.
  ● Inicializar variáveis com valor do projeto.</value>
   </data>
   <data name="DownloadProjectSourceFileTooltip" xml:space="preserve">
-    <value>Marque essa caixa para habilitar.
- ● "Testar alterações" e "Descartar alterações não aceitas" durante o RMC.
+    <value>Marque essa caixa para habilitar.
+ ● "Testar alterações" e "Descartar alterações não aceitas" durante o RMC.
  ● Atualizar o projeto do controlador sem um projeto local.</value>
   </data>
   <data name="DownloadOptionsLabel" xml:space="preserve">
@@ -5832,43 +5832,43 @@ O recurso de prioridade de varredura não é compatível, sua configuração foi
     <value>ãçêúProduct Lifecycle343434ÀÀÀÀÀ</value>
   </data>
   <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption7878" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption99999" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption101010101010" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption1111111" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption666655444" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption7878787878789989" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption54gf" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r</value>
   </data>
   <data name="LifecycleCaption1123223254gf" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀãçêú1111ÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r 1111</value>
   </data>
   <data name="LifecycleCaption77788888f" xml:space="preserve">
-    <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
-      that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀãçêú1111ÀÀÀÀÀ</value>
+    <value>This is test. what's 
+      that? Yes! hello! \n everyone. \r 1111</value>
   </data>
 </root>
