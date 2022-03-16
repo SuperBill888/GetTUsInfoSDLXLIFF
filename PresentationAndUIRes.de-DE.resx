@@ -190,7 +190,7 @@
     <value>Nicht fehlerhaft</value>
   </data>
   <data name="ConnectionSoftSwitchCaption" xml:space="preserve">
-    <value>Remote-
+    <value>Remote-
 Modus</value>
   </data>
   <data name="ConnectionUserActionBuildingRangeValue" xml:space="preserve">
@@ -1400,7 +1400,7 @@ Modus</value>
     <value>Motor und Last</value>
   </data>
   <data name="MotionAxisConfigNameFormatError" xml:space="preserve">
-    <value>Achse kann nicht erzeugt oder umbenannt werden.
+    <value>Achse kann nicht erzeugt oder umbenannt werden.
 {0}</value>
   </data>
   <data name="MotionAxisConfigNameLengthError" xml:space="preserve">
@@ -1500,8 +1500,8 @@ Modus</value>
     <value>Sofortiger Stopp</value>
   </data>
   <data name="MotionAxisGeneralPTOChannelWarningMessage" xml:space="preserve">
-    <value>Durch Ändern des PTO-Kanals ändert sich die E/A-Verdrahtung von „{0}“.
-
+    <value>Durch Ändern des PTO-Kanals ändert sich die E/A-Verdrahtung von „{0}“.
+
 Möchten Sie diese Werte aktualisieren?
   </value>
   </data>
@@ -1731,7 +1731,7 @@ Möchten Sie diese Werte aktualisieren?
     <value>DF1-Modus:</value>
   </data>
   <data name="TCPIPConfigChangeIPCaption" xml:space="preserve">
-    <value>IP-Adressenkonflikt entdeckt.
+    <value>IP-Adressenkonflikt entdeckt.
 Zum Beheben des Fehlers IP-Adresse ändern.</value>
   </data>
   <data name="DeviceInfoDigitalIOExceedMessage" xml:space="preserve">
@@ -1843,74 +1843,74 @@ Zum Beheben des Fehlers IP-Adresse ändern.</value>
     <value>Synchronisierte Bewegung</value>
   </data>
   <data name="MotionError_MC_FB_ERR_MECHAN" xml:space="preserve">
-    <value>Die Achse ist aufgrund von Antriebsproblemen oder mechanischen Problemen nicht betriebsfähig.
-
-Prüfen Sie die Verbindung zwischen Antrieb und Steuerung (Signale für „Antrieb bereit“ und „In Position"), und stellen Sie sicher, dass der Antrieb normal arbeitet.  
-
+    <value>Die Achse ist aufgrund von Antriebsproblemen oder mechanischen Problemen nicht betriebsfähig.
+
+Prüfen Sie die Verbindung zwischen Antrieb und Steuerung (Signale für „Antrieb bereit“ und „In Position"), und stellen Sie sicher, dass der Antrieb normal arbeitet.  
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RESOURCE" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, da sie oder ihre von einem Funktionsblock benötigten Ressourcen von einem anderen Funktionsblock gesteuert werden oder nicht verfügbar sind.
-
-Stellen Sie sicher, dass die Achse oder ihre vom Funktionsblock benötigten Ressourcen zur Nutzung verfügbar sind.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, da sie oder ihre von einem Funktionsblock benötigten Ressourcen von einem anderen Funktionsblock gesteuert werden oder nicht verfügbar sind.
+
+Stellen Sie sicher, dass die Achse oder ihre vom Funktionsblock benötigten Ressourcen zur Nutzung verfügbar sind.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
+
 Überprüfen und korrigieren Sie die Anwendung, wenn mehrere Instanzen des gleichen Funktionsblocks zur gleichen Zeit versuchen, die Achse zu steuern.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_ENGINE" xml:space="preserve">
-    <value>Die Achse ist aufgrund einer Störung des Bewegungsmotors nicht betriebsfähig.
-
-Durchlaufen Sie den Einschaltzyklus der gesamten Maschine, und laden Sie die Benutzeranwendung für die Steuerung erneut herunter.
-
-Bleibt der Fehler weiterhin bestehen, wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
-
+    <value>Die Achse ist aufgrund einer Störung des Bewegungsmotors nicht betriebsfähig.
+
+Durchlaufen Sie den Einschaltzyklus der gesamten Maschine, und laden Sie die Benutzeranwendung für die Steuerung erneut herunter.
+
+Bleibt der Fehler weiterhin bestehen, wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_HARD_LIMIT" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines Fehlers im Zusammenhang mit einem Hardwarelimit nicht betriebsfähig.
-
-
+    <value>Die Achse ist aufgrund eines Fehlers im Zusammenhang mit einem Hardwarelimit nicht betriebsfähig.
+
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück, und bewegen Sie die Achse dann in umgekehrter Richtung vom Endschalter weg.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_LOG_LIMIT" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Zusammenhang mit einem logischen Grenzwert für das PTO-Register erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Zusammenhang mit einem logischen Grenzwert für das PTO-Register erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Prüfen Sie die Geschwindigkeits- oder Zielpositionseinstellungen für den Funktionsblock. Passen Sie mit dem Funktionsblock MC_SetPosition das Koordinatensystem an.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PARAM" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten Parameters (betrifft nicht Geschwindigkeit, Beschleunigung, Entschleunigung oderJerk) nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten Parameters (betrifft nicht Geschwindigkeit, Beschleunigung, Entschleunigung oderJerk) nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie die Einstellung für die Parameter (z. B. Modus oder Position) im Funktionsblock.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PROFILE" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, da ein in einem Funktionsblock definiertes Bewegungsprofil ungültig ist. 
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, da ein in einem Funktionsblock definiertes Bewegungsprofil ungültig ist. 
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie das Profil im Funktionsblock.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RANGE" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten achsendynamischen Parameters (Geschwindigkeit, Beschleunigung, Entschleunigung oder Jerk) nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten achsendynamischen Parameters (Geschwindigkeit, Beschleunigung, Entschleunigung oder Jerk) nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie die Einstellungen für die dynamischen Parameter im Funktionsblock, die mit den Einstellungen auf der Konfigurationsseite für die Achsendynamik in Konflikt stehen.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_WRONG_STATE" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines während der Ausführung eines Funktionsblocks erkannten ungültigen Achsenstatus nicht betriebsfähig. 
-
+    <value>Die Achse ist aufgrund eines während der Ausführung eines Funktionsblocks erkannten ungültigen Achsenstatus nicht betriebsfähig. 
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_SOFT_LIMIT" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Zusammenhang mit Softwarelimits erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Zusammenhang mit Softwarelimits erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Prüfen Sie die Geschwindigkeits- oder Zielpositionseinstellungen für den Funktionsblock, oder passen Sie die Einstellung der Software-Grenze an.</value>
   </data>
   <data name="MotionError_UnknownError" xml:space="preserve">
@@ -2023,40 +2023,40 @@ Möchten Sie fortfahren?</value>
     <value>Geschwindigkeit</value>
   </data>
   <data name="MotionError_MC_FB_ERR_AXISNUM" xml:space="preserve">
-    <value>Interner Bewegungsfehler, Fehler-ID = 0x04. 
-
-Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
-
+    <value>Interner Bewegungsfehler, Fehler-ID = 0x04. 
+
+Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
+
 http://support.rockwellautomation.com/MySupport.asp</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOPOWER" xml:space="preserve">
-    <value>Die Achse ist nicht eingeschaltet.
-
-Schalten Sie die Achse mit dem Funktionsblock MC_Power ein.
-
+    <value>Die Achse ist nicht eingeschaltet.
+
+Schalten Sie die Achse mit dem Funktionsblock MC_Power ein.
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_VELOCITY" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, da das im Funktionsblock angeforderte Bewegungsprofil mit der aktuellen Achsengeschwindigkeit in Konflikt steht. 
-
-Mögliche Ursachen:
-1. Der Funktionsblock fordert während der Bewegung der Achse eine Richtungsumkehr.
-2. Die aktuelle Geschwindigkeit ist für das angeforderte Bewegungsprofil zu niedrig oder zu hoch.
-
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, da das im Funktionsblock angeforderte Bewegungsprofil mit der aktuellen Achsengeschwindigkeit in Konflikt steht. 
+
+Mögliche Ursachen:
+1. Der Funktionsblock fordert während der Bewegung der Achse eine Richtungsumkehr.
+2. Die aktuelle Geschwindigkeit ist für das angeforderte Bewegungsprofil zu niedrig oder zu hoch.
+
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie das Bewegungsprofil im Funktionsblock, oder führen Sie den Funktionsblock erneut aus, wenn die Achsengeschwindigkeit mit dem angeforderten Bewegungsprofil kompatibel ist.</value>
   </data>
   <data name="MotionError_MC_FB_PARAM_MODIFIED" xml:space="preserve">
-    <value>Interne Bewegungswarnung, Warnungs-ID = 0x80. 
-
-Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
-
+    <value>Interne Bewegungswarnung, Warnungs-ID = 0x80. 
+
+Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MBMappingFailedToLoadMappingItemMessage" xml:space="preserve">
-    <value>{0}\r\nFehler beim Laden von Modbus-Mappingelement: Variablenname:{1},Adresse:{2}</value>
+    <value>{0}\nFehler beim Laden von Modbus-Mappingelement: Variablenname:{1},Adresse:{2}</value>
   </data>
   <data name="ModbusSLUnitAddressInvalidMessage" xml:space="preserve">
     <value>Geräte-Adresse muss sich im Bereich von {0} bis {1} befinden.</value>
@@ -2096,10 +2096,10 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>Die Subnetzmaske ist ungültig.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOT_HOMED" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, weil sie nicht zurückgesetzt wurde. 
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, weil sie nicht zurückgesetzt wurde. 
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
+
 Setzen Sie die Achse mit dem Funktionsblock MC_Home zurück.</value>
   </data>
   <data name="MotionAxisCaption" xml:space="preserve">
@@ -2151,7 +2151,7 @@ Setzen Sie die Achse mit dem Funktionsblock MC_Home zurück.</value>
     <value>Speicherbelegung wird erst aktualisiert nach einem </value>
   </data>
   <data name="ASCIIDriverCharsInputInvalidtMessage" xml:space="preserve">
-    <value>Geben Sie eine hexadezimale Zahl ein, beginnend mit 0x, 
+    <value>Geben Sie eine hexadezimale Zahl ein, beginnend mit 0x, 
 gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   </data>
   <data name="AdvancedDialogButtonClose" xml:space="preserve">
@@ -2512,7 +2512,7 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
     <value>Steuerungsname darf nicht identisch mit dem Namen des Frequenzumrichters oder Grafikterminals sein.</value>
   </data>
   <data name="DefaultNewFolderChangePathMessage" xml:space="preserve">
-    <value>Neues Projekt kann im Netzwerkpfad nicht erstellt werden: {0} 
+    <value>Neues Projekt kann im Netzwerkpfad nicht erstellt werden: {0} 
 CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   </data>
   <data name="DefaultNewFolderOnNetworkMessage" xml:space="preserve">
@@ -3287,7 +3287,7 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
     <value>Zähler verknüpfen</value>
   </data>
   <data name="CommDiagnoseConflictInfoLblCaption" xml:space="preserve">
-    <value> {0} das Projekt und die Steuerung sind nicht synchron.
+    <value> {0} das Projekt und die Steuerung sind nicht synchron.
 Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisieren.</value>
   </data>
   <data name="SerialDiagnosePortTypeCaption" xml:space="preserve">
@@ -3585,7 +3585,7 @@ Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisiere
     <value>2080-SERIALISOL an Port {0}</value>
   </data>
   <data name="PlugInConflictSettingCaption" xml:space="preserve">
-    <value>{0} im Projekt und in der Steuerung sind nicht synchron.
+    <value>{0} im Projekt und in der Steuerung sind nicht synchron.
 Laden Sie das Projekt hoch/herunter oder stecken Sie das Modul ein, um die Einstellungen zu synchronisieren.</value>
   </data>
   <data name="ButtonCancelCaption" xml:space="preserve">
@@ -3632,12 +3632,12 @@ Laden Sie das Projekt hoch/herunter oder stecken Sie das Modul ein, um die Einst
   </data>
   <data name="EthernetPortChangedItemsCaption" xml:space="preserve">
     <value>
-Anschluss-Einstellungen geändert Elemente:
+Anschluss-Einstellungen geändert Elemente:
 {0}</value>
   </data>
   <data name="TCPIPChangedItemsCaption" xml:space="preserve">
     <value>
-Internetprotokolleinstellungen geändert Elemente:
+Internetprotokolleinstellungen geändert Elemente:
 {0}</value>
   </data>
   <data name="PreOnlineChange_Message_BuildError" xml:space="preserve">
@@ -4120,7 +4120,7 @@ Internetprotokolleinstellungen geändert Elemente:
     <value>Verbunden</value>
   </data>
   <data name="PlugInDNETConflictSettingCaption" xml:space="preserve">
-    <value>{0} im Projekt und die Steuerung sind nicht synchron.
+    <value>{0} im Projekt und die Steuerung sind nicht synchron.
 Laden Sie das Projekt herunter oder stecken Sie das Modul ein, um die Einstellungen zu synchronisieren.</value>
   </data>
   <data name="DNETCommunication_ModuleStatus_0" xml:space="preserve">
@@ -4133,27 +4133,27 @@ Laden Sie das Projekt herunter oder stecken Sie das Modul ein, um die Einstellun
     <value>Inaktiv</value>
   </data>
   <data name="RmcEnterPendingChangeMessage" xml:space="preserve">
-    <value>{0} Änderungen in {1} gefunden. 
-
+    <value>{0} Änderungen in {1} gefunden. 
+
 Wechsel zu Änderungsmodus im Run Mode fortsetzen?</value>
   </data>
   <data name="RmcQuitUncommittedChangeMessage" xml:space="preserve">
-    <value>Unbestätigte Änderungen in Steuerung vorhanden.
-
-Der Zugriff auf die Steuerungsinhalte ist eingeschränkt, bis die Änderungen bestätigt werden.
-
+    <value>Unbestätigte Änderungen in Steuerung vorhanden.
+
+Der Zugriff auf die Steuerungsinhalte ist eingeschränkt, bis die Änderungen bestätigt werden.
+
 {0}?</value>
   </data>
   <data name="RmcEnterUntestedChangeMessage" xml:space="preserve">
-    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
-
+    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
+
 Soll der Test der logischen Änderungen in der Steuerung fortgesetzt werden?</value>
   </data>
   <data name="RmcQuitUntestedChangesMessage" xml:space="preserve">
-    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
-
-Die Verbindung zur Steuerung wird nach Beenden der Änderung im Betriebsmodus getrennt.
-
+    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
+
+Die Verbindung zur Steuerung wird nach Beenden der Änderung im Betriebsmodus getrennt.
+
 Änderung im Betriebsmodus beenden?</value>
   </data>
   <data name="DiagnosticLoadOnPowerUpLabel" xml:space="preserve">
@@ -4283,7 +4283,7 @@ Die Verbindung zur Steuerung wird nach Beenden der Änderung im Betriebsmodus ge
     <value>Ausgang:</value>
   </data>
   <data name="MotionAxisPTOChannelUnassignedWarningMessage" xml:space="preserve">
-    <value>'{0}' wird mit der PTO-Achse gekoppelt. Die Änderung des PTO-Kanals zu „Nicht zugewiesen“ führt zur Unterbrechung der Kopplung.
+    <value>'{0}' wird mit der PTO-Achse gekoppelt. Die Änderung des PTO-Kanals zu „Nicht zugewiesen“ führt zur Unterbrechung der Kopplung.
 Möchten Sie fortfahren?</value>
   </data>
   <data name="MotionFBAxisCaption" xml:space="preserve">
@@ -4467,16 +4467,16 @@ Möchten Sie fortfahren?</value>
     <value>Beenden, ohne die Änderungen anzunehmen</value>
   </data>
   <data name="RmcTestDownloadFailedMessage" xml:space="preserve">
-    <value>Die Änderungen konnten nicht in die Steuerung geladen werden. 
-    
+    <value>Die Änderungen konnten nicht in die Steuerung geladen werden. 
+    
 Klicken Sie auf "Erneut versuchen", um sie erneut herunterzuladen, oder auf "Abbrechen", um auf die Änderung im Betriebsmodus zuzugreifen.</value>
   </data>
   <data name="RmcAcceptBackupProjectMessage" xml:space="preserve">
     <value>Die neue Backup-Projektdatei konnte nach Bestätigung der Änderungen nicht erstellt werden.</value>
   </data>
   <data name="RmcAcceptFailedMessage" xml:space="preserve">
-    <value>Die folgenden Änderungen in der Steuerung konnten nicht bestätigt werden: Tabelle mit Symbolen, die integrierte Projektdatei und der Ressourcen-Code für Flash.
-
+    <value>Die folgenden Änderungen in der Steuerung konnten nicht bestätigt werden: Tabelle mit Symbolen, die integrierte Projektdatei und der Ressourcen-Code für Flash.
+
 Klicken Sie auf „Erneut versuchen“, um sie erneut zu bestätigen, oder auf „Abbrechen“, um den Test der logischen Änderungen durchzuführen.</value>
   </data>
   <data name="RmcDebugFailedMessage" xml:space="preserve">
@@ -4492,8 +4492,8 @@ Klicken Sie auf „Erneut versuchen“, um sie erneut zu bestätigen, oder auf �
     <value>Das letzte Projekt kann nicht erzeugt werden.</value>
   </data>
   <data name="RmcRevertDownloadFailedMessage" xml:space="preserve">
-    <value>Das umgekehrte Projekt kann nicht in die Steuerung heruntergeladen werden.
-
+    <value>Das umgekehrte Projekt kann nicht in die Steuerung heruntergeladen werden.
+
 Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbrechen", um den Test der logischen Änderungen durchzuführen.</value>
   </data>
   <data name="RmcRevertFailedMessage" xml:space="preserve">
@@ -4927,7 +4927,7 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
     <value>Steuerungsänderung.</value>
   </data>
   <data name="UPModuleStepsToFixP3" xml:space="preserve">
-    <value>2. Aktualisieren Sie die Steuerung gegebenenfalls mit der aktuellen Firmware.
+    <value>2. Aktualisieren Sie die Steuerung gegebenenfalls mit der aktuellen Firmware.
 3. Laden Sie das Projekt auf die Steuerung herunter.</value>
   </data>
   <data name="CatalogIDCaption" xml:space="preserve">
@@ -5093,7 +5093,7 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
     <value>Controller-Passwort wurde erfolgreich wiederhergestellt.</value>
   </data>
   <data name="PasswordResetRequiredForDownloadWarning" xml:space="preserve">
-    <value>Das Controller-Passwort muss zur Fortsetzung des Downloads gelöscht werden.
+    <value>Das Controller-Passwort muss zur Fortsetzung des Downloads gelöscht werden.
 Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
   </data>
   <data name="DeviceNotReadyForFirmwareUpdateUnknownState" xml:space="preserve">
@@ -5148,9 +5148,9 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
     <value>Im 2080-MOT-HSC Plug-In in Steckplatz {0} ist ein unerwarteter Fehler aufgetreten. Entfernen Sie das Modul und setzen Sie es weider ein, um den Fehler zu beheben.</value>
   </data>
   <data name="AllPortsDisabledErrorMessage" xml:space="preserve">
-    <value>Die aktuelle Konfiguration lässt keine Verbindung zum Controller zu. Aktivieren Sie einen der folgenden Anschlüsse
-    1. USB-Anschluss 
-    2. Ethernet-Port
+    <value>Die aktuelle Konfiguration lässt keine Verbindung zum Controller zu. Aktivieren Sie einen der folgenden Anschlüsse
+    1. USB-Anschluss 
+    2. Ethernet-Port
     3. serieller CIP-Treiber über seriellen Anschluss.</value>
   </data>
   <data name="DeviceInfoTreeCounterCaption" xml:space="preserve">
@@ -5430,7 +5430,7 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
     <value>Langsame Priorität:</value>
   </data>
   <data name="ControllerChangeExpansionIOFeatureLessModuleSkipCounterDiscardWarning" xml:space="preserve">
-    <value>Die Zielsteuerung unterstützt eine kleinere Anzahl von Erweiterungsmodulen. Bei Bedarf Programme aktualisieren.
+    <value>Die Zielsteuerung unterstützt eine kleinere Anzahl von Erweiterungsmodulen. Bei Bedarf Programme aktualisieren.
 Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird verworfen.</value>
   </data>
   <data name="ControllerChangeSkipCounterDiscardWarning" xml:space="preserve">
@@ -5608,7 +5608,7 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
     <value>Import von Datei: '{0}'</value>
   </data>
   <data name="GeneralPageGenerateEmbeddedProjectCaption" xml:space="preserve">
-    <value>Quellcode
+    <value>Quellcode
 herunterladen:</value>
   </data>
   <data name="DatalogViewModelExportDatalogReplaceSuccessMessage" xml:space="preserve">
@@ -5793,12 +5793,12 @@ herunterladen:</value>
     <value>Unterbrechungsprogramm löschen</value>
   </data>
   <data name="DownloadProjectProjectValueTooltip" xml:space="preserve">
-    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
+    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
  ● Initialisieren von Variablen mit Projektwerten.</value>
   </data>
   <data name="DownloadProjectSourceFileTooltip" xml:space="preserve">
-    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
- ● "Änderungen testen" und während der RMC "Unbestätigte Änderungen verwerfen".
+    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
+ ● "Änderungen testen" und während der RMC "Unbestätigte Änderungen verwerfen".
  ● Projekt aus der Steuerung ohne lokales Projekt hochladen.</value>
   </data>
   <data name="DownloadOptionsLabel" xml:space="preserve">
@@ -5831,44 +5831,20 @@ herunterladen:</value>
   <data name="LifecycleCaption343434" xml:space="preserve">
     <value>äöüProduct Lifecycle343434ßßßßßß</value>
   </data>
-  <data name="LifecycleCaption5656" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption7878" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption99999" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption101010101010" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption1111111" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption666655444" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption7878787878789989" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption54gf" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
-      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
-  </data>
-  <data name="LifecycleCaption1123223254gf" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
+  <data name="LifecycleCaption669977ppoiuj" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
       that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßßäöü1111ßßßßßß</value>
   </data>
-  <data name="LifecycleCaption77788888f" xml:space="preserve">
-    <value>äöüThis is test.ßßßßßß äöüwhat's 
+  <data name="LifecycleCaptionttyyyy6664rtg" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
       that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßßäöü1111ßßßßßß</value>
+  </data>
+  <data name="LifecycleCaptionttyyyyrrtrtr455477" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßßäöü1111ßßßßßß</value>
+  </data>
+  <data name="LifecycleCaptionbb445443388" xml:space="preserve">
+    <value>[MT]Dies ist ein Test. [MT]Was 
+      das? [MT]Ja! [MT]Hallo![MT]\n[MT]Jeder.[MT]\r1111</value>
   </data>
 </root>
