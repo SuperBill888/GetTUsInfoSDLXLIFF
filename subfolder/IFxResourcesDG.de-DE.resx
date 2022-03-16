@@ -297,6 +297,24 @@ Zum Fortfahren auf „Ja“ klicken.</value>
     <value>Kanal</value>
   </data>
   <data name="IFxChannel22222" xml:space="preserve">
-    <value>äöüChannel2222ßßßßßß</value>
+    <value>äöüChannel33334444ßßßßßß</value>
+  </data>
+  <data name="IFxChannel33333" xml:space="preserve">
+    <value>äöüChannel33334444ßßßßßß</value>
+  </data>
+  <data name="IFxChannel5656" xml:space="preserve">
+    <value>äöüChannel5656ßßßßßß</value>
+  </data>
+  <data name="IFxChannel787878" xml:space="preserve">
+    <value>äöüChannel5656ßßßßßß</value>
+  </data>
+  <data name="IFxChannel9999999999" xml:space="preserve">
+    <value>äöüChanne9999996ßßßßßß</value>
+  </data>
+  <data name="IFxChanne123445567878787887" xml:space="preserve">
+    <value>äöüChanneweweweeredfdßßßßßß</value>
+  </data>
+  <data name="IFxChanne12999808967887" xml:space="preserve">
+    <value>äöüChannewew787tyty5n rtt dfdßßßßßß</value>
   </data>
 </root>

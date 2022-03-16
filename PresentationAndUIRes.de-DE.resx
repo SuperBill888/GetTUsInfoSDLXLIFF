@@ -120,11 +120,17 @@
   <data name="ASCIIDriverAppendCharsCaption" xml:space="preserve">
     <value>Zeichen an_fügen:</value>
   </data>
+  <data name="ASCIIDriverCharsSeparatorValue" xml:space="preserve">
+    <value>äöü,ßßßßßß</value>
+  </data>
   <data name="ASCIIDriverDeletionModeCaption" xml:space="preserve">
     <value>Lösch-_Modus:</value>
   </data>
   <data name="ASCIIDriverEchoModeCaption" xml:space="preserve">
     <value>Ech_o-Modus</value>
+  </data>
+  <data name="ASCIIDriverEDeletionModeCrtRangeValue" xml:space="preserve">
+    <value>äöüCRTßßßßßß</value>
   </data>
   <data name="ASCIIDriverEDeletionModeIgnoreRangeValue" xml:space="preserve">
     <value>Ignorieren</value>
@@ -135,17 +141,29 @@
   <data name="ASCIIDriverTermCharsCaption" xml:space="preserve">
     <value>Abs_chlusszeichen:</value>
   </data>
+  <data name="ASCIIDriverXonXoffCaption" xml:space="preserve">
+    <value>äöü_XON/XOFFßßßßßß</value>
+  </data>
   <data name="ConfigPersenterControllerProjectRevCaption" xml:space="preserve">
     <value>Steuerung-Projektversion:</value>
   </data>
   <data name="ConnectionConfigTargetCaption" xml:space="preserve">
     <value>Ziel der Lösungskonfiguration</value>
   </data>
+  <data name="ConnectionConfigTargetOnlineRangeValue" xml:space="preserve">
+    <value>äöüOnlineßßßßßß</value>
+  </data>
+  <data name="ConnectionConfigTargetSimulatorRangeValue" xml:space="preserve">
+    <value>äöüSimulationßßßßßß</value>
+  </data>
   <data name="PresentationAndUIControllerModeCaption" xml:space="preserve">
     <value>Steuerungsmodus</value>
   </data>
   <data name="ConnectionControllerModeDownloadRangeValue" xml:space="preserve">
     <value>Herunterladen</value>
+  </data>
+  <data name="PresentationAndUINotAvailableRangeValue" xml:space="preserve">
+    <value>äöü---ßßßßßß</value>
   </data>
   <data name="PresentationAndUINotKnownRangeValue" xml:space="preserve">
     <value>äöü   ßßßßßß   </value>
@@ -172,7 +190,7 @@
     <value>Nicht fehlerhaft</value>
   </data>
   <data name="ConnectionSoftSwitchCaption" xml:space="preserve">
-    <value>Remote-
+    <value>Remote-
 Modus</value>
   </data>
   <data name="ConnectionUserActionBuildingRangeValue" xml:space="preserve">
@@ -256,8 +274,14 @@ Modus</value>
   <data name="DF1DriverEPollingModeSingleMessageXferPerScanRangeValue" xml:space="preserve">
     <value>Übertragung einer einzelnen Nachricht pro Scan</value>
   </data>
+  <data name="DF1DriverErrorDetBccRangeValue" xml:space="preserve">
+    <value>äöüBCCßßßßßß</value>
+  </data>
   <data name="DF1DriverErrorDetCaption" xml:space="preserve">
     <value>_Fehlererkennung:</value>
+  </data>
+  <data name="DF1DriverErrorDetCrcRangeValue" xml:space="preserve">
+    <value>äöüCRCßßßßßß</value>
   </data>
   <data name="DF1DriverNakRetriesCaption" xml:space="preserve">
     <value>_NAK-Wiederholungen:</value>
@@ -328,6 +352,9 @@ Modus</value>
   <data name="FaultLogCatalogNumberCaption" xml:space="preserve">
     <value>Katalognummer Prozessor</value>
   </data>
+  <data name="FaultLogCrcCaption" xml:space="preserve">
+    <value>äöüCRCßßßßßß</value>
+  </data>
   <data name="FaultLogCurrFaultLogItemCaption" xml:space="preserve">
     <value>Fehlerprotokollelemente</value>
   </data>
@@ -343,11 +370,17 @@ Modus</value>
   <data name="FaultLogFreeFormAreaCaption" xml:space="preserve">
     <value>freie Zone</value>
   </data>
+  <data name="FaultLogHardFaultNewErrFlagCaption" xml:space="preserve">
+    <value>äöüNew Error Flagßßßßßß</value>
+  </data>
   <data name="FaultLogIndexCaption" xml:space="preserve">
     <value>Index der Hardwarefehler</value>
   </data>
   <data name="FaultLogNumbOfHardFaultCaption" xml:space="preserve">
     <value>Anzahl der Hardwarefehler</value>
+  </data>
+  <data name="FaultLogOSFWVersionCaption" xml:space="preserve">
+    <value>äöüOS FW Versionßßßßßß</value>
   </data>
   <data name="FaultLogStartIndexForHardFaultCaption" xml:space="preserve">
     <value>Start-Index für den Hardwarefehler</value>
@@ -382,6 +415,9 @@ Modus</value>
   <data name="ControllerProductFamilyCaption" xml:space="preserve">
     <value>Produktfamilie</value>
   </data>
+  <data name="ControllerUserDefinedNameCaption" xml:space="preserve">
+    <value>äöüNameßßßßßß</value>
+  </data>
   <data name="PresentationAndUIDescriptionCaption" xml:space="preserve">
     <value>Beschreibung</value>
   </data>
@@ -402,6 +438,9 @@ Modus</value>
   </data>
   <data name="MemoryModuleBackUpFaultLogCaption" xml:space="preserve">
     <value>Sicherungsfehlerprotokoll</value>
+  </data>
+  <data name="MemoryModuleBackupWholeCaption" xml:space="preserve">
+    <value>äöü_Backupßßßßßß</value>
   </data>
   <data name="PresentationAndUIEnabledRangeValue" xml:space="preserve">
     <value>Aktiviert</value>
@@ -481,6 +520,18 @@ Modus</value>
   <data name="ModbusDriverBroadcastPauseCaption" xml:space="preserve">
     <value>Sen_depause:</value>
   </data>
+  <data name="ModbusDriverEModbusRoleHybridModeRangeValue" xml:space="preserve">
+    <value>äöüAutoßßßßßß</value>
+  </data>
+  <data name="ModbusDriverEModbusRoleModbusMasterRangeValue" xml:space="preserve">
+    <value>äöüMasterßßßßßß</value>
+  </data>
+  <data name="ModbusDriverEModbusRoleModbusSlaveRangeValue" xml:space="preserve">
+    <value>äöüSlaveßßßßßß</value>
+  </data>
+  <data name="ModbusDriverInterCharTimeoutCaption" xml:space="preserve">
+    <value>äöüI_nter-Frame:ßßßßßß</value>
+  </data>
   <data name="ModbusDriverMediaCaption" xml:space="preserve">
     <value>_Medien:</value>
   </data>
@@ -492,6 +543,18 @@ Modus</value>
   </data>
   <data name="ModbusDriverResponseTimerCaption" xml:space="preserve">
     <value>Antwort-T_imer:</value>
+  </data>
+  <data name="ModbusDriverRS232RtsCtsRangeValue" xml:space="preserve">
+    <value>äöüRS232 |ßßßßßß äöüRTS/CTSßßßßßß</value>
+  </data>
+  <data name="ModbusDriverRS4853WireRangeValue" xml:space="preserve">
+    <value>äöüRS485ßßßßßß</value>
+  </data>
+  <data name="ModbusDriverRtsPostDelayCaption" xml:space="preserve">
+    <value>äöüRTS Post-Dela_y:ßßßßßß</value>
+  </data>
+  <data name="ModbusDriverRtsPreDelayCaption" xml:space="preserve">
+    <value>äöüRTS Pr_e-Delay:ßßßßßß</value>
   </data>
   <data name="ModbusDriverUnitAddressCaption" xml:space="preserve">
     <value>Geräte_adresse:</value>
@@ -520,6 +583,9 @@ Modus</value>
   <data name="SerialPortDriverCaption" xml:space="preserve">
     <value>T_reiber:</value>
   </data>
+  <data name="SerialPortEComDriverASCIIRangeValue" xml:space="preserve">
+    <value>äöüASCIIßßßßßß</value>
+  </data>
   <data name="SerialPortEComDriverDF1RangeValue" xml:space="preserve">
     <value>CIP seriell</value>
   </data>
@@ -541,6 +607,12 @@ Modus</value>
   <data name="SerialPortEControlLineNoHandshakeRangeValue" xml:space="preserve">
     <value>RS232 | kein Handshake</value>
   </data>
+  <data name="SerialPortEDataBits8BitRangeValue" xml:space="preserve">
+    <value>äöü8ßßßßßß</value>
+  </data>
+  <data name="SerialPortEDataBitsAsciiRangeValue" xml:space="preserve">
+    <value>äöü7ßßßßßß</value>
+  </data>
   <data name="SerialPortEParityEvenRangeValue" xml:space="preserve">
     <value>Gleich</value>
   </data>
@@ -549,6 +621,12 @@ Modus</value>
   </data>
   <data name="SerialPortEParityOddRangeValue" xml:space="preserve">
     <value>Ungerade</value>
+  </data>
+  <data name="SerialPortEStopBits1StopBitRangeValue" xml:space="preserve">
+    <value>äöü1ßßßßßß</value>
+  </data>
+  <data name="SerialPortEStopBitsAsciiRangeValue" xml:space="preserve">
+    <value>äöü2ßßßßßß</value>
   </data>
   <data name="SerialPortParityCaption" xml:space="preserve">
     <value>_Parität:</value>
@@ -603,6 +681,39 @@ Modus</value>
   </data>
   <data name="UPM2080OF2OutputTypeCaption" xml:space="preserve">
     <value>Ausgangstyp</value>
+  </data>
+  <data name="PlugInModuleRTDType1000Pt385RangeValue" xml:space="preserve">
+    <value>äöü1000 Pt 385ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType1000Pt392RangeValue" xml:space="preserve">
+    <value>äöü1000 Pt 392ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType100Pt385RangeValue" xml:space="preserve">
+    <value>äöü100 Pt 385ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType100Pt392RangeValue" xml:space="preserve">
+    <value>äöü100 Pt 392ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType10Cu427RangeValue" xml:space="preserve">
+    <value>äöü10 Cu 427ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType120Ni672RangeValue" xml:space="preserve">
+    <value>äöü120 Ni 672ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType200Pt385RangeValue" xml:space="preserve">
+    <value>äöü200 Pt 385ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType200Pt392RangeValue" xml:space="preserve">
+    <value>äöü200 Pt 392ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType500Pt385RangeValue" xml:space="preserve">
+    <value>äöü500 Pt 385ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType500Pt392RangeValue" xml:space="preserve">
+    <value>äöü500 Pt 392ßßßßßß</value>
+  </data>
+  <data name="PlugInModuleRTDType604NiFe518RangeValue" xml:space="preserve">
+    <value>äöü604 NiFe 518ßßßßßß</value>
   </data>
   <data name="UPM2080RTD2RTDTypeCaption" xml:space="preserve">
     <value>RTD-Typ</value>
@@ -754,6 +865,9 @@ Modus</value>
   <data name="InterruptColumnConfigureValue" xml:space="preserve">
     <value>Konfigurieren...</value>
   </data>
+  <data name="InterruptColumnIDCaption" xml:space="preserve">
+    <value>äöüIDßßßßßß</value>
+  </data>
   <data name="InterruptDeleteInterruptMessage" xml:space="preserve">
     <value>Benutzerunterbrechung löschen?</value>
   </data>
@@ -832,6 +946,9 @@ Modus</value>
   <data name="MBMappingSingleColumnRequiredMessage" xml:space="preserve">
     <value>Wählen Sie eine Spalte aus und versuchen Sie es erneut.</value>
   </data>
+  <data name="MBMappingVariableCaption" xml:space="preserve">
+    <value>äöüVariableßßßßßß</value>
+  </data>
   <data name="MBMappingVariableNameCaption" xml:space="preserve">
     <value>Variablenname</value>
   </data>
@@ -874,6 +991,15 @@ Modus</value>
   <data name="DateTimeWeekCaption" xml:space="preserve">
     <value>Wochentag:</value>
   </data>
+  <data name="EmbeddedIOAnalogCaption" xml:space="preserve">
+    <value>äöüAnalogßßßßßß</value>
+  </data>
+  <data name="EmbeddedIODigitalCaption" xml:space="preserve">
+    <value>äöüDigitalßßßßßß</value>
+  </data>
+  <data name="EmbeddedIOFilterCaption" xml:space="preserve">
+    <value>äöüFilterßßßßßß</value>
+  </data>
   <data name="EmbeddedIOGainCaption" xml:space="preserve">
     <value>Anstieg</value>
   </data>
@@ -882,6 +1008,9 @@ Modus</value>
   </data>
   <data name="EmbeddedIOInputLatchEdgeCaption" xml:space="preserve">
     <value>Eingang-rastend und EII-Flanke eingeben</value>
+  </data>
+  <data name="EmbeddedIOOffsetCaption" xml:space="preserve">
+    <value>äöüOffsetßßßßßß</value>
   </data>
   <data name="EmbeddedIOTypeCaption" xml:space="preserve">
     <value>Typ</value>
@@ -949,6 +1078,12 @@ Modus</value>
   <data name="InterruptMaskIVCaption" xml:space="preserve">
     <value>Maske für Ü_berlauf</value>
   </data>
+  <data name="InterruptMsCaption" xml:space="preserve">
+    <value>äöümsßßßßßß</value>
+  </data>
+  <data name="InterruptOKCaption" xml:space="preserve">
+    <value>äöü_OKßßßßßß</value>
+  </data>
   <data name="InterruptParameterCaption" xml:space="preserve">
     <value>Parameter</value>
   </data>
@@ -973,11 +1108,17 @@ Modus</value>
   <data name="InterruptUFRFullNameCaption" xml:space="preserve">
     <value>Benutzerfehlerroutine</value>
   </data>
+  <data name="InterruptUPMUIFullNameCaption" xml:space="preserve">
+    <value>äöüUniversal Plug-In Module (UPM) ßßßßßß </value>
+  </data>
   <data name="RtcMemCtrlActionCaption" xml:space="preserve">
     <value>Aktion</value>
   </data>
   <data name="RtcMemCtrlRtcCaption" xml:space="preserve">
     <value>Echtzeituhr</value>
+  </data>
+  <data name="PresentationAndUIStatusCaption" xml:space="preserve">
+    <value>äöüStatusßßßßßß</value>
   </data>
   <data name="SaveFileDialogOpenSaveCaption" xml:space="preserve">
     <value>N&amp;ach Speichern öffnen</value>
@@ -1047,6 +1188,9 @@ Modus</value>
   </data>
   <data name="ConnectionConfigSecureCaption" xml:space="preserve">
     <value>Sichern</value>
+  </data>
+  <data name="DeviceInfoTreeEthernetCaption" xml:space="preserve">
+    <value>äöüEthernetßßßßßß</value>
   </data>
   <data name="DeviceInfoTreeEthernetPortCaption" xml:space="preserve">
     <value>Anschlusseinstellungen</value>
@@ -1162,6 +1306,9 @@ Modus</value>
   <data name="EthernetOnlineSQECaption" xml:space="preserve">
     <value>SQE-Testfehler:</value>
   </data>
+  <data name="EthernetOnlineUnknownValue" xml:space="preserve">
+    <value>äöü?ßßßßßß</value>
+  </data>
   <data name="EthernetPortApplySettingCaption" xml:space="preserve">
     <value>_Einstellungen in der Steuerung speichern </value>
   </data>
@@ -1222,11 +1369,17 @@ Modus</value>
   <data name="PresentationAndUILoadEthernetCaption" xml:space="preserve">
     <value>Üb_erschreiben der Ethernet-Einstellungen</value>
   </data>
+  <data name="DeviceInfoTreeMotionCaption" xml:space="preserve">
+    <value>äöüMotionßßßßßß</value>
+  </data>
   <data name="DeviceInfoTreeNewAxisCaption" xml:space="preserve">
     <value>&lt; Neue Achse &gt;</value>
   </data>
   <data name="MotionEngineExecTimeCaption" xml:space="preserve">
     <value>Ausführungszeit d_es Bewegungs-motors:</value>
+  </data>
+  <data name="MotionEngineExecTimeUnitCaption" xml:space="preserve">
+    <value>äöümsßßßßßß</value>
   </data>
   <data name="MotionMaximumAxisSupportedCaption" xml:space="preserve">
     <value>Maximale Anzahl der eingebetteten PTO-Achsen:</value>
@@ -1237,6 +1390,9 @@ Modus</value>
   <data name="MotionAxisConfigNodeGeneral" xml:space="preserve">
     <value>Allgemein</value>
   </data>
+  <data name="MotionAxisConfigNodeHoming" xml:space="preserve">
+    <value>äöüHomingßßßßßß</value>
+  </data>
   <data name="MotionAxisConfigNodeLimits" xml:space="preserve">
     <value>Grenzen</value>
   </data>
@@ -1244,7 +1400,7 @@ Modus</value>
     <value>Motor und Last</value>
   </data>
   <data name="MotionAxisConfigNameFormatError" xml:space="preserve">
-    <value>Achse kann nicht erzeugt oder umbenannt werden.
+    <value>Achse kann nicht erzeugt oder umbenannt werden.
 {0}</value>
   </data>
   <data name="MotionAxisConfigNameLengthError" xml:space="preserve">
@@ -1271,6 +1427,12 @@ Modus</value>
   <data name="MotionAxisGeneralAxisNameCaption" xml:space="preserve">
     <value>Be_zeichnung der Achse:</value>
   </data>
+  <data name="MotionAxisGeneralDeviceInputStringFormat" xml:space="preserve">
+    <value>äöüIO_EM_DI_{0:D2}ßßßßßß</value>
+  </data>
+  <data name="MotionAxisGeneralDeviceOutputStringFormat" xml:space="preserve">
+    <value>äöüIO_EM_DO_{0:D2}ßßßßßß</value>
+  </data>
   <data name="MotionAxisGeneralDirectionOutputCaption" xml:space="preserve">
     <value>Richtungs-Ausgang:</value>
   </data>
@@ -1291,6 +1453,9 @@ Modus</value>
   </data>
   <data name="MotionAxisGeneralPTOChannelCaption" xml:space="preserve">
     <value>PTO-K_anal:</value>
+  </data>
+  <data name="MotionAxisGeneralPTOChannelStringFormat" xml:space="preserve">
+    <value>äöüEM_{0}ßßßßßß</value>
   </data>
   <data name="MotionAxisGeneralPulseOutputCaption" xml:space="preserve">
     <value>Impuls-Ausgang:</value>
@@ -1319,6 +1484,9 @@ Modus</value>
   <data name="MotionAxisConfigNameInvalidChars" xml:space="preserve">
     <value>Name muss mit einem Buchstaben (A-Z oder a-z) oder Unterstrich beginnen, gefolgt von Buchstaben (A-Z oder a-z), Zahlen und einzelnen Unterstrichen.</value>
   </data>
+  <data name="ConnectedComponentsCaption" xml:space="preserve">
+    <value>äöüConnected Components Workbenchßßßßßß</value>
+  </data>
   <data name="MotionAxisDeletionCaption" xml:space="preserve">
     <value>Die Achse „{0}“ löschen?</value>
   </data>
@@ -1332,8 +1500,8 @@ Modus</value>
     <value>Sofortiger Stopp</value>
   </data>
   <data name="MotionAxisGeneralPTOChannelWarningMessage" xml:space="preserve">
-    <value>Durch Ändern des PTO-Kanals ändert sich die E/A-Verdrahtung von „{0}“.
-
+    <value>Durch Ändern des PTO-Kanals ändert sich die E/A-Verdrahtung von „{0}“.
+
 Möchten Sie diese Werte aktualisieren?
   </value>
   </data>
@@ -1361,6 +1529,9 @@ Möchten Sie diese Werte aktualisieren?
   <data name="MotionAxisMotorLoadDirectionPolarityCaption" xml:space="preserve">
     <value>P_olarität:</value>
   </data>
+  <data name="MotionAxisMotorLoadMilliSecValue" xml:space="preserve">
+    <value>äöümsßßßßßß</value>
+  </data>
   <data name="MotionAxisMotorLoadMotorRevCaption" xml:space="preserve">
     <value>Motordrehung</value>
   </data>
@@ -1376,8 +1547,14 @@ Möchten Sie diese Werte aktualisieren?
   <data name="MotionAxisMotorLoadUserDefinedCaption" xml:space="preserve">
     <value>Benutzerdefinierte Einheit</value>
   </data>
+  <data name="MotionAxisMotorLoadUserDefinedPositionCaption" xml:space="preserve">
+    <value>äöü_Position:ßßßßßß</value>
+  </data>
   <data name="MotionAxisMotorLoadUserDefinedTimeCaption" xml:space="preserve">
     <value>Zeit:</value>
+  </data>
+  <data name="DirectionMode_Both" xml:space="preserve">
+    <value>äöüBi-Directionalßßßßßß</value>
   </data>
   <data name="DirectionMode_CCW" xml:space="preserve">
     <value>Negative Richtung</value>
@@ -1390,6 +1567,18 @@ Möchten Sie diese Werte aktualisieren?
   </data>
   <data name="DirectionPolarity_NonInverted" xml:space="preserve">
     <value>Nicht umgekehrt</value>
+  </data>
+  <data name="PositionUnitCmCaption" xml:space="preserve">
+    <value>äöücmßßßßßß</value>
+  </data>
+  <data name="PositionUnitInchesCaption" xml:space="preserve">
+    <value>äöüinchesßßßßßß</value>
+  </data>
+  <data name="PositionUnitMmCaption" xml:space="preserve">
+    <value>äöümmßßßßßß</value>
+  </data>
+  <data name="PositionUnitRevsCaption" xml:space="preserve">
+    <value>äöürevsßßßßßß</value>
   </data>
   <data name="MotionAxisDynamicsMaxAccelerationCaption" xml:space="preserve">
     <value>Max. _Beschleunigung:</value>
@@ -1487,6 +1676,9 @@ Möchten Sie diese Werte aktualisieren?
   <data name="MotionAxisHomingVelocityCaption" xml:space="preserve">
     <value>Homing _Geschwindigkeit:</value>
   </data>
+  <data name="MotionAxisDynamicsRpmCaption" xml:space="preserve">
+    <value>äöürpmßßßßßß</value>
+  </data>
   <data name="MotionAxisEmergencyStopProfile" xml:space="preserve">
     <value>Nothalt-Profil</value>
   </data>
@@ -1507,6 +1699,15 @@ Möchten Sie diese Werte aktualisieren?
   </data>
   <data name="MotionAxisHomingCreepLegend" xml:space="preserve">
     <value>Kriechen</value>
+  </data>
+  <data name="MotionAxisHomingHomeMarkerLegend" xml:space="preserve">
+    <value>äöüHome Markerßßßßßß</value>
+  </data>
+  <data name="MotionAxisHomingHomeSwitchLegend" xml:space="preserve">
+    <value>äöüHome Switchßßßßßß</value>
+  </data>
+  <data name="MotionAxisHomingStartHomeLegend" xml:space="preserve">
+    <value>äöüStart Homeßßßßßß</value>
   </data>
   <data name="MotionAxisHomingStopHomeLegend" xml:space="preserve">
     <value>Stopp Home</value>
@@ -1530,7 +1731,7 @@ Möchten Sie diese Werte aktualisieren?
     <value>DF1-Modus:</value>
   </data>
   <data name="TCPIPConfigChangeIPCaption" xml:space="preserve">
-    <value>IP-Adressenkonflikt entdeckt.
+    <value>IP-Adressenkonflikt entdeckt.
 Zum Beheben des Fehlers IP-Adresse ändern.</value>
   </data>
   <data name="DeviceInfoDigitalIOExceedMessage" xml:space="preserve">
@@ -1548,6 +1749,9 @@ Zum Beheben des Fehlers IP-Adresse ändern.</value>
   <data name="ExpansionIOConfirmSlideMessage" xml:space="preserve">
     <value>Möchten Sie die leeren Modulplatzhalter entfernen?</value>
   </data>
+  <data name="ExpansionIOMessageCaption" xml:space="preserve">
+    <value>äöüConnected Components Workbenchßßßßßß</value>
+  </data>
   <data name="ExpansionIONotSupportInSlotMessage" xml:space="preserve">
     <value>Das {0} wird im Slot {1} nicht unterstützt.</value>
   </data>
@@ -1559,6 +1763,15 @@ Zum Beheben des Fehlers IP-Adresse ändern.</value>
   </data>
   <data name="PortDisabledTooltipCaption" xml:space="preserve">
     <value>Anschluss deaktiviert</value>
+  </data>
+  <data name="Controller810UserManualName" xml:space="preserve">
+    <value>äöü\2080-UM001_-{0}-E.pdfßßßßßß</value>
+  </data>
+  <data name="Controller830UserManualName" xml:space="preserve">
+    <value>äöü\2080-UM002_-{0}-E.pdfßßßßßß</value>
+  </data>
+  <data name="Controller850UserManualName" xml:space="preserve">
+    <value>äöü\2080-UM002_-{0}-E.pdfßßßßßß</value>
   </data>
   <data name="Micro800ConfigToolbarAxisMonitorBtnToolTip" xml:space="preserve">
     <value>Motion-Achse beobachten</value>
@@ -1617,6 +1830,9 @@ Zum Beheben des Fehlers IP-Adresse ändern.</value>
   <data name="MotionAxisStatus_State_ErrorStop" xml:space="preserve">
     <value>Fehler-Stopp</value>
   </data>
+  <data name="MotionAxisStatus_State_Homing" xml:space="preserve">
+    <value>äöüHomingßßßßßß</value>
+  </data>
   <data name="MotionAxisStatus_State_Standstill" xml:space="preserve">
     <value>Stillstand</value>
   </data>
@@ -1627,74 +1843,74 @@ Zum Beheben des Fehlers IP-Adresse ändern.</value>
     <value>Synchronisierte Bewegung</value>
   </data>
   <data name="MotionError_MC_FB_ERR_MECHAN" xml:space="preserve">
-    <value>Die Achse ist aufgrund von Antriebsproblemen oder mechanischen Problemen nicht betriebsfähig.
-
-Prüfen Sie die Verbindung zwischen Antrieb und Steuerung (Signale für „Antrieb bereit“ und „In Position"), und stellen Sie sicher, dass der Antrieb normal arbeitet.  
-
+    <value>Die Achse ist aufgrund von Antriebsproblemen oder mechanischen Problemen nicht betriebsfähig.
+
+Prüfen Sie die Verbindung zwischen Antrieb und Steuerung (Signale für „Antrieb bereit“ und „In Position"), und stellen Sie sicher, dass der Antrieb normal arbeitet.  
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RESOURCE" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, da sie oder ihre von einem Funktionsblock benötigten Ressourcen von einem anderen Funktionsblock gesteuert werden oder nicht verfügbar sind.
-
-Stellen Sie sicher, dass die Achse oder ihre vom Funktionsblock benötigten Ressourcen zur Nutzung verfügbar sind.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, da sie oder ihre von einem Funktionsblock benötigten Ressourcen von einem anderen Funktionsblock gesteuert werden oder nicht verfügbar sind.
+
+Stellen Sie sicher, dass die Achse oder ihre vom Funktionsblock benötigten Ressourcen zur Nutzung verfügbar sind.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
+
 Überprüfen und korrigieren Sie die Anwendung, wenn mehrere Instanzen des gleichen Funktionsblocks zur gleichen Zeit versuchen, die Achse zu steuern.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_ENGINE" xml:space="preserve">
-    <value>Die Achse ist aufgrund einer Störung des Bewegungsmotors nicht betriebsfähig.
-
-Durchlaufen Sie den Einschaltzyklus der gesamten Maschine, und laden Sie die Benutzeranwendung für die Steuerung erneut herunter.
-
-Bleibt der Fehler weiterhin bestehen, wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
-
+    <value>Die Achse ist aufgrund einer Störung des Bewegungsmotors nicht betriebsfähig.
+
+Durchlaufen Sie den Einschaltzyklus der gesamten Maschine, und laden Sie die Benutzeranwendung für die Steuerung erneut herunter.
+
+Bleibt der Fehler weiterhin bestehen, wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_HARD_LIMIT" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines Fehlers im Zusammenhang mit einem Hardwarelimit nicht betriebsfähig.
-
-
+    <value>Die Achse ist aufgrund eines Fehlers im Zusammenhang mit einem Hardwarelimit nicht betriebsfähig.
+
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück, und bewegen Sie die Achse dann in umgekehrter Richtung vom Endschalter weg.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_LOG_LIMIT" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Zusammenhang mit einem logischen Grenzwert für das PTO-Register erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Zusammenhang mit einem logischen Grenzwert für das PTO-Register erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Prüfen Sie die Geschwindigkeits- oder Zielpositionseinstellungen für den Funktionsblock. Passen Sie mit dem Funktionsblock MC_SetPosition das Koordinatensystem an.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PARAM" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten Parameters (betrifft nicht Geschwindigkeit, Beschleunigung, Entschleunigung oderJerk) nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten Parameters (betrifft nicht Geschwindigkeit, Beschleunigung, Entschleunigung oderJerk) nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie die Einstellung für die Parameter (z. B. Modus oder Position) im Funktionsblock.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_PROFILE" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, da ein in einem Funktionsblock definiertes Bewegungsprofil ungültig ist. 
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, da ein in einem Funktionsblock definiertes Bewegungsprofil ungültig ist. 
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie das Profil im Funktionsblock.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_RANGE" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten achsendynamischen Parameters (Geschwindigkeit, Beschleunigung, Entschleunigung oder Jerk) nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Funktionsblock als ungültig festgelegten achsendynamischen Parameters (Geschwindigkeit, Beschleunigung, Entschleunigung oder Jerk) nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie die Einstellungen für die dynamischen Parameter im Funktionsblock, die mit den Einstellungen auf der Konfigurationsseite für die Achsendynamik in Konflikt stehen.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_WRONG_STATE" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines während der Ausführung eines Funktionsblocks erkannten ungültigen Achsenstatus nicht betriebsfähig. 
-
+    <value>Die Achse ist aufgrund eines während der Ausführung eines Funktionsblocks erkannten ungültigen Achsenstatus nicht betriebsfähig. 
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_SOFT_LIMIT" xml:space="preserve">
-    <value>Die Achse ist aufgrund eines im Zusammenhang mit Softwarelimits erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist aufgrund eines im Zusammenhang mit Softwarelimits erkannten oder erwarteten Fehlers in einem Funktionsblock nicht betriebsfähig.
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Prüfen Sie die Geschwindigkeits- oder Zielpositionseinstellungen für den Funktionsblock, oder passen Sie die Einstellung der Software-Grenze an.</value>
   </data>
   <data name="MotionError_UnknownError" xml:space="preserve">
@@ -1807,36 +2023,36 @@ Möchten Sie fortfahren?</value>
     <value>Geschwindigkeit</value>
   </data>
   <data name="MotionError_MC_FB_ERR_AXISNUM" xml:space="preserve">
-    <value>Interner Bewegungsfehler, Fehler-ID = 0x04. 
-
-Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
-
+    <value>Interner Bewegungsfehler, Fehler-ID = 0x04. 
+
+Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
+
 http://support.rockwellautomation.com/MySupport.asp</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOPOWER" xml:space="preserve">
-    <value>Die Achse ist nicht eingeschaltet.
-
-Schalten Sie die Achse mit dem Funktionsblock MC_Power ein.
-
+    <value>Die Achse ist nicht eingeschaltet.
+
+Schalten Sie die Achse mit dem Funktionsblock MC_Power ein.
+
 Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_VELOCITY" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, da das im Funktionsblock angeforderte Bewegungsprofil mit der aktuellen Achsengeschwindigkeit in Konflikt steht. 
-
-Mögliche Ursachen:
-1. Der Funktionsblock fordert während der Bewegung der Achse eine Richtungsumkehr.
-2. Die aktuelle Geschwindigkeit ist für das angeforderte Bewegungsprofil zu niedrig oder zu hoch.
-
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, da das im Funktionsblock angeforderte Bewegungsprofil mit der aktuellen Achsengeschwindigkeit in Konflikt steht. 
+
+Mögliche Ursachen:
+1. Der Funktionsblock fordert während der Bewegung der Achse eine Richtungsumkehr.
+2. Die aktuelle Geschwindigkeit ist für das angeforderte Bewegungsprofil zu niedrig oder zu hoch.
+
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_RESET zurück.
+
 Korrigieren Sie das Bewegungsprofil im Funktionsblock, oder führen Sie den Funktionsblock erneut aus, wenn die Achsengeschwindigkeit mit dem angeforderten Bewegungsprofil kompatibel ist.</value>
   </data>
   <data name="MotionError_MC_FB_PARAM_MODIFIED" xml:space="preserve">
-    <value>Interne Bewegungswarnung, Warnungs-ID = 0x80. 
-
-Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
-
+    <value>Interne Bewegungswarnung, Warnungs-ID = 0x80. 
+
+Wenden Sie sich an Ihren zuständigen technischen Supportmitarbeiter von Rockwell Automation. Kontaktinformationen erhalten Sie hier: 
+
 http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="MBMappingFailedToLoadMappingItemMessage" xml:space="preserve">
@@ -1847,6 +2063,9 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   </data>
   <data name="LCDPushButtonKeyReadEnable" xml:space="preserve">
     <value>Drucktaste Schlüssel Lesen Aktivieren</value>
+  </data>
+  <data name="StartupFaultLCDGpBxCaption" xml:space="preserve">
+    <value>äöüLCDßßßßßß</value>
   </data>
   <data name="StartupFaultLCDPButtonCheckBoxLabel" xml:space="preserve">
     <value>Drucktaste Schlüssel Lesen Aktivieren</value>
@@ -1877,10 +2096,10 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>Die Subnetzmaske ist ungültig.</value>
   </data>
   <data name="MotionError_MC_FB_ERR_NOT_HOMED" xml:space="preserve">
-    <value>Die Achse ist nicht betriebsfähig, weil sie nicht zurückgesetzt wurde. 
-
-Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
-
+    <value>Die Achse ist nicht betriebsfähig, weil sie nicht zurückgesetzt wurde. 
+
+Setzen Sie den Status der Achse mit dem Funktionsblock MC_Reset zurück.
+
 Setzen Sie die Achse mit dem Funktionsblock MC_Home zurück.</value>
   </data>
   <data name="MotionAxisCaption" xml:space="preserve">
@@ -1932,7 +2151,7 @@ Setzen Sie die Achse mit dem Funktionsblock MC_Home zurück.</value>
     <value>Speicherbelegung wird erst aktualisiert nach einem </value>
   </data>
   <data name="ASCIIDriverCharsInputInvalidtMessage" xml:space="preserve">
-    <value>Geben Sie eine hexadezimale Zahl ein, beginnend mit 0x, 
+    <value>Geben Sie eine hexadezimale Zahl ein, beginnend mit 0x, 
 gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   </data>
   <data name="AdvancedDialogButtonClose" xml:space="preserve">
@@ -1950,8 +2169,38 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   <data name="MemoryModuleCompatibiltyUnknown" xml:space="preserve">
     <value>Mit Hardware und Firmware kompatibel, unbekannt</value>
   </data>
+  <data name="MemoryCtrlKiloBytesCaption" xml:space="preserve">
+    <value>äöüKBßßßßßß</value>
+  </data>
   <data name="EthernetCancleBtnCaption" xml:space="preserve">
     <value>Abbrechen</value>
+  </data>
+  <data name="PlugModuleFreqOrRateCaption" xml:space="preserve">
+    <value>äöü{0} Hzßßßßßß</value>
+  </data>
+  <data name="EmbeddedIOInputFilterACCaption" xml:space="preserve">
+    <value>äöüACßßßßßß</value>
+  </data>
+  <data name="EmbeddedIOInputFilterDCCaption" xml:space="preserve">
+    <value>äöüDCßßßßßß</value>
+  </data>
+  <data name="MicroSecondCaption" xml:space="preserve">
+    <value>äöüµsßßßßßß</value>
+  </data>
+  <data name="MilliSecondCaption" xml:space="preserve">
+    <value>äöümsßßßßßß</value>
+  </data>
+  <data name="EmbeddedIOInputFilterValueCaption" xml:space="preserve">
+    <value>äöü{0} {1} {2}ßßßßßß</value>
+  </data>
+  <data name="Controller810DefaultUserManualName" xml:space="preserve">
+    <value>äöü\2080-UM001_-EN-E.pdfßßßßßß</value>
+  </data>
+  <data name="Controller830DefaultUserManualName" xml:space="preserve">
+    <value>äöü\2080-UM002_-EN-E.pdfßßßßßß</value>
+  </data>
+  <data name="Controller850DefaultUserManualName" xml:space="preserve">
+    <value>äöü\2080-UM002_-EN-E.pdfßßßßßß</value>
   </data>
   <data name="ControllerCtrlConnectionLostMessage" xml:space="preserve">
     <value>Verbindung getrennt.</value>
@@ -1965,8 +2214,14 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   <data name="SerialPortControlLineNoAccessKeyCaption" xml:space="preserve">
     <value>Medien:</value>
   </data>
+  <data name="ModuleCategoryAnalogCaption" xml:space="preserve">
+    <value>äöüAnalogßßßßßß</value>
+  </data>
   <data name="ModuleCategoryCommunicationCaption" xml:space="preserve">
     <value>Kommunikation</value>
+  </data>
+  <data name="ModuleCategoryDigitalCaption" xml:space="preserve">
+    <value>äöüDigitalßßßßßß</value>
   </data>
   <data name="ModuleCategorySpecialtyCaption" xml:space="preserve">
     <value>Spezialität</value>
@@ -1976,6 +2231,9 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   </data>
   <data name="UPMUnsupportedModuleMessage" xml:space="preserve">
     <value>Unbekanntes Modul kann nicht konfiguriert werden.</value>
+  </data>
+  <data name="MotionDefaultAxisName" xml:space="preserve">
+    <value>äöüAxis{0}ßßßßßß</value>
   </data>
   <data name="FaultControllerLogFailToSaveWithNoPermission" xml:space="preserve">
     <value>Sie sind nicht zur Speicherung an diesem Ort berechtigt.</value>
@@ -2031,11 +2289,17 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   <data name="ControllerChangeHelpButtonText" xml:space="preserve">
     <value>Hilfe</value>
   </data>
+  <data name="ControllerChangeOKButtonText" xml:space="preserve">
+    <value>äöüOKßßßßßß</value>
+  </data>
   <data name="ControllerChangeFeatureExpansionIO" xml:space="preserve">
     <value>Erweiterungs-E/A</value>
   </data>
   <data name="ControllerChangeFeatureFamily" xml:space="preserve">
     <value>Familie</value>
+  </data>
+  <data name="ControllerChangeFeatureHSC" xml:space="preserve">
+    <value>äöüHSCßßßßßß</value>
   </data>
   <data name="ControllerChangeFeatureInput" xml:space="preserve">
     <value>Integrierter Eingang</value>
@@ -2066,6 +2330,9 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   </data>
   <data name="ControllerChangeEmbeddedIOFeatureLessIOWarning" xml:space="preserve">
     <value>Ziel-Steuerung unterstützt eine kleinere Anzahl von integrierten E/A.</value>
+  </data>
+  <data name="ControllerChangeEthernetCaption" xml:space="preserve">
+    <value>äöüEthernetßßßßßß</value>
   </data>
   <data name="ControllerChangeExpansionIOFeatureLessModuleWarning" xml:space="preserve">
     <value>Ziel-Steuerung unterstützt eine kleinere Anzahl von Erweiterungsmodulen. Es ist eine Aktualisierung der Programme erforderlich.</value>
@@ -2163,6 +2430,9 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   <data name="ControllerChangeLogSaveConfigurationStatus" xml:space="preserve">
     <value>Quellprojektkonfiguration wird gespeichert</value>
   </data>
+  <data name="ControllerChangeLogStatusSymbol" xml:space="preserve">
+    <value>äöü...ßßßßßß</value>
+  </data>
   <data name="ControllerChangeLogSuccessStatus" xml:space="preserve">
     <value>Steuerungsänderung erfolgreich.</value>
   </data>
@@ -2223,6 +2493,9 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
   <data name="ControllerChangeExceptionErrorMessage" xml:space="preserve">
     <value>Fehler bei der Umwandlung des Projekts. Falls das Problem weiterhin besteht, senden Sie die Protokolldatei an den technischen Supportmitarbeiter.</value>
   </data>
+  <data name="ControllerChangeControllerVersionText" xml:space="preserve">
+    <value>äöü(Version {0})ßßßßßß</value>
+  </data>
   <data name="ControllerChangeTitle" xml:space="preserve">
     <value>Steuerungsänderung</value>
   </data>
@@ -2239,7 +2512,7 @@ gefolgt von ein oder zwei hexadezimalen Ziffern wie 0xa oder 0x0a.</value>
     <value>Steuerungsname darf nicht identisch mit dem Namen des Frequenzumrichters oder Grafikterminals sein.</value>
   </data>
   <data name="DefaultNewFolderChangePathMessage" xml:space="preserve">
-    <value>Neues Projekt kann im Netzwerkpfad nicht erstellt werden: {0} 
+    <value>Neues Projekt kann im Netzwerkpfad nicht erstellt werden: {0} 
 CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   </data>
   <data name="DefaultNewFolderOnNetworkMessage" xml:space="preserve">
@@ -2278,8 +2551,56 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   <data name="EmbeddedIOInputCalibrationOffsetError" xml:space="preserve">
     <value>Offset muss im Bereich zwischen {0} und {1} liegen</value>
   </data>
+  <data name="InputDebounceFilter_AC_0ms" xml:space="preserve">
+    <value>äöüAC 0msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_AC_16ms" xml:space="preserve">
+    <value>äöüAC 16msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_AC_28ms" xml:space="preserve">
+    <value>äöüAC 28msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_AC_8ms" xml:space="preserve">
+    <value>äöüAC 8msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_100us" xml:space="preserve">
+    <value>äöüDC 100µsßßßßßß</value>
+  </data>
   <data name="InputDebounceFilter_DC_12_5us" xml:space="preserve">
     <value>DC 12,5µs</value>
+  </data>
+  <data name="InputDebounceFilter_DC_16ms" xml:space="preserve">
+    <value>äöüDC 16msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_1ms" xml:space="preserve">
+    <value>äöüDC 1msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_250us" xml:space="preserve">
+    <value>äöüDC 250µsßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_25us" xml:space="preserve">
+    <value>äöüDC 25µsßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_2ms" xml:space="preserve">
+    <value>äöüDC 2msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_32ms" xml:space="preserve">
+    <value>äöüDC 32msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_4ms" xml:space="preserve">
+    <value>äöüDC 4msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_500us" xml:space="preserve">
+    <value>äöüDC 500µsßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_5us" xml:space="preserve">
+    <value>äöüDC 5µsßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_75us" xml:space="preserve">
+    <value>äöüDC 75µsßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_8ms" xml:space="preserve">
+    <value>äöüDC 8msßßßßßß</value>
   </data>
   <data name="InputDebounceFilter__default" xml:space="preserve">
     <value>Standard</value>
@@ -2289,6 +2610,9 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   </data>
   <data name="EmbeddedIO810DigitalInputLabelText" xml:space="preserve">
     <value>Digitaler Eingang</value>
+  </data>
+  <data name="BuildErrorMessageFormat" xml:space="preserve">
+    <value>äöü{0} : {1} {2}ßßßßßß</value>
   </data>
   <data name="EmbeddedIOCaption" xml:space="preserve">
     <value>Integrierte E/A</value>
@@ -2394,6 +2718,30 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   </data>
   <data name="RemoteLCD_CBM_FONT_Small" xml:space="preserve">
     <value>Klein (8x8 Pixel)</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter_AC_0ms" xml:space="preserve">
+    <value>äöüAC 0msßßßßßß</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter_AC_16ms" xml:space="preserve">
+    <value>äöüAC 16msßßßßßß</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter_AC_28ms" xml:space="preserve">
+    <value>äöüAC 28msßßßßßß</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter_AC_8ms" xml:space="preserve">
+    <value>äöüAC 8msßßßßßß</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__0ms" xml:space="preserve">
+    <value>äöüDC 0msßßßßßß</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__16ms" xml:space="preserve">
+    <value>äöüDC 16msßßßßßß</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__32ms" xml:space="preserve">
+    <value>äöüDC 32msßßßßßß</value>
+  </data>
+  <data name="MICRO820_InputDebounceFilter__8ms" xml:space="preserve">
+    <value>äöüDC 8msßßßßßß</value>
   </data>
   <data name="MICRO820_InputDebounceFilter__default_AC" xml:space="preserve">
     <value>Standard (AC 8ms)</value>
@@ -2563,6 +2911,12 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   <data name="DataSetDetailsDescriptionCaption" xml:space="preserve">
     <value>_Beschreibung:</value>
   </data>
+  <data name="DataSetDetailsLabelCaption" xml:space="preserve">
+    <value>äöüName:ßßßßßß</value>
+  </data>
+  <data name="DataSetDetailsOKButton" xml:space="preserve">
+    <value>äöü_OKßßßßßß</value>
+  </data>
   <data name="DataSetDetailsSeparatorCaption" xml:space="preserve">
     <value>_Trennzeichen:</value>
   </data>
@@ -2713,6 +3067,12 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   <data name="ControllerChangeErrorRecipeFileWrite" xml:space="preserve">
     <value>Rezeptkonfigurationsdatei konnte nicht kopiert werden. Stellen Sie sicher, dass Sie Schreibzugriffsrechte für den Ordner {0} haben.</value>
   </data>
+  <data name="SerialPortEControlLineRS485" xml:space="preserve">
+    <value>äöüRS485ßßßßßß</value>
+  </data>
+  <data name="RemoteLCDDefaultBootMessage" xml:space="preserve">
+    <value>äöü2080-REMLCDßßßßßß</value>
+  </data>
   <data name="RemoteLCDPreviewResultMessage" xml:space="preserve">
     <value>Das Vorschauergebnis am Besten auf Englisch anzeigen lassen.</value>
   </data>
@@ -2809,6 +3169,9 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   <data name="RecipeDeleteWarningMessage" xml:space="preserve">
     <value>Soll das Rezept '{0}' gelöscht werden?</value>
   </data>
+  <data name="SerialRTSDelayUnitCaption" xml:space="preserve">
+    <value>äöü(x20ms)ßßßßßß</value>
+  </data>
   <data name="RemoteLCD_ExceedMaxNumberOfLCDVariablesMessage" xml:space="preserve">
     <value>Die Gesamtzahl der LCD-Variablen ({0}) überschreitet die Obergrenze {1}. Verringern Sie die Variablenzahl und erstellen Sie das Projekt neu.</value>
   </data>
@@ -2823,6 +3186,9 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   </data>
   <data name="BuildError_AllPortsDisabled" xml:space="preserve">
     <value>Die aktuelle Konfiguration lässt keine Verbindung zur Steuerung zu. Aktivieren Sie den USB-Anschluss oder Ethernet-Port oder wählen Sie als Treiber CIP seriell unter Serieller Anschluss.</value>
+  </data>
+  <data name="DetailsCaption" xml:space="preserve">
+    <value>äöüDetailsßßßßßß</value>
   </data>
   <data name="UploadResultInfoFooter" xml:space="preserve">
     <value>Wechseln Sie in den Programmmodus, um die Dateien hochzuladen.</value>
@@ -2842,6 +3208,12 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   <data name="DownloadfailedMessage" xml:space="preserve">
     <value>Herunterladen ist fehlgeschlagen</value>
   </data>
+  <data name="Controller820DefaultUserManualName" xml:space="preserve">
+    <value>äöü\2080-UM005_-EN-E.pdfßßßßßß</value>
+  </data>
+  <data name="Controller820UserManualName" xml:space="preserve">
+    <value>äöü\2080-UM005_-{0}-E.pdfßßßßßß</value>
+  </data>
   <data name="DeviceInfoTreeLCDModuleCaption" xml:space="preserve">
     <value>LCD-Modul</value>
   </data>
@@ -2853,6 +3225,9 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   </data>
   <data name="LCDModuleHardwareSettingLabel" xml:space="preserve">
     <value>Hardware-Einstellungen</value>
+  </data>
+  <data name="ConnectionConfigDiagnoseCaption" xml:space="preserve">
+    <value>äöüDiagnoseßßßßßß</value>
   </data>
   <data name="Micro800ConfigToolbarDiagnoseBtnToolTip" xml:space="preserve">
     <value>Systemstatus diagnostizieren und Achse beobachten</value>
@@ -2868,6 +3243,9 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
   </data>
   <data name="ConnectionConfigNetworkDiagnoseCaption" xml:space="preserve">
     <value>Kommunikationsdiagnose</value>
+  </data>
+  <data name="SerialPortDiagnoseCaption" xml:space="preserve">
+    <value>äöüDiagnoseßßßßßß</value>
   </data>
   <data name="DiagnosticsBadCRCCaption" xml:space="preserve">
     <value>Fehlerhafte CRC:</value>
@@ -2909,7 +3287,7 @@ CCW-Standardordnereinstellung auf ein lokales Laufwerk festlegen.</value>
     <value>Zähler verknüpfen</value>
   </data>
   <data name="CommDiagnoseConflictInfoLblCaption" xml:space="preserve">
-    <value> {0} das Projekt und die Steuerung sind nicht synchron.
+    <value> {0} das Projekt und die Steuerung sind nicht synchron.
 Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisieren.</value>
   </data>
   <data name="SerialDiagnosePortTypeCaption" xml:space="preserve">
@@ -2960,6 +3338,9 @@ Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisiere
   <data name="DiagnoseButtonTextCaption" xml:space="preserve">
     <value>Konfiguration zwischen Projekt, Steuerung und {0} vergleichen.</value>
   </data>
+  <data name="Micro800ToolBarMenuEthernetItemCaption" xml:space="preserve">
+    <value>äöüEthernetßßßßßß</value>
+  </data>
   <data name="Micro800ToolBarMenuUSBItemCaption" xml:space="preserve">
     <value>USB-Anschluss</value>
   </data>
@@ -2978,6 +3359,15 @@ Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisiere
   <data name="SerialPortDiagnoseButtonTooltip" xml:space="preserve">
     <value>Diagnosekommunikationsstatus.</value>
   </data>
+  <data name="EthernetType_Speed_0" xml:space="preserve">
+    <value>äöü0ßßßßßß</value>
+  </data>
+  <data name="EthernetType_Speed_10" xml:space="preserve">
+    <value>äöü10ßßßßßß</value>
+  </data>
+  <data name="EthernetType_Speed_100" xml:space="preserve">
+    <value>äöü100ßßßßßß</value>
+  </data>
   <data name="EthernetType_full" xml:space="preserve">
     <value>Voll</value>
   </data>
@@ -2990,14 +3380,23 @@ Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisiere
   <data name="ConnectionConfigStartupCaption" xml:space="preserve">
     <value>Startdiagnose</value>
   </data>
+  <data name="AllenBradleyCaption" xml:space="preserve">
+    <value>äöüAllen-Bradleyßßßßßß</value>
+  </data>
   <data name="GeneralPageFirmwareRevisionLabel" xml:space="preserve">
     <value>Firmware-Version</value>
   </data>
   <data name="InvalidValueCaption" xml:space="preserve">
     <value>Ungültiger Wert.</value>
   </data>
+  <data name="PresentationAndUINameCaption" xml:space="preserve">
+    <value>äöü_Name:ßßßßßß</value>
+  </data>
   <data name="DeviceInfoTreeStartupCaption" xml:space="preserve">
     <value>Hochfahren</value>
+  </data>
+  <data name="MEMBAKPluginCaption" xml:space="preserve">
+    <value>äöü2080-MEMBAK-RTCßßßßßß</value>
   </data>
   <data name="StartClearFaultLabel" xml:space="preserve">
     <value>_Fehler löschen</value>
@@ -3052,6 +3451,9 @@ Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisiere
   </data>
   <data name="BatteryLevelLow" xml:space="preserve">
     <value>Niedrig</value>
+  </data>
+  <data name="BatteryLevelNormal" xml:space="preserve">
+    <value>äöüNormalßßßßßß</value>
   </data>
   <data name="CompatibleCaption" xml:space="preserve">
     <value>kompatibel</value>
@@ -3183,11 +3585,14 @@ Laden Sie das Projekt hoch oder herunter, um die Einstellungen zu synchronisiere
     <value>2080-SERIALISOL an Port {0}</value>
   </data>
   <data name="PlugInConflictSettingCaption" xml:space="preserve">
-    <value>{0} im Projekt und in der Steuerung sind nicht synchron.
+    <value>{0} im Projekt und in der Steuerung sind nicht synchron.
 Laden Sie das Projekt hoch/herunter oder stecken Sie das Modul ein, um die Einstellungen zu synchronisieren.</value>
   </data>
   <data name="ButtonCancelCaption" xml:space="preserve">
     <value>A_bbrechen</value>
+  </data>
+  <data name="ButtonOKCaption" xml:space="preserve">
+    <value>äöü_OKßßßßßß</value>
   </data>
   <data name="DiagnosticCatalogIDWarning" xml:space="preserve">
     <value>Katalog-ID in Projekt &amp; {0} stimmt nicht überein.</value>
@@ -3227,12 +3632,12 @@ Laden Sie das Projekt hoch/herunter oder stecken Sie das Modul ein, um die Einst
   </data>
   <data name="EthernetPortChangedItemsCaption" xml:space="preserve">
     <value>
-Anschluss-Einstellungen geändert Elemente:
+Anschluss-Einstellungen geändert Elemente:
 {0}</value>
   </data>
   <data name="TCPIPChangedItemsCaption" xml:space="preserve">
     <value>
-Internetprotokolleinstellungen geändert Elemente:
+Internetprotokolleinstellungen geändert Elemente:
 {0}</value>
   </data>
   <data name="PreOnlineChange_Message_BuildError" xml:space="preserve">
@@ -3240,6 +3645,15 @@ Internetprotokolleinstellungen geändert Elemente:
   </data>
   <data name="ManageDownloadDataGridHeader" xml:space="preserve">
     <value>Dateiname</value>
+  </data>
+  <data name="InputDebounceFilter_AC_ms" xml:space="preserve">
+    <value>äöüAC {0}msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_ms" xml:space="preserve">
+    <value>äöüDC {0}msßßßßßß</value>
+  </data>
+  <data name="InputDebounceFilter_DC_us" xml:space="preserve">
+    <value>äöüDC {0}µsßßßßßß</value>
   </data>
   <data name="ControllerChangeEmbeddedIOGainOffsetWarning" xml:space="preserve">
     <value>Verstärkung und Offset der Integrierten E/A werden nicht unterstützt und ihre Konfiguration wird verworfen.</value>
@@ -3355,6 +3769,9 @@ Internetprotokolleinstellungen geändert Elemente:
   <data name="PreOnlineChange_Message_Aborted" xml:space="preserve">
     <value>Herunterladen im Betriebsmodus abgebrochen</value>
   </data>
+  <data name="EthernetConfigDiagnoseCaption" xml:space="preserve">
+    <value>äöüDia_gnoseßßßßßß</value>
+  </data>
   <data name="EthernetDisableButtonCaption" xml:space="preserve">
     <value>D_eaktiviert</value>
   </data>
@@ -3375,6 +3792,9 @@ Internetprotokolleinstellungen geändert Elemente:
   </data>
   <data name="DataProtectionDeleteVariable" xml:space="preserve">
     <value>V_ariable löschen</value>
+  </data>
+  <data name="DataProtectionOKButton" xml:space="preserve">
+    <value>äöü_OKßßßßßß</value>
   </data>
   <data name="DataProtectionWindowTitle" xml:space="preserve">
     <value>Datenschutz</value>
@@ -3472,8 +3892,14 @@ Internetprotokolleinstellungen geändert Elemente:
   <data name="GoToArchiveBackupProjectMessage" xml:space="preserve">
     <value>Sicherung des Quellprojekts wurde an folgendem Ort erstellt{0}{1}</value>
   </data>
+  <data name="CCWArchiveExtension" xml:space="preserve">
+    <value>äöüccwarcßßßßßß</value>
+  </data>
   <data name="FileNotPresentException" xml:space="preserve">
     <value>Datei {0} ist nicht vorhanden</value>
+  </data>
+  <data name="ImportExportDirectoryName" xml:space="preserve">
+    <value>äöüImport_Exportßßßßßß</value>
   </data>
   <data name="ControllerProjectContentMismatch" xml:space="preserve">
     <value>Der aktuelle Projektinhalt entspricht nicht dem Inhalt in der angeschlossenen Steuerung.</value>
@@ -3495,6 +3921,9 @@ Internetprotokolleinstellungen geändert Elemente:
   <data name="DeviceNetAddressCaption" xml:space="preserve">
     <value>Adresse: </value>
   </data>
+  <data name="DeviceNetAutoscanCaption" xml:space="preserve">
+    <value>äöüAutoScan: ßßßßßß </value>
+  </data>
   <data name="DeviceNetBaudRateCaption" xml:space="preserve">
     <value>Baudrate: </value>
   </data>
@@ -3504,14 +3933,26 @@ Internetprotokolleinstellungen geändert Elemente:
   <data name="DeviceNetScanListNodesCaption" xml:space="preserve">
     <value>Knoten in der Scan-Liste</value>
   </data>
+  <data name="DeviceNetScannerCaption" xml:space="preserve">
+    <value>äöüScannerßßßßßß</value>
+  </data>
   <data name="DeviceNetScanStatusNotConfiguredCaption" xml:space="preserve">
     <value>Nicht konfiguriert</value>
   </data>
   <data name="DeviceNetScanStatusNotInRangeCaption" xml:space="preserve">
     <value>Außerhalb des Gültigkeitsbereichs</value>
   </data>
+  <data name="DeviceNetScanStatusScannerCaption" xml:space="preserve">
+    <value>äöüScannerßßßßßß</value>
+  </data>
   <data name="DeviceNetSlotNumberCaption" xml:space="preserve">
     <value>Steckplatznummer: </value>
+  </data>
+  <data name="DeviceNetStatusCaption" xml:space="preserve">
+    <value>äöüStatus: ßßßßßß </value>
+  </data>
+  <data name="Micro800ToolBarMenuDeviceNetItemCaption" xml:space="preserve">
+    <value>äöüDeviceNetßßßßßß</value>
   </data>
   <data name="DeviceNetBaudRateKbpsCaption" xml:space="preserve">
     <value>{0} KB</value>
@@ -3524,6 +3965,9 @@ Internetprotokolleinstellungen geändert Elemente:
   </data>
   <data name="DeviceNetModeIdleValue" xml:space="preserve">
     <value>LEERLAUF</value>
+  </data>
+  <data name="DeviceNetModeRunValue" xml:space="preserve">
+    <value>äöüRUNßßßßßß</value>
   </data>
   <data name="UPModuleSlot" xml:space="preserve">
     <value>Steckplatz:</value>
@@ -3660,6 +4104,9 @@ Internetprotokolleinstellungen geändert Elemente:
   <data name="VendorNameCaptionWithColon" xml:space="preserve">
     <value>Lieferantenname:</value>
   </data>
+  <data name="DiagnosticsDNETCaption" xml:space="preserve">
+    <value>äöü2080-DNET20ßßßßßß</value>
+  </data>
   <data name="DiagnosticsDNETConflictSettingCaption" xml:space="preserve">
     <value>2080-DNET20 auf Steckplatz {0}</value>
   </data>
@@ -3673,8 +4120,11 @@ Internetprotokolleinstellungen geändert Elemente:
     <value>Verbunden</value>
   </data>
   <data name="PlugInDNETConflictSettingCaption" xml:space="preserve">
-    <value>{0} im Projekt und die Steuerung sind nicht synchron.
+    <value>{0} im Projekt und die Steuerung sind nicht synchron.
 Laden Sie das Projekt herunter oder stecken Sie das Modul ein, um die Einstellungen zu synchronisieren.</value>
+  </data>
+  <data name="DNETCommunication_ModuleStatus_0" xml:space="preserve">
+    <value>äöüOKßßßßßß</value>
   </data>
   <data name="DeviceNetScanStatusActiveCaption" xml:space="preserve">
     <value>Aktiv</value>
@@ -3683,27 +4133,27 @@ Laden Sie das Projekt herunter oder stecken Sie das Modul ein, um die Einstellun
     <value>Inaktiv</value>
   </data>
   <data name="RmcEnterPendingChangeMessage" xml:space="preserve">
-    <value>{0} Änderungen in {1} gefunden. 
-
+    <value>{0} Änderungen in {1} gefunden. 
+
 Wechsel zu Änderungsmodus im Run Mode fortsetzen?</value>
   </data>
   <data name="RmcQuitUncommittedChangeMessage" xml:space="preserve">
-    <value>Unbestätigte Änderungen in Steuerung vorhanden.
-
-Der Zugriff auf die Steuerungsinhalte ist eingeschränkt, bis die Änderungen bestätigt werden.
-
+    <value>Unbestätigte Änderungen in Steuerung vorhanden.
+
+Der Zugriff auf die Steuerungsinhalte ist eingeschränkt, bis die Änderungen bestätigt werden.
+
 {0}?</value>
   </data>
   <data name="RmcEnterUntestedChangeMessage" xml:space="preserve">
-    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
-
+    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
+
 Soll der Test der logischen Änderungen in der Steuerung fortgesetzt werden?</value>
   </data>
   <data name="RmcQuitUntestedChangesMessage" xml:space="preserve">
-    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
-
-Die Verbindung zur Steuerung wird nach Beenden der Änderung im Betriebsmodus getrennt.
-
+    <value>Das aktuelle Projekt enthält nicht getestete Änderungen.
+
+Die Verbindung zur Steuerung wird nach Beenden der Änderung im Betriebsmodus getrennt.
+
 Änderung im Betriebsmodus beenden?</value>
   </data>
   <data name="DiagnosticLoadOnPowerUpLabel" xml:space="preserve">
@@ -3732,6 +4182,9 @@ Die Verbindung zur Steuerung wird nach Beenden der Änderung im Betriebsmodus ge
   </data>
   <data name="ProjectModifiedDuringDownloadMessage" xml:space="preserve">
     <value>Herunterladen abgeschlossen. Das Steuerungsprojekt wurde beim Herunterladen jedoch geändert. Erstellen Sie das Projekt erneut und laden Sie das Projekt noch einmal in die Steuerung herunter.</value>
+  </data>
+  <data name="MotionDefaultFBAxisNameFormat" xml:space="preserve">
+    <value>äöüFBAxis{0}ßßßßßß</value>
   </data>
   <data name="HSCFBModeAssocationCaption" xml:space="preserve">
     <value>_verbinden mit:</value>
@@ -3830,7 +4283,7 @@ Die Verbindung zur Steuerung wird nach Beenden der Änderung im Betriebsmodus ge
     <value>Ausgang:</value>
   </data>
   <data name="MotionAxisPTOChannelUnassignedWarningMessage" xml:space="preserve">
-    <value>'{0}' wird mit der PTO-Achse gekoppelt. Die Änderung des PTO-Kanals zu „Nicht zugewiesen“ führt zur Unterbrechung der Kopplung.
+    <value>'{0}' wird mit der PTO-Achse gekoppelt. Die Änderung des PTO-Kanals zu „Nicht zugewiesen“ führt zur Unterbrechung der Kopplung.
 Möchten Sie fortfahren?</value>
   </data>
   <data name="MotionFBAxisCaption" xml:space="preserve">
@@ -3896,14 +4349,44 @@ Möchten Sie fortfahren?</value>
   <data name="HSCInputFilterDC0Point5ms" xml:space="preserve">
     <value>DC 0,5ms</value>
   </data>
+  <data name="HSCInputFilterDC125us" xml:space="preserve">
+    <value>äöüDC 125µsßßßßßß</value>
+  </data>
   <data name="HSCInputFilterDC12Point5us" xml:space="preserve">
     <value>DC 12,5µs</value>
+  </data>
+  <data name="HSCInputFilterDC16ms" xml:space="preserve">
+    <value>äöüDC 16msßßßßßß</value>
+  </data>
+  <data name="HSCInputFilterDC1ms" xml:space="preserve">
+    <value>äöüDC 1msßßßßßß</value>
+  </data>
+  <data name="HSCInputFilterDC250us" xml:space="preserve">
+    <value>äöüDC 250µsßßßßßß</value>
+  </data>
+  <data name="HSCInputFilterDC2ms" xml:space="preserve">
+    <value>äöüDC 2msßßßßßß</value>
   </data>
   <data name="HSCInputFilterDC2Point5us" xml:space="preserve">
     <value>DC 2,5µs</value>
   </data>
+  <data name="HSCInputFilterDC2us" xml:space="preserve">
+    <value>äöüDC 2µsßßßßßß</value>
+  </data>
+  <data name="HSCInputFilterDC35us" xml:space="preserve">
+    <value>äöüDC 35µsßßßßßß</value>
+  </data>
+  <data name="HSCInputFilterDC4ms" xml:space="preserve">
+    <value>äöüDC 4msßßßßßß</value>
+  </data>
+  <data name="HSCInputFilterDC50us" xml:space="preserve">
+    <value>äöüDC 50µsßßßßßß</value>
+  </data>
   <data name="HSCInputFilterDC6Point25us" xml:space="preserve">
     <value>DC 6,25µs</value>
+  </data>
+  <data name="HSCInputFilterDC8ms" xml:space="preserve">
+    <value>äöüDC 8msßßßßßß</value>
   </data>
   <data name="HSCNoFilter" xml:space="preserve">
     <value>Kein Filter - Standard</value>
@@ -3944,6 +4427,12 @@ Möchten Sie fortfahren?</value>
   <data name="ContrastLabelText" xml:space="preserve">
     <value>K_ontrast:</value>
   </data>
+  <data name="ContrastMaxValue" xml:space="preserve">
+    <value>äöü100%ßßßßßß</value>
+  </data>
+  <data name="ContrastMinValue" xml:space="preserve">
+    <value>äöü0%ßßßßßß</value>
+  </data>
   <data name="RmcActionNameEnterRmc" xml:space="preserve">
     <value>Auf Änderung im Betriebsmodus zugreifen</value>
   </data>
@@ -3978,16 +4467,16 @@ Möchten Sie fortfahren?</value>
     <value>Beenden, ohne die Änderungen anzunehmen</value>
   </data>
   <data name="RmcTestDownloadFailedMessage" xml:space="preserve">
-    <value>Die Änderungen konnten nicht in die Steuerung geladen werden. 
-    
+    <value>Die Änderungen konnten nicht in die Steuerung geladen werden. 
+    
 Klicken Sie auf "Erneut versuchen", um sie erneut herunterzuladen, oder auf "Abbrechen", um auf die Änderung im Betriebsmodus zuzugreifen.</value>
   </data>
   <data name="RmcAcceptBackupProjectMessage" xml:space="preserve">
     <value>Die neue Backup-Projektdatei konnte nach Bestätigung der Änderungen nicht erstellt werden.</value>
   </data>
   <data name="RmcAcceptFailedMessage" xml:space="preserve">
-    <value>Die folgenden Änderungen in der Steuerung konnten nicht bestätigt werden: Tabelle mit Symbolen, die integrierte Projektdatei und der Ressourcen-Code für Flash.
-
+    <value>Die folgenden Änderungen in der Steuerung konnten nicht bestätigt werden: Tabelle mit Symbolen, die integrierte Projektdatei und der Ressourcen-Code für Flash.
+
 Klicken Sie auf „Erneut versuchen“, um sie erneut zu bestätigen, oder auf „Abbrechen“, um den Test der logischen Änderungen durchzuführen.</value>
   </data>
   <data name="RmcDebugFailedMessage" xml:space="preserve">
@@ -4003,8 +4492,8 @@ Klicken Sie auf „Erneut versuchen“, um sie erneut zu bestätigen, oder auf �
     <value>Das letzte Projekt kann nicht erzeugt werden.</value>
   </data>
   <data name="RmcRevertDownloadFailedMessage" xml:space="preserve">
-    <value>Das umgekehrte Projekt kann nicht in die Steuerung heruntergeladen werden.
-
+    <value>Das umgekehrte Projekt kann nicht in die Steuerung heruntergeladen werden.
+
 Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbrechen", um den Test der logischen Änderungen durchzuführen.</value>
   </data>
   <data name="RmcRevertFailedMessage" xml:space="preserve">
@@ -4059,8 +4548,14 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   <data name="MemoryCtrlTempVarMemoryReservationCaption" xml:space="preserve">
     <value>Datenspeicherreservierung für _temporäre Variablen:</value>
   </data>
+  <data name="EthernetPortSpeedUnitCaption" xml:space="preserve">
+    <value>äöüMbpsßßßßßß</value>
+  </data>
   <data name="DeviceheaderDeviceImageLabel" xml:space="preserve">
     <value>Geräte-Image</value>
+  </data>
+  <data name="DeviceheaderRemoteModeLabel" xml:space="preserve">
+    <value>äöüRemoteßßßßßß</value>
   </data>
   <data name="PasswordProtectionToolTip" xml:space="preserve">
     <value>Steuerung ist kennwortgeschützt</value>
@@ -4100,6 +4595,9 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   </data>
   <data name="DeviceViewRunModeChangeStatusText" xml:space="preserve">
     <value>Änderung im Betriebsmodus</value>
+  </data>
+  <data name="DeviceViewStatusConcatText" xml:space="preserve">
+    <value>äöü{0}, {1}ßßßßßß</value>
   </data>
   <data name="DiscoveredModuleMessage" xml:space="preserve">
     <value>Aktualisierung von {0} {1} durch Modulerkennung </value>
@@ -4230,6 +4728,9 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   <data name="SocketCounterReadCaption" xml:space="preserve">
     <value>Lesen</value>
   </data>
+  <data name="SocketCounterTCPClientOpenedCaption" xml:space="preserve">
+    <value>äöüClientsßßßßßß</value>
+  </data>
   <data name="SocketCounterTCPDroppedCaption" xml:space="preserve">
     <value>TCP fehlgeschlagen</value>
   </data>
@@ -4293,6 +4794,9 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   <data name="InterruptIdLabelText" xml:space="preserve">
     <value>_ID:</value>
   </data>
+  <data name="InterruptSetPointUnit" xml:space="preserve">
+    <value>äöümsßßßßßß</value>
+  </data>
   <data name="NoParamateresHintText" xml:space="preserve">
     <value>Keine Parameter einzurichten</value>
   </data>
@@ -4317,8 +4821,20 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   <data name="ControllerChangeDeviceNotSupportedMessage" xml:space="preserve">
     <value>Nicht unterstützte Geräte wurden verworfen.  </value>
   </data>
+  <data name="FiftyHertz" xml:space="preserve">
+    <value>äöü50 Hzßßßßßß</value>
+  </data>
+  <data name="FiveHundredHertz" xml:space="preserve">
+    <value>äöü500 Hzßßßßßß</value>
+  </data>
   <data name="PluginDataUpdateRateEightPointThreeThreeHertz" xml:space="preserve">
     <value>8,33 Hz</value>
+  </data>
+  <data name="PluginDataUpdateRateFiftyHertz" xml:space="preserve">
+    <value>äöü50 Hzßßßßßß</value>
+  </data>
+  <data name="PluginDataUpdateRateFourHundredSeventyHertz" xml:space="preserve">
+    <value>äöü470 Hzßßßßßß</value>
   </data>
   <data name="PluginDataUpdateRateFourPointOneSevenHertz" xml:space="preserve">
     <value>4,17 Hz</value>
@@ -4326,17 +4842,38 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   <data name="PluginDataUpdateRateNineteenPointSixHertz" xml:space="preserve">
     <value>19,6 Hz</value>
   </data>
+  <data name="PluginDataUpdateRateOneHundredTwentyThreeHertz" xml:space="preserve">
+    <value>äöü123 Hzßßßßßß</value>
+  </data>
   <data name="PluginDataUpdateRateSixPointTwoFiveHertz" xml:space="preserve">
     <value>6,25 Hz</value>
   </data>
   <data name="PluginDataUpdateRateSixteenPointSevenHertz" xml:space="preserve">
     <value>16,7 Hz</value>
   </data>
+  <data name="PluginDataUpdateRateSixtyTwoHertz" xml:space="preserve">
+    <value>äöü62 Hzßßßßßß</value>
+  </data>
+  <data name="PluginDataUpdateRateTenHertz" xml:space="preserve">
+    <value>äöü10 Hzßßßßßß</value>
+  </data>
+  <data name="PluginDataUpdateRateThirtyNineHertz" xml:space="preserve">
+    <value>äöü39 Hzßßßßßß</value>
+  </data>
   <data name="PluginDataUpdateRateThirtyThreePointTwoHertz" xml:space="preserve">
     <value>33,2 Hz</value>
   </data>
   <data name="PluginDataUpdateRateTwelvePointFiveHertz" xml:space="preserve">
     <value>12,5 Hz</value>
+  </data>
+  <data name="PluginDataUpdateRateTwoHundredFortyTwoHertz" xml:space="preserve">
+    <value>äöü242 Hzßßßßßß</value>
+  </data>
+  <data name="SixtyHertz" xml:space="preserve">
+    <value>äöü60 Hzßßßßßß</value>
+  </data>
+  <data name="TwoHundredFiftyHertz" xml:space="preserve">
+    <value>äöü250 Hzßßßßßß</value>
   </data>
   <data name="AutoStartLabel" xml:space="preserve">
     <value>Auto-Start</value>
@@ -4361,6 +4898,9 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   </data>
   <data name="SetPointLabel" xml:space="preserve">
     <value>Sollwert {0} {1}</value>
+  </data>
+  <data name="InterruptSeparator" xml:space="preserve">
+    <value> äöü |ßßßßßß </value>
   </data>
   <data name="NoInterruptsConfiguredHintText" xml:space="preserve">
     <value>Keine Unterbrechungsanforderung konfiguriert</value>
@@ -4387,7 +4927,7 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
     <value>Steuerungsänderung.</value>
   </data>
   <data name="UPModuleStepsToFixP3" xml:space="preserve">
-    <value>2. Aktualisieren Sie die Steuerung gegebenenfalls mit der aktuellen Firmware.
+    <value>2. Aktualisieren Sie die Steuerung gegebenenfalls mit der aktuellen Firmware.
 3. Laden Sie das Projekt auf die Steuerung herunter.</value>
   </data>
   <data name="CatalogIDCaption" xml:space="preserve">
@@ -4456,17 +4996,29 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   <data name="TCPIPInactivityTimeoutInvalidRangeMessage" xml:space="preserve">
     <value>Das Zeitlimit für Inaktivität muss zwischen {0} und {1} Sek. liegen.</value>
   </data>
+  <data name="TCPIPConfigCtrlEthernetIPCaption" xml:space="preserve">
+    <value>äöüEtherNet/IPßßßßßß</value>
+  </data>
   <data name="ControllerFirmwareBootCodeToolTip" xml:space="preserve">
     <value>Der Startcode kann auch nach einer Firmware-Aktualisierung nicht geändert werden.</value>
   </data>
   <data name="HSCWorkModeInstructionCaption" xml:space="preserve">
     <value>Anweisungen für Hochgeschwindigkeitszähler</value>
   </data>
+  <data name="TCPIPConfigCtrlEthernetSettingsCaption" xml:space="preserve">
+    <value>äöüEthernet Settingsßßßßßß</value>
+  </data>
   <data name="DeleteMappingToolTipText" xml:space="preserve">
     <value>Zuordnung löschen</value>
   </data>
   <data name="DuplicateButtonText" xml:space="preserve">
     <value>D_uplizieren</value>
+  </data>
+  <data name="LinearCaption" xml:space="preserve">
+    <value>äöüLinearßßßßßß</value>
+  </data>
+  <data name="RingCaption" xml:space="preserve">
+    <value>äöüRingßßßßßß</value>
   </data>
   <data name="HSCInstructionStorageCaption" xml:space="preserve">
     <value>_Funktion:</value>
@@ -4525,6 +5077,9 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
   <data name="HscInstructionCounterName" xml:space="preserve">
     <value>Zähler:</value>
   </data>
+  <data name="HscInstructionTimePeriodUnit" xml:space="preserve">
+    <value>äöüµsßßßßßß</value>
+  </data>
   <data name="HscInstructionUserUnit" xml:space="preserve">
     <value>/s</value>
   </data>
@@ -4538,7 +5093,7 @@ Klicken Sie auf "Erneut versuchen", um es erneut herunterzuladen, oder auf "Abbr
     <value>Controller-Passwort wurde erfolgreich wiederhergestellt.</value>
   </data>
   <data name="PasswordResetRequiredForDownloadWarning" xml:space="preserve">
-    <value>Das Controller-Passwort muss zur Fortsetzung des Downloads gelöscht werden.
+    <value>Das Controller-Passwort muss zur Fortsetzung des Downloads gelöscht werden.
 Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
   </data>
   <data name="DeviceNotReadyForFirmwareUpdateUnknownState" xml:space="preserve">
@@ -4593,9 +5148,9 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
     <value>Im 2080-MOT-HSC Plug-In in Steckplatz {0} ist ein unerwarteter Fehler aufgetreten. Entfernen Sie das Modul und setzen Sie es weider ein, um den Fehler zu beheben.</value>
   </data>
   <data name="AllPortsDisabledErrorMessage" xml:space="preserve">
-    <value>Die aktuelle Konfiguration lässt keine Verbindung zum Controller zu. Aktivieren Sie einen der folgenden Anschlüsse
-    1. USB-Anschluss 
-    2. Ethernet-Port
+    <value>Die aktuelle Konfiguration lässt keine Verbindung zum Controller zu. Aktivieren Sie einen der folgenden Anschlüsse
+    1. USB-Anschluss 
+    2. Ethernet-Port
     3. serieller CIP-Treiber über seriellen Anschluss.</value>
   </data>
   <data name="DeviceInfoTreeCounterCaption" xml:space="preserve">
@@ -4706,6 +5261,9 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
   <data name="ExpansionConfigDataCannotExceed255WordsMsessage" xml:space="preserve">
     <value>Die Erweiterungsmodulkonfiguration darf 255 Wörter nicht überschreiten. Löschen Sie ggf. das Erweiterungsmodul.</value>
   </data>
+  <data name="HotKeyForAssociateAxis" xml:space="preserve">
+    <value>äöüAßßßßßß</value>
+  </data>
   <data name="ExpansionModuleOnlySupplyOnePowerSupplyMessage" xml:space="preserve">
     <value>Der Controller unterstützt nur ein Stromversorgungserweiterungsmodul, entfernen Sie alle weiteren Stromversorgungsmodule.</value>
   </data>
@@ -4787,6 +5345,9 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
   <data name="ModBusMappingViewModelImportModbusSuccessMessage" xml:space="preserve">
     <value>Import der Modbus-Zuordnungskonfiguration erfolgreich.</value>
   </data>
+  <data name="ModBusMappingViewModelExportImportMessageBoxCaption" xml:space="preserve">
+    <value>äöüConnected Components Workbenchßßßßßß</value>
+  </data>
   <data name="ModBusMappingViewModelExportModbusFailedMessage" xml:space="preserve">
     <value>Export der Modbus-Zuordnungskonfiguration fehlgeschlagen.</value>
   </data>
@@ -4829,6 +5390,9 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
   <data name="HardFaultCaption" xml:space="preserve">
     <value>Nicht wiederherstellbarer Fehler</value>
   </data>
+  <data name="IndexCaption" xml:space="preserve">
+    <value>äöüIndexßßßßßß</value>
+  </data>
   <data name="ControllerChangeNotSupportScanPriorityOutputWarning" xml:space="preserve">
     <value>Die Zielsteuerung unterstützt keine Erweiterungs-I/O-Scan-Priorität und ihre Konfiguration wurde verworfen.</value>
   </data>
@@ -4847,6 +5411,12 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
   <data name="ExpansionIOScanSettings" xml:space="preserve">
     <value>Scaneinstellungen</value>
   </data>
+  <data name="ExpansionIOScanConfigNAValue" xml:space="preserve">
+    <value>äöüNAßßßßßß</value>
+  </data>
+  <data name="ExpansionIOScanInitialCaption" xml:space="preserve">
+    <value>äöüInitialßßßßßß</value>
+  </data>
   <data name="ExpansionIOScanIntervalCaption" xml:space="preserve">
     <value>Intervall</value>
   </data>
@@ -4860,7 +5430,7 @@ Der Controller wird nach Abschluss des Downloads automatisch gesichert.</value>
     <value>Langsame Priorität:</value>
   </data>
   <data name="ControllerChangeExpansionIOFeatureLessModuleSkipCounterDiscardWarning" xml:space="preserve">
-    <value>Die Zielsteuerung unterstützt eine kleinere Anzahl von Erweiterungsmodulen. Bei Bedarf Programme aktualisieren.
+    <value>Die Zielsteuerung unterstützt eine kleinere Anzahl von Erweiterungsmodulen. Bei Bedarf Programme aktualisieren.
 Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird verworfen.</value>
   </data>
   <data name="ControllerChangeSkipCounterDiscardWarning" xml:space="preserve">
@@ -4878,6 +5448,9 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
   <data name="OutputLabelString" xml:space="preserve">
     <value>Ausgang {0}:</value>
   </data>
+  <data name="TCPIPConfigCtrlModbusTcpCaption" xml:space="preserve">
+    <value>äöüModbus TCPßßßßßß</value>
+  </data>
   <data name="TCPIPEnableModbusTcpServerCaption" xml:space="preserve">
     <value>Modbus TCP Server aktivieren</value>
   </data>
@@ -4889,6 +5462,9 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
   </data>
   <data name="RecipeViewModelFileFilterRule" xml:space="preserve">
     <value>CCW -Rezept-Dateien (*.ccwrcp)|*.ccwrcp</value>
+  </data>
+  <data name="RecipeViewModelImportExportCaption" xml:space="preserve">
+    <value>äöüConnected Components Workbenchßßßßßß</value>
   </data>
   <data name="RecipeViewModelImportRecipeSuccessMessage" xml:space="preserve">
     <value>Die Rezeptkonfiguration wurde erfolgreich importiert.</value>
@@ -4941,6 +5517,9 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
   <data name="PresentationAndUIProductTypeCaption" xml:space="preserve">
     <value>Produkt-Typ:</value>
   </data>
+  <data name="MEMBAKRTC2PluginCaption" xml:space="preserve">
+    <value>äöü2080-MEMBAK-RTC2ßßßßßß</value>
+  </data>
   <data name="HardFaultOccureLabel" xml:space="preserve">
     <value>Hardwarefehler</value>
   </data>
@@ -4974,6 +5553,12 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
   <data name="ExpansionIOScanIntervalColumnHeaderCaption" xml:space="preserve">
     <value>Scanintervall</value>
   </data>
+  <data name="ExpansionIOSingleScanIntervalCaption" xml:space="preserve">
+    <value>äöü1 Scanßßßßßß</value>
+  </data>
+  <data name="ExpansionIOSkipCounterTestWindowCaption" xml:space="preserve">
+    <value>äöü_Testßßßßßß</value>
+  </data>
   <data name="ExpansionIOSyncScanInitialCaption" xml:space="preserve">
     <value>_Anfangs-Synchronisation</value>
   </data>
@@ -4982,6 +5567,9 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
   </data>
   <data name="ExpansionIOScanCycleChartYAxisCaptionFormat" xml:space="preserve">
     <value>Physikalischer Slot {0} - {1}</value>
+  </data>
+  <data name="SdRtcPluginCaption" xml:space="preserve">
+    <value>äöü2080-SDMEMRTC-SCßßßßßß</value>
   </data>
   <data name="EthernetIPPortStatusCaption" xml:space="preserve">
     <value>Server-Zustand:</value>
@@ -5001,11 +5589,17 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
   <data name="ExpansionIOInitialSyncONValue" xml:space="preserve">
     <value>Anfangs-Synchronisation: EIN</value>
   </data>
+  <data name="ExpansionIOMutipleScanIntervalColumnCaption" xml:space="preserve">
+    <value>äöü{0} Scansßßßßßß</value>
+  </data>
   <data name="ExpansionIOScanCycleChartWindowCaption" xml:space="preserve">
     <value>Scanzyklustabelle</value>
   </data>
   <data name="ExportOutPutPathInfo" xml:space="preserve">
     <value>Export in Datei: '{0}'</value>
+  </data>
+  <data name="SpectrumControlCaption" xml:space="preserve">
+    <value>äöüSpectrum Controlsßßßßßß</value>
   </data>
   <data name="FileExistInformation" xml:space="preserve">
     <value>Die Datei {0} ist bereits vorhanden.</value>
@@ -5014,7 +5608,7 @@ Die Scan-Prioritätsfunktion wird nicht unterstützt, ihre Konfiguration wird ve
     <value>Import von Datei: '{0}'</value>
   </data>
   <data name="GeneralPageGenerateEmbeddedProjectCaption" xml:space="preserve">
-    <value>Quellcode
+    <value>Quellcode
 herunterladen:</value>
   </data>
   <data name="DatalogViewModelExportDatalogReplaceSuccessMessage" xml:space="preserve">
@@ -5041,6 +5635,9 @@ herunterladen:</value>
   <data name="EmbeddedIOControlCaption" xml:space="preserve">
     <value>Kontrolle</value>
   </data>
+  <data name="EmbeddedIOStatusCaption" xml:space="preserve">
+    <value>äöüStatusßßßßßß</value>
+  </data>
   <data name="EmbeddedProjectDisableButtonCaption" xml:space="preserve">
     <value>_Nein</value>
   </data>
@@ -5059,6 +5656,9 @@ herunterladen:</value>
   </data>
   <data name="DeviceOverviewDisplayText" xml:space="preserve">
     <value>Übersicht</value>
+  </data>
+  <data name="MemoryDataTableName" xml:space="preserve">
+    <value>äöüNameßßßßßß</value>
   </data>
   <data name="PieChartTitle" xml:space="preserve">
     <value>Speicherstatistik</value>
@@ -5138,6 +5738,9 @@ herunterladen:</value>
   <data name="UDTImportValidateFileNoExistMsg" xml:space="preserve">
     <value>Validierung fehlgeschlagen, da {0} nicht existiert.</value>
   </data>
+  <data name="UDTImportValidateHintMsg" xml:space="preserve">
+    <value>äöü{0} in {1} Element:ßßßßßß</value>
+  </data>
   <data name="UDTImportValidateIllegalMsg" xml:space="preserve">
     <value>{0} ist eine ungültige Datei.</value>
   </data>
@@ -5174,6 +5777,9 @@ herunterladen:</value>
   <data name="ControllerChangePouPortectedExceptionMessage" xml:space="preserve">
     <value>Passworteingabedialog wird abgebrochen. Der beibehaltene Wert der Variablen in {0} wird nicht zum Aktivieren umgewandelt.</value>
   </data>
+  <data name="UDTDataTypeStyleArray" xml:space="preserve">
+    <value>äöüArrayßßßßßß</value>
+  </data>
   <data name="UDTDataTypeStyleDefinedWord" xml:space="preserve">
     <value>Definiertes Wort</value>
   </data>
@@ -5187,12 +5793,12 @@ herunterladen:</value>
     <value>Unterbrechungsprogramm löschen</value>
   </data>
   <data name="DownloadProjectProjectValueTooltip" xml:space="preserve">
-    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
+    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
  ● Initialisieren von Variablen mit Projektwerten.</value>
   </data>
   <data name="DownloadProjectSourceFileTooltip" xml:space="preserve">
-    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
- ● "Änderungen testen" und während der RMC "Unbestätigte Änderungen verwerfen".
+    <value>Markieren Sie dieses Kontrollkästchen, um folgende Funktionen zu aktivieren.
+ ● "Änderungen testen" und während der RMC "Unbestätigte Änderungen verwerfen".
  ● Projekt aus der Steuerung ohne lokales Projekt hochladen.</value>
   </data>
   <data name="DownloadOptionsLabel" xml:space="preserve">
@@ -5214,6 +5820,55 @@ herunterladen:</value>
     <value>äöüProduct Lifecycle222ßßßßßß</value>
   </data>
   <data name="LifecycleCaption333" xml:space="preserve">
-    <value>äöüProduct Lifecycle333ßßßßßß</value>
+    <value>äöüProduct Lifecycle77777ßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption999" xml:space="preserve">
+    <value>äöüProduct Lifecycle9999ßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption12121212" xml:space="preserve">
+    <value>äöüProduct Lifecycle12121212ßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption343434" xml:space="preserve">
+    <value>äöüProduct Lifecycle343434ßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption5656" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption7878" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption99999" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption101010101010" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption1111111" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption666655444" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption7878787878789989" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption54gf" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption1123223254gf" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßßäöü1111ßßßßßß</value>
+  </data>
+  <data name="LifecycleCaption77788888f" xml:space="preserve">
+    <value>äöüThis is test.ßßßßßß äöüwhat's 
+      that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßßäöü1111ßßßßßß</value>
   </data>
 </root>
