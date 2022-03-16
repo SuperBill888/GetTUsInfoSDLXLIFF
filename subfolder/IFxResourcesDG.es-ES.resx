@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="GeneralCaption" xml:space="preserve">
+    <value>General fdfadf</value>
+  </data>
   <data name="IF4Description" xml:space="preserve">
     <value>Voltaje analógico de 12 bits de 4 canales y módulo de entrada de corriente</value>
   </data>
@@ -313,5 +316,11 @@ Haga clic en Sí para continuar.</value>
   </data>
   <data name="IFxChanne12999808967887" xml:space="preserve">
     <value>ÁéÜChannewew787tyty5n rtt dfdñññññ</value>
+  </data>
+  <data name="IFxChanneyyytrt4443433423erer" xml:space="preserve">
+    <value>[MT]Nuevas cadenas agregadas</value>
+  </data>
+  <data name="IFxChanneyyyrtrt5656767ghghgh" xml:space="preserve">
+    <value>[MT]Se han añadido nuevas cadenas</value>
   </data>
 </root>
