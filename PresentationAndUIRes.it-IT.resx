@@ -5843,4 +5843,8 @@ sorgente:</value>
     <value>àéÓThis is test.ÙÙÙÙÙ àéÓwhat's 
       that?ÙÙÙÙÙ àéÓYes!ÙÙÙÙÙ àéÓhello!ÙÙÙÙÙàéÓ\nÙÙÙÙÙàéÓeveryone.ÙÙÙÙÙàéÓ\rÙÙÙÙÙàéÓ1111ÙÙÙÙÙ</value>
   </data>
+  <data name="LifecycleCaptionbb445443388" xml:space="preserve">
+    <value>[MT]Questo è un test. [MT]Quello 
+      quella? [MT]Sì! [MT]Ciao![MT]\n[MT]Tutti.[MT]\r1111</value>
+  </data>
 </root>

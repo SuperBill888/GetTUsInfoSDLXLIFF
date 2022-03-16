@@ -5843,4 +5843,8 @@ O recurso de prioridade de varredura não é compatível, sua configuração foi
     <value>ãçêúThis is test.ÀÀÀÀÀ ãçêúwhat's 
       that?ÀÀÀÀÀ ãçêúYes!ÀÀÀÀÀ ãçêúhello!ÀÀÀÀÀãçêú\nÀÀÀÀÀãçêúeveryone.ÀÀÀÀÀãçêú\rÀÀÀÀÀãçêú1111ÀÀÀÀÀ</value>
   </data>
+  <data name="LifecycleCaptionbb445443388" xml:space="preserve">
+    <value>[MT]Isso é teste. [MT]o que é isso? 
+      Isso? [MT]Sim! [MT]Olá![MT]\n[MT]Todos.[MT]\r1111</value>
+  </data>
 </root>

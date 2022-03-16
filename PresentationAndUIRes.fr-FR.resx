@@ -5845,4 +5845,8 @@ La fonctionnalité de priorité d'analyse n'est pas prise en charge, sa configur
     <value>êæùçThis is test.ëëëëë êæùçwhat's 
       that?ëëëëë êæùçYes!ëëëëë êæùçhello!ëëëëëêæùç\nëëëëëêæùçeveryone.ëëëëëêæùç\rëëëëëêæùç1111ëëëëë</value>
   </data>
+  <data name="LifecycleCaptionbb445443388" xml:space="preserve">
+    <value>[MT]C’est un test. [MT]ce qui est 
+      Que? [MT]Oui! [MT]Bonjour![MT]\n[MT]Chacun.[MT]\r1111</value>
+  </data>
 </root>

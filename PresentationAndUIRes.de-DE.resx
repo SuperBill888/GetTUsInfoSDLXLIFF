@@ -5843,4 +5843,8 @@ herunterladen:</value>
     <value>äöüThis is test.ßßßßßß äöüwhat's 
       that?ßßßßßß äöüYes!ßßßßßß äöühello!ßßßßßßäöü\nßßßßßßäöüeveryone.ßßßßßßäöü\rßßßßßßäöü1111ßßßßßß</value>
   </data>
+  <data name="LifecycleCaptionbb445443388" xml:space="preserve">
+    <value>[MT]Dies ist ein Test. [MT]Was 
+      das? [MT]Ja! [MT]Hallo![MT]\n[MT]Jeder.[MT]\r1111</value>
+  </data>
 </root>
