@@ -7619,6 +7619,7 @@ Code:</value>
     <value>Product Lifecycle222</value>
   </data>
   <data name="LifecycleCaption333" xml:space="preserve">
+
     <value>Product Lifecycle77777</value>
   </data>
   <data name="LifecycleCaption999" xml:space="preserve">
@@ -7688,5 +7689,11 @@ Code:</value>
   <data name="LifecycleCaptionbb445443388" xml:space="preserve">
     <value>This is test. what's 
       that? Yes! hello!\neveryone.\r1111</value>
+  </data>
+  <data name="LifecycleCaptionbb445443388" xml:space="preserve">
+    <value>I'm superman</value>
+  </data>
+  <data name="LifecycleCaptionbb445443388" xml:space="preserve">
+    <value>I'm superman2</value>
   </data>
 </root>
