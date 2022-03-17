@@ -5852,6 +5852,6 @@ La fonctionnalité de priorité d'analyse n'est pas prise en charge, sa configur
     <value>[MT]Je suis superman3.</value>
   </data>
   <data name="LifecycleCaptionrrtr444555544567678" xml:space="preserve">
-    <value>[MT]Je suis superman4</value>
+    <value>[MT]Je suis superman. [MT]Rockwell Automation. [MT]Test de localisation</value>
   </data>
 </root>
