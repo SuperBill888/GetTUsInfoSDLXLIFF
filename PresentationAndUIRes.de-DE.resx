@@ -5850,6 +5850,12 @@ herunterladen:</value>
     <value>[MT]Ich bin Superman3</value>
   </data>
   <data name="LifecycleCaptionrrtr444555544567678" xml:space="preserve">
-    <value>[MT]Ich bin Superman4</value>
+    <value>[MT]Ich bin Supermann. [MT]Rockwell Automation. [MT]Lokalisierungstest</value>
+  </data>
+  <data name="LifecycleCaptionrrtr44455ffeee554678" xml:space="preserve">
+    <value>[MT]Ich bin Supermann. [MT]Rockwell Automation. [MT]Lokalisierungstest</value>
+  </data>
+  <data name="111LifecycleCaptionrrtr44455ffeee554678" xml:space="preserve">
+    <value>[MT]Ich bin Supermann. [MT]Rockwell Automation. [MT]Lokalisierungsprojekt</value>
   </data>
 </root>
