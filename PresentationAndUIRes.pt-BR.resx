@@ -5861,4 +5861,7 @@ O recurso de prioridade de varredura não é compatível, sua configuração foi
   <data name="111LifecycleCaptionrrtr5566665556eee554678" xml:space="preserve">
     <value>[MT]Eu sou o super-homem. [MT]Rockwell Automation. [MT]Equipe de localização</value>
   </data>
+  <data name="111LifecycleCaptionrrtr55666651122334344554678" xml:space="preserve">
+    <value>[MT]Eu sou o super-homem. [MT]Rockwell Automation. [MT]CcW de localização</value>
+  </data>
 </root>
