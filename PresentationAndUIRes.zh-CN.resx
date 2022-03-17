@@ -5891,10 +5891,12 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>[MT]我是超人 3</value>
   </data>
   <data name="LifecycleCaptionrrtr444555544567678" xml:space="preserve">
-    <value>[MT]我是超人 4</value>
+    <value>[MT]我是超人[MT]Rockwell Automation。[MT]本地化测试</value>
   </data>
+  <data name="LifecycleCaptionrrtr44455ffeee554678" xml:space="preserve">
+    <value>[MT]我是超人[MT]Rockwell Automation。[MT]本地化测试</value>
   </data>
-  <data name="LifecycleCaptionrrtr444555544567678" xml:space="preserve">
-    <value>[MT]我是超人 5</value>
+  <data name="111LifecycleCaptionrrtr44455ffeee554678" xml:space="preserve">
+    <value>[MT]我是超人[MT]Rockwell Automation。[MT]本地化项目</value>
   </data>
 </root>
