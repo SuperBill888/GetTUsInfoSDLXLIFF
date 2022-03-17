@@ -5905,4 +5905,7 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
   <data name="111LifecycleCaptionrrtr55666651122334344554678" xml:space="preserve">
     <value>[MT]我是超人[MT]Rockwell Automation。[MT]本地化 CCW</value>
   </data>
+  <data name="111LifecycleCaptionrrtr55666651122334344rrrr554678" xml:space="preserve">
+    <value>[MT]我是超人[MT]Rockwell Automation。[MT]本地化 CCW1</value>
+  </data>
 </root>
