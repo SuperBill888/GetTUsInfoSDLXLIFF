@@ -1,74 +1,143 @@
-#test
+
 #GetTUsInfosSDLXLIFF get TUs info Source, Target, Status, matchrate, Locked, origin to list[[],[]...] 
 #By Bill, Fanzhixin
 
 import re
 
 def GetTUsInfosSDLXLIFF(sdlxliffpath):
+    #get all TUs's info
     tuinfolist=[]
+    #load sdlxliff
     f= open(sdlxliffpath, 'r',encoding='utf-8') 
     sdlxliffstr=f.read()
     f.close()
+    # default rex TUs
     transunitre=re.compile('<trans-unit [^<>]*?>.*?</trans-unit>',re.S)
+    # default rex source segments
     source_segs4match=re.compile('<seg-source>(.*?)</seg-source>',re.S)
+    # default rex target segments
     target4match=re.compile('<target>(.*?)</target>',re.S)
+    # default rex mrk segment
     mrk4match=re.compile('<mrk mtype="seg" mid="([^<>]*?)">(.*?)</mrk>',re.S)
-
     #tagmkre=re.compile('<[^<>]*?>')
+    # get TUs list
     transunits=transunitre.findall(sdlxliffstr)
-    
     for transunit in transunits:
-        tuinfo=[]
         #print(transunit)
         source_segs=source_segs4match.findall(transunit)
+        #get source segments list
         target_segs=target4match.findall(transunit)
+        #get target segments list
         for source_seg in source_segs:
+            #loop source segments
             smrks=mrk4match.findall(source_seg)
+            #get mrks in source segment return Tuples list
             #print(smrks)
             if len(smrks)>0:
-                tuinfo.append(smrks[0][1])
-                idid=smrks[0][0]
-                mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
-                segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.S)
-                confmatch=re.compile('conf="([^<>]*?)"')
-                originmatch=re.compile('origin="([^<>]*?)"')
-                originsystemmatch=re.compile('origin-system="([^<>]*?)"')
-                percentmatch=re.compile('percent="([^<>]*?)"')
-                lockedmatch=re.compile('locked="([^<>]*?)"')
-
-                if len(target_segs)>0:
-                    targetmrks=mrkid4match.findall(target_segs[0])
-                    if len(targetmrks)>0:
-                        tuinfo.append(targetmrks[0])
-                else:
-                    tuinfo.append('')
-                segdefs=segdefmatch.findall(transunit)
-
-                confv=confmatch.findall(segdefs[0])
-                if len(confv)>0:
-                    tuinfo.append(confv[0])
-                else:
-                    tuinfo.append('')
-                originv=originmatch.findall(segdefs[0])
-                if len(originv)>0:
-                    tuinfo.append(originv[0])
-                else:
-                    tuinfo.append('')
-                originsystemv=originsystemmatch.findall(segdefs[0])
-                if len(originsystemv)>0:
-                    tuinfo.append(originsystemv[0])
-                else:
-                    tuinfo.append('')
-                percentv=percentmatch.findall(segdefs[0])
-                if len(percentv)>0:
-                    tuinfo.append(percentv[0])
-                else:
-                    tuinfo.append('')
-                lockedfv=lockedmatch.findall(segdefs[0])
-                if len(lockedfv)>0:
-                    tuinfo.append(lockedfv[0])
-                else:
-                    tuinfo.append('')
-                tuinfolist.append(tuinfo)
+                #if more than one mrk
+                for smrk in smrks:
+                    #loop TUs
+                    tuinfo=[]
+                    tuinfo.append(smrk[1])
+                    #add source mrk segment to tuinfo
+                    idid=smrk[0]
+                    #idid is mrk id
+                    mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
+                    #define rex mrk with id
+                    segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.S)
+                    #define rex splited mrk with id
+                    segsplitsdefmatch=re.compile('<sdl:seg id="'+idid.replace('_x0020_',' ')+'"([^<>]*?)>',re.S)
+                    #define rex sdl:seg properties with id
+                    confmatch=re.compile('conf="([^<>]*?)"')
+                    #define rex status
+                    originmatch=re.compile('origin="([^<>]*?)"')
+                    #define rex translation from
+                    originsystemmatch=re.compile('origin-system="([^<>]*?)"')
+                    #define rex translation system from 
+                    percentmatch=re.compile('percent="([^<>]*?)"')
+                    #define rex matchrate
+                    lockedmatch=re.compile('locked="([^<>]*?)"')
+                    #define rex locked status
+                    if len(target_segs)>0:
+                        targetmrks=mrkid4match.findall(target_segs[0])
+                        if len(targetmrks)>0:
+                            tuinfo.append(targetmrks[0])
+                    else:
+                        tuinfo.append('')
+                    #if found target mrk according idid, add to tuinfo list,if not found add the '' to target mrk
+                    segdefs=segdefmatch.findall(transunit)
+                    #get segment status according idid
+                    # if have status, add to tuinof, or not add ""
+                    if len(segdefs)>0:
+                        confv=confmatch.findall(segdefs[0])
+                        if len(confv)>0:
+                            tuinfo.append(confv[0])
+                        else:
+                            tuinfo.append('')
+                        # if have origin, add to tuinof, or not add ""
+                    
+                        originv=originmatch.findall(segdefs[0])
+                        if len(originv)>0:
+                            tuinfo.append(originv[0])
+                        else:
+                            tuinfo.append('')
+                        # if have origin system, add to tuinof, or not add ""
+                        originsystemv=originsystemmatch.findall(segdefs[0])
+                        if len(originsystemv)>0:
+                            tuinfo.append(originsystemv[0])
+                        else:
+                            tuinfo.append('')
+                            # if have matchrate, add to tuinof, or not add ""
+                        percentv=percentmatch.findall(segdefs[0])
+                        if len(percentv)>0:
+                            tuinfo.append(percentv[0])
+                        else:
+                            tuinfo.append('')
+                            # if have locked, add to tuinof, or not add ""
+                        lockedfv=lockedmatch.findall(segdefs[0])
+                        if len(lockedfv)>0:
+                            tuinfo.append(lockedfv[0])
+                        else:
+                            tuinfo.append('')
+                        #add tuifo list to tuinfolist
+                        tuinfolist.append(tuinfo)
+                        
+                    segdefs=segsplitsdefmatch.findall(transunit)
+                    #get splited segment status according idid
+                    # if have status, add to tuinof, or not add ""
+                    if len(segdefs)>0:
+                        confv=confmatch.findall(segdefs[0])
+                        if len(confv)>0:
+                            tuinfo.append(confv[0])
+                        else:
+                            tuinfo.append('')
+                        # if have origin, add to tuinof, or not add ""
+                    
+                        originv=originmatch.findall(segdefs[0])
+                        if len(originv)>0:
+                            tuinfo.append(originv[0])
+                        else:
+                            tuinfo.append('')
+                        # if have origin system, add to tuinof, or not add ""
+                        originsystemv=originsystemmatch.findall(segdefs[0])
+                        if len(originsystemv)>0:
+                            tuinfo.append(originsystemv[0])
+                        else:
+                            tuinfo.append('')
+                            # if have matchrate, add to tuinof, or not add ""
+                        percentv=percentmatch.findall(segdefs[0])
+                        if len(percentv)>0:
+                            tuinfo.append(percentv[0])
+                        else:
+                            tuinfo.append('')
+                            # if have locked, add to tuinof, or not add ""
+                        lockedfv=lockedmatch.findall(segdefs[0])
+                        if len(lockedfv)>0:
+                            tuinfo.append(lockedfv[0])
+                        else:
+                            tuinfo.append('')
+                        #add tuifo list to tuinfolist
+                        tuinfolist.append(tuinfo)
+                    
 
     return(tuinfolist)   
