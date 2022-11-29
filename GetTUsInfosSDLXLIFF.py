@@ -65,6 +65,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                     else:
                         tuinfo.append('')
                     #if found target mrk according idid, add to tuinfo list,if not found add the '' to target mrk
+                    
                     segdefs=segdefmatch.findall(transunit)
                     #get segment status according idid
                     # if have status, add to tuinof, or not add ""
@@ -101,43 +102,43 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             tuinfo.append('')
                         #add tuifo list to tuinfolist
                         tuinfolist.append(tuinfo)
+                    if '_x0020_' in idid:
+                        segdefs=segsplitsdefmatch.findall(transunit)
+                        #get splited segment status according idid
+                        # if have status, add to tuinof, or not add ""
+                        if len(segdefs)>0:
+                            confv=confmatch.findall(segdefs[0])
+                            if len(confv)>0:
+                                tuinfo.append(confv[0])
+                            else:
+                                tuinfo.append('')
+                            # if have origin, add to tuinof, or not add ""
                         
-                    segdefs=segsplitsdefmatch.findall(transunit)
-                    #get splited segment status according idid
-                    # if have status, add to tuinof, or not add ""
-                    if len(segdefs)>0:
-                        confv=confmatch.findall(segdefs[0])
-                        if len(confv)>0:
-                            tuinfo.append(confv[0])
-                        else:
-                            tuinfo.append('')
-                        # if have origin, add to tuinof, or not add ""
-                    
-                        originv=originmatch.findall(segdefs[0])
-                        if len(originv)>0:
-                            tuinfo.append(originv[0])
-                        else:
-                            tuinfo.append('')
-                        # if have origin system, add to tuinof, or not add ""
-                        originsystemv=originsystemmatch.findall(segdefs[0])
-                        if len(originsystemv)>0:
-                            tuinfo.append(originsystemv[0])
-                        else:
-                            tuinfo.append('')
-                            # if have matchrate, add to tuinof, or not add ""
-                        percentv=percentmatch.findall(segdefs[0])
-                        if len(percentv)>0:
-                            tuinfo.append(percentv[0])
-                        else:
-                            tuinfo.append('')
-                            # if have locked, add to tuinof, or not add ""
-                        lockedfv=lockedmatch.findall(segdefs[0])
-                        if len(lockedfv)>0:
-                            tuinfo.append(lockedfv[0])
-                        else:
-                            tuinfo.append('')
-                        #add tuifo list to tuinfolist
-                        tuinfolist.append(tuinfo)
+                            originv=originmatch.findall(segdefs[0])
+                            if len(originv)>0:
+                                tuinfo.append(originv[0])
+                            else:
+                                tuinfo.append('')
+                            # if have origin system, add to tuinof, or not add ""
+                            originsystemv=originsystemmatch.findall(segdefs[0])
+                            if len(originsystemv)>0:
+                                tuinfo.append(originsystemv[0])
+                            else:
+                                tuinfo.append('')
+                                # if have matchrate, add to tuinof, or not add ""
+                            percentv=percentmatch.findall(segdefs[0])
+                            if len(percentv)>0:
+                                tuinfo.append(percentv[0])
+                            else:
+                                tuinfo.append('')
+                                # if have locked, add to tuinof, or not add ""
+                            lockedfv=lockedmatch.findall(segdefs[0])
+                            if len(lockedfv)>0:
+                                tuinfo.append(lockedfv[0])
+                            else:
+                                tuinfo.append('')
+                            #add tuifo list to tuinfolist
+                            tuinfolist.append(tuinfo)
                     
 
     return(tuinfolist)   
