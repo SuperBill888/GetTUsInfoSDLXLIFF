@@ -19,11 +19,14 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     target4match=re.compile('<target>(.*?)</target>',re.S)
     # default rex mrk segment
     mrk4match=re.compile('<mrk mtype="seg" mid="([^<>]*?)">(.*?)</mrk>',re.S)
-    #tagmkre=re.compile('<[^<>]*?>')
+    #default rex emtymrk segment
+    mrkem4match=re.compile('(<mrk mtype="seg" [^<>]*?)/>',re.S)
+    #replace empty mrk from <mrk/> to <mrk></mrk>
+    sdlxliffstr=re.sub(mrkem4match,r'\1></mrk>',sdlxliffstr)
+    #print(sdlxliffstr)
     # get TUs list
     transunits=transunitre.findall(sdlxliffstr)
     for transunit in transunits:
-        #print(transunit)
         source_segs=source_segs4match.findall(transunit)
         #get source segments list
         target_segs=target4match.findall(transunit)
