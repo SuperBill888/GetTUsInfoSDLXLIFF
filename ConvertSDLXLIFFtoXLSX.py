@@ -39,14 +39,16 @@ if __name__ == '__main__':
                 wsh.write(i,0,'Source')
                 wsh.write(i,1,'Target')
                 wsh.write(i,2,'Status')
-                wsh.write(i,3,'origin')
-                wsh.write(i,4,'origin-system')
-                wsh.write(i,5,'percent')
-                wsh.write(i,6,'Locked')
+                wsh.write(i,3,'Structure')
+                wsh.write(i,4,'origin')
+                wsh.write(i,5,'origin-system')
+                wsh.write(i,6,'percent')
+                wsh.write(i,7,'Locked')
                 for tuinfo in tulist:
                     i+=1
                     j=0
                     for tue in tuinfo:
+                        tue=str(tue)
                         wsh.write(i,j,tue)
                         j+=1
                 wb.close()
