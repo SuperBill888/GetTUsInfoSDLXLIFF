@@ -110,7 +110,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             if len(originv)>0:
                                 tuinfo.append(originv[0])
                             else:
-                                tuinfo.append('')
+                                tuinfo.append('New')
                             # if have origin system, add to tuinof, or not add ""
                             originsystemv=originsystemmatch.findall(segdefs[0])
                             if len(originsystemv)>0:
@@ -140,7 +140,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                                 if len(confv)>0:
                                     tuinfo.append(confv[0])
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo.append('New')
                                 # if have origin, add to tuinof, or not add ""
                             
                                 originv=originmatch.findall(segdefs[0])
