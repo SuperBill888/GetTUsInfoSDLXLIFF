@@ -1,8 +1,8 @@
 # Get TUs information from sdlxliff
 This py can ananlyse the sdlxliff files, and collect TUs info in List like:
 [
-['Source', 'Target', 'Status', {id dics}, 'Origin', 'orginal-from', 'Match Rate', 'Locked']
-[....]
+['Source', 'Target', 'Status', {id dics}, 'Origin', 'orginal-from', 'Match Rate', 'Locked'],
+[....],
 [....]
 .
 .
