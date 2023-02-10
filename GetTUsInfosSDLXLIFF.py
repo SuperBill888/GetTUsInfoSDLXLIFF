@@ -171,3 +171,5 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                     
 
     return(tuinfolist)   
+    
+    
