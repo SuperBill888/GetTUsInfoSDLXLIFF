@@ -191,6 +191,12 @@
 
 Cliquez sur Oui pour continuer.</value>
   </data>
+  <data name="IFxInputRangeUnitA" xml:space="preserve">
+    <value>mA</value>
+  </data>
+  <data name="IFxInputRangeUnitV" xml:space="preserve">
+    <value>V</value>
+  </data>
   <data name="IFxInputRange_0_10V" xml:space="preserve">
     <value>De 0V à 10 V</value>
   </data>
@@ -229,6 +235,12 @@ Cliquez sur Oui pour continuer.</value>
   </data>
   <data name="IFxUnderValueRangeMessage" xml:space="preserve">
     <value>La valeur {0} ne peut pas être inférieure à la valeur {1} : {2}.</value>
+  </data>
+  <data name="PageNameFormatStr" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="IFxPercentRangeUnitCaption" xml:space="preserve">
+    <value>%</value>
   </data>
   <data name="IFxCH4PageName" xml:space="preserve">
     <value>Canal 4</value>
