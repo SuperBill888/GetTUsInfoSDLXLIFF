@@ -5936,10 +5936,10 @@ http://support.rockwellautomation.com/MySupport.asp.</value>
     <value>[MT]我是超人[MT]Rockwell Automation。[MT]本地化 CCW9999</value>
   </data>
   <data name="9999fdfdfdLifecyclt62377784eerree4ffdffd333346" xml:space="preserve">
-    <value>中_I'm superman.中_Rockwell Automation.中_Localization CCW9999</value>
+    <value>我是超人。中_Rockwell Automation.中_Localization CCW9999</value>
   </data>
   <data name="454dfedfdmmbbfgfcvfdfdfdLifecyclt62377784eerree4ffdffd333346" xml:space="preserve">
-    <value>中_I'm superman.中_Rockwell Automation Localization is supoerman.中_Rockwell Automation Localization is spiderman.中_Localization CCW9999</value>
+    <value>我是超人。RA 本地化是超人。中_Rockwell Automation Localization is spiderman.中_Localization CCW9999</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="IconConnect" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
