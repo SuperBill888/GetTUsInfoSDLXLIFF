@@ -1,6 +1,15 @@
 
-#GetTUsInfosSDLXLIFF get TUs info Source, Target, Status, matchrate, Locked, origin to list[[],[]...] 
-#By Bill, Fanzhixin
+#This py can ananlyse the sdlxliff files, and collect TUs info in List like:
+#[
+#['Source', 'Target', 'Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
+#[....],
+#[....]
+#.
+#.
+#.
+
+#]
+
 
 import re
 
