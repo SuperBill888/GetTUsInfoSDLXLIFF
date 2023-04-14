@@ -1,13 +1,13 @@
 
 #This py can ananlyse the sdlxliff files, and collect TUs info in List like:
 #[
-#['Source', 'Target', 'Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
+#['Filepath','Source', 'Source Language Code(like,en-US)','Target','Target Language Code(like,zh-CN)','Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
 #[....],
+#[....],
+#.
+#.
+#.
 #[....]
-#.
-#.
-#.
-
 #]
 
 #By Bill, Fanzhixin
@@ -21,6 +21,12 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     f= open(sdlxliffpath, 'r',encoding='utf-8') 
     sdlxliffstr=f.read()
     f.close()
+    #default rex file 
+    filere=re.compile('<file [^><]*?original="([^><]*?)"[^><]*?>(.*?)</file>',re.S)
+    #default rex Source lanuage
+    Sourcelangre=re.compile('source-language="([^<>]*?)"',re.S)
+    #default rex target lanuage
+    targetlangre=re.compile('target-language="([^<>]*?)"',re.S)
     # default rex TUs
     transunitre=re.compile('<trans-unit [^<>]*?>.*?</trans-unit>',re.S)
     # default rex source segments
@@ -39,125 +45,126 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     cxtre=re.compile('<sdl:cxt [^<>]*?id="([^<>]*?)"',re.S)
     #default rex structure def-cxts
     cxtdefre=re.compile('<cxt-def ([^<>]*?)>',re.S)
+    sdlcxtdefre=re.compile('<sdl:cxt-def ([^<>]*?)>',re.S)
     # get all cxts
-    cxttags=cxtdefre.findall(sdlxliffstr)
-    cxtdefdic={}
-    for cxttag in cxttags:
-        pros=cxttag.split('" ')
-        cxtcontdic={}
-        for pro in pros:
-            pro=pro.replace('"','')
-            ppair=pro.split('=')
-            if ppair[0]=='id':
-                cxtid=ppair[1]
-            else:
-                cxtcontdic[ppair[0]]=ppair[1]
-        cxtdefdic[cxtid]=cxtcontdic
-            
+    #get target lanuage
+    sourcelanmatchs=Sourcelangre.findall(sdlxliffstr)
+    if len(sourcelanmatchs)>0:
+        sourcelan=sourcelanmatchs[0]
+    else:
+        sourcelan=''
+    #get target lanuage
+    targetlanmatchs=targetlangre.findall(sdlxliffstr)
+    if len(targetlanmatchs)>0:
+        targetlan=targetlanmatchs[0]
+    else:
+        targetlan=''
+    #get File path in sdlxliff
+    filestrs=filere.findall(sdlxliffstr)
+    for filestr in filestrs:
     #get groups
-    groups=groupre.findall(sdlxliffstr)
-    for group in groups:
-        #get cxtidd
-        cxtidd=cxtre.findall(group)[0]
-        # get TUs list
-        transunits=transunitre.findall(group)
-        for transunit in transunits:
-            source_segs=source_segs4match.findall(transunit)
-            #get source segments list
-            target_segs=target4match.findall(transunit)
-            #get target segments list
-            for source_seg in source_segs:
-                #loop source segments
-                smrks=mrk4match.findall(source_seg)
-                #get mrks in source segment return Tuples list
-                #print(smrks)
-                if len(smrks)>0:
-                    #if more than one mrk
-                    for smrk in smrks:
-                        #loop TUs
-                        tuinfo=[]
-                        tuinfo.append(smrk[1])
-                        #add source mrk segment to tuinfo
-                        idid=smrk[0]
-                        #idid is mrk id
-                        mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
-                        #define rex mrk with id
-                        segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.S)
-                        #define rex splited mrk with id
-                        segsplitsdefmatch=re.compile('<sdl:seg id="'+idid.replace('_x0020_',' ')+'"([^<>]*?)>',re.S)
-                        #define rex sdl:seg properties with id
-                        confmatch=re.compile('conf="([^<>]*?)"')
-                        #define rex status
-                        originmatch=re.compile('origin="([^<>]*?)"')
-                        #define rex translation from
-                        originsystemmatch=re.compile('origin-system="([^<>]*?)"')
-                        #define rex translation system from 
-                        percentmatch=re.compile('percent="([^<>]*?)"')
-                        #define rex matchrate
-                        lockedmatch=re.compile('locked="([^<>]*?)"')
-                        #define rex locked status
-                        if len(target_segs)>0:
-                            targetmrks=mrkid4match.findall(target_segs[0])
-                            if len(targetmrks)>0:
-                                tuinfo.append(targetmrks[0])
-                        else:
-                            tuinfo.append('')
-                        #if found target mrk according idid, add to tuinfo list,if not found add the '' to target mrk
-                        
-                        segdefs=segdefmatch.findall(transunit)
-                        #get segment status according idid
-                        # if have status, add to tuinof, or not add ""
-                        if len(segdefs)>0:
-                            confv=confmatch.findall(segdefs[0])
-                            if len(confv)>0:
-                                tuinfo.append(confv[0])
+        oringalpath=filestr[0]
+        cxttags=cxtdefre.findall(filestr[1])
+        if len(cxttags)==0:
+            cxttags=sdlcxtdefre.findall(filestr[1])
+        cxtdefdic={}
+        #print(cxttags)
+        #print(sdlxliffpath)
+        #print(filestr)
+        for cxttag in cxttags:
+            pros=cxttag.split('" ')
+            cxtcontdic={}
+            for pro in pros:
+                pro=pro.replace('"','')
+                ppair=pro.split('=')
+                #print(ppair)
+                if ppair[0]=='id':
+                    cxtid=ppair[1]
+                else:
+                    #print(sdlxliffpath)
+                    #print(ppair)
+                    if len(ppair)>1:
+                        cxtcontdic[ppair[0]]=ppair[1]
+            cxtdefdic[cxtid]=cxtcontdic
+        #print(cxtdefdic)
+        groups=groupre.findall(filestr[1])
+        for group in groups:
+            #get cxtidd
+            cxtidd=cxtre.findall(group)[0]
+            # get TUs list
+            transunits=transunitre.findall(group)
+            for transunit in transunits:
+                source_segs=source_segs4match.findall(transunit)
+                #get source segments list
+                target_segs=target4match.findall(transunit)
+                #get target segments list
+                for source_seg in source_segs:
+                    #loop source segments
+                    smrks=mrk4match.findall(source_seg)
+                    #get mrks in source segment return Tuples list
+                    #print(smrks)
+                    if len(smrks)>0:
+                        #if more than one mrk
+                        for smrk in smrks:
+                            #loop TUs
+                            tuinfo=[]
+                            tuinfo.append(oringalpath)
+                            #add orginal file path
+                            tuinfo.append(smrk[1])
+                            #add source mrk segment to tuinfo
+                            tuinfo.append(sourcelan)
+                            #add source language code
+                            idid=smrk[0]
+                            #idid is mrk id
+                            mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
+                            #define rex mrk with id
+                            segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.S)
+                            #define rex splited mrk with id
+                            segsplitsdefmatch=re.compile('<sdl:seg id="'+idid.replace('_x0020_',' ')+'"([^<>]*?)>',re.S)
+                            #define rex sdl:seg properties with id
+                            confmatch=re.compile('conf="([^<>]*?)"')
+                            #define rex status
+                            originmatch=re.compile('origin="([^<>]*?)"')
+                            #define rex translation from
+                            originsystemmatch=re.compile('origin-system="([^<>]*?)"')
+                            #define rex translation system from 
+                            percentmatch=re.compile('percent="([^<>]*?)"')
+                            #define rex matchrate
+                            lockedmatch=re.compile('locked="([^<>]*?)"')
+                            #define rex locked status
+                            if len(target_segs)>0:
+                                targetmrks=mrkid4match.findall(target_segs[0])
+                                if len(targetmrks)>0:
+                                    tuinfo.append(targetmrks[0])
                             else:
                                 tuinfo.append('')
-                            # if have origin, add to tuinof, or not add ""
-                            # add structrue info
-                            tuinfo.append(cxtdefdic[cxtidd])
-                            originv=originmatch.findall(segdefs[0])
-                            if len(originv)>0:
-                                tuinfo.append(originv[0])
-                            else:
-                                tuinfo.append('New')
-                            # if have origin system, add to tuinof, or not add ""
-                            originsystemv=originsystemmatch.findall(segdefs[0])
-                            if len(originsystemv)>0:
-                                tuinfo.append(originsystemv[0])
-                            else:
-                                tuinfo.append('')
-                                # if have matchrate, add to tuinof, or not add ""
-                            percentv=percentmatch.findall(segdefs[0])
-                            if len(percentv)>0:
-                                tuinfo.append(percentv[0])
-                            else:
-                                tuinfo.append('')
-                                # if have locked, add to tuinof, or not add ""
-                            lockedfv=lockedmatch.findall(segdefs[0])
-                            if len(lockedfv)>0:
-                                tuinfo.append(lockedfv[0])
-                            else:
-                                tuinfo.append('')
-                            #add tuifo list to tuinfolist
-                            tuinfolist.append(tuinfo)
-                        if '_x0020_' in idid:
-                            segdefs=segsplitsdefmatch.findall(transunit)
-                            #get splited segment status according idid
+                            #add target language
+                            tuinfo.append(targetlan)
+                            #if found target mrk according idid, add to tuinfo list,if not found add the '' to target mrk
+                            
+                            segdefs=segdefmatch.findall(transunit)
+                            #get segment status according idid
                             # if have status, add to tuinof, or not add ""
                             if len(segdefs)>0:
                                 confv=confmatch.findall(segdefs[0])
                                 if len(confv)>0:
                                     tuinfo.append(confv[0])
                                 else:
-                                    tuinfo.append('New')
+                                    tuinfo.append('')
                                 # if have origin, add to tuinof, or not add ""
-                            
+                                # add structrue info
+                                #print(sdlxliffpath)
+                                #print(cxtidd)
+                                #print(cxtdefdic)
+                                if cxtidd not in cxtdefdic:
+                                    tuinfo.append(list(cxtdefdic)[-1])
+                                else:
+                                    tuinfo.append(cxtdefdic[cxtidd])
                                 originv=originmatch.findall(segdefs[0])
                                 if len(originv)>0:
                                     tuinfo.append(originv[0])
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo.append('New')
                                 # if have origin system, add to tuinof, or not add ""
                                 originsystemv=originsystemmatch.findall(segdefs[0])
                                 if len(originsystemv)>0:
@@ -178,6 +185,43 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                                     tuinfo.append('')
                                 #add tuifo list to tuinfolist
                                 tuinfolist.append(tuinfo)
+                            if '_x0020_' in idid:
+                                segdefs=segsplitsdefmatch.findall(transunit)
+                                #get splited segment status according idid
+                                # if have status, add to tuinof, or not add ""
+                                if len(segdefs)>0:
+                                    confv=confmatch.findall(segdefs[0])
+                                    if len(confv)>0:
+                                        tuinfo.append(confv[0])
+                                    else:
+                                        tuinfo.append('New')
+                                    # if have origin, add to tuinof, or not add ""
+                                
+                                    originv=originmatch.findall(segdefs[0])
+                                    if len(originv)>0:
+                                        tuinfo.append(originv[0])
+                                    else:
+                                        tuinfo.append('')
+                                    # if have origin system, add to tuinof, or not add ""
+                                    originsystemv=originsystemmatch.findall(segdefs[0])
+                                    if len(originsystemv)>0:
+                                        tuinfo.append(originsystemv[0])
+                                    else:
+                                        tuinfo.append('')
+                                        # if have matchrate, add to tuinof, or not add ""
+                                    percentv=percentmatch.findall(segdefs[0])
+                                    if len(percentv)>0:
+                                        tuinfo.append(percentv[0])
+                                    else:
+                                        tuinfo.append('')
+                                        # if have locked, add to tuinof, or not add ""
+                                    lockedfv=lockedmatch.findall(segdefs[0])
+                                    if len(lockedfv)>0:
+                                        tuinfo.append(lockedfv[0])
+                                    else:
+                                        tuinfo.append('')
+                                    #add tuifo list to tuinfolist
+                                    tuinfolist.append(tuinfo)
                     
 
     return(tuinfolist)   
