@@ -21,6 +21,23 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     f= open(sdlxliffpath, 'r',encoding='utf-8') 
     sdlxliffstr=f.read()
     f.close()
+    #define x tag re
+    xre=re.compile('<x [^<>]*?>',re.S)
+    # remove all x tag
+    sdlxliffstr=re.sub(xre,'',sdlxliffstr)
+    #define trackchange re
+    sdldelre=re.compile('<mrk mtype="x-sdl-deleted" ([^<>]*?)>([^<>]*?)</mrk>',re.S)
+    sdladdre=re.compile('<mrk mtype="x-sdl-added" ([^<>]*?)>([^<>]*?)</mrk>',re.S)
+    #difine comment change re
+    sdlcommre=re.compile('<mrk mtype="x-sdl-comment" ([^<>]*?)>(.*?)</mrk>',re.S)
+    #convert trachange mrk to xsdl elements
+    sdlxliffstr=re.sub(sdldelre,'<xsdldeleted \\1>\\2</xsdldeleted>',sdlxliffstr)
+    sdlxliffstr=re.sub(sdladdre,'<xsdladded \\1>\\2</xsdladded>',sdlxliffstr)
+    #convert comment mrk to xsdl emements
+    commentmatches=sdlcommre.findall(sdlxliffstr)
+    while(len(commentmatches)>0):
+        sdlxliffstr=re.sub(sdlcommre,'<xsdlcomment \\1>\\2</xsdlcomment>',sdlxliffstr)
+        commentmatches=sdlcommre.findall(sdlxliffstr)
     #default rex file 
     filere=re.compile('<file [^><]*?original="([^><]*?)"[^><]*?>(.*?)</file>',re.S)
     #default rex Source lanuage
@@ -225,3 +242,9 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                     
 
     return(tuinfolist)   
+if __name__ == '__main__':
+    
+    #sublpulist=['GetTUsInfosSDLXLIFF.py','ConvertSDLXLIFFtoXLSX.py','subfolder\IFxResourcesDG.resx']
+    #print(gitpull(gitlocal,'2023-02-09',sublpulist,'updateReport.csv'))
+    #print(Amendsplit(r'c:\RA\FT_Optix\UI\20230314\ToAlign\ide_translations_ftoptixstudio.fr.ts.sdlxliff_pre - Copy - Copy - Copy.back.sdlxliff',False))
+    print(GetTUsInfosSDLXLIFF(r'C:\RA\FT_Optix\UI\Project\FT_Optixt_UI_XML_20230427\zh-CN\XML\CHS\WebUI\WebUI\Translations\zh_CN.xml.sdlxliff'))
