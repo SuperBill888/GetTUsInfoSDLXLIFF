@@ -1,7 +1,7 @@
 
 #This py can ananlyse the sdlxliff files, and collect TUs info in List like:
 #[
-#['Filepath','Source', 'Source Language Code(like,en-US)','Target','Target Language Code(like,zh-CN)','Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
+#['SourceFilepath','Segment ID','Source', 'Source Language Code(like,en-US)','Target','Target Language Code(like,zh-CN)','Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
 #[....],
 #[....],
 #.
@@ -108,6 +108,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
         for group in groups:
             #get cxtidd
             cxtidd=cxtre.findall(group)[0]
+            
             # get TUs list
             transunits=transunitre.findall(group)
             for transunit in transunits:
@@ -124,15 +125,18 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                         #if more than one mrk
                         for smrk in smrks:
                             #loop TUs
+                            idid=smrk[0]
+                            #idid is mrk id
                             tuinfo=[]
                             tuinfo.append(oringalpath)
                             #add orginal file path
+                            tuinfo.append(idid)
+                            #add the segment id
                             tuinfo.append(smrk[1])
                             #add source mrk segment to tuinfo
                             tuinfo.append(sourcelan)
                             #add source language code
-                            idid=smrk[0]
-                            #idid is mrk id
+                            
                             mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
                             #define rex mrk with id
                             segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.S)
@@ -149,6 +153,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             #define rex matchrate
                             lockedmatch=re.compile('locked="([^<>]*?)"')
                             #define rex locked status
+                            
                             if len(target_segs)>0:
                                 targetmrks=mrkid4match.findall(target_segs[0])
                                 if len(targetmrks)>0:
@@ -174,6 +179,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                                 #print(cxtidd)
                                 #print(cxtdefdic)
                                 if cxtidd not in cxtdefdic:
+                                    
                                     tuinfo.append(list(cxtdefdic)[-1])
                                 else:
                                     tuinfo.append(cxtdefdic[cxtidd])
@@ -211,9 +217,13 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                                     if len(confv)>0:
                                         tuinfo.append(confv[0])
                                     else:
-                                        tuinfo.append('New')
+                                        tuinfo.append('')
                                     # if have origin, add to tuinof, or not add ""
-                                
+                                    if cxtidd not in cxtdefdic:
+                                    
+                                        tuinfo.append(list(cxtdefdic)[-1])
+                                    else:
+                                        tuinfo.append(cxtdefdic[cxtidd])
                                     originv=originmatch.findall(segdefs[0])
                                     if len(originv)>0:
                                         tuinfo.append(originv[0])
@@ -247,4 +257,4 @@ if __name__ == '__main__':
     #sublpulist=['GetTUsInfosSDLXLIFF.py','ConvertSDLXLIFFtoXLSX.py','subfolder\IFxResourcesDG.resx']
     #print(gitpull(gitlocal,'2023-02-09',sublpulist,'updateReport.csv'))
     #print(Amendsplit(r'c:\RA\FT_Optix\UI\20230314\ToAlign\ide_translations_ftoptixstudio.fr.ts.sdlxliff_pre - Copy - Copy - Copy.back.sdlxliff',False))
-    print(GetTUsInfosSDLXLIFF(r'C:\RA\FT_Optix\UI\Project\FT_Optixt_UI_XML_20230427\zh-CN\XML\CHS\WebUI\WebUI\Translations\zh_CN.xml.sdlxliff'))
+    print(GetTUsInfosSDLXLIFF(r'c:\Project\20230822\settings-and-controls-on-the-main-web-client-page.dita.sdlxliff'))
