@@ -107,7 +107,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
         groups=groupre.findall(filestr[1])
         for group in groups:
             #get cxtidd
-            cxtidd=cxtre.findall(group)[0]
+            cxtidd=cxtre.findall(group)[-1]
             
             # get TUs list
             transunits=transunitre.findall(group)
