@@ -56,9 +56,9 @@ class SDLXLIFFConverterApp:
             ws = wb.add_worksheet()
 
             headers = [
-                "Filepath", "SegmentID", "Source", "Source Language Code",
-                "Target", "Target Language Code", "Modified On", "Last Modified By", "Created On", "Created By", "Status", "Structure",
-                "origin", "origin-system", "percent", "Locked"
+                "Filepath", "SegmentID", "Source", "SourceLanguageCode",
+                "Target", "TargetLanguageCode", "ModifiedOn", "LastModifiedBy", "CreatedOn", "CreatedBy", "Status", "Structure",
+                "Origin", "OriginSystem", "MatchRate", "Locked"
             ]
 
             # === 样式设置 ===
@@ -85,7 +85,8 @@ class SDLXLIFFConverterApp:
 
             # 写入翻译单元数据
             for row, tuinfo in enumerate(tulist, start=1):
-                for col, value in enumerate(tuinfo):
+                for col, header in enumerate(headers):
+                    value = tuinfo.get(header, "")  # 从字典中取值
                     ws.write(row, col, str(value), cell_fmt)
 
             wb.close()
