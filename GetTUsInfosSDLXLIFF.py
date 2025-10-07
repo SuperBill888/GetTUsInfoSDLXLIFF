@@ -1,13 +1,13 @@
 
 #This py can ananlyse the sdlxliff files, and collect TUs info in List like:
 #[
-#['SourceFilepath','Segment ID','Source', 'Source Language Code(like,en-US)','Target','Target Language Code(like,zh-CN)','Modified On', 'Last Modified By', 'Created On', 'Created By', 'Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
-#[....],
-#[....],
+#{"Filepath":"","SegmentID":"","Source":"", "SourceLanguageCode":"","Target":"","TargetLanguageCode":"","ModifiedOn":"", "LastModifiedBy":"", "CreatedOn":"", "CreatedBy":"", "Status":"", "Structure":"","Origin":"", "OriginSystem":"", "MatchRate":"", "Locked":""},
+#{....},
+#{....},
 #.
 #.
 #.
-#[....]
+#{....},
 #]
 
 #By Bill, Fanzhixin
@@ -150,14 +150,14 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             #loop TUs
                             idid=smrk[0]
                             #idid is mrk id
-                            tuinfo=[]
-                            tuinfo.append(oringalpath)
+                            tuinfo={}
+                            tuinfo['Filepath']=oringalpath
                             #add orginal file path
-                            tuinfo.append(idid)
+                            tuinfo['SegmentID']=idid
                             #add the segment id
-                            tuinfo.append(smrk[1])
+                            tuinfo['Source']=smrk[1]
                             #add source mrk segment to tuinfo
-                            tuinfo.append(sourcelan)
+                            tuinfo['SourceLanguageCode']=sourcelan
                             #add source language code
                             
                             mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
@@ -184,17 +184,17 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             #define rex create on time
                             createbymatch=re.compile('<sdl:value key="created_by">([^<>]*?)</sdl:value>') 
                             #define rex create by
-                            i=0
                             if len(target_segs)>0:
                                 targetmrks=mrkid4match.findall(target_segs[0])
                                 
                                 if len(targetmrks)>0:
-                                    tuinfo.append(targetmrks[0])
+                                    tuinfo['Target']=targetmrks[0]
+                                    
                                     
                             else:
-                                tuinfo.append('')
+                                tuinfo['Target']=''
                             #add target language
-                            tuinfo.append(targetlan)
+                            tuinfo['TargetLanguageCode']=targetlan
                             #if found target mrk according idid, add to tuinfo list,if not found add the '' to target mrk
                             
                             segdefs=segdefmatch.findall(transunit)
@@ -203,104 +203,135 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             if len(segdefs)>0:
                                 modifyontimev=modiyontimematch.findall(segdefs[0])
                                 if len(modifyontimev)>0:
-                                    tuinfo.append(modifyontimev[0])
+                                    tuinfo['ModifiedOn']=modifyontimev[0]
+                                
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['ModifiedOn']=''
                                 modifybyv=modifybymatch.findall(segdefs[0])
                                 if len(modifybyv)>0:
-                                    tuinfo.append(modifybyv[0])
+                                    tuinfo['LastModifiedBy']=modifybyv[0]
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['LastModifiedBy']=''
                                 createontimev=createontimematch.findall(segdefs[0])
                                 if len(createontimev)>0:
-                                    tuinfo.append(createontimev[0])
+                                    tuinfo['CreatedOn']=createontimev[0]
+                                    
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['CreatedOn']=''
                                 createbyv=createbymatch.findall(segdefs[0])
                                 if len(createbyv)>0:
-                                    tuinfo.append(createbyv[0])
+                                    tuinfo['CreatedBy']=createbyv[0]
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['CreatedBy']=''
 
                                 confv=confmatch.findall(segdefs[0])
                                 if len(confv)>0:
-                                    tuinfo.append(confv[0])
+                                    tuinfo['Status']=confv[0]
+                            
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['Status']=''
                                 # if have origin, add to tuinof, or not add ""
                                 # add structrue info
                                 #print(sdlxliffpath)
                                 #print(cxtidd)
                                 #print(cxtdefdic)
                                 if cxtidd not in cxtdefdic:
-                                    
-                                    tuinfo.append(list(cxtdefdic)[-1])
+                                    tuinfo['Structure']=list(cxtdefdic)[-1]
                                 else:
-                                    tuinfo.append(cxtdefdic[cxtidd])
+                                    tuinfo['Structure']=cxtdefdic[cxtidd]
                                 originv=originmatch.findall(segdefs[0])
                                 if len(originv)>0:
-                                    tuinfo.append(originv[0])
+                                    tuinfo['Origin']=originv[0]
                                 else:
-                                    tuinfo.append('New')
+                                    tuinfo['Origin']='New'
+    
                                 # if have origin system, add to tuinof, or not add ""
                                 originsystemv=originsystemmatch.findall(segdefs[0])
                                 if len(originsystemv)>0:
-                                    tuinfo.append(originsystemv[0])
+                                    tuinfo['OriginSystem']=originsystemv[0]
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['OriginSystem']=''
                                     # if have matchrate, add to tuinof, or not add ""
                                 percentv=percentmatch.findall(segdefs[0])
                                 if len(percentv)>0:
-                                    tuinfo.append(percentv[0])
+                                    tuinfo['MatchRate']=percentv[0]
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['MatchRate']=''
                                     # if have locked, add to tuinof, or not add ""
                                 lockedfv=lockedmatch.findall(segdefs[0])
                                 if len(lockedfv)>0:
-                                    tuinfo.append(lockedfv[0])
+                                    tuinfo['Locked']=lockedfv[0]
                                 else:
-                                    tuinfo.append('')
+                                    tuinfo['Locked']=''
                                 #add tuifo list to tuinfolist
                                 tuinfolist.append(tuinfo)
                             if '_x0020_' in idid:
                                 segdefs=segsplitsdefmatch.findall(transunit)
-                                #get splited segment status according idid
-                                # if have status, add to tuinof, or not add ""
+                                    #get splited segment status according idid
+                                    # if have status, add to tuinof, or not add ""
                                 if len(segdefs)>0:
+                                    modifyontimev=modiyontimematch.findall(segdefs[0])
+                                    if len(modifyontimev)>0:
+                                        tuinfo['ModifiedOn']=modifyontimev[0]
+                                    
+                                    else:
+                                        tuinfo['ModifiedOn']=''
+                                    modifybyv=modifybymatch.findall(segdefs[0])
+                                    if len(modifybyv)>0:
+                                        tuinfo['LastModifiedBy']=modifybyv[0]
+                                    else:
+                                        tuinfo['LastModifiedBy']=''
+                                    createontimev=createontimematch.findall(segdefs[0])
+                                    if len(createontimev)>0:
+                                        tuinfo['CreatedOn']=createontimev[0]
+                                        
+                                    else:
+                                        tuinfo['CreatedOn']=''
+                                    createbyv=createbymatch.findall(segdefs[0])
+                                    if len(createbyv)>0:
+                                        tuinfo['CreatedBy']=createbyv[0]
+                                    else:
+                                        tuinfo['CreatedBy']=''
+
                                     confv=confmatch.findall(segdefs[0])
                                     if len(confv)>0:
-                                        tuinfo.append(confv[0])
+                                        tuinfo['Status']=confv[0]
+                                
                                     else:
-                                        tuinfo.append('')
+                                        tuinfo['Status']=''
                                     # if have origin, add to tuinof, or not add ""
+                                    # add structrue info
+                                    #print(sdlxliffpath)
+                                    #print(cxtidd)
+                                    #print(cxtdefdic)
                                     if cxtidd not in cxtdefdic:
-                                    
-                                        tuinfo.append(list(cxtdefdic)[-1])
+                                        tuinfo['Structure']=list(cxtdefdic)[-1]
                                     else:
-                                        tuinfo.append(cxtdefdic[cxtidd])
+                                        tuinfo['Structure']=cxtdefdic[cxtidd]
                                     originv=originmatch.findall(segdefs[0])
                                     if len(originv)>0:
-                                        tuinfo.append(originv[0])
+                                        tuinfo['Origin']=originv[0]
                                     else:
-                                        tuinfo.append('')
+                                        tuinfo['Origin']='New'
+        
                                     # if have origin system, add to tuinof, or not add ""
                                     originsystemv=originsystemmatch.findall(segdefs[0])
                                     if len(originsystemv)>0:
-                                        tuinfo.append(originsystemv[0])
+                                        tuinfo['OriginSystem']=originsystemv[0]
                                     else:
-                                        tuinfo.append('')
+                                        tuinfo['OriginSystem']=''
                                         # if have matchrate, add to tuinof, or not add ""
                                     percentv=percentmatch.findall(segdefs[0])
                                     if len(percentv)>0:
-                                        tuinfo.append(percentv[0])
+                                        tuinfo['MatchRate']=percentv[0]
                                     else:
-                                        tuinfo.append('')
+                                        tuinfo['MatchRate']=''
                                         # if have locked, add to tuinof, or not add ""
                                     lockedfv=lockedmatch.findall(segdefs[0])
                                     if len(lockedfv)>0:
-                                        tuinfo.append(lockedfv[0])
+                                        tuinfo['Locked']=lockedfv[0]
                                     else:
-                                        tuinfo.append('')
+                                        tuinfo['Locked']=''
                                     #add tuifo list to tuinfolist
                                     tuinfolist.append(tuinfo)
                     
