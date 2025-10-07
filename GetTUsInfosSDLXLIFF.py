@@ -13,6 +13,24 @@
 #By Bill, Fanzhixin
 
 import re
+def gtagreplace(sdlxliffstr):
+    tagre=re.compile('<tag id="([^><]*?)">(.*?)</tag>',re.S)
+    tags=tagre.findall(sdlxliffstr)
+    #print(tags)
+    subtags=[]
+    suptags=[]
+    for tag in tags:
+        if 'Superscript' in tag[1]:
+            suptags.append(tag[0])
+        if 'Subscript' in tag[1]:
+            subtags.append(tag[0])
+    for tag in suptags:
+        sdlxliffstr = re.sub('<g id="'+tag+'"[^><]*?>([^><]*?)</g>','<SUP>\\1</SUP>',sdlxliffstr)
+    for tag in subtags:
+        sdlxliffstr = re.sub('<g id="'+tag+'"[^><]*?>([^><]*?)</g>','<SUB>\\1</SUB>',sdlxliffstr)
+    sdlxliffstr = re.sub('<g [^<>]*?>', '', sdlxliffstr)  # 删除 <g> 标签和其属性
+    sdlxliffstr = sdlxliffstr.replace('</g>','')  # 删除 </g> 标签
+    return sdlxliffstr
 
 def GetTUsInfosSDLXLIFF(sdlxliffpath):
     #get all TUs's info
@@ -21,16 +39,21 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     f= open(sdlxliffpath, 'r',encoding='utf-8') 
     sdlxliffstr=f.read()
     f.close()
+    sdlxliffstr=gtagreplace(sdlxliffstr)
     #define x tag re
-    xre=re.compile('<x [^<>]*?>',re.S)
+    #xre=re.compile('<x [^<>]*?>',re.S)
     # remove all x tag
-    sdlxliffstr=re.sub(xre,'',sdlxliffstr)
+    #sdlxliffstr=re.sub(xre,' ',sdlxliffstr)
     #define trackchange re
-    sdldelre=re.compile('<mrk mtype="x-sdl-deleted" ([^<>]*?)>([^<>]*?)</mrk>',re.S)
-    sdladdre=re.compile('<mrk mtype="x-sdl-added" ([^<>]*?)>([^<>]*?)</mrk>',re.S)
+    sdldelre=re.compile('<mrk mtype="x-sdl-deleted" ([^<>]*?)>(.*?)</mrk>',re.S)
+    sdladdre=re.compile('<mrk mtype="x-sdl-added" ([^<>]*?)>(.*?)</mrk>',re.S)
     #difine comment change re
     sdlcommre=re.compile('<mrk mtype="x-sdl-comment" ([^<>]*?)>(.*?)</mrk>',re.S)
+    sdllocationre=re.compile('<mrk mtype="x-sdl-location" [^<>]*?>',re.S)
+    #remove x-sdl-location mrk
+    sdlxliffstr=re.sub(sdllocationre,'',sdlxliffstr)
     #convert trachange mrk to xsdl elements
+    
     sdlxliffstr=re.sub(sdldelre,'<xsdldeleted \\1>\\2</xsdldeleted>',sdlxliffstr)
     sdlxliffstr=re.sub(sdladdre,'<xsdladded \\1>\\2</xsdladded>',sdlxliffstr)
     #convert comment mrk to xsdl emements
@@ -107,7 +130,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
         groups=groupre.findall(filestr[1])
         for group in groups:
             #get cxtidd
-            cxtidd=cxtre.findall(group)[-1]
+            cxtidd=cxtre.findall(group)[0]
             
             # get TUs list
             transunits=transunitre.findall(group)
@@ -257,4 +280,4 @@ if __name__ == '__main__':
     #sublpulist=['GetTUsInfosSDLXLIFF.py','ConvertSDLXLIFFtoXLSX.py','subfolder\IFxResourcesDG.resx']
     #print(gitpull(gitlocal,'2023-02-09',sublpulist,'updateReport.csv'))
     #print(Amendsplit(r'c:\RA\FT_Optix\UI\20230314\ToAlign\ide_translations_ftoptixstudio.fr.ts.sdlxliff_pre - Copy - Copy - Copy.back.sdlxliff',False))
-    print(GetTUsInfosSDLXLIFF(r'c:\Project\20230822\settings-and-controls-on-the-main-web-client-page.dita.sdlxliff'))
+    print(GetTUsInfosSDLXLIFF(r'd:\PS\KMF\Work\KMF\QA\低错样例\tocheck\错误文件 19_【3-2-rs原料药】s2-生产-en_QH_WY.docx.sdlxliff'))
