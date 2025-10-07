@@ -1,14 +1,14 @@
 # Get TUs information from sdlxliff
 This py can ananlyse the sdlxliff files, and collect TUs info in List like:
-[
-['Filepath','Segment ID','Source', 'Source Language Code(like,en-US)','Target','Target Language Code(like,zh-CN)','Modified On', 'Last Modified By', 'Created On', 'Created By','Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
-[....],
-[....],
-.
-.
-.
-[....]
-]
+#[
+#{"Filepath":"","SegmentID":"","Source":"", "SourceLanguageCode":"","Target":"","TargetLanguageCode":"","ModifiedOn":"", "LastModifiedBy":"", "CreatedOn":"", "CreatedBy":"", "Status":"", "Structure":"","Origin":"", "OriginSystem":"", "MatchRate":"", "Locked":""},
+#{....},
+#{....},
+#.
+#.
+#.
+#{....},
+#]
 
 Convert SDLXLIFF to XLSX is a sample how to use it for fetching TUs info from sdlxliff, you can use it to convert to any other format.
 
