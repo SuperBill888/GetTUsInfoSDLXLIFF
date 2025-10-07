@@ -57,7 +57,7 @@ class SDLXLIFFConverterApp:
 
             headers = [
                 "Filepath", "SegmentID", "Source", "Source Language Code",
-                "Target", "Target Language Code", "Status", "Structure",
+                "Target", "Target Language Code", "Modified On", "Last Modified By", "Created On", "Created By", "Status", "Structure",
                 "origin", "origin-system", "percent", "Locked"
             ]
 
