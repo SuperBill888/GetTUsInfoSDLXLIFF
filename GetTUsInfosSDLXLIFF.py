@@ -155,7 +155,19 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             #add orginal file path
                             tuinfo['SegmentID']=idid
                             #add the segment id
-                            tuinfo['Source']=smrk[1]
+                            sourceText=smrk[1]
+                            sourceText = re.sub('<xsdldeleted [^<>]*?>.*?</xsdldeleted>', '', sourceText)  # 删除 <x-sdl-deleted> 标签和其属性
+                            sourceText = re.sub('<xsdladded [^<>]*?>', '', sourceText)  # 删除 <sdladded> 标签和其属性
+                            sourceText = sourceText.replace('</xsdladded>','')  # 删除 </sdladded> 标签
+                            sourceText = re.sub('<xsdlcomment [^<>]*?>', '', sourceText)  # 删除 <xsdlcomment> 标签和其属性
+                            sourceText = sourceText.replace('</xsdlcomment>','')  # 删除 </xsdlcommen> 标签
+                            sourceText=sourceText.replace('&lt;',' <')
+                            sourceText = sourceText.replace('&gt;', '>')
+                            sourceText=sourceText.replace('&quot;','"')
+                            sourceText = sourceText.replace('&apos;', '\'')
+                            sourceText = sourceText.replace('&amp;', '&')
+                    
+                            tuinfo['Source']=sourceText
                             #add source mrk segment to tuinfo
                             tuinfo['SourceLanguageCode']=sourcelan
                             #add source language code
@@ -188,8 +200,19 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                                 targetmrks=mrkid4match.findall(target_segs[0])
                                 
                                 if len(targetmrks)>0:
-                                    tuinfo['Target']=targetmrks[0]
                                     
+                                    targetText=targetmrks[0]
+                                    targetText = re.sub('<xsdldeleted [^<>]*?>.*?</xsdldeleted>', '', targetText)  # 删除 <x-sdl-deleted> 标签和其属性
+                                    targetText = re.sub('<xsdladded [^<>]*?>', '', targetText)  # 删除 <sdladded> 标签和其属性
+                                    targetText = targetText.replace('</xsdladded>','')  # 删除 </sdladded> 标签
+                                    targetText = re.sub('<xsdlcomment [^<>]*?>', '', targetText)  # 删除 <xsdlcomment> 标签和其属性
+                                    targetText = targetText.replace('</xsdlcomment>','')  # 删除 </xsdlcommen> 标签
+                                    targetText = targetText.replace('&lt;',' <')
+                                    targetText = targetText.replace('&gt;', '>')
+                                    targetText = targetText.replace('&quot;','"')
+                                    targetText = targetText.replace('&apos;', '\'')
+                                    targetText = targetText.replace('&amp;', '&')
+                                    tuinfo['Target']=targetText
                                     
                             else:
                                 tuinfo['Target']=''
