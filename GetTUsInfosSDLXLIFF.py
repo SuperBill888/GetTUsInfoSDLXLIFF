@@ -1,7 +1,7 @@
 
 #This py can ananlyse the sdlxliff files, and collect TUs info in List like:
 #[
-#['SourceFilepath','Segment ID','Source', 'Source Language Code(like,en-US)','Target','Target Language Code(like,zh-CN)','Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
+#['SourceFilepath','Segment ID','Source', 'Source Language Code(like,en-US)','Target','Target Language Code(like,zh-CN)','Modified On', 'Last Modified By', 'Created On', 'Created By', 'Status', {id dics}, 'Origin', 'original-from', 'Match Rate', 'Locked'],
 #[....],
 #[....],
 #.
@@ -130,7 +130,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
         groups=groupre.findall(filestr[1])
         for group in groups:
             #get cxtidd
-            cxtidd=cxtre.findall(group)[0]
+            cxtidd=cxtre.findall(group)[-1]
             
             # get TUs list
             transunits=transunitre.findall(group)
@@ -162,7 +162,7 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             
                             mrkid4match=re.compile('<mrk mtype="seg" mid="'+idid+'">(.*?)</mrk>',re.S)
                             #define rex mrk with id
-                            segdefmatch=re.compile('<sdl:seg id="'+idid+'"([^<>]*?)>',re.S)
+                            segdefmatch=re.compile('<sdl:seg id="'+idid+'"(.*?)</sdl:seg>',re.S)
                             #define rex splited mrk with id
                             segsplitsdefmatch=re.compile('<sdl:seg id="'+idid.replace('_x0020_',' ')+'"([^<>]*?)>',re.S)
                             #define rex sdl:seg properties with id
@@ -176,11 +176,21 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             #define rex matchrate
                             lockedmatch=re.compile('locked="([^<>]*?)"')
                             #define rex locked status
-                            
+                            modiyontimematch=re.compile('<sdl:value key="modified_on">([^<>]*?)</sdl:value>') 
+                            #define rex modify on time
+                            modifybymatch=re.compile('<sdl:value key="last_modified_by">([^<>]*?)</sdl:value>') 
+                            #define rex modify by
+                            createontimematch=re.compile('<sdl:value key="created_on">([^<>]*?)</sdl:value>') 
+                            #define rex create on time
+                            createbymatch=re.compile('<sdl:value key="created_by">([^<>]*?)</sdl:value>') 
+                            #define rex create by
+                            i=0
                             if len(target_segs)>0:
                                 targetmrks=mrkid4match.findall(target_segs[0])
+                                
                                 if len(targetmrks)>0:
                                     tuinfo.append(targetmrks[0])
+                                    
                             else:
                                 tuinfo.append('')
                             #add target language
@@ -191,6 +201,27 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             #get segment status according idid
                             # if have status, add to tuinof, or not add ""
                             if len(segdefs)>0:
+                                modifyontimev=modiyontimematch.findall(segdefs[0])
+                                if len(modifyontimev)>0:
+                                    tuinfo.append(modifyontimev[0])
+                                else:
+                                    tuinfo.append('')
+                                modifybyv=modifybymatch.findall(segdefs[0])
+                                if len(modifybyv)>0:
+                                    tuinfo.append(modifybyv[0])
+                                else:
+                                    tuinfo.append('')
+                                createontimev=createontimematch.findall(segdefs[0])
+                                if len(createontimev)>0:
+                                    tuinfo.append(createontimev[0])
+                                else:
+                                    tuinfo.append('')
+                                createbyv=createbymatch.findall(segdefs[0])
+                                if len(createbyv)>0:
+                                    tuinfo.append(createbyv[0])
+                                else:
+                                    tuinfo.append('')
+
                                 confv=confmatch.findall(segdefs[0])
                                 if len(confv)>0:
                                     tuinfo.append(confv[0])
