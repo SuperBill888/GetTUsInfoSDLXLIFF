@@ -226,13 +226,13 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                             if len(segdefs)>0:
                                 modifyontimev=modiyontimematch.findall(segdefs[0])
                                 if len(modifyontimev)>0:
-                                    tuinfo['ModifiedOn']=modifyontimev[0]
+                                    tuinfo['ModifiedOn']=modifyontimev[-1]
                                 
                                 else:
                                     tuinfo['ModifiedOn']=''
                                 modifybyv=modifybymatch.findall(segdefs[0])
                                 if len(modifybyv)>0:
-                                    tuinfo['LastModifiedBy']=modifybyv[0]
+                                    tuinfo['LastModifiedBy']=modifybyv[-1]
                                 else:
                                     tuinfo['LastModifiedBy']=''
                                 createontimev=createontimematch.findall(segdefs[0])
@@ -366,3 +366,4 @@ if __name__ == '__main__':
     #print(gitpull(gitlocal,'2023-02-09',sublpulist,'updateReport.csv'))
     #print(Amendsplit(r'c:\RA\FT_Optix\UI\20230314\ToAlign\ide_translations_ftoptixstudio.fr.ts.sdlxliff_pre - Copy - Copy - Copy.back.sdlxliff',False))
     print(GetTUsInfosSDLXLIFF(r'd:\PS\KMF\Work\KMF\QA\低错样例\tocheck\错误文件 19_【3-2-rs原料药】s2-生产-en_QH_WY.docx.sdlxliff'))
+
