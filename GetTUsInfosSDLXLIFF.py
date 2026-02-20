@@ -31,8 +31,43 @@ def gtagreplace(sdlxliffstr):
     sdlxliffstr = re.sub('<g [^<>]*?>', '', sdlxliffstr)  # 删除 <g> 标签和其属性
     sdlxliffstr = sdlxliffstr.replace('</g>','')  # 删除 </g> 标签
     return sdlxliffstr
+def TextTagValueReplace(sdlxliffstr,DelHideXtags):
+    tags=[]
+    tagre=re.compile('<tag id="([^><]*?)">.*?<value key="SkippedContent">(.*?)</value>.*?</tag>',re.S)
+    tags=tagre.findall(sdlxliffstr)
+    hidetagdic={}
+    if len(tags)>0:
+        for tag in tags:
+            if tag[0] not in hidetagdic:
+                hidetagdic[tag[0]]=tag[1]
+    #print(hidetagdic)
+    xtagre=re.compile('(<x id="([^><]*?)"/>)',re.S)
+    xtags=xtagre.findall(sdlxliffstr)
+    
+    return fast_replace_xtags(sdlxliffstr, xtags, hidetagdic, DelHideXtags)
 
-def GetTUsInfosSDLXLIFF(sdlxliffpath):
+def fast_replace_xtags(sdlxliffstr, xtags, hidetagdic, DelHideXtags):
+    # 1️⃣ 构建 {原始字符串: 替换字符串} 映射
+    replace_map = {}
+
+    for full_tag, tag_id in xtags:
+        if tag_id in hidetagdic:
+            if DelHideXtags:
+                replace_map[full_tag] = ''
+            else:
+                replace_map[full_tag] = hidetagdic[tag_id]
+
+    if not replace_map:
+        return sdlxliffstr
+
+    # 2️⃣ 构建正则（注意 re.escape）
+    pattern = re.compile(
+        "|".join(re.escape(k) for k in replace_map.keys())
+    )
+
+    # 3️⃣ 一次性替换
+    return pattern.sub(lambda m: replace_map[m.group(0)], sdlxliffstr)
+def GetTUsInfosSDLXLIFF(sdlxliffpath,DelHideXtags):
     #get all TUs's info
     tuinfolist=[]
     #load sdlxliff
@@ -40,11 +75,20 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     sdlxliffstr=f.read()
     f.close()
     sdlxliffstr=gtagreplace(sdlxliffstr)
+    
+    sdlxliffstr=TextTagValueReplace(sdlxliffstr,DelHideXtags)
+    #print(sdlxliffstr)
     #define x tag re
     #xre=re.compile('<x [^<>]*?>',re.S)
     # remove all x tag
     #sdlxliffstr=re.sub(xre,' ',sdlxliffstr)
     #define trackchange re
+    sdldelclosere=re.compile('<mrk mtype="x-sdl-deleted" ([^<>]*?)/>',re.S)
+    sdladdclosere=re.compile('<mrk mtype="x-sdl-added" ([^<>]*?)/>',re.S)
+    sdlcommentclosere=re.compile('<mrk mtype="x-sdl-comment" ([^<>]*?)/>',re.S)
+    sdlxliffstr=re.sub(sdldelclosere,'',sdlxliffstr)
+    sdlxliffstr=re.sub(sdladdclosere,'',sdlxliffstr)
+    sdlxliffstr=re.sub(sdlcommentclosere,'',sdlxliffstr)
     sdldelre=re.compile('<mrk mtype="x-sdl-deleted" ([^<>]*?)>(.*?)</mrk>',re.S)
     sdladdre=re.compile('<mrk mtype="x-sdl-added" ([^<>]*?)>(.*?)</mrk>',re.S)
     #difine comment change re
@@ -53,14 +97,15 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
     #remove x-sdl-location mrk
     sdlxliffstr=re.sub(sdllocationre,'',sdlxliffstr)
     #convert trachange mrk to xsdl elements
-    
-    sdlxliffstr=re.sub(sdldelre,'<xsdldeleted \\1>\\2</xsdldeleted>',sdlxliffstr)
-    sdlxliffstr=re.sub(sdladdre,'<xsdladded \\1>\\2</xsdladded>',sdlxliffstr)
+    while ('<mrk mtype="x-sdl-deleted"' in sdlxliffstr):
+        sdlxliffstr=re.sub(sdldelre,'<xsdldeleted \\1>\\2</xsdldeleted>',sdlxliffstr)
+    while ('<mrk mtype="x-sdl-added"' in sdlxliffstr):
+        sdlxliffstr=re.sub(sdladdre,'<xsdladded \\1>\\2</xsdladded>',sdlxliffstr)
     #convert comment mrk to xsdl emements
-    commentmatches=sdlcommre.findall(sdlxliffstr)
-    while(len(commentmatches)>0):
+    #commentmatches=sdlcommre.findall(sdlxliffstr)
+    while('<mrk mtype="x-sdl-comment"' in sdlxliffstr):
         sdlxliffstr=re.sub(sdlcommre,'<xsdlcomment \\1>\\2</xsdlcomment>',sdlxliffstr)
-        commentmatches=sdlcommre.findall(sdlxliffstr)
+        #commentmatches=sdlcommre.findall(sdlxliffstr)
     #default rex file 
     filere=re.compile('<file [^><]*?original="([^><]*?)"[^><]*?>(.*?)</file>',re.S)
     #default rex Source lanuage
@@ -213,7 +258,8 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                                     targetText = targetText.replace('&apos;', '\'')
                                     targetText = targetText.replace('&amp;', '&')
                                     tuinfo['Target']=targetText
-                                    
+                                else:
+                                    tuinfo['Target']=''
                             else:
                                 tuinfo['Target']=''
                             #add target language
@@ -237,19 +283,19 @@ def GetTUsInfosSDLXLIFF(sdlxliffpath):
                                     tuinfo['LastModifiedBy']=''
                                 createontimev=createontimematch.findall(segdefs[0])
                                 if len(createontimev)>0:
-                                    tuinfo['CreatedOn']=createontimev[0]
+                                    tuinfo['CreatedOn']=createontimev[-1]
                                     
                                 else:
                                     tuinfo['CreatedOn']=''
                                 createbyv=createbymatch.findall(segdefs[0])
                                 if len(createbyv)>0:
-                                    tuinfo['CreatedBy']=createbyv[0]
+                                    tuinfo['CreatedBy']=createbyv[-1]
                                 else:
                                     tuinfo['CreatedBy']=''
 
                                 confv=confmatch.findall(segdefs[0])
                                 if len(confv)>0:
-                                    tuinfo['Status']=confv[0]
+                                    tuinfo['Status']=confv[-1]
                             
                                 else:
                                     tuinfo['Status']=''
@@ -365,5 +411,8 @@ if __name__ == '__main__':
     #sublpulist=['GetTUsInfosSDLXLIFF.py','ConvertSDLXLIFFtoXLSX.py','subfolder\IFxResourcesDG.resx']
     #print(gitpull(gitlocal,'2023-02-09',sublpulist,'updateReport.csv'))
     #print(Amendsplit(r'c:\RA\FT_Optix\UI\20230314\ToAlign\ide_translations_ftoptixstudio.fr.ts.sdlxliff_pre - Copy - Copy - Copy.back.sdlxliff',False))
-    print(GetTUsInfosSDLXLIFF(r'd:\PS\KMF\Work\KMF\QA\低错样例\tocheck\错误文件 19_【3-2-rs原料药】s2-生产-en_QH_WY.docx.sdlxliff'))
-
+    #pinrt(GetTUsInfosSDLXLIFF(r'd:\PS\KMF\项目20251006\项目文件\0a23e22d-0252-48a5-8dbc-8ced4904256c\01_Identity, assay, degradation products and content uniformity...-26页_WW_WY.docx_f5a1676b-27d5-49af-b012-6ff230518520.sdlxliff'))
+    tulist=GetTUsInfosSDLXLIFF(r'd:\PS\KMF\项目20251006\项目文件\0a23e22d-0252-48a5-8dbc-8ced4904256c\01_Identity, assay, degradation products and content uniformity...-26页_WW_WY.docx_f5a1676b-27d5-49af-b012-6ff230518520.sdlxliff')
+    for dic in tulist:
+        if dic["SegmentID"]=='7':
+            print(dic)
